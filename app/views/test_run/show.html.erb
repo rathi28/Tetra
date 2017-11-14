@@ -1,0 +1,496 @@
+
+<!-- START OF testruns/show.html.erb -->
+
+<script>
+suite_obj = <%= @suite.to_json.html_safe %>;
+test_obj = <%= @test_run.to_json.html_safe %>;
+
+</script>
+
+
+<%= stylesheet_link_tag 'application' %>
+
+<style> 
+
+.label-as-badge{
+    border-radius: 1em;
+}
+</style>
+
+<%
+
+def get_color_compare(actual, expected)
+	if(expected.nil?)
+		return ' disabled'
+	end
+
+	if(expected == actual)
+		return 'success'
+	else
+		return 'danger'
+	end
+end
+def get_badge_compare(actual, expected)
+	if(expected.nil?)
+		return ''
+	end
+	if(expected == actual)
+		return 'Pass'
+	else
+		return 'Fail'
+	end
+end
+def get_new_color(run)
+	case run.result
+	when 1
+		return 'success'
+	when 0
+		return 'danger'
+	else
+		return 'info'
+	end
+		
+end
+%>
+
+
+<div class="section">
+	<div class="container-fluid">
+		
+
+			<div class="row">
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="hidden-xs hidden-md text-center text-primary">Test Results</h3>
+						</div>
+					</div>
+					<ul class="hidden-xs hidden-md nav nav-stacked nav-pills">
+						<li class="active">
+							<a href="#topofresults">Overview</a>
+						</li>
+						<!-- <li>
+							<a href="#perpageresults">Section Results</a>
+						</li> -->
+						<li>
+							<a href="#perpageresults">Failures <span class="badge"><%= @test_run.test_steps.where(:result => '0').count %></span></a>
+						</li>
+						<li>
+							<a href="#notesresults">Notes<br></a>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="col-md-10">
+					<div class="row">
+			<div class="col-md-12">
+				<ul class="breadcrumb" id="topofresults">
+					<li>
+						<a href="/testsuites?suitetype=<%= @suite.SuiteType.downcase %>">
+							<%= @suite.SuiteType.capitalize %>
+							Test Suite</a>
+						</li>
+						<li>
+							<a href="/testsuites/<%= @test_run.test_suites_id %>">Test Suite</a>
+						</li>
+						<li>
+							Test Case
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+
+							<h3 class="text-center text-primary panel-title">Overview</h3>
+						</div>
+
+
+						<% if @test_run['result'] != 3 %>
+						<div class="progress" style="margin-bottom:0px;">
+							<div class="progress-bar progress-bar-<%= get_new_color(@test_run) %>" role="progressbar" style="width: 100%;"><%= if @test_run.result
+													@test_run.result == 1 ? 'Pass' : "Fail"
+												else
+													"N/A"
+												end %></div>
+						</div>
+<button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-parent="#screenshot_view" href="#screenshot_view">
+      View Screenshot <span class="caret"></span>
+  </button>
+ 
+    <% if @test_run.result == "Fail" %>
+		<a class="btn btn-info btn-lg btn-block" href="/debug/<%= @test_run.id%>.txt">
+      View Source Code
+  </a>
+ 
+    <% end %>
+						<% end %>
+
+						<div class="panel-body">
+
+							<div class='row' style="padding:0px">
+								<div class='col-md-6' style="padding:0px">
+									<table  class="table table-bordered table-condensed table-hover table-striped" style="padding:0px">
+										<tbody>
+
+											<tr>
+												<td class="bold-header">Result</td>
+												<td><%= if @test_run.result
+													@test_run.result == 1 ? 'Pass' : "Fail"
+												else
+													"N/A"
+												end %></td>
+											</tr>
+											<tr>
+												<td class="bold-header">Runtime</td>
+												<td><%= if @test_run.runtime
+													@test_run.runtime
+												else
+													"N/A"
+												end %></td>
+											</tr>
+											<tr>
+												<td>Ran By</td>
+												<td><%= @test_run['runby'] %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td>Test Type</td>
+												<td><%= @test_run['testtype'].upcase %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td class="bold-header">Brand</td>
+												<td><%= @suite['Brand'] ? @suite['Brand'].to_s : "N/A" %></td>
+											</tr>
+											<tr>
+												<td>Campaign</td>
+												<td><%= @test_run['campaign'] ? @test_run['campaign'].capitalize : "N/A" %></td>
+											</tr>
+											<tr>
+												<td>Browser</td>
+												<td><%= @suite['Browser'] ? @suite['Browser'].to_s : "N/A" %></td>
+											</tr>
+											<tr>
+												<td>Environment</td>
+												<td><%= @suite['Environment'] ? @suite['Environment'].upcase : "N/A" %></td>
+											</tr>
+											<tr>
+												<td>Offercode</td>
+												<td><%= @test_run['offercode'] ? @test_run['offercode'].upcase : "N/A" %></td>
+											</tr>
+											<tr>
+											<tr>
+												<td><strong>Custom Settings</strong></td>
+												<td><% 
+												if(@test_run)
+													obj = YAML.load @test_run['custom_settings']
+													%>
+													<ul class="list-group">
+														<%
+													obj.each do |key,val|
+														%><li class="list-group-item"><%= key %>: <%= val %></li> <%
+													end
+													%></ul><%
+												else
+													%>N/A<%
+												end
+
+												%></td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+								<div class='col-md-6' style="padding:0px">
+									<table class="table table-bordered table-condensed table-hover table-striped">
+										<tbody>
+											<tr>
+												<td>Operating System</td>
+												<td><%= @test_run['platform'] ? @test_run['platform'].capitalize : "N/A" %></td>
+											</tr>
+											<tr>
+												<td>Date Time</td>
+												<td><%= @test_run['datetime'] ? @test_run['datetime'] : "N/A" %></td>
+											</tr>
+
+											<tr>
+												<td>Platform</td>
+												<td><%= @test_run['driverplatform'] ? @test_run['driverplatform'].capitalize : "N/A" %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td>Confirmation #</td>
+												<td>
+													<% if(@test_run["order_id"])
+														if(@test_run["order_id"].empty?) %>
+														<%= "N/A" %>
+														<% else %>
+														<%= @test_run["order_id"] %>
+														<% end 
+														else %>
+														<%= "N/A" %>
+														<% end %>
+													</td>
+												</tr>
+												<tr>
+												<td>Email Used</td>
+												<td><%= @suite['emailnotification'] %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td>Remote Runner URL</td>
+												<td>
+													<% if(@test_run["remote_url"])
+														if(@test_run["remote_url"].empty?) %>
+														<%= "N/A" %>
+														<% else %>
+														<%= @test_run["remote_url"] %>
+														<% end 
+														else %>
+														<%= "N/A" %>
+														<% end %>
+													</td>
+												</tr>
+												<tr>
+												<td>Target URL</td>
+												<td><%= @test_run['url'] ? @test_run['url'] : "N/A" %></td>
+											</tr>
+											<% 
+											if @test_run.custom_data %>
+
+											<tr><td style="text-align:center;" colspan="2"><h4>Collected Data</h4></td></tr>
+											<% YAML.load(@test_run.custom_data).each do |data| %>
+												<tr>
+													<td><%= data[0] %></td>
+													<td><%= data[1] %></td>
+												</tr>
+											<% end 
+											end%>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<% 
+						begin
+							if @test_run.error_message %>
+								<div class="panel panel-danger progress-square">
+									<div class="panel-heading">
+										<h3 class="text-center text-primary panel-title" id="perpageresults">Critical Failure</h3>
+									</div>
+									<div class="panel-body">
+										<b>
+											<%= @test_run.error_message.class_name %>
+										</b>
+										<%= @test_run.error_message.message %>
+										<br><br>
+										<%= link_to 'Details', error_message_path(@test_run.error_message), :class => "btn btn-primary" %>
+									</div>
+								</div>
+							<% end
+						rescue => e
+						
+						end
+
+
+						 %>
+							<div class="panel panel-primary progress-square">
+								<div class="panel-heading">
+									<h3 class="text-center text-primary panel-title" id="perpageresults">Section Results</h3>
+								</div>
+								
+								<div class="panel-body" style="padding:0px">
+									<table class="table table-bordered table-condensed">
+										<thead>
+											<th style="text-align: center;">
+												Result
+											</th>
+											<th style="text-align: center;">
+												Test Step Name
+											</th>
+											<th style="text-align: center;">
+												Expected
+											</th>
+											<th style="text-align: center;">
+												Actual
+											</th>
+											<th style="text-align: center;">
+												Error
+											</th>
+										</thead>
+										<%
+										 @test_run.test_steps.each do |verification| %>
+											<tr style="text-align: center;">
+												<td><h4 style="padding:0px; margin:0px;"><span class="label label-as-badge label-<%= get_new_color(verification) %>">
+													<%= 
+												if verification.result
+													verification.result == 1 ? 'Pass' : "Fail"
+												else
+													"N/A"
+												end
+
+												%></span></h4></td>
+												<td><%= verification.step_name ? verification.step_name : "N/A" %></td>
+												<td><%= verification.expected ? verification.expected.html_safe : "N/A" %></td>
+												<td><%= verification.actual ? verification.actual.html_safe : "N/A" %></td>
+												
+												<td>
+													<% if(verification.errorcode)
+														if(ErrorCode.where(errorcode: verification.errorcode).first)
+															human_code_name = ErrorCode.where(errorcode: verification.errorcode).first
+														end
+													end %>
+													<% if human_code_name.nil? %>
+													<%= verification.errorcode ? verification.errorcode : "-" %>
+													<% end %>
+													<%= human_code_name.human_name if human_code_name %>
+												</td>
+											</tr>
+										<% end %>
+                                    </table>
+                                </div>
+                            </div>
+
+                            
+
+                       
+                        <div class="panel panel-primary" id="notesresults">
+                        	<div class="panel-heading">
+                        		<h3 class="text-center panel-title">Notes</h3>
+                        	</div>
+                        	<div class="panel-body">
+                        		<p>
+                        			<%= @test_run['comments'] %>
+                        		</p>
+                        	</div>
+                        	<div class="panel-footer text-left">
+                        		<a class="btn btn-primary " data-toggle="modal" data-target="#modalexampleforediting">Edit Notes</a>
+                        	</div>
+                        </div>
+
+
+                        <ul class="pager">
+                        	<% if @previous %>
+                        	<li class="previous">
+
+                        		<a href="/testruns/<%= @previous.id %>">←  Prev</a>
+
+                        	</li>
+                        	<% end %>
+                        	<% if @next %>
+                        	<li class="next">
+                        		<a href="/testruns/<%= @next.id %>">Next  →</a>
+                        	</li>
+                        	<% end %>
+                        </ul>
+
+                        <ul class="breadcrumb text-left" id="topofresults">
+                        	<li>
+                        		<a href="/<%= @suite.SuiteType.downcase %>">
+                        			<%= @suite.SuiteType.capitalize %>
+                        			Test Suite</a>
+                        		</li>
+                        		<li>
+                        			<a href="/testsuites/<%= @test_run.test_suites_id %>">Test Suite</a>
+                        		</li>
+                        		<li>
+                        			Test Case
+                        		</li>
+                        	</ul>
+                        </div> </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- notes editing modal -->
+
+<div class="modal fade" id="modalexampleforediting">
+	<%= form_tag("/test_run/#{@test_run[:id]}", method: "patch", :class => "row") do %>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Editing Notes</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group has-feedback">
+                            	<label for="comments">Enter any notes about this testrun:</label>
+                               <textarea class="form-control" rows="5" name="comments" id="comments"><%= @test_run['comments'] %></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+                        <%= submit_tag "Save Changes", class: "btn btn-lg btn-primary" %>
+                    </div>
+                </div>
+            </div>
+            <% end %>
+        </div>
+        <!-- end modal -->
+
+
+
+        <div class="modal fade"id="screenshot_view">
+        	<div class="modal-dialog modal-lg" style="width:100%" >
+        		<div class="modal-content" >
+        			<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h1>Screenshot</h1></div>
+        			<div class="modal-body">
+        				<img src="/debug/test_run/<%= @test_run.id %>.png" style="width:100%" class="img-responsive">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <script>
+        	function test_data_popup(actual, expected){
+				$('#expecteddata').html(expected)
+				$('#actualdata').html(actual)
+        	}
+        </script>
+        <div class="modal fade" id="testdata">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        				<h4 class="modal-title">
+        					Step Results
+        				</h4>
+        			</div>
+        			<div class="modal-body">
+        				<p>
+        					<b>
+        						Expected:<br>
+        					</b>
+        					<div id='expecteddata'>Empty</div><br>
+        					<b>
+        						Actual:<br>
+        					</b>
+        					<div id='actualdata'>Empty</div><br><br>
+        				</p>
+        			</div>
+        			<div class="modal-footer">
+        				<a class="btn btn-default" data-dismiss="modal">
+        					Close
+        				</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <!-- end modal -->
+
+<!-- END OF testruns/show.html.erb -->

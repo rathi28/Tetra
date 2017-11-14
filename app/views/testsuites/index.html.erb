@@ -1,0 +1,179 @@
+
+<%
+
+cols = [
+	'Date',
+	'Time',
+	'Status',
+	'Progress',
+	'Test Name',
+	'Brand',
+	'Browser',
+	'Realm',
+	'Environment',
+	'Platform',
+	'Campaign',
+	''
+]
+def get_color(testrun)
+	case testrun["result"]
+	when "Pass"
+		return "success"
+	when "Fail"
+		return "danger"
+	else
+		return ""
+	end
+end
+%>
+<!-- START OF testsuites/index.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<% new_suite_types = ["pixels","vanity","uci","seo"] %>
+<script type="text/javascript">
+	suites = <%= @suites.to_json.html_safe %>
+
+	suites
+</script>
+<div class="panel panel-default panel-body">
+	<div class="col-md-6">
+  		<h3 style="margin:0px;"><%=  @headertext.capitalize %> <!-- <small>Subtext for header</small> --></h3>
+	</div>
+	<div class="col-md-6">
+		<% if(session[:current_user_id])
+        if(User.find(session[:current_user_id]).admin == 'yes') %>
+		<% if(new_suite_types.include?(@type.downcase) == false) %>
+
+			<button style="margin:10px;" type="button" class="btn btn-success btn-lg pull-right" data-toggle="modal" data-target="#<%= @type %>_new_modal">
+				Launch a new <%= @type.capitalize %> Test
+			</button>
+
+		<% else %>
+			<a href="/test_run/new<%= @type == "pixels" ? '' : '?suitetype='+@type %>">
+				<button style="margin:10px;" type="button" class="btn btn-success btn-lg pull-right">
+					Launch a new <%= @type.capitalize %> Test
+				</button>
+			</a>
+		<% end %>
+		<% end %>
+		<% end %>
+	</div>
+</div>
+
+<br>
+<div class="row">
+	<div class="col-md-12" style="overflow:auto;">
+		<table class="table table-hover table-condensed" style="background-color:#FFF">
+			<tr style="text-align:center;">
+				<% cols.each do |col| %>
+					<% if(new_suite_types.include?(@type.downcase) || col != 'Test Name') %>
+						<th class="<%= col.downcase %>-col" style="text-align:center;" <%= (col == cols.last) ? 'colspan=3' : '' %>><%= col %></th>
+						<% end %>
+				<% end %>
+			</tr>
+			<% @suites.each do |run| %>
+			<%
+			if(!new_suite_types.include?(@type.downcase))
+				passed_amount 	= 0
+				passed_amount 	= (run['Pass']*100 / run['TotalTests']*100)/100 if(run['TotalTests'] != 0)
+
+				remaining_hold 	= 0
+				remaining_hold 	= 100 - ((run['Pass']*100 + run['Fail']*100) / run['TotalTests']*100)/100 if(run['TotalTests'] != 0)
+				
+				remaining 		= remaining_hold 
+				failed_amount 	= 100 - (passed_amount + remaining) 
+			else
+				pixel_steps_pass = []
+				pixel_steps_fail = []
+				pixel_steps_total = []
+				test_runs = TestRun.where(test_suites_id: run.id)
+
+				test_runs.each do |test_run|
+					pixel_steps_pass.concat([test_run]) if (test_run.result == 1)
+					pixel_steps_fail.concat([test_run]) if (test_run.result == 0)
+					pixel_steps_total.concat([test_run])
+				end
+
+				total = pixel_steps_total
+				passed_amount 	= 0
+				passed_amount = (pixel_steps_pass.count*100 / pixel_steps_total.count*100)/100 if(pixel_steps_total.count != 0)
+				remaining_hold 	= 0
+
+				remaining_hold = 100 - (( pixel_steps_pass.count*100 + pixel_steps_fail.count*100) / pixel_steps_total.count*100)/100 if(pixel_steps_total.count != 0)
+
+				remaining = remaining_hold
+				
+				failed_amount =  100 - (passed_amount + remaining) 
+			end
+
+
+			%>
+			<tr style="font-size:12px; text-align:center; height:14px;" id="suite_<%= run.id %>">
+				<td id="date"><%= run["DateTime"].strftime('%m/%d/%Y') %></td>
+				<td id="time"><%= run["DateTime"].strftime('%-I:%M:%S %p') %></td>
+				<td id="status"><%= run["Status"]%></td>
+				<td style="margin:0px; position:relative;"><div class="progress progress-square" style="margin:0px;">
+					<div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70"
+						aria-valuemin="0" aria-valuemax="100" style="width:<%= passed_amount  %>%;" disabled>
+					</div>
+					<div class="progress-bar  progress-bar-danger" role="progressbar" aria-valuenow="70"
+						aria-valuemin="0" aria-valuemax="100" style="width:<%= failed_amount  %>%;" disabled>
+					</div>
+					<div class="progress-bar  progress-bar-info" role="progressbar" aria-valuenow="70"
+						aria-valuemin="0" aria-valuemax="100" style="width:<%= remaining %>%;" disabled>
+					</div>
+				</div></td>
+				<% if(new_suite_types.include?(@type.downcase)) %>
+					<td id="Test Name"><%= run["Test Suite Name"]%></td>
+				<% end %>
+				<td id="brand"><%= run["Brand"]%></td>
+				<td class="browser-col"><%= run["Browser"]%></td>
+				<td id="realm"><%= run["realm"].to_s.capitalize %></td>
+				<td id="environment"><%= run["Environment"]%></td>
+				<td id="platform"><%= run["Platform"]%></td>
+				<td id="campaign"><%= run["Campaign"]%></td>
+				
+				<td colspan="3">
+					<div class="btn-group">
+					<a class="btn btn-primary" href="/testsuites/<%= run.id %>">
+							Details
+					</a>
+					<% 
+		            if(session[:current_user_id])
+		            if(User.find(session[:current_user_id]).admin == 'yes') %>
+					<a class="btn btn-danger" data-confirm="Are you sure you want to delete this Test Suite?" data-method="delete" href="/<%= @type.downcase %>/<%= run.id %>/delete" rel="nofollow">
+							Remove
+					</a>
+						<% if run["Status"] != "Complete" && run["Status"] != "Paused" %>
+							<a class="btn btn-warning" data-method="post" href="/<%= @type.downcase %>/<%= run.id %>/pause" rel="nofollow">
+								Pause
+							</a>
+						<% else %>
+							<% if run["Status"] != "Complete" %>
+								<a class="btn btn-warning" data-method="post" href="/<%= @type.downcase %>/<%= run.id %>/resume" rel="nofollow">
+									Resume
+								</a>
+							<% end %>
+						<% end %>
+					</div>
+				<% end
+				end
+				%>
+
+				</td>
+			</tr>
+			<% end %>
+		</table>
+	</div>
+</div>
+
+<%= will_paginate @suites, renderer: BootstrapPagination::Rails  %>
+
+
+<%= render partial: "widgets/buyflow_modal.html.erb", locals: {type: @type, brands: @brands, default_email: @default_email, testrun: @testrun, browsers: @browsers} %>
+
+<!-- END OF testsuites/index.html.erb -->

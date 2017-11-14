@@ -1,0 +1,211 @@
+<%= form_for :campaigns, url: "/schedule/#{@test.id}", method: :patch do |f| %>
+
+<div class="panel panel-primary">
+	
+	<div class="panel-heading">
+		<div>
+			<h4><strong><%=  @test["name"] %></strong>
+			</h4>
+			<br>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="container-fluid">
+						<br><div class='row'>
+				<div class="col-md-6"><strong>name</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_name" name="recurringschedule[name]" value="<%= @test.name %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6">
+					<strong>
+						Brand
+					</strong>
+					<h5>
+						<small> 
+							Brand the campaign is under
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<select name="recurringschedule[brand]" class="form-control">
+						<% @brands.each_with_index do |brand, index| %>
+						<option value="<%= brand['Brandname'].strip %>" <%= 'selected="selected"' if( brand['Brandname'] == @test.brand)%>>
+							<%= brand['Brandname'].strip %>
+						</option>
+						<% end %>
+						<% 
+						brand = {}
+						brand['Brandname'] = 'All'%>
+						<option value="<%= brand['Brandname'].strip.downcase %>" <%= 'selected="selected"' if( brand['Brandname'].downcase == @test.brand.downcase )%>>
+							<%= brand['Brandname'].strip %>
+						</option>
+					</select>
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Campaign</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_grcid" name="recurringschedule[grcid]" value="<%= @test.grcid %>" class="create_input form-control" />
+				</div>
+			</div>
+
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Driver</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_driver" name="recurringschedule[driver]" value="<%= @test.driver %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Platform</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_platform" name="recurringschedule[platform]" value="<%= @test.platform %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Realm</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_realm" name="recurringschedule[realm]" value="<%= @test.realm %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Email</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_platform" name="recurringschedule[email]" value="<%= @test.email %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Custom URL</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_customurl" name="recurringschedule[customurl]" value="<%= @test.customurl %>" class="create_input form-control" />
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Custom Offer</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_customoffer" name="recurringschedule[customoffer]" value="<%= @test.customoffer %>" class="create_input form-control" />
+				</div>
+			</div>
+			<% if @test['testtype'] == 'pixels' %>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Pixel Suite </strong>
+					<h5>
+						<small> 
+							only for pixel tests<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<select name="recurringschedule[pixel_suite]" class="form-control">
+						<% @pixeltests.each do |pixel_test| %>
+							<option value="<%= pixel_test.id %>" <%= 'selected="selected"' if( pixel_test.id == @test.pixel_suite)%>>
+								<%= pixel_test.testname.strip %>
+							</option>
+						<% end %>
+						</option>
+					</select>
+				</div>
+			</div>
+			<% end %>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>weekday</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6">
+					<select type="text" id="campaign_weeklyday" name="recurringschedule[weeklyday]" value="<%= @test.weeklyday %>" class="create_input form-control">
+						<option value="" <%= 'selected="selected"' if( nil == @test.weeklyday )%>>Daily</option>
+						<% Date::DAYNAMES.each do |day| %>
+							<option value="<%= day %>" <%= 'selected="selected"' if( day == @test.weeklyday )%>><%= day %></option>
+						<% end %>
+					</select>
+				</div>
+			</div>
+			<br><div class='row'>
+				<div class="col-md-6"><strong>Daily Time</strong>
+					<h5>
+						<small> 
+							<!-- put descriptive sublabels here -->
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-3">
+					<small>Hour (24 hours format):</small>
+					<input type="text" id="campaign_dailyhour" name="recurringschedule[dailyhour]" value="<%= @test.dailyhour %>" class="create_input form-control" />
+					
+				</div>
+				<div class="col-md-3">
+					<small>Minute:</small>
+					<input type="text" id="campaign_dailyminute" name="recurringschedule[dailyminute]" value="<%= @test.dailyminute %>" class="create_input form-control" />
+				</div>
+			</div>
+
+
+
+			<hr />
+
+			<hr />
+			<div class="btn-group" role="group">
+				<%= submit_tag("Update", :class => "btn btn-success") %>
+				<a href="/schedule/<%= @test.id %>" class="btn btn-danger" role="button">Cancel</a>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="panel-footer">Editing Campaign</div>
+</div>
+</div>
+<% end %>

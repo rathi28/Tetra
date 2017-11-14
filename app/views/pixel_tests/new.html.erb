@@ -1,0 +1,54 @@
+<%
+testtypes = nil
+testtypes = [
+    'Landing Page', 
+    'SAS Page', 
+    'Content', 
+    'Confirmation', 
+    'Buyflow Pages',
+    'Cart Page',
+    'Direct',
+    'Indirect'
+]
+%>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Create new <%= @suitetype.nil? ? 'Pixel': @suitetype %> test
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <%= form_for @pixel, url: {action: "create"} do |f| %>
+                        <div class="form-group">
+                            <%= f.label(:testname, "Test Suite Title", :class => 'control-label col-sm-2') %>
+                            <div class="col-sm-10">
+                                <%= f.text_field(:testname, class: "form-control") %>
+                            </div>
+                        </div>
+                        <br /><br />
+                        <% if @suitetype.nil? %>
+                            <div class="form-group">
+                                <%= label('pixel[testtype]', "#{@suitetype.nil? ? 'Pixel': @suitetype} Test Type", class: 'control-label col-sm-2') %>
+                                <div class="col-sm-10">
+                                    <%= f.select(:testtype, testtypes, {},  {:class =>  "form-control" }) %>
+                                </div>
+                            </div><br />
+                        <% end %>
+                        <input type="hidden" value="<%= @suitetype %>" name="pixel_test[suitetype]" />
+                        <div class="form-group">
+                            <%= label(:environment, "Environment", :class => 'control-label col-sm-2') %>
+                            <div class="col-sm-10">
+                                <%= f.select(:environment, ['DEV', 'STG', 'QA', 'PROD'], {},  {:class =>  "form-control" } ) %>
+                            </div>
+                        </div><br /><br />
+                        <%= f.submit 'Create', :class => "form-control btn btn-primary" %>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

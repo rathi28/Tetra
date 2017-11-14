@@ -1,0 +1,16 @@
+# Tetra/app
+
+This directory holds all of the code for the running of the front end of the application, interacting with the database, and manipulating data, as well as the template files for the UI.
+
+```ruby
+/tetra                  # top level directory for the Rails Application
+    |-/app              # directory holding most of the UI interaction code, and the test job runner code
+		|-/assets       # All javascript, fonts, and CSS stylesheets are stored in this directory
+		|-/controllers  # Logic for the running of UI request processing, requests from browsers get passed here by the config/routes.rb file map
+		|-/helpers      # Helper modules, contain some code used for creating test cases and suites.
+		|-/jobs         # Worker code, used by worker processes to execute test cases and report results to the database.
+		|-/mailers      # Not used by this framework, would hold the mail templates if we used them from here.
+		|-/models       # Model files for interacting with the database.
+		|-/views        # HTML, XLSX, and JSON template files, for rendering content from the controllers.
+		|-readme.md     # This file
+```

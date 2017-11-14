@@ -1,0 +1,214 @@
+p = Axlsx::Package.new
+wb = p.workbook
+wb = xlsx_package.workbook
+
+wb.add_worksheet(:name => "Test Suite") do |sheet|
+	sheet.add_row [
+		'id',
+		'Ran By',
+		'DateTime',
+		'Test Suite Name',
+		'Runtime',
+		'Pass',
+		'Fail',
+		'TotalTests',
+		'Status',
+		'SuiteType',
+		'Campaign',
+		'Brand',
+		'Browser',
+		'Platform',
+		'URL',
+		'offercode',
+		'Environment',
+		'emailnotification'
+		]
+	sheet.add_row [
+		@suite['id'],
+		@suite['Ran By'],
+		@suite['DateTime'],
+		@suite['Test Suite Name'],
+		@suite['Runtime'],
+		@suite['Pass'],
+		@suite['Fail'],
+		@suite['TotalTests'],
+		@suite['Status'],
+		@suite['SuiteType'],
+		@suite['Campaign'],
+		@suite['Brand'],
+		@suite['Browser'],
+		@suite['Platform'],
+		@suite['URL'],
+		@suite['offercode'],
+		@suite['Environment'],
+		@suite['emailnotification']
+	]
+	sheet.add_table "A1:R2", :name => 'Test Suites', :style_info => { :name => "TableStyleLight13" }
+end
+
+if(@testruns.empty? == false)
+	wb.add_worksheet(:name => "Testruns") do |sheet2|
+		sheet2.add_row [
+			'id',
+			'result',
+			'test name',
+			'runby',
+			'runtime',
+			'Brand',
+			'Campaign',
+			'Platform',
+			'Browser',
+			'Env',
+			'ExpectedOffercode',
+			'ActualOffercode',
+			'Expected UCI',
+			'UCI HP',
+			'UCI OP',
+			'UCI CP',
+			'ConfirmationNum',
+			'DateTime',
+			'test_suites_id',
+			'Notes',
+			'Driver',
+			'DriverPlatform',
+			'status',
+			'url',
+			'testtype',
+			'expectedcampaign',
+			'Backtrace'
+			]
+		
+		@testruns.each do |testrun|
+			sheet2.add_row [
+				testrun['id'],
+				testrun['result'],
+				testrun['test name'],
+				testrun['runby'],
+				testrun['runtime'],
+				testrun['Brand'],
+				testrun['Campaign'],
+				testrun['Platform'],
+				testrun['Browser'],
+				testrun['Env'],
+				testrun['ExpectedOffercode'],
+				testrun['ActualOffercode'],
+				testrun['Expected UCI'],
+				testrun['UCI HP'],
+				testrun['UCI OP'],
+				testrun['UCI CP'],
+				testrun['ConfirmationNum'],
+				testrun['DateTime'],
+				testrun['test_suites_id'],
+				testrun['Notes'],
+				testrun['Driver'],
+				testrun['DriverPlatform'],
+				testrun['status'],
+				testrun['url'],
+				testrun['testtype'],
+				testrun['expectedcampaign'],
+				testrun['Backtrace'],
+				]
+		end
+		sheet2.add_table "A1:AA#{@suite.testruns.count + 1}", :name => 'Testruns', :style_info => { :name => "TableStyleLight13" }
+	end
+end
+
+if(@suite.test_runs.empty? == false)
+	wb.add_worksheet(:name => "Test Runs") do |sheet2|
+		sheet2.add_row [
+			'id',
+			'testtype',
+			'url',
+			'result',
+			'remote_url',
+			'runby',
+			'runtime',
+			'brand',
+			'campaign',
+			'platform',
+			'browser',
+			'env',
+			'scripterror',
+			'lock_test',
+			'workerassigned',
+			'driver',
+			'driverplatform',
+			'test_suites_id',
+			'datetime',
+			'comments',
+			'scheduledate',
+			'created_at',
+			'updated_at',
+			'status',
+			'custom_settings',
+			'Notes',
+			'isolated',
+			'order_id',
+			'offercode'
+			]
+		
+		@suite.test_runs.each do |testrun|
+			sheet2.add_row [
+				testrun['id'],
+				testrun['testtype'],
+				testrun['url'],
+				testrun['result'],
+				testrun['remote_url'],
+				testrun['runby'],
+				testrun['runtime'],
+				testrun['brand'],
+				testrun['campaign'],
+				testrun['platform'],
+				testrun['browser'],
+				testrun['env'],
+				testrun['scripterror'],
+				testrun['lock_test'],
+				testrun['workerassigned'],
+				testrun['driver'],
+				testrun['driverplatform'],
+				testrun['test_suites_id'],
+				testrun['datetime'],
+				testrun['comments'],
+				testrun['scheduledate'],
+				testrun['created_at'],
+				testrun['updated_at'],
+				testrun['status'],
+				testrun['custom_settings'],
+				testrun['Notes'],
+				testrun['isolated'],
+				testrun['order_id'],
+				testrun['offercode']
+				]
+		end
+		sheet2.add_table "A1:AC#{@suite.test_runs.count + 1}", :name => 'Test Runs', :style_info => { :name => "TableStyleLight13" }
+	end
+end
+if(@suite.test_runs.empty? == false)
+	wb.add_worksheet(:name => "Test Steps") do |sheet3|
+		sheet3.add_row [
+			'TestRun_ID',
+			'TestStep_ID',
+			'Result',
+			'Test_Step_Name',
+			'Expected',
+			'Actual',
+			'Error'
+		]
+		row_count = 1
+		@suite.test_runs.each do |testrun|
+			testrun.test_steps.each do |teststep|
+				sheet3.add_row [
+					teststep['test_run_id'],
+					teststep['id'],
+					teststep['result'],
+					teststep['step_name'],
+					teststep['expected'],
+					teststep['actual'],
+					teststep['errorcode']
+				]
+				row_count = row_count + 1
+			end
+		end
+		sheet3.add_table "A1:G#{sheet3.rows.count}", :name => 'Test Steps', :style_info => { :name => "TableStyleLight13" }
+	end
+end

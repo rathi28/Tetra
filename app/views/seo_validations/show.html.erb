@@ -1,0 +1,34 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  	<h1>Show seo_validation</h1>
+	</div>
+	<div class="panel-body">
+
+<p id="notice"><%= notice %></p>
+
+
+
+<p>
+  <strong>Page name:</strong>
+  <%= @seo_validation.page_name %>
+</p>
+
+<p>
+  <strong>Validation type:</strong>
+  <%= @seo_validation.validation_type %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @seo_validation.value %>
+</p>
+
+<p>
+  <strong>Present:</strong>
+  <%= @seo_validation.present %>
+</p>
+
+<%= link_to 'Edit', edit_seo_validation_path(@seo_validation), :class => "btn btn-primary" %> <br><br>
+<%= link_to 'Back', seo_validations_path, :class => "btn btn-primary" %>
+</div>
+</div>

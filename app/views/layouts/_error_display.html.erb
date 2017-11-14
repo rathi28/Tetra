@@ -1,0 +1,22 @@
+<%
+flash_popups = [
+	'warning',
+	'info',
+	'danger',
+	'success',
+	'notice'
+]
+
+%>
+<!-- START OF layouts/_error_display.html.erb -->
+<div id="error-container">
+	<% flash.each do |key, value| %>
+		<% if flash_popups.include?(key) %>
+			<div class="alert alert-<%= key.downcase == 'notice' ? "danger" : key  %> alert-dismissible" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<%= flash.now[key] %>
+			</div>
+		<% end %>
+	<% end %>
+</div>
+<!-- END OF layouts/_error_display.html.erb -->

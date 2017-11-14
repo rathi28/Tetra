@@ -1,0 +1,29 @@
+<h1>Listing offer_data_details</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Offer title</th>
+      <th>Offerdesc</th>
+      <th>Offerdata</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @offer_data_details.each do |offer_data_detail| %>
+      <tr>
+        <td><%= offer_data_detail.offer_title %></td>
+        <td><%= offer_data_detail.offerdesc %></td>
+        <td><%= offer_data_detail.offerdatum_id %></td>
+        <td><%= link_to 'Show', offer_data_detail %></td>
+        <td><%= link_to 'Edit', edit_offer_data_detail_path(offer_data_detail) %></td>
+        <td><%= link_to 'Destroy', offer_data_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Offer data detail', new_offer_data_detail_path %>

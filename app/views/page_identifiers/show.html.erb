@@ -1,0 +1,22 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>Show page_identifier</h1>
+  </div>
+
+  <div class="panel-body">
+  	<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @page_identifier.page %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @page_identifier.value %>
+</p>
+
+<%= link_to 'Edit', edit_page_identifier_path(@page_identifier), :class => "btn btn-primary" %> <br><br>
+<%= link_to 'Back', page_identifiers_path, :class => "btn btn-primary" %>
+</div>
+</div>

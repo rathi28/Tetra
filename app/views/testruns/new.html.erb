@@ -1,0 +1,24 @@
+<!-- START OF testruns/new.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<div class="container-fluid">
+
+<div class="row">
+<div class="panel panel-primary">
+
+	<div class="panel-heading">
+		<h2 style="">
+			Launch New <%= @type %> Test
+		</h2>
+	</div>
+	<div class="panel-body">
+		<!-- insert partial here -->
+		<%= render partial: "buyflow_tests", locals: {type: @type, brands: @brands, default_email: @default_email, testrun: @testrun, browsers: @browsers} %>
+	</div>
+</div>
+</div>
+<!-- END OF testruns/new.html.erb -->

@@ -1,0 +1,46 @@
+<!-- START OF offerdata/import.html.erb -->
+<div class="panel panel-default">
+	<div class="panel-body container">
+		<div class="form-group col-md-6">
+
+		<h1>Offer Import Page</h1>
+		<%= form_tag("/offerdata/previewimport", method: "post") do %>
+		<%= label_tag('brand', "Brand") %>
+		<select name="brand" class="form-control">
+			<% @brands.each_with_index do |brand, index| %>
+			<option value="<%= brand['Brandname'].strip %>" <%= 'selected="selected"' if( brand['Brandname'] == 'Wen')%>>
+				<%= brand['Brandname'].strip %>
+			</option>
+			<% end %>
+		</select><br \>
+		<%= label_tag('campaign', "Campaign") %>
+		<input class="form-control" type="text" id="campaign" name="campaign" size="20" value="<%= @campaign.grcid %>" /><br \>
+		<%= label_tag('env', "Environment") %>
+		<select name="env" class="form-control">
+			<option value="prod">
+				Production
+			</option>
+			<option value="qa" selected="selected">
+				QA
+			</option>
+			<option value="stg" selected="selected">
+				STG
+			</option>
+		</select><br \>
+		<%= label_tag('platform', "Platform") %>
+		<select name="platform" class="form-control">
+			<option value="desktop" selected="selected">
+				Desktop
+			</option>
+			<option value="mobile">
+				Mobile
+			</option>
+		</select><br \>
+		<%= label_tag('offerdata', "Offers to be imported:") %>
+		<%= text_area_tag('offerdata',nil, :class => 'form-control') %> <br>
+		<%= submit_tag("Preview Import", {:class => "btn btn-primary"}) %>
+		<% end %>
+		</div>
+	</div>
+</div>
+<!-- END OF offerdata/import.html.erb -->

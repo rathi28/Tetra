@@ -1,0 +1,194 @@
+<!-- START OF offerdata/index.html.erb -->
+<% 
+headers = ['Offercode',
+	'SupplySize',
+	'PieceCount',
+	'Bonus',
+	'Offer',
+	'Entry',
+	'Continuity',
+	'StartSH',
+	'ContinuitySH',
+	'Rush',
+	'OND',
+	'Campaign',
+	'Brand',
+	'Environment',
+	'Platform',
+	'ExtraStep',
+	] %>
+	<% @environment_list = ['prod','qa', 'stg'] %>
+	<% @platform_list = ['desktop','mobile'] %>
+<div class="panel panel-default">
+	<div class="panel panel-heading">
+		<h1>Offerdata Management</h1>
+	</div>
+	<div class="panel-body" style="min-height:400px">
+		<table><tr><td>
+			<div class="dropdown" style="padding:5px">
+				<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+					<%= params[:brand].nil? ? "Select Brand" : params[:brand] %>
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><%= link_to 'All', url_for(params.except(:brand)) %></li>
+					<li class="divider"></li>
+					<% @brands.each do |brand|%>
+					<li><%= link_to brand.Brandname, url_for(params.merge(:brand => brand.Brandname)) %></li>
+					<% end %>
+				</ul>
+			</div>
+		</td><td>
+
+		<div class="dropdown" style="padding:5px">
+			<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				<%= params[:campaign].nil? ? "Select Campaign" : params[:campaign] %>
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><%= link_to 'All', url_for(params.except(:campaign)) %></li>
+				<li class="divider"></li>
+				
+				<% @campaign_list.each do |campaign|%>
+				<li><%= link_to campaign, url_for(params.merge(:campaign => campaign)) %></li>
+				<% end %>
+			</ul>
+		</div></td><td>
+
+		<div class="dropdown" style="padding:5px">
+			<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				<%= params[:environment].nil? ? "Select environment" : params[:environment].upcase %>
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><%= link_to 'All', url_for(params.except(:environment)) %></li>
+				<li class="divider"></li>
+				
+				<% @environment_list.each do |environment|%>
+				<li><%= link_to environment.upcase, url_for(params.merge(:environment => environment)) %></li>
+				<% end %>
+			</ul>
+		</div></td><td>
+
+		<div class="dropdown" style="padding:5px">
+			<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				<%= params[:platform].nil? ? "Select platform" : params[:platform].capitalize %>
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><%= link_to 'All', url_for(params.except(:platform)) %></li>
+				<li class="divider"></li>
+				
+				<% @platform_list.each do |platform|%>
+				<li><%= link_to platform.capitalize, url_for(params.merge(:platform => platform)) %></li>
+				<% end %>
+			</ul>
+		</div></td><td>
+
+		<a href="/campaigns"><div class="btn btn-warning">Reset Filters</div></a>
+	</td></tr>
+</table>
+<br>
+
+
+<% if(params[:brand] && params[:campaign] && params[:environment] && params[:platform]) %>
+<h3>
+	Current Offercodes
+</h3>
+<br>
+<%= will_paginate @offers, renderer: BootstrapPagination::Rails  %>
+<table class="table table-hover body-shadow" style="background-color:#FFF; text-align: center;">
+	<tr style="font-size:12px; text-align:center; height:14px;">
+		<% headers.each do |header| %>
+		<th style='text-align: center;'><%= header %></th>
+		<% end %>
+	</tr>
+	<b><%= 
+	if(@offers.nil?)
+		'No Offers'
+	else
+		if(@offers.empty?)
+			'No Offers'
+		end
+	end
+	%></b>
+	<% @offers.each do |offer| %>
+	<% 
+	if(offer[:qa] == 1) 
+		server = "QA"
+	end
+	if(offer[:prod] == 1) 
+		server = "Prod"
+	end
+	if(offer[:stg] == 1) 
+		server = "STG"
+	end
+	if((offer[:qa] == 1) && (offer[:prod] == 1))
+		server = "Both"
+	end
+	if((offer[:qa] == 0) && (offer[:prod] == 0))
+		server = "None"
+	end
+	%>
+	<% 
+	if(offer[:mobile] == 1) 
+		platform = "Mobile"
+	end
+	if(offer[:desktop] == 1) 
+		platform = "Desktop"
+	end
+	if((offer[:mobile] == 1) && (offer[:desktop] == 1))
+		platform = "Both"
+	end
+	if((offer[:mobile] == 0) && (offer[:desktop] == 0))
+		platform = "None"
+	end
+	%>
+
+
+	<tr style="font-size:12px; text-align:center; height:14px;">
+		<td><%=	offer[:OfferCode] %></td>
+		<td><%=	offer[:SupplySize] %></td>
+		<td><%=	offer[:PieceCount] %></td>
+		<td><%=	offer[:Bonus] %></td>
+		<td><%=	offer[:Offer] %></td>
+		<td><%=	offer[:Entry] %></td>
+		<td><%=	offer[:Continuity] %></td>
+		<td><%=	offer[:StartSH] %></td>
+		<td><%=	offer[:ContinuitySH] %></td>
+		<td><%=	offer[:Rush] %></td>
+		<td><%=	offer[:OND] %></td>
+		<td><%=	offer[:ExtraStep] %></td>
+		<td><%=	offer[:grcid] %></td>
+		<td><%=	offer[:Brand] %></td>
+		<td><%=	server %></td>
+		<td><%=	platform %></td>
+	</tr>
+
+
+	<% end %></table>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingOne">
+
+		<h2>Load New Offercodes <small>Will deactivate old codes</small><h2>
+		</div>
+		<div class="panel-body">
+			<a href="/offerdata/example.txt">Click here to download</a> an example of offerdata to paste into field.
+			<%= form_tag("/offerdata/previewimport", method: "post") do %>
+			<input type="text" hidden="true" id="brand" name="brand" size="20" value="<%= params[:brand] %>" />
+			<input type="text" hidden="true" id="campaign" name="campaign" size="20" value="<%= params[:campaign] %>" />
+			<input type="text" hidden="true" id="env" name="env" size="20" value="<%= params[:environment] %>" />
+			<input type="text" hidden="true" id="platform" name="platform" size="20" value="<%= params[:platform] %>" /><br \>
+			<%= label_tag('offerdata', "Offers to be imported:") %>
+			<%= text_area_tag('offerdata',nil, :class => 'form-control') %> <br>
+			<%= submit_tag("Preview Import", {:class => "btn btn-primary"}) %>
+			<% end %>
+		</div>
+	</div>
+</div>
+<% end %>
+<!-- END OF offerdata/index.html.erb -->

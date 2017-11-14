@@ -1,0 +1,65 @@
+<!-- START OF offerdata/preview.html.erb -->
+<div class="panel panel-default">
+	<div class="panel-body">
+
+		<h1>Preview Import</h1>
+
+
+		<% headers = ['Offercode',
+			'SupplySize',
+			'PieceCount',
+			'Bonus',
+			'Offer',
+			'Entry',
+			'Continuity',
+			'StartSH',
+			'ContinuitySH',
+			'Rush',
+			'OND',
+			'ExtraStep',
+			'Campaign',
+			'Brand',
+			'Platform',
+			'Environment',
+			] %>
+
+		<table class="table table-hover body-shadow" style="background-color:#FFF; text-align: center;">
+			<tr>
+				<% headers.each do |header| %>
+				<th style='text-align: center;'><%= header %></th>
+				<% end %>
+			</tr>
+			<% @preview.each do |offer| %>
+			<tr>
+				<td><%=	offer[0] %></td>
+				<td><%=	offer[1] %></td>
+				<td><%=	offer[2] %></td>
+				<td><%=	offer[3] %></td>
+				<td><%=	offer[4] %></td>
+				<td><%=	offer[5] %></td>
+				<td><%=	offer[6] %></td>
+				<td><%=	offer[7] %></td>
+				<td><%=	offer[8] %></td>
+				<td><%=	offer[9] %></td>
+				<td><%=	offer[10] %></td>
+				<td><%=	offer[11] %></td>
+				<td><%=	@grcid %></td>
+				<td><%=	@brand %></td>
+				<td><%=	@platform %></td>
+				<td><%= @env %></td>
+			</tr>
+			<% end %>
+		</table>
+		<%= form_tag("/offerdata/update", method: "post") do %>
+		<input type="text" hidden="true" id="brand" name="brand" size="20" value="<%= @brand %>" />
+		<input type="text" hidden="true" id="grcid" name="grcid" size="20" value="<%= @grcid %>" />
+		<input type="text" hidden="true" id="env" name="env" size="20" value="<%= @env %>" />
+		<input type="text" hidden="true" id="platform" name="platform" size="20" value="<%= @platform %>" />
+		<input type="text" hidden="true" id="prevpage" name="prevpage" size="20" value="<%= params[:prevpage] %>" />
+		<%= text_area_tag('offerdata', @imported_data, {:hidden => true}) %>
+		<%= submit_tag("Submit Changes", {:class => "btn btn-success"}) %>
+		<a href="javascript:history.back()"><div class="btn btn-warning">Back</div></a>
+		<% end %>
+	</div>
+</div>
+<!-- END OF offerdata/preview.html.erb -->

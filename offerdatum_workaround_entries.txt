@@ -1,0 +1,1454 @@
+139,D7T979,30,3,SPM/RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+140,D7T97E,90,3,SPM/RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+141,D7T96Y,30,3,ADSCS,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+142,D7T973,90,3,ADSCS,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+143,D7T97A,30,5,SPM/RT,Proactiv+ 3-Step System,Total Body Duo,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+144,D7T97C,90,5,SPM/RT,Proactiv+ 3-Step System,Total Body Duo,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+145,D7T974,30,5,ADSCS,Proactiv+ 3-Step System,Total Body Duo,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+146,D7T976,90,5,ADSCS,Proactiv+ 3-Step System,Total Body Duo,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+147,D7T97B,30,5,SPM/RT,Proactiv+ 3-Step System,Skin Brightening Duo,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+148,D7T97D,90,5,SPM/RT,Proactiv+ 3-Step System,Skin Brightening Duo,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+149,D7T978,30,5,ADSCS,Proactiv+ 3-Step System,Skin Brightening Duo,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+150,D7T977,90,5,ADSCS,Proactiv+ 3-Step System,Skin Brightening Duo,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+151,D7T97N,30,5,SPM/RT,Proactiv+ 3-Step System,Medicated Shave Duo,$39.95,$119.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+152,D7T97P,90,5,SPM/RT,Proactiv+ 3-Step System,Medicated Shave Duo,$119.85,$119.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+153,D7T97L,30,5,ADSCS,Proactiv+ 3-Step System,Medicated Shave Duo,$39.95,$119.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+154,D7T97M,90,5,ADSCS,Proactiv+ 3-Step System,Medicated Shave Duo,$119.85,$119.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+155,D7T96F,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+156,D7T96C,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+157,D7T96J,30,3,RM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+158,D7T96M,90,3,RM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+159,D7T96H,30,5,BDG,3-Step System,Oil Control Duo,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+160,D7T96E,90,5,BDG,3-Step System,Oil Control Duo,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+161,D7T96K,30,5,RM,3-Step System,Oil Control Duo,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+162,D7T96N,90,5,RM,3-Step System,Oil Control Duo,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+163,D7T96G,30,5,BDG,3-Step System,Total Body Duo,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+164,D7T96D,90,5,BDG,3-Step System,Total Body Duo,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+165,D7T96L,30,5,RM,3-Step System,Total Body Duo,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+166,D7T96P,90,5,RM,3-Step System,Total Body Duo,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5rob,ProactivPlus,1,1,1,0,0,,,,12
+354,D7CF4B,30,3,DCB,Proactiv+ 3-Step System,None,$19.95,$89.85,$5.99,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+355,D7CF4C,30,5,DCB,Proactiv+ Teen Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+356,D7CF4E,30,5,DCB,Proactiv+ Complete Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+357,D7CF4G,90,3,DCB,Proactiv+ 3-Step System,None,$79.85,$89.85,$0.00,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+358,D7CF4D,90,5,DCB,Proactiv+ Teen Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+359,D7CF4F,90,5,DCB,Proactiv+ Complete Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,1,0,0,,,,22
+360,D7NT79,30,3,IRD,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+361,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+362,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+363,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+364,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+365,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+366,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+367,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+368,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+369,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+370,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+371,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+372,D7NT6F,30,3,BDG,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+373,D7NT6C,90,3,BDG,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+374,D7NT6J,30,3,RM,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+375,D7NT6M,90,3,RM,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+376,D7NT6H,30,5,BDG,Deluxe Kit,$29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+377,D7NT6E,90,5,BDG,Deluxe Kit,$89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+378,D7NT6K,30,5,RM,Deluxe Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+379,D7NT6N,90,5,RM,Deluxe Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+380,D7NT6G,30,5,BDG,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+381,D7NT6D,90,5,BDG,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+382,D7NT6L,30,5,RM,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+383,D7NT6P,90,5,RM,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,1,0,0,,,,28
+474,D7CF4B,30,3,DCB,Proactiv+ 3-Step System,None,$19.95,$89.85,$5.99,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+475,D7CF4C,30,5,DCB,Proactiv+ Teen Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+476,D7CF4E,30,5,DCB,Proactiv+ Complete Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+477,D7CF4G,90,3,DCB,Proactiv+ 3-Step System,None,$79.85,$89.85,$0.00,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+478,D7CF4D,90,5,DCB,Proactiv+ Teen Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+479,D7CF4F,90,5,DCB,Proactiv+ Complete Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,0,1,0,,,,31
+480,D7NR6J,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+481,D7NR6K,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+482,D7NR6L,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+483,D7NR6P,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+484,D7NR6M,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+485,D7NR6N,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+486,D7NR6C,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+487,D7NR6E,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+488,D7NR6H,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+489,D7NR6D,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+490,D7NR6F,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+491,D7NR6G,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+492,D7NR79,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+493,D7NR76,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+494,D7NR7C,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+495,D7NR6Y,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+496,D7NR7B,30,5,RM,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+497,D7NR77,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+498,D7NR7E,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+499,D7NR73,90,5,BDG,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+500,D7NR7A,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+501,D7NR78,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+502,D7NR7D,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+503,D7NR74,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,1,0,0,,,,29
+504,D7NR6J,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+505,D7NR6K,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+506,D7NR6L,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+507,D7NR6P,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+508,D7NR6M,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+509,D7NR6N,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+510,D7NR6C,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+511,D7NR6E,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+512,D7NR6H,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+513,D7NR6D,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+514,D7NR6F,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+515,D7NR6G,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+516,D7NR79,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+517,D7NR76,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+518,D7NR7C,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+519,D7NR6Y,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+520,D7NR7B,30,5,RM,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+521,D7NR77,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+522,D7NR7E,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+523,D7NR73,90,5,BDG,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+524,D7NR7A,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+525,D7NR78,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+526,D7NR7D,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+527,D7NR74,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,1,0,0,,,,30
+672,D7TW7V,30,3,IRD,Proactiv+ 3-Step System,None,29.95,89.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+673,D7TW7W,30,5,IRD,Proactiv+ Teen Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+674,D7TW7X,30,5,IRD,Proactiv+ Complete Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+675,D7TW84,90,3,IRD,Proactiv+ 3-Step System,None,89.85,89.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+676,D7TW7Y,90,5,IRD,Proactiv+ Teen Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+677,D7TW83,90,5,IRD,Proactiv+ Complete Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+678,D7TW7M,30,3,ADSCS,Proactiv+ 3-Step System,None,29.95,89.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+679,D7TW7P,30,5,ADSCS,Proactiv+ Teen Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+680,D7TW7U,30,5,ADSCS,Proactiv+ Complete Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+681,D7TW7N,90,3,ADSCS,Proactiv+ 3-Step System,None,89.85,89.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+682,D7TW7R,90,5,ADSCS,Proactiv+ Teen Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+683,D7TW7T,90,5,ADSCS,Proactiv+ Complete Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+684,D7TW8J,30,3,RM,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+685,D7TW8F,30,3,BDG,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+686,D7TW8M,90,3,RM,3-Step System,None,$59.85,59.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+687,D7TW8C,90,3,BDG,3-Step System,None,$59.85,59.85,0.00,8.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+688,D7TW8L,30,5,RM,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+689,D7TW8G,30,5,BDG,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+690,D7TW8P,90,5,RM,Teen Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+691,D7TW8D,90,5,BDG,Teen Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+692,D7TW8K,30,5,RM,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+693,D7TW8H,30,5,BDG,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+694,D7TW8N,90,5,RM,Deluxe Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+695,D7TW8E,90,5,BDG,Deluxe Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,cpap,ProactivPlus,1,0,1,0,0,,,,10
+792,D7NT79,30,3,IRD,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+793,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+794,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+795,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+796,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+797,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+798,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+799,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+800,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+801,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+802,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+803,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+804,D7NT6F,30,3,BDG,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+805,D7NT6C,90,3,BDG,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+806,D7NT6J,30,3,RM,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+807,D7NT6M,90,3,RM,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+808,D7NT6H,30,5,BDG,Deluxe Kit,$29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+809,D7NT6E,90,5,BDG,Deluxe Kit,$89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+810,D7NT6K,30,5,RM,Deluxe Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+811,D7NT6N,90,5,RM,Deluxe Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+812,D7NT6G,30,5,BDG,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+813,D7NT6D,90,5,BDG,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+814,D7NT6L,30,5,RM,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+815,D7NT6P,90,5,RM,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,1,0,0,,,,23
+816,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+817,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+818,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+819,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+820,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+821,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+822,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+823,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+824,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+825,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+826,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+827,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+828,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+829,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+830,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+831,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+832,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+833,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+834,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+835,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+836,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+837,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+838,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+839,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,1,0,0,,,,32
+840,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+841,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+842,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+843,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+844,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+845,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+846,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+847,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+848,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+849,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+850,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+851,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+852,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+853,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+854,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+855,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+856,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+857,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+858,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+859,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+860,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+861,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+862,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+863,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,1,0,0,,,,34
+864,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+865,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+866,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+867,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+868,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+869,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+870,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+871,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+872,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+873,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+874,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+875,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+876,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+877,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+878,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+879,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+880,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+881,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+882,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+883,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+884,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+885,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+886,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+887,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,1,0,0,,,,33
+888,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+889,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+890,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+891,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+892,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+893,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+894,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+895,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+896,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+897,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+898,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+899,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+900,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+901,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+902,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+903,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+904,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+905,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+906,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+907,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+908,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+909,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+910,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+911,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,1,0,0,,,,35
+912,D7CM4C,30,3,IRD,Proactiv+ 3-Step System,,$19.95,$89.85,$0.00,$8.97,$5.99,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+913,D7CM4L,30,5,IRD,Proactiv+ Teen Kit,,$29.95,$119.85,$0.00,$11.97,$5.99,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+914,D7CM4G,30,5,IRD,Proactiv+ Complete Kit,,$29.95,$119.85,$0.00,$11.97,$5.99,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+915,D7CM4E,90,3,IRD,Proactiv+ 3-Step System,,$79.85,$89.85,$0.00,$8.97,N/A,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+916,D7CM4N,90,5,IRD,Proactiv+ Teen Kit,,$109.85,$119.85,$0.00,$11.97,N/A,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+917,D7CM4J,90,5,IRD,Proactiv+ Complete Kit,,$109.85,$119.85,$0.00,$11.97,N/A,$9.99,blbrd,ProactivPlus,0,1,1,0,0,,,,37
+918,D7CM4C,30,3,IRD,Proactiv+ 3-Step System,,$19.95,$89.85,$0.00,$8.97,$5.99,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+919,D7CM4L,30,5,IRD,Proactiv+ Teen Kit,,$29.95,$119.85,$0.00,$11.97,$5.99,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+920,D7CM4G,30,5,IRD,Proactiv+ Complete Kit,,$29.95,$119.85,$0.00,$11.97,$5.99,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+921,D7CM4E,90,3,IRD,Proactiv+ 3-Step System,,$79.85,$89.85,$0.00,$8.97,N/A,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+922,D7CM4N,90,5,IRD,Proactiv+ Teen Kit,,$109.85,$119.85,$0.00,$11.97,N/A,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+923,D7CM4J,90,5,IRD,Proactiv+ Complete Kit,,$109.85,$119.85,$0.00,$11.97,N/A,$9.99,blbrd,ProactivPlus,1,0,1,0,0,,,,38
+990,D7NC3D,30,5,None,Supersmile 30-Day 5pc System,None,$19.95,$119.85,$5.99,$11.97,N/A,N/A,core,Supersmile,0,1,1,0,0,,,,65
+991,D7NC3E,90,5,None,Supersmile 90-Day 5pc System,None,$19.95,$119.85,$5.99,$11.97,N/A,N/A,core,Supersmile,0,1,1,0,0,,,,65
+1027,D7CF4B,30,3,DCB,Proactiv+ 3-Step System,None,$19.95,$89.85,$5.99,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1028,D7CF4C,30,5,DCB,Proactiv+ Teen Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1029,D7CF4E,30,5,DCB,Proactiv+ Complete Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1030,D7CF4G,90,3,DCB,Proactiv+ 3-Step System,None,$79.85,$89.85,$0.00,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1031,D7CF4D,90,5,DCB,Proactiv+ Teen Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1032,D7CF4F,90,5,DCB,Proactiv+ Complete Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,0,1,1,0,0,,,,69
+1033,D7CF4B,30,3,DCB,Proactiv+ 3-Step System,None,$19.95,$89.85,$5.99,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1034,D7CF4C,30,5,DCB,Proactiv+ Teen Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1035,D7CF4E,30,5,DCB,Proactiv+ Complete Kit,None,$29.95,$119.85,$5.99,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1036,D7CF4G,90,3,DCB,Proactiv+ 3-Step System,None,$79.85,$89.85,$0.00,$8.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1037,D7CF4D,90,5,DCB,Proactiv+ Teen Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1038,D7CF4F,90,5,DCB,Proactiv+ Complete Kit,None,$109.85,$119.85,$0.00,$11.97,N/A,N/A,t4-brushnow,ProactivPlus,1,0,0,1,0,,,,70
+1131,D7NT79,30,3,IRD,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1132,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1133,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1134,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1135,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1136,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1137,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1138,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1139,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1140,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1141,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1142,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1143,D7NT6F,30,3,BDG,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1144,D7NT6C,90,3,BDG,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1145,D7NT6J,30,3,RM,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1146,D7NT6M,90,3,RM,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1147,D7NT6H,30,5,BDG,Deluxe Kit,$29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1148,D7NT6E,90,5,BDG,Deluxe Kit,$89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1149,D7NT6K,30,5,RM,Deluxe Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1150,D7NT6N,90,5,RM,Deluxe Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1151,D7NT6G,30,5,BDG,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1152,D7NT6D,90,5,BDG,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1153,D7NT6L,30,5,RM,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1154,D7NT6P,90,5,RM,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,0,1,0,1,0,,,,79
+1155,D7NT79,30,3,IRD,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1156,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1157,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,29.95,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1158,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,89.85,None,89.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1159,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1160,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1161,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1162,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1163,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1164,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1165,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,39.95,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1166,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,119.85,None,119.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1167,D7NT6F,30,3,BDG,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1168,D7NT6C,90,3,BDG,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1169,D7NT6J,30,3,RM,3-Step System,$19.95,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1170,D7NT6M,90,3,RM,3-Step System,$59.85,None,59.85,0.00,8.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1171,D7NT6H,30,5,BDG,Deluxe Kit,$29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1172,D7NT6E,90,5,BDG,Deluxe Kit,$89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1173,D7NT6K,30,5,RM,Deluxe Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1174,D7NT6N,90,5,RM,Deluxe Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1175,D7NT6G,30,5,BDG,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1176,D7NT6D,90,5,BDG,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1177,D7NT6L,30,5,RM,Teen Kit,29.95,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1178,D7NT6P,90,5,RM,Teen Kit,89.85,None,89.85,0.00,11.97,N/A,9.99,t4-umbrellaoffer,ProactivPlus,1,0,0,1,0,,,,80
+1179,D7NR6J,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1180,D7NR6K,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1181,D7NR6L,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1182,D7NR6P,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1183,D7NR6M,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1184,D7NR6N,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1185,D7NR6C,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1186,D7NR6E,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1187,D7NR6H,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1188,D7NR6D,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1189,D7NR6F,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1190,D7NR6G,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1191,D7NR79,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1192,D7NR76,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1193,D7NR7C,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1194,D7NR6Y,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1195,D7NR7B,30,5,RM,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1196,D7NR77,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1197,D7NR7E,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1198,D7NR73,90,5,BDG,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1199,D7NR7A,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1200,D7NR78,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1201,D7NR7D,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1202,D7NR74,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,0,1,0,1,0,,,,81
+1203,D7NR6J,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1204,D7NR6K,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1205,D7NR6L,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1206,D7NR6P,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1207,D7NR6M,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1208,D7NR6N,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1209,D7NR6C,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1210,D7NR6E,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1211,D7NR6H,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1212,D7NR6D,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1213,D7NR6F,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1214,D7NR6G,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1215,D7NR79,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1216,D7NR76,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1217,D7NR7C,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1218,D7NR6Y,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1219,D7NR7B,30,5,RM,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1220,D7NR77,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1221,D7NR7E,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1222,D7NR73,90,5,BDG,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1223,D7NR7A,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1224,D7NR78,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1225,D7NR7D,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1226,D7NR74,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-3gumbrella,ProactivPlus,1,0,0,1,0,,,,82
+1227,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1228,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1229,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1230,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1231,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1232,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1233,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1234,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1235,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1236,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1237,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1238,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1239,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1240,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1241,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1242,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1243,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1244,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1245,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1246,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1247,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1248,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1249,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1250,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,0,1,0,1,0,,,,83
+1251,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1252,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1253,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1254,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1255,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1256,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1257,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1258,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1259,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1260,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1261,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1262,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1263,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1264,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1265,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1266,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1267,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1268,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1269,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1270,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1271,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1272,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1273,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1274,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrellachart,ProactivPlus,1,0,0,1,0,,,,84
+1275,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1276,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1277,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1278,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1279,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1280,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1281,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1282,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1283,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1284,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1285,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1286,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1287,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1288,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1289,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1290,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1291,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1292,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1293,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1294,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1295,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1296,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1297,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1298,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,0,1,0,1,0,,,,85
+1299,D7NT79,30,3,IRD,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1300,D7NT7E,90,3,IRD,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1301,D7NT6Y,30,3,ADSCS,Proactiv+ 3-Step System,,29.95,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1302,D7NT73,90,3,ADSCS,Proactiv+ 3-Step System,,89.85,89.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1303,D7NT7A,30,5,IRD,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1304,D7NT7C,90,5,IRD,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1305,D7NT74,30,5,ADSCS,Proactiv+ Teen Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1306,D7NT76,90,5,ADSCS,Proactiv+ Teen Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1307,D7NT7B,30,5,IRD,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1308,D7NT7D,90,5,IRD,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1309,D7NT78,30,5,ADSCS,Proactiv+ Complete Kit,,39.95,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1310,D7NT77,90,5,ADSCS,Proactiv+ Complete Kit,,119.85,119.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1311,D7NT6F,30,3,BDG,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1312,D7NT6C,90,3,BDG,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1313,D7NT6J,30,3,RM,3-Step System,,$19.95,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1314,D7NT6M,90,3,RM,3-Step System,,$59.85,59.85,0.00,8.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1315,D7NT6G,30,5,BDG,Teen Kit,,$29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1316,D7NT6D,90,5,BDG,Teen Kit,,$89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1317,D7NT6L,30,5,RM,Teen Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1318,D7NT6P,90,5,RM,Teen Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1319,D7NT6H,30,5,BDG,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1320,D7NT6E,90,5,BDG,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1321,D7NT6K,30,5,RM,Deluxe Kit,,29.95,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1322,D7NT6N,90,5,RM,Deluxe Kit,,89.85,89.85,0.00,11.97,N/A,9.99,t4-umbrelladoctors,ProactivPlus,1,0,0,1,0,,,,86
+1372,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1373,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1374,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1375,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1376,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1377,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1378,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1379,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1380,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1381,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1382,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1383,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,1,0,0,,,,99
+1384,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1385,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1386,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1387,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1388,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1389,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1390,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1391,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1392,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1393,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1394,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1395,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,1,0,0,,,,100
+1396,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1397,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1398,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1399,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1400,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1401,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1402,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1403,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1404,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1405,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1406,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1407,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,0,1,0,1,0,,,,101
+1408,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1409,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1410,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1411,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1412,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1413,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1414,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1415,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1416,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1417,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1418,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1419,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush,Xout,1,0,0,1,0,,,,106
+1420,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1421,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1422,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1423,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1424,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1425,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1426,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1427,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1428,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1429,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1430,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1431,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,1,0,0,,,,103
+1432,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1433,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1434,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1435,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1436,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1437,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1438,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1439,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1440,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1441,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1442,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1443,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,1,0,0,,,,104
+1444,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1445,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1446,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1447,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1448,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1449,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1450,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1451,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1452,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1453,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1454,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1455,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,1,0,0,1,0,,,,102
+1456,D78A3J,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$5.99,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1457,D78A3L,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1458,D78A3R,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1459,D78A3F,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1460,D78A3K,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1461,D78A3N,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1462,D78A3T,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1463,D78A3W,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1464,D78A3V,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1465,D78A3Y,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1466,D78A3U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$5.99,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1467,D78A43,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,N/A,N/A,t4-brush-campaign_2,Xout,0,1,0,1,0,,,,105
+1468,BD9C7W,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1469,BD9C7G,90,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1470,BD9C7Y,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1471,BD9C7J,90,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1472,BD9C7A,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1473,BD9C7L,90,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1474,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1475,BD9C7N,90,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1476,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1477,BD9C7R,90,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1478,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1479,BD9C8K,90,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,1,0,0,,,,96
+1498,BD9C7W,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1499,BD9C7Y,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1500,BD9C7A,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1501,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1502,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1503,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_R2,Xout,0,1,0,1,0,,,,97
+1510,BD9C7W,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1511,BD9C7Y,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1512,BD9C7A,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1513,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1514,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1515,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,core_r2,Xout,1,0,0,1,0,,,,98
+1568,D8C44B,30,3,SPF_DCW,Proactiv+ 3-Step System,t4-spf,29.95,89.85,0.00,8.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1569,D8C44F,90,3,SPF_DCW,Proactiv+ 3-Step System,t4-spf,89.85,89.85,0.00,8.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1570,D8C44E,30,5,SPF_DCW,Proactiv+ Complete Kit,t4-spf,39.95,119.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1571,D8C44H,90,5,SPF_DCW,Proactiv+ Complete Kit,t4-spf,119.85,119.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1572,D8C44D,30,5,SPF_DCW,Proactiv+ Teen Kit,t4-spf,39.95,119.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1573,D8C44G,90,5,SPF_DCW,Proactiv+ Teen Kit,t4-spf,119.85,119.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1574,D8C44A,30,3,SPF_DCW,3-Step System,t4-spf,$19.95,59.85,0.00,8.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1575,D8C44C,90,3,SPF_DCW,3-Step System,t4-spf,$59.85,59.85,0.00,8.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1576,D8C44L,30,5,SPF_DCW,Deluxe Kit,t4-spf,$29.95,89.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1577,D8C44M,90,5,SPF_DCW,Deluxe Kit,t4-spf,$89.85,89.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1578,D8C44J,30,5,SPF_DCW,Teen Kit,t4-spf,$29.95,89.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1579,D8C44K,90,5,SPF_DCW,Teen Kit,t4-spf,$89.85,89.85,0.00,11.97,N/A,9.99,t4-SPF,ProactivPlus,1,0,1,0,0,,,,116
+1580,D7TW7V,30,3,IRD,Proactiv+ 3-Step System,None,29.95,89.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1581,D7TW7W,30,5,IRD,Proactiv+ Teen Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1582,D7TW7X,30,5,IRD,Proactiv+ Complete Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1583,D7TW84,90,3,IRD,Proactiv+ 3-Step System,None,89.85,89.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1584,D7TW7Y,90,5,IRD,Proactiv+ Teen Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1585,D7TW83,90,5,IRD,Proactiv+ Complete Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1586,D7TW7M,30,3,ADSCS,Proactiv+ 3-Step System,None,29.95,89.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1587,D7TW7P,30,5,ADSCS,Proactiv+ Teen Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1588,D7TW7U,30,5,ADSCS,Proactiv+ Complete Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1589,D7TW7N,90,3,ADSCS,Proactiv+ 3-Step System,None,89.85,89.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1590,D7TW7R,90,5,ADSCS,Proactiv+ Teen Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1591,D7TW7T,90,5,ADSCS,Proactiv+ Complete Kit,None,119.85,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1592,D7TW8J,30,3,RM,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1593,D7TW8F,30,3,BDG,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1594,D7TW8M,90,3,RM,3-Step System,None,$59.85,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1595,D7TW8C,90,3,BDG,3-Step System,None,$59.85,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1596,D7TW8L,30,5,RM,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1597,D7TW8G,30,5,BDG,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1598,D7TW8P,90,5,RM,Teen Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1599,D7TW8D,90,5,BDG,Teen Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1600,D7TW8K,30,5,RM,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1601,D7TW8H,30,5,BDG,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1602,D7TW8N,90,5,RM,Deluxe Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1603,D7TW8E,90,5,BDG,Deluxe Kit,None,89.85,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,1,0,0,,,,117
+1604,D7TW6J,30,3,IRD,Proactiv+ 3-Step System,None,29.95,89.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1605,D7TW6K,30,5,IRD,Proactiv+ Teen Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1606,D7TW6L,30,5,IRD,Proactiv+ Complete Kit,None,39.95,119.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1607,D7TW79,30,3,RM,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1608,D7TW76,30,3,BDG,3-Step System,None,$19.95,59.85,0.00,8.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1609,D7TW7B,30,5,RM,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1610,D7TW77,30,5,BDG,Teen Kit,None,$29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1611,D7TW7A,30,5,RM,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1612,D7TW78,30,5,BDG,Deluxe Kit,None,29.95,89.85,0.00,11.97,N/A,9.99,JuneControl,ProactivPlus,1,0,0,1,0,,,,118
+1613,D7YK3V,30,3,DCW,3-Step System,,$14.95,59.85,0.00,8.97,N/A,N/A,t4-deepwash,ProactivPlus,1,0,1,0,0,,,,120
+1614,D7YK3X,90,3,DCW,3-Step System,,$54.85,59.85,0.00,8.97,N/A,N/A,t4-deepwash,ProactivPlus,1,0,1,0,0,,,,120
+1615,D7YK3W,30,5,DCW,Deluxe Kit,,$19.95,89.85,0.00,11.97,N/A,N/A,t4-deepwash,ProactivPlus,1,0,1,0,0,,,,120
+1616,D7YK3Y,90,5,DCW,Deluxe Kit,,$79.85,89.85,0.00,11.97,N/A,N/A,t4-deepwash,ProactivPlus,1,0,1,0,0,,,,120
+2452,D7VA3D,30,1,CB,X Out® Basic Kit,,$9.95,N/A,$0.00,N/A,N/A,N/A,R2_bestoffer,Xout,1,0,1,0,0,,,,129
+2453,D7VA3E,30,3,CB,X Out® Shine Kit,,$19.95,N/A,$0.00,N/A,N/A,N/A,R2_bestoffer,Xout,1,0,1,0,0,,,,129
+2454,D7V93F,30,1,Brush,X Out® Basic Kit,None,$19.95,N/A,$0.00,N/A,N/A,N/A,R2_deepclean,Xout,1,0,1,0,0,,,,130
+2455,D7V93G,30,3,Brush,X Out® Shine Kit,None,$29.95,N/A,$0.00,N/A,N/A,N/A,R2_deepclean,Xout,1,0,1,0,0,,,,130
+2514,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,core,HandPerfection,1,0,1,0,0,,,,136
+2515,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,core,HandPerfection,1,0,1,0,0,,,,136
+2516,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,core,HandPerfection,0,1,1,0,0,,,,135
+2517,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,core,HandPerfection,0,1,1,0,0,,,,135
+2530,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,core,HandPerfection,1,0,0,1,0,,,,139
+2531,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,core,HandPerfection,1,0,0,1,0,,,,139
+2532,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,core,HandPerfection,0,1,0,1,0,,,,140
+2533,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,core,HandPerfection,0,1,0,1,0,,,,140
+2571,DB3F43,30,1,CBB,X Out® Basic Kit,None,$19.95,3x 19.95,$0.00,$8.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2572,DB3F3K,90,1,CBB,X Out® Basic Kit,None,$19.95,3x 19.95,$0.00,$8.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2573,DB3F46,30,3,CBB,X Out® Body Kit,None,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2574,DB3F3M,90,3,CBB,X Out® Body Kit,None,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2575,DB3F3D,30,3,CBB,X Out® Shine Kit,None,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2576,DB3F3P,90,3,CBB,X Out® Shine Kit,None,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2577,DB3F3F,30,2,CBB,X Out® Basic Kit,ValuePack,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2578,DB3F3T,90,2,CBB,X Out® Basic Kit,ValuePack,$29.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2579,DB3F3H,30,4,CBB,X Out® Body Kit,ValuePack,$39.95,3x 39.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2580,DB3F3V,90,4,CBB,X Out® Body Kit,ValuePack,$39.95,3x 39.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2581,DB3F3X,30,4,CBB,X Out® Shine Kit,ValuePack,$39.95,3x 39.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2582,DB3F48,90,4,CBB,X Out® Shine Kit,ValuePack,$39.95,3x 29.95,$0.00,$11.97,N/A,N/A,t4-xout-espanol,Xout,1,0,1,0,0,,,,141
+2631,BD9C7W,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2632,BD9C7Y,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2633,BD9C7A,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2634,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2635,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2636,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,0,1,0,1,0,,,,147
+2637,BD9C7W,30,1,CB,X Out® Basic Kit,None,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2638,BD9C7Y,30,3,CB,X Out® Body Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2639,BD9C7A,30,3,CB,X Out® Shine Kit,None,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2640,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2641,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2642,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,R2_SpecialOffer,Xout,1,0,0,1,0,,,,148
+2643,D8KY7U,30,3,DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2644,D8KY7X,30,5,DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2645,D8KY84,30,5,DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2646,D8KY88,90,3,DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2647,D8KY8C,90,5,DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2648,D8KY8E,90,5,DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2649,D8KY7V,30,3,MCP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2650,D8KY7Y,30,5,MCP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2651,D8KY86,30,5,MCP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2652,D8KY89,90,3,MCP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2653,D8KY8D,90,5,MCP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2654,D8KY8F,90,5,MCP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2655,D8KY7W,30,3,QFBP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2656,D8KY83,30,5,QFBP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2657,D8KY87,30,5,QFBP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2658,D8KY8A,90,3,QFBP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2659,D8KY8B,90,5,QFBP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2660,D8KY8G,90,5,QFBP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2661,D8KY77,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,t5-gifttrio,ProactivPlus,1,0,1,0,1,,,,151
+2662,D8KY78,30,3,DCW,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2663,D8KY7B,30,5,DCW,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2664,D8KY7E,30,5,DCW,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2665,D8KY7H,90,3,DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2666,D8KY7L,90,5,DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2667,D8KY7P,90,5,DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2668,D8KY79,30,3,MCP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2669,D8KY7C,30,5,MCP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2670,D8KY7F,30,5,MCP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2671,D8KY7J,90,3,MCP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2672,D8KY7M,90,5,MCP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2673,D8KY7R,90,5,MCP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2674,D8KY7A,30,3,QFBP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2675,D8KY7D,30,5,QFBP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2676,D8KY7G,30,5,QFBP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2677,D8KY7K,90,3,QFBP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2678,D8KY7N,90,5,QFBP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2679,D8KY7T,90,5,QFBP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,1,0,1,0,0,,,,151
+2680,D8KL4R,30,3,DCBB_DCW,3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2681,D8KL4T,30,5,DCBB_DCW,Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2682,D8KL4U,30,5,DCBB_DCW,Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2683,D8KL4V,90,3,DCBB_DCW,3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2684,D8KL4W,90,5,DCBB_DCW,Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2685,D8KL4X,90,5,DCBB_DCW,Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2686,D8KL4J,30,3,DCBB_DCW,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2687,D8KL4K,30,5,DCBB_DCW,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2688,D8KL4L,30,5,DCBB_DCW,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2689,D8KL4M,90,3,DCBB_DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2690,D8KL4N,90,5,DCBB_DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2691,D8KL4P,90,5,DCBB_DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,1,0,1,0,0,,,,152
+2692,D8KL4D,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,t5-body,ProactivPlus,1,0,1,0,1,,,,152
+2693,D8KY7U,30,3,DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2694,D8KY7X,30,5,DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2695,D8KY84,30,5,DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2696,D8KY88,90,3,DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2697,D8KY8C,90,5,DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2698,D8KY8E,90,5,DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2699,D8KY7V,30,3,MCP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2700,D8KY7Y,30,5,MCP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2701,D8KY86,30,5,MCP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2702,D8KY89,90,3,MCP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2703,D8KY8D,90,5,MCP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2704,D8KY8F,90,5,MCP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2705,D8KY7W,30,3,QFBP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2706,D8KY83,30,5,QFBP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2707,D8KY87,30,5,QFBP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2708,D8KY8A,90,3,QFBP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2709,D8KY8B,90,5,QFBP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2710,D8KY8G,90,5,QFBP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2711,D8KY77,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,t5-gifttrio,ProactivPlus,0,0,1,0,1,,,1,153
+2712,D8KY78,30,3,DCW,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2713,D8KY7B,30,5,DCW,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2714,D8KY7E,30,5,DCW,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2715,D8KY7H,90,3,DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2716,D8KY7L,90,5,DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2717,D8KY7P,90,5,DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2718,D8KY79,30,3,MCP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2719,D8KY7C,30,5,MCP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2720,D8KY7F,30,5,MCP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2721,D8KY7J,90,3,MCP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2722,D8KY7M,90,5,MCP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2723,D8KY7R,90,5,MCP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2724,D8KY7A,30,3,QFBP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2725,D8KY7D,30,5,QFBP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2726,D8KY7G,30,5,QFBP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2727,D8KY7K,90,3,QFBP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2728,D8KY7N,90,5,QFBP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2729,D8KY7T,90,5,QFBP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-gifttrio,ProactivPlus,0,0,1,0,0,,,1,153
+2730,D8KL4R,30,3,DCBB_DCW,3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2731,D8KL4T,30,5,DCBB_DCW,Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2732,D8KL4U,30,5,DCBB_DCW,Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2733,D8KL4V,90,3,DCBB_DCW,3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2734,D8KL4W,90,5,DCBB_DCW,Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2735,D8KL4X,90,5,DCBB_DCW,Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2736,D8KL4J,30,3,DCBB_DCW,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2737,D8KL4K,30,5,DCBB_DCW,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2738,D8KL4L,30,5,DCBB_DCW,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2739,D8KL4M,90,3,DCBB_DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2740,D8KL4N,90,5,DCBB_DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2741,D8KL4P,90,5,DCBB_DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,0,1,0,0,,,1,154
+2742,D8KL4D,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,t5-body,ProactivPlus,0,0,1,0,1,,,1,154
+2767,D8KL4R,30,3,DCBB_DCW,3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2768,D8KL4T,30,5,DCBB_DCW,Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2769,D8KL4U,30,5,DCBB_DCW,Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2770,D8KL4V,90,3,DCBB_DCW,3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2771,D8KL4W,90,5,DCBB_DCW,Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2772,D8KL4X,90,5,DCBB_DCW,Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2773,D8KL4J,30,3,DCBB_DCW,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2774,D8KL4K,30,5,DCBB_DCW,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2775,D8KL4L,30,5,DCBB_DCW,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2776,D8KL4M,90,3,DCBB_DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2777,D8KL4N,90,5,DCBB_DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2778,D8KL4P,90,5,DCBB_DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,t5-body,ProactivPlus,0,1,1,0,0,,,,155
+2779,D8KL4D,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,t5-body,ProactivPlus,0,1,1,0,1,,,,155
+2882,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,,HandPerfection,0,0,0,0,0,,,,164
+2883,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,,HandPerfection,0,0,0,0,0,,,,164
+2902,D7CL3B,30,1,Nourishing Day Cream,Introductory Kit,None,$19.95,19.95,$5.99,$5.98,N/A,N/A,,HandPerfection,0,0,0,0,0,,,,167
+2903,D7CL3D,90,2,Nourishing Day Cream,Deluxe Kit,None,$29.95,$29.95,$0.00,$5.98,N/A,N/A,,HandPerfection,0,0,0,0,0,,,,167
+3192,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,29.95,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3193,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,89.85,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3194,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3195,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3196,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3197,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3198,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,29.95,89.85,$0.00,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3199,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,89.85,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3200,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3201,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3202,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3203,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3204,D8GB6G,30,3,SPM,3-Step System,None,19.95,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3205,D8GB6U,90,3,SPM,3-Step System,None,59.85,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3206,D8GB6L,30,5,SPM,Deluxe Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3207,D8GB6R,90,5,SPM,Deluxe Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3208,D8GB6J,30,5,SPM,Teen Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3209,D8GB6N,90,5,SPM,Teen Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3210,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,0,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,174
+3211,D8GB6V,90,3,BDG,3-Step System,None,59.85,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3212,D8GB6M,30,5,BDG,Deluxe Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3213,D8GB6T,90,5,BDG,Deluxe Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3214,D8GB6K,30,5,BDG,Teen Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3215,D8GB6P,90,5,BDG,Teen Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,174
+3216,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,9.95,89.85,0,8.97,N/A,N/A,,,0,0,0,0,1,,,,174
+3254,D8KY7U,30,3,DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3255,D8KY7X,30,5,DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3256,D8KY84,30,5,DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3257,D8KY88,90,3,DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3258,D8KY8C,90,5,DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3259,D8KY8E,90,5,DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3260,D8KY7V,30,3,MCP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3261,D8KY7Y,30,5,MCP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3262,D8KY86,30,5,MCP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3263,D8KY89,90,3,MCP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3264,D8KY8D,90,5,MCP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3265,D8KY8F,90,5,MCP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3266,D8KY7W,30,3,QFBP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3267,D8KY83,30,5,QFBP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3268,D8KY87,30,5,QFBP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3269,D8KY8A,90,3,QFBP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3270,D8KY8B,90,5,QFBP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3271,D8KY8G,90,5,QFBP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3272,D8KY77,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,1,,,,175
+3273,D8KY78,30,3,DCW,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3274,D8KY7B,30,5,DCW,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3275,D8KY7E,30,5,DCW,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3276,D8KY7H,90,3,DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3277,D8KY7L,90,5,DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3278,D8KY7P,90,5,DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3279,D8KY79,30,3,MCP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3280,D8KY7C,30,5,MCP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3281,D8KY7F,30,5,MCP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3282,D8KY7J,90,3,MCP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3283,D8KY7M,90,5,MCP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3284,D8KY7R,90,5,MCP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3285,D8KY7A,30,3,QFBP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3286,D8KY7D,30,5,QFBP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3287,D8KY7G,30,5,QFBP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3288,D8KY7K,90,3,QFBP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3289,D8KY7N,90,5,QFBP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3290,D8KY7T,90,5,QFBP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,175
+3319,D8KY7U,30,3,DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3320,D8KY7X,30,5,DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3321,D8KY84,30,5,DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3322,D8KY88,90,3,DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3323,D8KY8C,90,5,DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3324,D8KY8E,90,5,DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3325,D8KY7V,30,3,MCP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3326,D8KY7Y,30,5,MCP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3327,D8KY86,30,5,MCP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3328,D8KY89,90,3,MCP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3329,D8KY8D,90,5,MCP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3330,D8KY8F,90,5,MCP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3331,D8KY7W,30,3,QFBP,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3332,D8KY83,30,5,QFBP,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3333,D8KY87,30,5,QFBP,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3334,D8KY8A,90,3,QFBP,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3335,D8KY8B,90,5,QFBP,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3336,D8KY8G,90,5,QFBP,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3337,D8KY77,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,1,,,,185
+3338,D8KY78,30,3,DCW,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3339,D8KY7B,30,5,DCW,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3340,D8KY7E,30,5,DCW,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3341,D8KY7H,90,3,DCW,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3342,D8KY7L,90,5,DCW,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3343,D8KY7P,90,5,DCW,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3344,D8KY79,30,3,MCP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3345,D8KY7C,30,5,MCP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3346,D8KY7F,30,5,MCP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3347,D8KY7J,90,3,MCP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3348,D8KY7M,90,5,MCP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3349,D8KY7R,90,5,MCP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3350,D8KY7A,30,3,QFBP,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3351,D8KY7D,30,5,QFBP,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3352,D8KY7G,30,5,QFBP,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3353,D8KY7K,90,3,QFBP,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3354,D8KY7N,90,5,QFBP,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3355,D8KY7T,90,5,QFBP,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,185
+3566,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3567,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3568,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3569,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3570,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3571,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3572,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3573,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3574,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3575,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3576,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3577,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,24
+3578,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3579,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3580,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3581,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3582,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3583,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3584,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3585,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3586,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3587,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3588,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3589,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,25
+3590,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3591,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3592,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3593,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3594,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3595,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3596,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3597,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3598,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3599,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3600,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3601,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,183
+3677,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3678,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3679,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3680,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3681,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3682,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3683,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3684,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3685,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3686,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3687,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3688,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,53
+3689,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3690,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3691,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3692,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3693,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3694,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3695,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3696,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3697,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3698,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3699,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3700,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,54
+3701,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3702,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3703,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3704,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3705,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3706,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3707,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3708,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3709,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3710,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3711,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3712,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,191
+3765,B9XT3C,30,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$24.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3766,B9XT3K,90,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$84.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3767,B9XT38,30,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3768,B9XT3F,90,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3769,B9XT3A,30,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3770,B9XT3H,90,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3771,B9XT3X,30,3,BDG_SPM_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3772,B9XT4N,90,3,BDG_SPM_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3773,B9XT46,30,5,BDG_SPM_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3774,B9XT4E,90,5,BDG_SPM_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3775,B9XT4A,30,5,BDG_SPM_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3776,B9XT4J,90,5,BDG_SPM_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,197
+3825,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,29.95,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3826,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,89.85,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3827,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3828,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3829,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3830,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3831,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,29.95,89.85,$0.00,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3832,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,89.85,89.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3833,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3834,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3835,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,39.95,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3836,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,119.85,119.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3837,D8GB6G,30,3,SPM,3-Step System,None,19.95,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3838,D8GB6U,90,3,SPM,3-Step System,None,59.85,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3839,D8GB6L,30,5,SPM,Deluxe Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3840,D8GB6R,90,5,SPM,Deluxe Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3841,D8GB6J,30,5,SPM,Teen Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3842,D8GB6N,90,5,SPM,Teen Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3843,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,0,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,198
+3844,D8GB6V,90,3,BDG,3-Step System,None,59.85,59.85,0,8.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3845,D8GB6M,30,5,BDG,Deluxe Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3846,D8GB6T,90,5,BDG,Deluxe Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3847,D8GB6K,30,5,BDG,Teen Kit,None,29.95,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3848,D8GB6P,90,5,BDG,Teen Kit,None,89.85,89.85,0,11.97,N/A,9.99,,,0,0,0,0,0,,,,198
+3849,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,9.95,89.85,0,8.97,N/A,N/A,,,0,0,0,0,1,,,,198
+3866,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3867,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3868,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3869,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3870,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3871,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3872,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3873,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3874,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3875,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3876,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3877,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3878,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3879,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3880,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3881,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3882,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3883,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3884,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3885,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3886,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3887,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3888,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3889,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,14
+3890,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,14
+3916,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3917,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3918,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3919,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3920,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3921,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3922,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3923,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3924,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3925,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3926,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3927,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3928,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3929,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3930,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3931,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3932,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3933,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3934,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3935,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3936,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3937,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3938,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3939,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,11
+3940,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,11
+3941,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3942,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3943,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3944,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3945,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3946,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3947,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3948,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3949,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3950,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3951,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3952,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3953,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3954,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3955,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3956,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3957,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3958,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3959,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3960,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3961,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3962,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3963,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3964,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,55
+3965,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,55
+3966,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3967,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3968,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3969,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3970,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3971,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3972,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3973,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3974,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3975,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3976,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3977,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3978,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3979,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3980,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3981,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3982,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3983,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3984,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3985,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3986,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3987,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3988,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3989,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,190
+3990,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,190
+3991,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3992,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3993,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3994,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3995,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3996,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3997,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3998,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+3999,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4000,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4001,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4002,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4003,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4004,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4005,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4006,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4007,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4008,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4009,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4010,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4011,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4012,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4013,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4014,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,1
+4015,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,1
+4016,D8GB6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4017,D8GB7B,90,3,SPM & BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4018,D8GB74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4019,D8GB79,90,5,SPM & BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4020,D8GB6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4021,D8GB77,90,5,SPM & BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4022,D8GB6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4023,D8GB7C,90,3,SPM & RT,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4024,D8GB76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4025,D8GB7A,90,5,SPM & RT,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4026,D8GB73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4027,D8GB7F,90,5,SPM & RT,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4028,D8GB6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4029,D8GB6U,90,3,SPM,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4030,D8GB6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4031,D8GB6R,90,5,SPM,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4032,D8GB6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4033,D8GB6N,90,5,SPM,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4034,D8GB6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4035,D8GB6V,90,3,BDG,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4036,D8GB6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4037,D8GB6T,90,5,BDG,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4038,D8GB6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4039,D8GB6P,90,5,BDG,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,173
+4040,D8GB6B,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,N/A,N/A,$9.99,,,0,0,0,0,1,,,,173
+4062,B9XT3C,30,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$24.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4063,B9XT3K,90,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$84.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4064,B9XT38,30,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4065,B9XT3F,90,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4066,B9XT3A,30,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4067,B9XT3H,90,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4068,B9XT3X,30,3,BDG_SPM_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4069,B9XT4N,90,3,BDG_SPM_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4070,B9XT46,30,5,BDG_SPM_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4071,B9XT4E,90,5,BDG_SPM_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4072,B9XT4A,30,5,BDG_SPM_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4073,B9XT4J,90,5,BDG_SPM_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,199
+4074,B9XT3C,30,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$24.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4075,B9XT3K,90,3,BDG_SPM_4G,Proactiv+ 3-Step System,None,$84.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4076,B9XT38,30,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4077,B9XT3F,90,5,BDG_SPM_4G,Proactiv+ Teen Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4078,B9XT3A,30,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$34.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4079,B9XT3H,90,5,BDG_SPM_4G,Proactiv+ Complete Kit,None,$114.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4080,B9XT3X,30,3,BDG_SPM_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4081,B9XT4N,90,3,BDG_SPM_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4082,B9XT46,30,5,BDG_SPM_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4083,B9XT4E,90,5,BDG_SPM_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4084,B9XT4A,30,5,BDG_SPM_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4085,B9XT4J,90,5,BDG_SPM_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,200
+4114,BA7U4L,30,3,ADSC_BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4115,BA7U4P,90,3,ADSC_BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4116,BA7U4M,30,5,ADSC_BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4117,BA7U4R,90,5,ADSC_BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4118,BA7U4N,30,5,ADSC_BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4119,BA7U4T,90,5,ADSC_BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4120,BA7U4E,30,3,ADSC_BDG_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4121,BA7U4H,90,3,ADSC_BDG_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4122,BA7U4F,30,5,ADSC_BDG_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4123,BA7U4J,90,5,ADSC_BDG_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4124,BA7U4G,30,5,ADSC_BDG_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4125,BA7U4K,90,5,ADSC_BDG_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,201
+4126,BA7U4L,30,3,ADSC_BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4127,BA7U4P,90,3,ADSC_BDG,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4128,BA7U4M,30,5,ADSC_BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4129,BA7U4R,90,5,ADSC_BDG,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4130,BA7U4N,30,5,ADSC_BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4131,BA7U4T,90,5,ADSC_BDG,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4132,BA7U4E,30,3,ADSC_BDG_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4133,BA7U4H,90,3,ADSC_BDG_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4134,BA7U4F,30,5,ADSC_BDG_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4135,BA7U4J,90,5,ADSC_BDG_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4136,BA7U4G,30,5,ADSC_BDG_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4137,BA7U4K,90,5,ADSC_BDG_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,202
+4138,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4139,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4140,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4141,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4142,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4143,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4144,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4145,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4146,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4147,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4148,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4149,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,203
+4150,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4151,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4152,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4153,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4154,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4155,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4156,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4157,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4158,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4159,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4160,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4161,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,204
+4162,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4163,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4164,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4165,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4166,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4167,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4168,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4169,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4170,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4171,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4172,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4173,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,205
+4174,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4175,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4176,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4177,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4178,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4179,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4180,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4181,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4182,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4183,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4184,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4185,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,206
+4186,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4187,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4188,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4189,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4190,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4191,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4192,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4193,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4194,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4195,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4196,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4197,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,207
+4198,D8HG6W,30,3,SPM & BDG,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4199,D8HG74,30,5,SPM & BDG,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4200,D8HG6Y,30,5,SPM & BDG,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4201,D8HG6X,30,3,SPM & RT,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4202,D8HG76,30,5,SPM & RT,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4203,D8HG73,30,5,SPM & RT,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4204,D8HG6G,30,3,SPM,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4205,D8HG6L,30,5,SPM,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4206,D8HG6J,30,5,SPM,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4207,D8HG6H,30,3,BDG,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4208,D8HG6M,30,5,BDG,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4209,D8HG6K,30,5,BDG,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,9.99,,,0,0,0,0,0,,,,208
+4234,BA6D34,30,1,Brush,Basic,None,$14.95,3x $14.95,$0.00,3x $2.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4235,BA6D3C,90,1,Brush,Basic,None,$44.85,3x $14.95,$0.00,3x $2.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4236,BA6D3F,30,3,Brush,Deluxe (Body),None,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4237,BA6D3G,90,3,Brush,Deluxe (Body),None,$74.85,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4238,BA6D3D,30,3,Brush,Deluxe (Shine),None,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4239,BA6D3E,90,3,Brush,Deluxe (Shine),None,$74.85,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4240,BA6D36,30,2,Brush,Basic VP,ValuePack,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4241,BA6D3B,90,2,Brush,Basic VP,ValuePack,$74.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4242,BA6D38,30,4,Brush,Deluxe VP (Body),ValuePack,$34.95,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4243,BA6D3A,90,4,Brush,Deluxe VP (Body),ValuePack,$104.85,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4244,BA6D37,30,4,Brush,Deluxe VP (Shine),ValuePack,$34.95,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4245,BA6D39,90,4,Brush,Deluxe VP (Shine),ValuePack,$104.85,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,213
+4246,BA773C,30,1,CB,X Out® Basic Kit,None,$14.95,3x $14.95,$0.00,3x $2.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4247,BA773E,90,1,CB,X Out® Basic Kit,None,$44.85,3x $14.95,$0.00,3x $2.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4248,BA773G,30,3,CB,X Out® Body Kit,None,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4249,BA773H,90,3,CB,X Out® Body Kit,None,$74.85,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4250,BA773D,30,3,CB,X Out® Shine Kit,None,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4251,BA773F,90,3,CB,X Out® Shine Kit,None,$74.85,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4252,BA773L,30,2,CB,X Out® Basic Kit,ValuePack,$24.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4253,BA773J,90,2,CB,X Out® Basic Kit,ValuePack,$74.95,3x $24.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4254,BA773M,30,4,CB,X Out® Body Kit,ValuePack,$34.95,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4255,BA773K,90,4,CB,X Out® Body Kit,ValuePack,$104.85,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4256,BA773N,30,4,CB,X Out® Shine Kit,ValuePack,$34.95,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4257,BA773P,90,4,CB,X Out® Shine Kit,ValuePack,$104.85,3x $34.95,$0.00,3x $3.99,N/A,N/A,,,0,0,0,0,0,,,,211
+4275,BA8D3F,30,3,DCBB_DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4276,BA8D3J,90,3,DCBB_DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4277,BA8D3G,30,5,DCBB_DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4278,BA8D3K,90,5,DCBB_DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4279,BA8D3H,30,5,DCBB_DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4280,BA8D3L,90,5,DCBB_DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4281,BA8D39,30,3,DCBB_DCW_3G,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4282,BA8D3C,90,5,DCBB_DCW_3G,3-Step System,None,$59.85,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4283,BA8D3A,30,5,DCBB_DCW_3G,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4284,BA8D3D,90,5,DCBB_DCW_3G,Teen Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4285,BA8D3B,30,5,DCBB_DCW_3G,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4286,BA8D3E,90,5,DCBB_DCW_3G,Deluxe Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,214
+4287,BA8D33,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,1,,,,214
+4288,BA893A,30,3,DCB,Proactiv+ 3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4289,BA893F,90,3,DCB,Proactiv+ 3-Step System,None,$89.85,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4290,BA893B,30,5,DCB,Proactiv+ Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4291,BA893C,90,5,DCB,Proactiv+ Teen Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4292,BA893D,30,5,DCB,Proactiv+ Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4293,BA893E,90,5,DCB,Proactiv+ Complete Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4294,BA893G,30,3,DCB_3G,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4295,BA893M,90,3,DCB_3G,3-Step System,None,$59.85,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4296,BA893H,30,5,DCB_3G,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4297,BA893K,90,5,DCB_3G,Teen Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4298,BA893J,30,5,DCB_3G,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4299,BA893L,90,5,DCB_3G,Deluxe Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,215
+4300,BA8934,30,1,-,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,1,,,,215
+4301,BA873A,30,3,Travel Kit,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4302,BA8739,30,3,RT_SPM,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4303,BA873L,90,3,Travel Kit,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4304,BA873K,90,3,RT_SPM,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4305,BA873G,30,5,Travel Kit,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4306,BA873F,30,5,RT_SPM,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4307,BA873J,90,5,Travel Kit,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4308,BA873H,90,5,RT_SPM,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4309,BA873E,30,5,Travel Kit,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4310,BA873D,30,5,RT_SPM,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4311,BA873C,90,5,Travel Kit,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4312,BA873B,90,5,RT_SPM,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4313,BA873M,30,3,Travel Kit_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4314,BA8737,90,3,Travel Kit_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4315,BA8736,30,3,Travel Kit_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4316,BA873N,90,3,Travel Kit_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4317,BA8734,30,3,Travel Kit_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4318,BA8738,90,3,Travel Kit_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,216
+4319,BA8733,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,1,,,,216
+4320,BA873A,30,3,Travel Kit,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4321,BA8739,30,3,RT_SPM,Proactiv+ 3-Step System,None,$29.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4322,BA873L,90,3,Travel Kit,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4323,BA873K,90,3,RT_SPM,Proactiv+ 3-Step System,None,$89.85,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4324,BA873G,30,5,Travel Kit,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4325,BA873F,30,5,RT_SPM,Proactiv+ Teen Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4326,BA873J,90,5,Travel Kit,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4327,BA873H,90,5,RT_SPM,Proactiv+ Teen Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4328,BA873E,30,5,Travel Kit,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4329,BA873D,30,5,RT_SPM,Proactiv+ Complete Kit,None,$39.95,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4330,BA873C,90,5,Travel Kit,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4331,BA873B,90,5,RT_SPM,Proactiv+ Complete Kit,None,$119.85,$119.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4332,BA873M,30,3,Travel Kit_3G,3-Step System,None,$19.95,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4333,BA8737,90,3,Travel Kit_3G,3-Step System,None,$59.85,$59.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4334,BA8736,30,3,Travel Kit_3G,Teen Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4335,BA873N,90,3,Travel Kit_3G,Teen Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4336,BA8734,30,3,Travel Kit_3G,Deluxe Kit,None,$29.95,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4337,BA8738,90,3,Travel Kit_3G,Deluxe Kit,None,$89.85,$89.85,$0.00,$11.97,N/A,$9.99,,,0,0,0,0,0,,,,217
+4338,BA8733,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$0.00,$8.97,N/A,$9.99,,,0,0,0,0,1,,,,217
+4339,BA893A,30,3,DCB,Proactiv+ 3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4340,BA893F,90,3,DCB,Proactiv+ 3-Step System,None,$89.85,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4341,BA893B,30,5,DCB,Proactiv+ Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4342,BA893C,90,5,DCB,Proactiv+ Teen Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4343,BA893D,30,5,DCB,Proactiv+ Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4344,BA893E,90,5,DCB,Proactiv+ Complete Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4345,BA893G,30,3,DCB_3G,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4346,BA893M,90,3,DCB_3G,3-Step System,None,$59.85,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4347,BA893H,30,5,DCB_3G,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4348,BA893K,90,5,DCB_3G,Teen Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4349,BA893J,30,5,DCB_3G,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4350,BA893L,90,5,DCB_3G,Deluxe Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,218
+4351,BA8934,30,1,-,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,1,,,,218
+4352,BA8D3F,30,3,DCBB_DCW,Proactiv+ 3-Step System,None,$29.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4353,BA8D3J,90,3,DCBB_DCW,Proactiv+ 3-Step System,None,$89.85,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4354,BA8D3G,30,5,DCBB_DCW,Proactiv+ Teen Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4355,BA8D3K,90,5,DCBB_DCW,Proactiv+ Teen Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4356,BA8D3H,30,5,DCBB_DCW,Proactiv+ Complete Kit,None,$39.95,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4357,BA8D3L,90,5,DCBB_DCW,Proactiv+ Complete Kit,None,$119.85,$119.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4358,BA8D39,30,3,DCBB_DCW_3G,3-Step System,None,$19.95,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4359,BA8D3C,90,5,DCBB_DCW_3G,3-Step System,None,$59.85,$59.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4360,BA8D3A,30,5,DCBB_DCW_3G,Teen Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4361,BA8D3D,90,5,DCBB_DCW_3G,Teen Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4362,BA8D3B,30,5,DCBB_DCW_3G,Deluxe Kit,None,$29.95,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4363,BA8D3E,90,5,DCBB_DCW_3G,Deluxe Kit,None,$89.85,$89.85,$5.99,$11.97,N/A,$13.99,,,0,0,0,0,0,,,,219
+4364,BA8D33,30,1,,VitaClear Vitamins 30-Day Trial,None,$9.95,$89.85,$5.99,$8.97,N/A,$13.99,,,0,0,0,0,1,,,,219
+4473,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4474,BD9C7G,90,1,CB,X Out® Basic Kit,,$59.85,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4475,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4476,BD9C7J,90,3,CB,X Out® Body Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4477,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4478,BD9C7L,90,3,CB,X Out® Shine Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4479,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4480,BD9C7N,90,2,CB,X Out® Basic Kit,ValuePack,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4481,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4482,BD9C7R,90,4,CB,X Out® Body Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4483,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4484,BD9C8K,90,4,CB,X Out® Shine Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,4
+4485,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4486,BD9C7G,90,1,CB,X Out® Basic Kit,,$59.85,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4487,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4488,BD9C7J,90,3,CB,X Out® Body Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4489,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4490,BD9C7L,90,3,CB,X Out® Shine Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4491,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4492,BD9C7N,90,2,CB,X Out® Basic Kit,ValuePack,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4493,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4494,BD9C7R,90,4,CB,X Out® Body Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4495,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4496,BD9C8K,90,4,CB,X Out® Shine Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,95
+4497,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4498,BD9C7G,90,1,CB,X Out® Basic Kit,,$59.85,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4499,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4500,BD9C7J,90,3,CB,X Out® Body Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4501,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4502,BD9C7L,90,3,CB,X Out® Shine Kit,,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4503,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4504,BD9C7N,90,2,CB,X Out® Basic Kit,ValuePack,$89.85,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4505,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4506,BD9C7R,90,4,CB,X Out® Body Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4507,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4508,BD9C8K,90,4,CB,X Out® Shine Kit,ValuePack,$119.85,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,161
+4509,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4510,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4511,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4512,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4513,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4514,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,61
+4515,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4516,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4517,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4518,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4519,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4520,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,62
+4521,BD9C7W,30,1,CB,X Out® Basic Kit,,$19.95,3x $19.95,$0.00,3x $2.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4522,BD9C7Y,30,3,CB,X Out® Body Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4523,BD9C7A,30,3,CB,X Out® Shine Kit,,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4524,BD9C7C,30,2,CB,X Out® Basic Kit,ValuePack,$29.95,3x $29.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4525,BD9C7E,30,4,CB,X Out® Body Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4526,BD9C7U,30,4,CB,X Out® Shine Kit,ValuePack,$39.95,3x $39.95,$0.00,3x $3.99,$5.99,N/A,,,0,0,0,0,0,,,,172
+4559,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,2
+4560,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,2
+4561,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,45
+4562,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,45
+4563,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,46
+4564,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,46
+4565,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,47
+4566,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,47
+4567,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,186
+4568,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,186
+4569,BAC43C,90,7,Omega Eye Cream Neck Wrinkle Smoother,Maximum Results Collection,None,$49.95,$149.85,$0.00,$11.97,N/A,N/A,,,0,0,0,0,0,,,,187
+4570,BAC43B,30,4,Omega Eye Cream Neck Wrinkle Smoother,Daily Youth Essentials,None,$29.95,$89.85,$5.99,$8.97,N/A,N/A,,,0,0,0,0,0,,,,187

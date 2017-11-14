@@ -1,0 +1,45 @@
+<!-- START OF testruns/index.html.erb -->
+
+
+
+
+
+<table class="table table-hover body-shadow" style="text-align:center; background-color:#FFF">
+	<tr>
+		<th style="text-align:center;">Run ID</th>
+		<th style="text-align:center;">DateTime</th>
+		<th style="text-align:center;">Brand</th>
+		<th style="text-align:center;">Campaign</th>
+		<th style="text-align:center;">Environment</th>
+		<th style="text-align:center;">Browser</th>
+		<th style="text-align:center;">Result</th>
+		<th style="text-align:center;"></th>
+		<th style="text-align:center;"></th>
+	</tr>
+	<% @testruns.each do |run| %>
+	<tr style="text-align:center;">
+		<td><%= run["id"]%></td>
+		<td><%= run["DateTime"]%></td>
+		<td><%= run["Brand"]%></td>
+		<td><%= run["expectedcampaign"]%></td>
+		<td><%= run["Env"]%></td>
+		<td><%= run["Browser"]%></td>
+		<td class="<%= get_color(run) %>"><%= run["result"]%></td>
+		<td><a href="/testsuites/<%= run["test_suites_id"]%>">
+				<button type="button" class="btn btn-default">
+					Test Suite
+				</button>
+			</a>
+		</td>
+		<td>
+			<a href="/testruns/<%= run.id %>">
+				<button type="button" class="btn btn-default">
+					Details
+				</button>
+			</a>
+		</td>
+	</tr>
+	<% end %>
+</table>
+<%= will_paginate @testruns, renderer: BootstrapPagination::Rails  %>
+<!-- END OF testruns/index.html.erb -->

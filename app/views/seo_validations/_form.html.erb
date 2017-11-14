@@ -1,0 +1,32 @@
+<%= form_for(@seo_validation) do |f| %>
+  <% if @seo_validation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@seo_validation.errors.count, "error") %> prohibited this seo_validation from being saved:</h2>
+
+      <ul>
+      <% @seo_validation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :page_name %><br>
+    <%= f.text_field :page_name, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :validation_type %><br>
+    <%= f.text_field :validation_type, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :value %><br>
+    <%= f.text_area :value, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :present %><br>
+    <%= f.check_box :present %>
+  </div>
+  <div class="actions">
+    <%= f.submit :class => "btn btn-primary" %><br><br>
+  </div>
+<% end %>

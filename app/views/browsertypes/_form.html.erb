@@ -1,0 +1,37 @@
+<%= form_for(@browsertype, :html => {:class => 'form'}) do |f| %>
+  <% if @browsertype.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@browsertype.errors.count, "error") %> prohibited this browsertype from being saved:</h2>
+
+      <ul>
+      <% @browsertype.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= f.label :browser %><br>
+    <%= f.text_field :browser, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :device_type, 'Mobile?' %><br>
+    <%= f.check_box :device_type %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :remote %><br>
+    <%= f.check_box :remote %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :human_name %><br>
+    <%= f.text_field :human_name, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :active %><br>
+    <%= f.check_box :active %>
+  </div>
+  <div class="actions form-group">
+    <%= f.submit nil,{:class => 'btn btn-success'} %>
+  </div>
+<% end %>

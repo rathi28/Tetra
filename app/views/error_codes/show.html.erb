@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+<div class="panel panel-default col-md-4">
+	<div class="panel-body">
+		<p>
+		  <strong>Human name:</strong>
+		  <%= @error_code.human_name %>
+		</p>
+
+		<p>
+		  <strong>Errorcode:</strong>
+		  <%= @error_code.errorcode %>
+		</p>
+
+<%= link_to 'Edit', edit_error_code_path(@error_code), class: 'btn btn-info'  %>
+<%= link_to 'Back', error_codes_path, class: 'btn btn-default'  %>
+	</div>
+</div>

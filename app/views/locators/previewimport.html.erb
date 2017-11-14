@@ -1,0 +1,26 @@
+<div>
+	<%= form_tag("/locators/import", method: "post") do %>
+	<table class="table table-bordered table-hover">
+		<thead>
+			<th>CSS</th>
+			<th>Brand</th>
+			<th>Step</th>
+			<th>Offer</th>
+		</thead>
+		<tbody>
+			<% @data.each_with_index do |item, index| %>
+			<tr>
+				<td><input name='locators[<%= index %>][css]' value='<%= item[0].to_s %>' class="form-control"></td>
+				<td><input name='locators[<%= index %>][brand]' value='<%= item[1].to_s %>' class="form-control"></td>
+				<td><input name='locators[<%= index %>][step]' value='<%= item[2].to_s %>' class="form-control"></td>
+				<td><input name='locators[<%= index %>][offer]' value='<%= item[3].to_s %>' class="form-control"></td>
+			
+			<tr>
+			<% end %>
+		</tbody>
+	</table>
+	<div>
+		<input name="commit" type="submit" value="Finalize Import" class="btn btn-success" />
+	</div>
+	<% end %>
+</div>

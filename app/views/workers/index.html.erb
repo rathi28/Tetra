@@ -1,0 +1,33 @@
+<h1>Listing workers</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Pixel Rank</th>
+      <th>Buyflow Rank</th>
+<!--       <th>Offercode Rank</th> -->
+      <th>Scheduled Rank</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @workers.each do |worker| %>
+      <tr>
+        <td><%= worker.name %></td>
+        <td><%= worker.pixel %></td>
+        <td><%= worker.buyflow %></td>
+<!--         <td><%= worker.offercode %></td> -->
+        <td><%= worker.scheduled %></td>
+        <td><%= link_to 'Show', worker, :class => 'btn btn-primary' %></td>
+        <td><%= link_to 'Edit', edit_worker_path(worker), :class => 'btn btn-primary' %></td>
+        <td><%= link_to 'Destroy', worker, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-primary' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Worker', new_worker_path, :class => 'btn btn-primary' %>

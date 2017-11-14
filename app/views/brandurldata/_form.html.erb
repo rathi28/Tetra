@@ -1,0 +1,41 @@
+<%= form_for(@brandurldatum) do |f| %>
+  <% if @brandurldatum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@brandurldatum.errors.count, "error") %> prohibited this brandurldatum from being saved:</h2>
+
+      <ul>
+      <% @brandurldatum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= f.label :brand %><br>
+    <%= f.text_field :brand, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :development %><br>
+    <%= f.text_field :development, :class => 'form-control' %>
+  </div>
+   <div class="field form-group">
+    <%= f.label :stg %><br>
+    <%= f.text_field :stg, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :qa %><br>
+    <%= f.text_field :qa, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :prod %><br>
+    <%= f.text_field :prod, :class => 'form-control' %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :test_env %><br>
+    <%= f.text_field :test_env, :class => 'form-control' %>
+  </div>
+  <div class="actions">
+    <%= f.submit nil, :class => 'btn btn-success' %>
+  </div>
+<% end %>

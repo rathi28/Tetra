@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Css:</strong>
+  <%= @locator.css %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @locator.brand %>
+</p>
+
+<p>
+  <strong>Step:</strong>
+  <%= @locator.step %>
+</p>
+
+<p>
+  <strong>Offer:</strong>
+  <%= @locator.offer %>
+</p>
+
+<%= link_to 'Edit', edit_locator_path(@locator) %> |
+<%= link_to 'Back', locators_path %>

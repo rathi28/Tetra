@@ -1,0 +1,169 @@
+---
+- !ruby/object:SeoValidation
+  attributes:
+    id: 1
+    seo_type: url
+    owner: proactiv
+    key: proactiv_core
+    value: http://www.proactiv.com
+- !ruby/object:SeoValidation
+  attributes:
+    id: 2
+    seo_type: url
+    owner: proactiv
+    key: proactiv_brush
+    value: /brush
+- !ruby/object:SeoValidation
+  attributes:
+    id: 3
+    seo_type: url
+    owner: proactiv
+    key: proactiv_body
+    value: /body
+- !ruby/object:SeoValidation
+  attributes:
+    id: 4
+    seo_type: url
+    owner: proactiv
+    key: proactiv_travel
+    value: /travel
+- !ruby/object:SeoValidation
+  attributes:
+    id: 5
+    seo_type: url
+    owner: xout
+    key: xout_core
+    value: http://www.xout.com
+- !ruby/object:SeoValidation
+  attributes:
+    id: 6
+    seo_type: url
+    owner: xout
+    key: xout_brush
+    value: /brush
+- !ruby/object:SeoValidation
+  attributes:
+    id: 7
+    seo_type: url
+    owner: xout
+    key: xout_ppt
+    value: /ppt
+- !ruby/object:SeoValidation
+  attributes:
+    id: 8
+    seo_type: seo_tag
+    owner: na
+    key: canonical
+    value: link[rel=canonical]
+- !ruby/object:SeoValidation
+  attributes:
+    id: 9
+    seo_type: seo_tag
+    owner: na
+    key: noindex_nofollow
+    value: meta[content='NOINDEX, NOFOLLOW']
+- !ruby/object:SeoValidation
+  attributes:
+    id: 10
+    seo_type: page_identifier
+    owner: proactiv
+    key: proactivpage
+    value: s.pageName
+- !ruby/object:SeoValidation
+  attributes:
+    id: 11
+    seo_type: page_identifier
+    owner: xout
+    key: xoutpage
+    value: app.omniMap.PageName
+- !ruby/object:SeoValidation
+  attributes:
+    id: 12
+    seo_type: identifier
+    owner: proactiv
+    key: phome
+    value: lp
+- !ruby/object:SeoValidation
+  attributes:
+    id: 13
+    seo_type: identifier
+    owner: proactiv
+    key: psas
+    value: brandpseudokitgiftsupply
+- !ruby/object:SeoValidation
+  attributes:
+    id: 14
+    seo_type: identifier
+    owner: proactiv
+    key: pcart
+    value: checkout
+- !ruby/object:SeoValidation
+  attributes:
+    id: 15
+    seo_type: identifier
+    owner: proactiv
+    key: pconfirm
+    value: confirm
+- !ruby/object:SeoValidation
+  attributes:
+    id: 16
+    seo_type: identifier
+    owner: xout
+    key: xhome
+    value: home
+- !ruby/object:SeoValidation
+  attributes:
+    id: 17
+    seo_type: identifier
+    owner: xout
+    key: xsas
+    value: sas
+- !ruby/object:SeoValidation
+  attributes:
+    id: 18
+    seo_type: identifier
+    owner: xout
+    key: xcart
+    value: sas
+- !ruby/object:SeoValidation
+  attributes:
+    id: 19
+    seo_type: identifier
+    owner: xout
+    key: xconfirm
+    value: confirmation
+- !ruby/object:SeoValidation
+  attributes:
+    id: 20
+    seo_type: url
+    owner: xout
+    key: xout_order
+    value: http://www.xout.com/order
+- !ruby/object:SeoValidation
+  attributes:
+    id: 21
+    seo_type: name
+    owner: proactiv
+    key: proactiv
+    value: proactiv
+- !ruby/object:SeoValidation
+  attributes:
+    id: 22
+    seo_type: name
+    owner: xout
+    key: xout
+    value: xout
+- !ruby/object:SeoValidation
+  attributes:
+    id: 23
+    seo_type: redirectcode
+    owner: na
+    key: direct
+    value: 200 301
+- !ruby/object:SeoValidation
+  attributes:
+    id: 24
+    seo_type: redirectcode
+    owner: na
+    key: redirect
+    value: 200 302

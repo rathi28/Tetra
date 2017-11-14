@@ -1,0 +1,64 @@
+
+testrunone:
+  url: 'http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156&mmcore.gm=2'
+  runby: 'cmoseley'
+  testtype: 'pixel_content_single'
+  platform: 'desktop'
+  test_suites_id: 1
+  lock_test: 0
+
+testruntwo:
+  url: 'https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?uci=US-PA-O-AF-LI-27156&mmcore.gm=2&grcid=core'
+  runby: 'cmoseley'
+  testtype: 'pixel_content_single'
+  platform: 'desktop'
+  test_suites_id: 1
+  lock_test: 0
+
+testrunthree:
+  url: 'https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?uci=test-O-AF-LI-test&mmcore.gm=2&grcid=core'
+  runby: 'cmoseley'
+  testtype: 'pixel_confirmation'
+  platform: 'desktop'
+  test_suites_id: 1
+  lock_test: 0
+
+vanityrunone:
+  url: 'https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps|PA-kit-3G-3StepKit-main-inline-ps|PA-gift-3G-bdg-inline-ps|PA-supply-30day-3G-3StepKit-inline-ps'
+  runby: 'cmoseley'
+  testtype: 'vanity'
+  platform: 'desktop'
+  Driver: 'chrome'
+  test_suites_id: 1806
+  lock_test: 0
+  result: 1
+
+seorunone:
+  id: 13625
+  testtype: seo
+  url: http://www.proactiv.com/?mmcore.gm=2
+  remote_url:
+  runby: cholland
+  runtime:
+  result:
+  brand:
+  campaign:
+  platform: desktop
+  browser:
+  env:
+  scripterror:
+  lock_test: 0
+  workerassigned:
+  driver: chrome
+  driverplatform: desktop
+  test_suites_id: 1806
+  datetime: 2016-02-17 09:01:30.000000000 Z
+  comments:
+  scheduledate:
+  created_at: 2016-02-17 17:01:30.000000000 Z
+  updated_at: 2016-02-17 17:01:30.000000000 Z
+  status: Not Started
+  custom_settings: |
+    ---
+    retries: '1'
+  Notes:

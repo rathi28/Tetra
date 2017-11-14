@@ -1,0 +1,230 @@
+<% 
+	run = @suite
+	passed_amount 	= 0
+	passed_amount 	= (run['Pass']*100 / run['TotalTests']*100)/100 if(run['TotalTests'] != 0)
+	remaining_hold 	= 0
+	remaining_hold 	= 100 - ((run['Pass']*100 + run['Fail']*100) / run['TotalTests']*100)/100 if(run['TotalTests'] != 0)
+	
+	remaining 		= remaining_hold 
+	failed_amount 	= 100 - (passed_amount + remaining) 
+
+#.in_time_zone('America/Los_Angeles')
+puts passed_amount
+puts remaining
+puts failed_amount
+
+suite_runtime = 0
+@testruns.each do |run|
+	suite_runtime += run.runtime
+end
+@suite['Runtime'] = suite_runtime
+@suite.save!
+
+def get_progress_color(testrun)
+	case testrun["result"]
+	when "Pass"
+		return "progress-bar-success"
+	when "Fail"
+		return "progress-bar-danger"
+	else
+		return "progress-bar-info"
+	end
+end
+def get_label_color(testrun)
+	case testrun["result"]
+	when "Pass"
+		return "label-success"
+	when "Fail"
+		return "label-danger"
+	else
+		return "label-info"
+	end
+end
+def get_suite_runtime(runs)
+	total = 0
+	runs.each do |run|
+		total += run.runtime if run.runtime
+	end
+	return total
+end
+
+newruntime = get_suite_runtime(@test_runs)
+
+oldruntime = get_suite_runtime(@testruns)
+
+
+%>
+
+<!-- START OF testsuites/show.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<script type="text/javascript">
+	suite = <%= @suite.to_json.html_safe %>
+</script>
+<div class="panel panel-primary">
+	
+	<div class="panel-heading">
+		<div>
+			<h4><strong><%= @suite["Test Suite Name"] %></strong>
+				<div class="btn-group pull-right">
+					<a href="/download/<%= @suite[:id] %>.xlsx"><button style="margin-right:3px;" type="button" class="btn btn-default">
+						Export to XLSX
+					</button></a>
+				</div>
+			</h4>
+			<br>
+		</div>
+		<div class="progress">
+			<div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70"
+				aria-valuemin="0" aria-valuemax="100" style="width:<%= passed_amount  %>%" disabled>
+			</div>
+			<div class="progress-bar  progress-bar-danger" role="progressbar" aria-valuenow="70"
+				aria-valuemin="0" aria-valuemax="100" style="width:<%=  failed_amount  %>%" disabled>
+			</div>
+			<div class="progress-bar  progress-bar-info" role="progressbar" aria-valuenow="70"
+				aria-valuemin="0" aria-valuemax="100" style="width:<%=  remaining %>%" disabled>
+			</div>
+		</div>	
+
+
+	</div>
+	<div class="panel-body">
+		<table class="table table-striped">
+			<tr>
+				<td><strong>Result</strong></td>
+				<td><%= @passed %>/<%= @total %></td>
+			</tr>
+			<tr>
+				<td><strong>Ran By</strong></td>
+				<td><%= @suite['Ran By'] %></td>
+			</tr>
+			
+			<tr>
+				<td><strong>Status</strong></td>
+				<td><%= @suite['Status'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Runtime</strong></td>
+				<td><%= newruntime + oldruntime %> seconds</td>
+			</tr>
+			<tr>
+				<td><strong>Brand</strong></td>
+				<td><%= @suite['Brand'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Browser</strong></td>
+				<td><%= @suite['Browser'] %></td>
+			</tr>
+
+			<tr>
+				<td><strong>Email Used</strong></td>
+				<td><%= @suite['emailnotification'] %></td>
+			</tr>
+			<% if(@suite.SuiteType == "pixels") %>
+				<tr>
+					<td><strong>Custom Settings</strong></td>
+					<td><% 
+					if(@test_runs)
+					if(@test_runs.first)
+						obj = YAML.load @test_runs.first['custom_settings']
+						%>
+						<ul class="list-group">
+							<%
+						obj.each do |key,val|
+							%><li class="list-group-item"><%= key %>: <%= val %></li> <%
+						end
+						%></ul><%
+					else
+						%>N/A<%
+					end
+				end
+
+					%></td>
+				</tr>
+			<% end %>
+			<% if @suite['scheduledate'] %>
+			<tr>
+
+				<td><strong>Time Scheduled to run</strong></td>
+				<td><%= 
+				 @suite['scheduledate'].strftime('%A %I:%M %p %m/%d/%Y')  %></td>
+			</tr>
+			<% end %>
+			</table>
+		</div>
+		<div class="panel-footer">Test Completed in <strong><%= newruntime + oldruntime %></strong> seconds</div>
+		<table class="testruns table table-hover body-shadow" style="background-color:#FFF">
+	<tr>
+		<th>Result</th>
+		<th>Pass/Total</th>
+		<th>Campaign</th>
+		<th>Brand</th>
+		<th>Runtime (seconds)</th>
+		<th>Offercode</th>
+		<th>URL</th>
+		<th></th>
+	</tr>
+	<% @test_runs.each do |run| %>
+	<% 
+		total = run.test_steps.count
+		passed_amount = run.test_steps.where(:result => 1).count
+		failed_amount = run.test_steps.where(:result => 0).count
+		remaining = run.test_steps.where(:result => nil).count
+		total = 1 if total == 0
+	%>
+		<tr>
+			<td class="result-label">
+					<div class="progress">
+						<div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (run.test_steps.count == 0) ? (run.result == 1 ? '100': '0') : (passed_amount.to_f/total * 100).to_i  %>%">
+						</div>
+						<div class="progress-bar  progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (run.test_steps.count == 0) ? (run.result == 0 ? '100': '0') : (failed_amount.to_f/total * 100).to_i  %>%">
+							</div>
+						<div class="progress-bar  progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (run.test_steps.count == 0) ? (run.result == nil ? '100': '0') : (100 - ((passed_amount.to_f/total * 100) + (failed_amount.to_f/total * 100)).to_i) %>%">
+							</div>
+					</div>
+
+			</td>
+			<td>
+				<%= run.test_steps.where(:result => 1).count %>/<%= run.test_steps.count %>
+			</td>
+			<td><%= run["campaign"] ? run["campaign"] : "N/A" %></td>
+			<td><%= run["brand"] ? run["brand"] : "N/A"  %></td>
+			<td><%= run.runtime ? run.runtime : "N/A" %></td>
+			<td><%= run.offercode ?  run.offercode : "N/A" %></td>
+			<td><%= run["url"] ? run["url"] : "N/A" %></td>
+			<td>
+				<a href="/test_run/<%= run.id %>">
+					<button type="button" class="btn btn-primary btn-block">
+						Details
+					</button>
+				</a>
+			</td>
+		</tr>
+	<% end %>
+	<% @testruns.each do |run| %>
+	<tr>
+		<td class="<%= get_label_color(run) %> result-label" style="color:#FFF"><b><%= run["result"] %></td>
+		<td></td>
+		<td><%= run["expectedcampaign"]%></td>
+		<td><%= run["Brand"]%></td>
+		<td><%= run["runtime"]%></td>
+		<td><%= run["ExpectedOffercode"]%></td>
+		<td><%= run["url"] ? run["url"] : "N/A" %></td>
+		<td>
+			<a href="/testruns/<%= run.id %>">
+				<button type="button" class="btn btn-primary btn-block">
+					Details
+				</button>
+			</a>
+		</td>
+	</tr>
+	<% end %>
+</table>
+	</div>
+</div>
+
+<!-- END OF testsuites/show.html.erb -->

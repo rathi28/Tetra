@@ -1,0 +1,270 @@
+<%
+def admin_element()
+  if(User.find(session[:current_user_id]).admin == 'yes') 
+    yield
+  end
+end
+
+def non_admin_element()
+  if(User.find(session[:current_user_id]).admin != 'yes') 
+    yield
+  end
+end
+%>
+<!-- START OF layouts/header.html.erb -->
+<% @headertext = "Dashboard" if(@headertext.nil?) %>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><b>TetrA</b><!-- - <b><%= @headertext %></b> --></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Buyflow Test<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/buyflow">View Recent Test</a></li>
+            <% if(session[:current_user_id]) %>
+              <li><a href="/testsuites/new/buyflow">Run a New Test</a></li>
+            <% end %>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Vanity Test
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/vanity">
+                View Recent Test Results
+              </a>
+            </li>
+            <% if(session[:current_user_id]) 
+              if(User.find(session[:current_user_id]).admin == 'yes') %>
+            <li>
+              <a href="/test_run/new?suitetype=vanity">
+                Run a New Test
+              </a>
+            </li>
+            
+            <li class="divider"></li>
+            <li>
+               <a href="/test_config/vanity">
+                Edit Test Configurations
+              </a>
+              <a href="/vanity/new">
+                Create Test Configuration
+              </a>
+            </li>
+            <% end
+            end %>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            UCI Test
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/uci">
+                View Recent Test Results
+              </a>
+            </li>
+            <% if(session[:current_user_id]) 
+              if(User.find(session[:current_user_id]).admin == 'yes') %>
+            <li>
+              <a href="/test_run/new?suitetype=uci">
+                Run a New Test
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+               <a href="/test_config/uci">
+                Edit Test Configurations
+              </a>
+              <a href="/uci/new">
+                Create Test Configuration
+              </a>
+            </li>
+            <% end
+            end %>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Pixel Test
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/testsuites/pixels">
+                View Recent Test Results
+              </a>
+            </li>
+            <li>
+              <% if(session[:current_user_id]) %>
+              <a href="/test_run/new">
+                Run a New Test
+              </a>
+              <% end %>
+            </li>
+            <% if(session[:current_user_id])
+        if(User.find(session[:current_user_id]).admin == 'yes') %>
+            <li class="divider"></li>
+            <li>
+               <a href="/pixel_tests">
+                View Pixel Tests
+              </a>
+            </li>
+            <li>
+               <a href="/pixel_tests/new">
+                Create Pixel Test
+              </a>
+            </li>
+                          <% end %>
+
+            <% end %>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Offer Code Test
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/offercode">
+                View Recent Test Results
+              </a>
+            </li>
+            <% if(session[:current_user_id])
+        if(User.find(session[:current_user_id]).admin == 'yes') %>
+
+            <li>
+              <a href="/testsuites/new/offercode">
+                Run a New Test
+              </a>
+            </li>
+            <% end %>
+              <% end %>
+
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            SEO Test
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/seo">
+                View Recent Test Results
+              </a>
+            </li>
+            <% if(session[:current_user_id]) 
+              if(User.find(session[:current_user_id]).admin == 'yes') %>
+            <li>
+              <a href="/test_run/new?suitetype=seo">
+                Run a New Test
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+               <a href="/test_config/seo">
+                Edit Test Configurations
+              </a>
+              <a href="/seo/new">
+                Create Test Configuration
+              </a>
+            </li>
+
+            <li class="divider"></li>
+            <li>
+               <a href="/seo_validations">
+                SEO Validations
+              </a>
+              <a href="/seo_files">
+                SEO Files
+              </a>
+              <a href="/page_identifiers">
+                Page Identifiers
+              </a>
+            </li>
+
+            <% end
+            end %>
+          </ul>
+        </li>
+
+    <% 
+        if(session[:current_user_id])
+        if(User.find(session[:current_user_id]).admin == 'yes') %>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test Schedules<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/schedule">View Existing Tests</a></li>
+            <li class='disabled'><a class='disabled' >Edit Test Schedules</a></li>
+            <li><a href="/schedule/new">Schedule a New Test</a></li>
+          </ul>
+        </li>
+
+      
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test Configurations <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <!-- <li><a href="/offerdata?brand=ProactivPlus&environment=prod&platform=desktop&campaign=Core-Campaign">Offerdata</a></li> -->
+            <li><a href="/campaigns?brand=Wen&campaign=Core-Campaign">Campaigns</a></li>
+              <li><a href="/locators">Locators</a></li>
+              <li><a href="/brandurldata">Brand URL Maps</a></li>
+              <li><a href="/brands">Brands table</a></li>
+              <li><a href="/browsertypes">Browserconfigurations</a></li>
+            
+            <!--
+            <li class="divider"></li>
+            <li class="disabled"><a href="#" disabled="disabled">Devices Available to Test</a></li> -->
+          </ul>
+        </li>
+        <% end 
+            end %>
+        <% if(nil == session[:current_user_id]) %>
+          <li>
+            <a  class="brand" id="login" href="/login">
+              Admin
+            </a>
+          </li>
+        <% else 
+        current_user = User.find(session[:current_user_id]) %>
+          <li>
+            <a <%= 'href=/admin' if current_user.admin == "yes" %>>
+              <b>
+                <%= "#{current_user.name} (#{current_user.login})" %>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a id="logout" href="/logout">
+              <b class="brand">Logout</b>
+            </a>
+          </li>
+        <% end %>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- END OF layouts/header.html.erb -->

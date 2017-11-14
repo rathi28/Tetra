@@ -1,0 +1,174 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap.min
+ *= require select2.min
+ *= require bootstrap
+ *= require bootstrap-datetimepicker
+ *= require jquery.timepicker.css
+ *= require_tree .
+ *= require_self
+ */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+  background-color: #367388;
+  } 
+
+/* Override Bootstrap 3 font locations */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+  url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.centerthis{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+ .borderthis{
+ 	border-bottom-width: 0 px;
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #000;
+ }
+
+ .element-background{
+
+ }
+
+ .app-container{
+ 	background-color: #FFF;
+ }
+
+ .navbar-default .navbar-nav>li>a:hover {
+  color: #FFF;
+  background-color: #367388;
+}
+
+ .navbar-default .navbar-nav>li>a {
+ 	color: #FFF;
+ }
+ .brand{
+  color:#7FFF7F;
+ }
+
+ .navbar-default .navbar-brand{
+ 	background-color: #37657B;
+ 	color:#7FFF7F;
+ }
+
+ .navbar-default .navbar-brand:hover{
+ 	background-color: #367388;
+ 	color:#FFF;
+ }
+
+ .navbar-default .navbar-brand.active{
+ }
+
+ .navbar-default .navbar-brand:hover{
+ }
+ .navbar-nav>li>a:hover {
+  color: #FFF;
+}
+
+ .navbar{
+ 	color:#FFF;
+ 	background-color: #37657B;
+ 	border-bottom-right-radius: 0px; 
+ 	border-bottom-left-radius: 0px;
+ 	border-top-right-radius: 0px;
+ 	border-top-left-radius: 0px;
+ 	border-width: 0px;
+ }
+
+ li.dropdown:hover, .btn-primary{
+ 	color: #FFF;
+ 	background-color: #37657B;
+ }
+  li.dropdown:hover, .btn-primary:hover{
+  color: #FFF;
+  background-color: #367388;
+ }
+
+ li.dropdown{
+ 	color: #FFF;
+ }
+ #headingOne > h4 > a > small{
+  color: #E6E6E6;
+ }
+
+ .navbar ul{
+ 	color: #FFF;
+ }
+.navbar-nav .open .dropdown-menu{
+  background-color: #FFF;
+ }
+ .navbar-toggle{
+  background-color: #FFF;
+ }
+
+ .panel-primary {
+ 	border-color: #37657B;
+  border-radius: 0px;
+ }
+ .panel-primary .panel-heading{
+ 	color:#FFF;
+ 	background-color: #37657B;
+ 	border-bottom-width: 0px;
+  border-radius: 0px;
+ }
+
+/* .body-shadow {
+ 	border: 1px solid #B2B2B2;
+ }*/
+ * {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 100px; /* .push must be the same height as .footer */
+}
+
+
+ .progress-square{
+ 	border-bottom-right-radius: 0px; 
+ 	border-bottom-left-radius: 0px;
+ 	border-top-right-radius: 0px;
+ 	border-top-left-radius: 0px;
+ 	padding:0px;
+ }
+ .Center-Container {
+  position: relative;
+}
+body{
+font-family: 'Lato';
+
+}
+
+.Absolute-Center {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}

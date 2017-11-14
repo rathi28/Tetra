@@ -1,0 +1,25 @@
+<%= form_for(@page_identifier) do |f| %>
+  <% if @page_identifier.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@page_identifier.errors.count, "error") %> prohibited this page_identifier from being saved:</h2>
+
+      <ul>
+      <% @page_identifier.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :page %><br>
+    <%= f.text_field :page, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :value %><br>
+    <%= f.text_field :value, :class => 'form-control' %>
+  </div>
+  <div class="actions"><br><br>
+    <%= f.submit :class => 'btn btn-primary' %><br><br>
+  </div>
+<% end %>

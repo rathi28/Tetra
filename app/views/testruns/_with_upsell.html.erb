@@ -1,0 +1,1074 @@
+
+<!-- START OF testruns/_with_upsell.html.erb -->
+<% 
+												vitamin_title_valid = nil
+												if(@vitamin)
+													vitamin_title_valid = (@vitamin.empty? != true && @vitamin) ? ((@vitamin.first.offer_data_detail ? @vitamin.first.offer_data_detail.offer_title : @vitamin.first.Offer) if @vitamin) : nil
+												else
+													vitamin_title_valid = nil
+												end
+												%>
+<%
+	@testrun['ActualOffercode'].strip! if(@testrun['ActualOffercode'])
+	@testrun['ExpectedOffercode'].strip! if(@testrun['ExpectedOffercode'])
+	@testrun['confoffercode'].strip! if(@testrun['confoffercode'])
+	@testrun.save!
+%>
+<script>
+suite_obj = <%= @suite.to_json.html_safe %>;
+test_obj = <%= @testrun.to_json.html_safe %>;
+$(document).ready(function(){
+	if(test_obj.lastpagefound.includes("conf") == false){
+		$('.validations.confirmation').hide();
+		$('.validations.upsell').hide();
+		$('#confirmation_not_found_warning').show();
+		if(test_obj.lastpagefound.includes("sas") == false && test_obj.lastpagefound.includes("cart") == false){
+			$('.validations.sas').hide();
+			$('.validations.cart').hide();
+		}
+	}
+});
+
+</script>
+
+<% 
+def blind_rescue()
+	begin
+		yield
+	rescue => e
+
+	end
+end
+
+def check_shipping(offer, testrun)
+	blind_rescue do
+		return false if(offer['StartSH'].gsub('$', '').strip != testrun['Standard'].gsub('$', '').strip)
+		return false if(offer['Rush'].gsub('$', '').strip != testrun['Rush'].gsub('$', '').strip)
+		return false if(offer['OND'].gsub('$', '').strip != testrun['Overnight'].gsub('$', '').strip)
+	end
+
+	return false if testrun['Standard'].nil?
+	return false if testrun['Rush'].nil?
+	return false if testrun['Overnight'].nil?
+	
+	return true
+end
+
+def print_actual_shipping(testrun)
+	output = ""
+	blind_rescue do 
+		output += "Standard:" + testrun['Standard'].gsub('$', '').strip + "<br>"
+	end
+
+	blind_rescue do 
+		output += "Rush:" + testrun['Rush'].gsub('$', '').strip + "<br>"
+	end
+
+	blind_rescue do 
+		output += "Overnight:" + testrun['Overnight'].gsub('$', '').strip + "<br>"
+	end
+
+	return output
+end
+
+def print_expected_shipping(offer)
+	output = ""
+	blind_rescue do 
+		output += "Standard:" + offer['StartSH'].gsub('$', '').strip + "<br>"
+	end
+
+	blind_rescue do 
+		output += "Rush:" + offer['Rush'].gsub('$', '').strip + "<br>"
+	end
+
+	blind_rescue do 
+		output += "Overnight:" + offer['OND'].gsub('$', '').strip + "<br>"
+	end
+
+	return output
+end
+
+def failuresbox
+	@failures_count = 0
+	failure_html = ""
+
+     if(@testrun['ConfirmationNum'].empty?) 
+     	@failures_count  += 1
+    failure_html += """
+    <tr>
+        <td>Confirmation #</td>
+        <td> Confirmation Number not found, or page not reached </td>
+        <td> Any Confirmation Number </td>
+    </tr>
+    """
+     end 
+
+     if(@testrun['ExpectedOffercode'] != @testrun['ActualOffercode']) 
+     	@failures_count  += 1
+    failure_html += """ 
+    <tr>
+        <td>Offercode (Checkout)</td>
+        <td> #{ !@testrun['ActualOffercode'].empty? ? @testrun['ActualOffercode'] : 'Not Found'} </td>
+        <td> #{@testrun['ExpectedOffercode']}  </td>
+    </tr>
+    """
+     end 
+     if @testrun['Notes']
+	     if !@testrun['Notes'].empty? 
+	     	@failures_count  += 1
+	     	failure_html += """
+		    <tr>
+		        <td>Errors</td>
+		        <td>
+		        	#{@testrun['Notes']}
+		        </td>
+		        <td>No Errors</td>
+		    </tr>
+		    """
+	     end 
+	 end
+     return failure_html
+
+end
+%>
+
+
+<%= stylesheet_link_tag 'application' %>
+
+<style> 
+
+.label-as-badge{
+    border-radius: 1em;
+}
+</style>
+
+<%
+
+def get_color_compare(actual, expected)
+	if(expected.nil?)
+		return ' disabled'
+	end
+
+	if(expected == actual)
+		return 'success'
+	else
+		return 'danger'
+	end
+end
+def get_badge_compare(actual, expected)
+	if(expected.nil?)
+		return ''
+	end
+	if(expected == actual)
+		return 'Pass'
+	else
+		return 'Fail'
+	end
+end
+failhtml = failuresbox
+%>
+
+
+<div class="section">
+	<div class="container-fluid">
+			
+
+			<div class="row">
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="hidden-xs hidden-md text-center text-primary">Test Results</h3>
+						</div>
+					</div>
+					<ul class="hidden-xs hidden-md nav nav-stacked nav-pills">
+						<li class="active">
+							<a href="#topofresults">Overview</a>
+						</li>
+						<li>
+							<a href="#perpageresults">Section Results</a>
+						</li>
+						<% if !failhtml.empty? %>
+						<li>
+							<a href="#failuresheader">Failures <span class="badge"><%= @failures_count %></span></a>
+						</li>
+						<% end %>
+						<li>
+							<a href="#notesresults">Notes<br></a>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="col-md-10">
+					<div class="row">
+			<div class="col-md-12">
+				<ul class="breadcrumb" id="topofresults">
+					<li>
+						<a href="/<%= @suite.SuiteType.downcase %>">
+							<%= @suite.SuiteType.capitalize %>
+							Test Suite</a>
+						</li>
+						<li>
+							<a href="/testsuites/<%= @testrun.test_suites_id %>">Test Suite</a>
+						</li>
+						<li>
+							Test Case
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			<% if @offer.empty? %>
+			<a href="/campaigns/<%= @campaign.first.id %>">
+					<div class="panel panel-danger">
+						<div class="panel-body alert-danger">
+							<strong> This test run is lacking a matching offercode for its Campaign.</strong> You can still add one through the Campaign Configuration page, but this test should be rerun for full recheck of data. Click here to open associated Campaign.
+						</div>
+					</div></a>
+					<% end %>
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+
+							<h3 class="text-center text-primary panel-title">Overview</h3>
+						</div>
+
+
+						<% if @testrun['result'] != 'waiting' %>
+						<div class="progress" style="margin-bottom:0px;">
+							<div class="progress-bar progress-bar-<%= get_color(@testrun) %>" role="progressbar" style="width: 100%;"><%= @testrun['result'] %></div>
+						</div>
+						
+<button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-parent="#screenshot_view" href="#screenshot_view">
+      View Screenshot <span class="caret"></span>
+</button>
+ 
+    <% if @testrun.result == "Fail" %>
+<button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-parent="#sourcecode" href="#sourcecode">
+      View Source Code <span class="caret"></span>
+  </button>
+ 
+    <% end %>
+						<% end %>
+
+						<div class="panel-body">
+
+							<div class='row' style="padding:0px">
+								<div class='col-md-6' style="padding:0px">
+									<table  class="table table-bordered table-condensed table-hover table-striped" style="padding:0px">
+										<tbody>
+
+											<tr>
+												<td class="bold-header">Result</td>
+												<td><%= @testrun['result'] %></td>
+											</tr>
+											<tr>
+												<td>Ran By</td>
+												<td><%= @testrun['runby'] %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td class="bold-header">Brand</td>
+												<td><%= @testrun['Brand'] %></td>
+											</tr>
+											<tr>
+												<td>Campaign</td>
+												<td><%= @testrun['expectedcampaign'].capitalize %></td>
+											</tr>
+											<tr>
+												<td>Browser</td>
+												<td><%= @testrun['Browser'] %></td>
+											</tr>
+											<tr>
+												<td>Environment</td>
+												<td><%= @testrun['Env'].upcase %></td>
+											</tr>
+											<tr>
+												<td>Vitamin OfferCode</td>
+												<td><%= @testrun['vitaminexpected'] %></td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+								<div class='col-md-6' style="padding:0px">
+									<table class="table table-bordered table-condensed table-hover table-striped">
+										<tbody>
+
+											<tr>
+												<td>UCI</td>
+												<td><%= (@testrun['Expected UCI'].empty? || @testrun['Expected UCI'].nil?) ? "N/A" : @testrun['Expected UCI'] %></td>
+											</tr>
+
+											<tr>
+												<td>Operating System</td>
+												<td><%= @testrun['Platform'] %></td>
+											</tr>
+											<tr>
+												<td>Date Time</td>
+												<td><%= @testrun['DateTime'] %></td>
+											</tr>
+
+											<tr>
+												<td>Platform</td>
+												<td><%= @testrun['DriverPlatform'] %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td>Confirmation #</td>
+												<td>
+													<% if(@testrun["ConfirmationNum"])
+														if(@testrun["ConfirmationNum"].empty?) %>
+														<%= "N/A" %>
+														<% else %>
+														<%= @testrun["ConfirmationNum"] %>
+														<% end 
+														else %>
+														<%= "N/A" %>
+														<% end %>
+													</td>
+												</tr>
+												<tr>
+												<td>Email Used</td>
+												<td><%= @suite['emailnotification'] %>
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td>Remote Runner URL</td>
+												<td>
+													<% if(@testrun["remote_url"])
+														if(@testrun["remote_url"].empty?) %>
+														<%= "N/A" %>
+														<% else %>
+														<%= @testrun["remote_url"] %>
+														<% end 
+														else %>
+														<%= "N/A" %>
+														<% end %>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<% 
+						begin
+							if @testrun.error_message %>
+								<div class="panel panel-danger progress-square">
+									<div class="panel-heading">
+										<h3 class="text-center text-primary panel-title" id="perpageresults">Failure</h3>
+									</div>
+									<div class="panel-body">
+										<b>
+											<%= @testrun.error_message.class_name %>
+										</b>
+										<%= @testrun.error_message.message %>
+										<br><br>
+										<%= link_to 'Details', error_message_path(@testrun.error_message), :class => "btn btn-primary" %>
+									</div>
+								</div>
+							<% end
+						rescue => e
+						
+						end
+
+
+						 %>
+							<div class="panel panel-primary progress-square">
+								<div class="panel-heading">
+									<h3 class="text-center text-primary panel-title" id="perpageresults">Section Results</h3>
+								</div>
+								<div class="panel-body" style="padding:0px">
+									<table class="table table-bordered table-condensed">
+										<div class="col-md-3 text-left">
+											<tr>
+												<th style="text-align:center;">Marketing Section</th>
+												<th style="text-align:center;">SAS Section</th>
+												<th style="text-align:center;">Cart Section</th>
+												<th style="text-align:center;">Upsell Confirmation Section</th>						
+											</tr>
+											<% 
+                                    confirmation_num_pass = false
+                                    if(@testrun["ConfirmationNum"])
+                                    	if(@testrun["ConfirmationNum"].empty?) %>
+                                    	<%  %>
+                                    	<% else %>
+                                    	<% 	confirmation_num_pass = true%>
+                                    	<% end 
+                                    	else %>
+                                    	<%  %>
+                                    	<% end %>
+
+                                    	<% 
+                                    	  offercode_pass = false
+                                    	  shipping_price_pass = false
+                                    	    if(@testrun["is_upsell"]) %>                                    	
+                                    		  <% offercode_pass = true %>
+                                    		  <% shipping_price_pass = true%>
+                                    	<% end %>                                   	
+                                    	
+
+											<tr>
+												<td style="padding:0px;" class="validations landing">
+													<a onclick="test_data_popup('<%= @testrun['UCI HP'] %>', '<%= @testrun['Expected UCI'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">UCI
+														<% if(@testrun['Expected UCI'].empty?) %><span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['UCI HP'], @testrun['Expected UCI'])  %> pull-right"><%= get_badge_compare(@testrun['UCI HP'], @testrun['Expected UCI'].empty? ? nil : @testrun['Expected UCI']) %></span><% end %>
+													</li></a>
+												</td>
+												<td style="padding:0px;" class="validations sas">
+													<a onclick="test_data_popup('<%= 
+
+
+if YAML.load(@testrun['sasprices'].to_s)
+	if YAML.load(@testrun['sasprices']).empty?
+		"No Validations performed"
+	end
+else
+	"N/A"
+end
+
+
+
+ %><%= "N/A" if @testrun['sasprices'].to_s.empty? %><ol><% 
+begin 
+YAML.load(@testrun['sasprices']).each do |price| %><li><%= price %></li><% 
+end 
+rescue => e 
+end %></ol>', '<%= if @offer.first
+		@offer.first.Entry
+	 end %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">
+														Pricing
+														<% if(@testrun['sasprices'])
+														if @testrun['saspricing'] && @testrun['sasprices'].empty? == false %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['saspricing'].empty?, true) %>"><%= get_badge_compare(@testrun['saspricing'].empty?, true) %></span>
+														<% end 
+														end %>
+														</li>
+													</a>
+												</td>
+													<td style="padding:0px;" class="validations cart">
+														<a onclick="test_data_popup('<%= @testrun['UCI OP'] %>', '<%= @testrun['Expected UCI'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item ">UCI
+																<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['UCI OP'], @testrun['Expected UCI']) %>"><%= get_badge_compare(@testrun['UCI OP'], @testrun['Expected UCI'].empty? ? nil : @testrun['Expected UCI']) %></span>
+															</li></a>
+												</td>												
+                                    			<td class="alert alert-danger" style="padding:0px; display:none; text-align: center; vertical-align:middle;" id="confirmation_not_found_warning" rowspan="15">
+                                    					<strong>CONFIRMATION PAGE <br> NOT FOUND</strong>
+                                    			</td>
+                                    			<td style="padding:0px;" class="validations upsell">
+                                    				<a onclick="test_data_popup('<%= @testrun['ConfirmationNum'] %>', '(Confirmation Number Exists)')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item ">
+		                                    					Confirmation #
+		                                    					<span class="label label-as-badge  pull-right label-<%= get_color_compare(confirmation_num_pass, true) %>">
+		                                    					<%= get_badge_compare(confirmation_num_pass, true) %></span>
+	                                    				</li>
+	                                    			</a>
+                                    			</td>
+											</tr>
+											<tr>
+
+
+											</tr>
+												<!-- Second row -->
+											<tr>	
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><a onclick="test_data_popup('<%= @testrun['uci_sas'] %>', '<%= @testrun['Expected UCI'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">UCI
+	                                    					<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['uci_sas'], @testrun['Expected UCI'].empty? ? nil : @testrun['Expected UCI']) %>"><%= get_badge_compare(@testrun['uci_sas'], @testrun['Expected UCI'].empty? ? nil : @testrun['Expected UCI']) %></span>
+	                                    				</li>
+	                                    			</a></td>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= @testrun['ActualOffercode'] %>', 'Offercode exists')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item ">
+																Offercode
+																
+																<span class="label label-as-badge  pull-right label-<%= get_color_compare(offercode_pass, true) %>"><%= get_badge_compare(offercode_pass, true) %></span>
+															</li>
+														</a>
+													
+	                                            </td>												
+	                                    		<td style="padding:0px;" class="validations upsell">
+	                                    			<a onclick="test_data_popup('<%= @testrun['UCI CP'] %>', '<%= @testrun['Expected UCI'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">UCI
+	                                    					<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['UCI CP'], @testrun['Expected UCI']) %>"><%= get_badge_compare(@testrun['UCI CP'], @testrun['Expected UCI'].empty? ? nil : @testrun['Expected UCI']) %></span>
+	                                    				</li>
+	                                    			</a>
+                                    			</td>
+											</tr>
+											
+	                                            
+												<!-- Third row -->
+											<tr>	
+												<% cart_title = nil
+												cart_title = (@offer.first.offer_data_detail ? @offer.first.offer_data_detail.offer_title : @offer.first.Offer) if @offer.first %>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart"><a onclick="test_data_popup('<%= @testrun['cart_title'] ? @testrun['cart_title'].gsub('\'','\\\'') : "Not Found" %>', '<%= (cart_title) if @offer.first %>')" data-toggle="modal" data-parent="#testdata" href="#testdata"><li class="list-group-item">
+                                            	Cart Title
+                                            	<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['cart_title'].to_s.downcase.include?(cart_title.to_s.downcase), true) if @offer.first %>"><%= get_badge_compare(@testrun['cart_title'].to_s.downcase.include?(cart_title.to_s.downcase), true) %></span>
+                                            </li></a></td>												
+                                            <td style="padding:0px;" class="validations upsell">
+                                            	<a onclick="test_data_popup('<%= @testrun['confoffercode'] %>', 'Offercode exists')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">Offercode
+	                                    					<span class="label label-as-badge  pull-right label-<%= get_color_compare(offercode_pass, true) %>"><%= get_badge_compare(offercode_pass, true) %></span>
+	                                    				</li></td>
+	                                    		</a>
+                                    		</td>
+                                            <!-- Fourth row -->
+                                            <%
+                                            def cleanup_format(string)
+                                            	string = string.to_s.gsub("'", "\\\\'").gsub(/[\s]+/,' ')
+                                            	return string
+                                            end
+                                            cart_desc = nil
+                                            cart_desc = @offer.first.offer_data_detail ? cleanup_format(@offer.first.offer_data_detail.offerdesc) : nil if @offer.first
+
+                                            cart_desc_actual = nil
+                                            if @testrun['cart_language']
+                                            	cart_desc_actual = cleanup_format(@testrun['cart_language'])
+                                            end
+                                            #binding.pry
+
+
+                                            %>
+                                            <tr>	
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= 
+														if @offer.first
+																@offer.first.offer_data_detail ? cart_desc_actual : "N/A"
+															end
+													%>', '<%= 
+														if @offer.first
+																@offer.first.offer_data_detail ? (cart_desc ? cart_desc : '' if @offer.first) : "N/A"
+															end
+
+													%>') " data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">
+		                                            		Cart Description
+		                                            		<% if @offer.first %>
+		                                            		<% if @offer.first.offer_data_detail %> 
+		                                            	<span class="label label-as-badge  pull-right label-<%=
+		                                            	if(cart_desc_actual && @offer.first)
+		                                            		get_color_compare(cart_desc_actual.include?(cart_desc), true)  
+		                                            	end
+
+		                                            		%>"><%= get_badge_compare(cart_desc_actual.include?(cart_desc), true) if cart_desc_actual && @offer.first
+		                                            	%></span>
+		                                            	<% end %>
+		                                            	<% end %>
+
+
+	                                            </li></a></td>	                                            
+                                    				
+                                            <td style="padding:0px;" class="validations upsell">
+                                            	<a onclick="test_data_popup('<%= @testrun['shipping_conf_val'] %>', 'Shipping price exists')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Shipping Cost
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(shipping_price_pass, true) %> pull-right"><%= get_badge_compare(shipping_price_pass, true) %></span>
+													</li>
+												</a>
+                                    		</td>
+
+											</tr>
+											 <!-- Fifth row -->
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= @testrun['Campaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['Campaign'] %>', '<%= @testrun['expectedcampaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['expectedcampaign'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">Campaign
+															<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['Campaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['Campaign'], @testrun['expectedcampaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['expectedcampaign']) %>">
+																<%= get_badge_compare(@testrun['Campaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['Campaign'], @testrun['expectedcampaign'].downcase == 'corecampaign' ? 'core-campaign' : @testrun['expectedcampaign']) %>
+															</span>
+														</li>
+													</a>
+												</td>
+												<td style="padding:0px;" class="validations upsell">
+													<% 
+													begin
+														checksum = @testrun['billname'] != "FAILED" && @testrun['billemail'] != "FAILED" && @testrun['billaddress'] != "FAILED" && @testrun['shipaddress'] != "FAILED"
+													rescue => e 
+														checksum = false
+													end 
+
+													actual_billship = "Email:<br>"+
+													"#{@testrun['billemail'] ? @testrun['billemail'].to_s : '<b><i>Not Found</i></b>' } <br>"+
+													"Name:<br>" +
+													"#{@testrun['billname'] ? @testrun['billname'].to_s : '<b><i>Not Found</i></b>' } <br>"+
+													"Billing Address:<br>"  +
+													"#{@testrun['billaddress'] ? @testrun['billaddress'].to_s : '<b><i>Not Found</i></b>' } <br>"+
+													"Shipping Address:<br>"+
+													"#{@testrun['shipaddress'] ? @testrun['shipaddress'].to_s : '<b><i>Not Found</i></b>' }"
+													%>
+																									
+													<a onclick="test_data_popup('<%= actual_billship %>', '<%= "Email:<br> #{@suite['emailnotification']} <br> Name:<br> Discard Discard <br> Billing Address: <br> 123 QATest Street <br> Anywhere, CA 90405 <br> Shipping Address: <br> 123 QATest Street <br> Anywhere, CA 90405" %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Billing/Shipping Match
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(checksum, true) %>">
+															<%= get_badge_compare(checksum, true) %>
+														</span>
+													
+													</li>
+													</a>
+                                    			</td>
+											</tr>
+											 <!-- Sixth row -->
+
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= @testrun['vitamincode'] %>', '<%= @testrun['vitaminexpected'] == '' ? "N/A" : @testrun['vitaminexpected'] %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">
+															Vitamin Code
+															<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['vitamincode'], @testrun['vitaminexpected'] == '' ? nil : @testrun['vitaminexpected']) %>">
+																<%= get_badge_compare(@testrun['vitamincode'], @testrun['vitaminexpected'] == '' ? nil : @testrun['vitaminexpected']) %>
+															</span>
+														</li>
+													</a>
+												</td>												
+												<td style="padding:0px;" class="validations upsell">
+													<% if(@offer && @testrun['confpricing'] ) %>
+													<a onclick="test_data_popup('<%= @testrun['confpricing'].gsub('$','') %>', '<%= @offer.first.Entry.to_s.scan(/\d+\.\d+/).first() if @offer.first %>')" data-toggle="modal" data-parent="#testdata" href="#testdata"> <% end %>
+													<li class="list-group-item">Pricing
+														<% if(@offer && @testrun['confpricing'] ) %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['confpricing'].gsub('$',''), @offer.first.Entry.to_s.scan(/\d+\.\d+/).first()) if @offer.first %>"><%= get_badge_compare(@testrun['confpricing'].gsub('$',''), @offer.first.Entry.to_s.scan(/\d+\.\d+/).first() )if @offer.first %></span> 
+													<% end %>
+													</li>
+													</a>
+                                    			</td>
+											</tr>
+											 <!-- Seventh row -->
+
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart"><% if(@offer && @testrun['subtotal_price'] ) %>
+													<a onclick="test_data_popup('<%= @testrun['subtotal_price'].gsub('$','') %>', '<%= @offer.first.Entry.to_s.scan(/\d+\.\d+/).first() if @offer.first %>')" data-toggle="modal" data-parent="#testdata" href="#testdata"> <% end %>
+													<li class="list-group-item">Pricing
+														<% if(@offer && @testrun['subtotal_price'] ) %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['subtotal_price'].gsub('$',''), @offer.first.Entry.to_s.scan(/\d+\.\d+/).first()) if @offer.first %>"><%= get_badge_compare(@testrun['subtotal_price'].gsub('$',''), @offer.first.Entry.to_s.scan(/\d+\.\d+/).first()) if @offer.first %></span> <% end %>
+													</li>
+												</a>
+											</td>
+												<td style="padding:0px;" class="validations upsell">
+													<a onclick="test_data_popup('<%= @testrun['conf_kit_name'].gsub('<','&lt;') if @testrun['conf_kit_name']  %>', '<%= @offer.first.Offer if(@offer.first) %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Kit Name
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['conf_kit_name'].to_s.downcase.include?(cart_title.downcase), true) if(@offer.first) %> pull-right"><%= get_badge_compare(@testrun['conf_kit_name'].to_s.downcase.include?(cart_title.downcase), true)if @offer.first %></span>
+													</li>
+													</a>
+                                    			</td>
+											</tr>
+											 <!-- Eighth row -->
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= print_actual_shipping(@testrun) %>', 'Shipping price exists')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">Shipping Price 
+															<span class="label label-as-badge  pull-right label-<%= get_color_compare(shipping_price_pass, true) if @offer.first %>">
+																<%= get_badge_compare(shipping_price_pass, true) if @offer.first %>
+															</span>
+														</li>
+													</a>
+												</td>
+												<td style="padding:0px;" class="validations upsell">
+												<a onclick="test_data_popup('<%= @testrun['conf_vitamin_name'] %>', '<%= vitamin_title_valid if(vitamin_title_valid) %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Vitamin Name
+														<% if(@vitamin) %>
+													<% if(@vitamin.first && @testrun['conf_vitamin_name'] && vitamin_title_valid ) %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['conf_vitamin_name'].include?(vitamin_title_valid), true) %> pull-right"><%=
+														 get_badge_compare(@testrun['conf_vitamin_name'].include?(vitamin_title_valid), true) %></span>
+														<% end %><% end %>
+													</li>
+												<% if(@vitamin) %>
+													<% if(@vitamin.first && @testrun['conf_vitamin_name'] && vitamin_title_valid) %></a>
+												<% end %><% end %>
+                                    		</td>
+											</tr>
+											<!-- Ninth row -->
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart">
+													<% actual_vitamin = nil
+													expected_vitamin = nil %>
+													<% if(@vitamin)
+														if(@vitamin.first && @testrun['vitamin_pricing'] ) 
+															actual_vitamin =  @testrun['vitamin_pricing'].to_s.scan(/\d+\.\d+/).first()
+															expected_vitamin = @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()
+														 end
+													end %>
+													<a onclick="test_data_popup('<%= actual_vitamin %>', '<%=  expected_vitamin %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">
+														Vitamin Price
+														<% if(@vitamin) %>
+														<% if(@vitamin.first && @testrun['vitamin_pricing'] ) %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['vitamin_pricing'].to_s.scan(/\d+\.\d+/).first(), @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()) %>">
+															<%= get_badge_compare(@testrun['vitamin_pricing'].to_s.scan(/\d+\.\d+/).first(), @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()) %>
+														</span>
+														<% end %><% end %>
+													</li>
+												</a>
+												</td>
+												<td style="padding:0px;" class="validations upsell">
+												<% actual_vitamin = nil
+													expected_vitamin = nil %>
+													<% if(@vitamin)
+														if(@vitamin.first && @testrun['vitamin_pricing'] ) 
+															actual_vitamin =  @testrun['confvitaminpricing'].to_s.scan(/\d+\.\d+/).first()
+															expected_vitamin = @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()
+														 end
+													end %>
+													<a onclick="test_data_popup('<%= actual_vitamin %>', '<%=  expected_vitamin %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														
+													<li class="list-group-item">Vitamin Price
+														<% if(@vitamin) %>
+														<% if(@vitamin.first && @testrun['vitamin_pricing'] ) %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['confvitaminpricing'].to_s.scan(/\d+\.\d+/).first(), @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()) %> pull-right"><%= get_badge_compare(@testrun['confvitaminpricing'].to_s.scan(/\d+\.\d+/).first(), @vitamin.first.Entry.to_s.scan(/\d+\.\d+/).first()) %></span>
+														<% end %><% end %>
+													</li>
+													</a>
+                                    		</td>
+											</tr>
+
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart"><a onclick="test_data_popup('<%= 
+
+
+if YAML.load(@testrun['kitnames'].to_s)
+	if YAML.load(@testrun['kitnames']).empty?
+		"No Validations performed"
+	end
+else
+	"N/A"
+end
+
+
+
+ %><ol><% 
+begin
+YAML.load(@testrun['kitnames']).each do |kitname| %><li><%= kitname %></li><% 
+end
+rescue => e
+end %></ol>', '<%= @offer.first.offer_data_detail ? @offer.first.offer_data_detail.offer_title : (@offer.first.Offer ) if @offer.first %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Kit Name
+														<% if @testrun['kitnames']
+														if YAML.load(@testrun['kitnames']).empty? == false %>
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['sas_kit_name'], 'Correct') %> pull-right"><%= get_badge_compare(@testrun['sas_kit_name'], 'Correct') %></span>
+														<% end 
+														end %>
+													</li></a></td>
+												<td style="padding:0px;" class="validations confirmation"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations upsell">
+                                    			</td>
+											</tr>
+
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart"><a onclick="test_data_popup('<%= @testrun['cart_quantity'] %>', '1')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+													<li class="list-group-item">Quantity
+														<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['cart_quantity'], '1') %> pull-right"><%= get_badge_compare(@testrun['cart_quantity'], '1') %></span>
+													</li></a>
+												</td>
+												<td style="padding:0px;" class="validations confirmation"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations upsell">
+                                    			</td>
+											</tr>
+
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= @testrun['vitamin_title'] %>', '<%= vitamin_title_valid if(vitamin_title_valid) %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">
+		                                            		Vitamin Title
+		                                            	<% if(vitamin_title_valid) %>
+		                                            		<span class="label label-as-badge  pull-right label-<%= get_color_compare(@testrun['vitamin_title'], vitamin_title_valid) %>"><%= get_badge_compare(@testrun['vitamin_title'].include?(vitamin_title_valid), true) %></span>
+		                                            		<% end %>
+
+	                                            </li></a></td>
+												<td style="padding:0px;" class="validations confirmation"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations upsell">
+                                    			</td>
+											</tr>
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<% 
+												cart_desc_vitamin = nil
+												if(@vitamin)
+													cart_desc_vitamin = ((@vitamin.empty? != true) ? (@vitamin.first.offer_data_detail ? cleanup_format(@vitamin.first.offer_data_detail.offerdesc) : "Not Found") : nil) 
+												else
+													cart_desc_vitamin = nil
+												end
+												
+	                                            cart_desc_actual = nil
+	                                            if @testrun['vitamin_description']
+	                                            	cart_desc_actual = cleanup_format(@testrun['vitamin_description'])
+	                                            end
+												%>
+												<td style="padding:0px;" class="validations cart">
+													<a onclick="test_data_popup('<%= cart_desc_actual %>', '<%= cart_desc_vitamin %>')" data-toggle="modal" data-parent="#testdata" href="#testdata">
+														<li class="list-group-item">
+		                                            		Vitamin Description
+		                                            		<% if(cart_desc_vitamin) %>
+		                                            	<span class="label label-as-badge  pull-right label-<%= get_color_compare(cart_desc_actual.include?(cart_desc_vitamin), true) %>"><%= get_badge_compare(cart_desc_actual.include?(cart_desc_vitamin), true) %></span>
+		                                            	<% end %>
+	                                            </li></a></td>
+												<td style="padding:0px;" class="validations confirmation"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations upsell">
+                                    			</td>
+											</tr>
+											<tr>
+												<td style="padding:0px;" class="validations landing"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations sas"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations cart"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations confirmation"><li class="list-group-item">&nbsp;</li></td>
+												<td style="padding:0px;" class="validations upsell">
+                                    			</td>
+											</tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <% if !failuresbox().empty? %>
+                            <div class="panel panel-danger">
+                            		<div class="panel-heading">
+                            			<h3 class="panel-title text-danger text-center" style="padding:0px;" id="failuresheader">Failure Messages:</h3>
+                            		</div>
+                            		<div class="panel-body"style="padding:0px;" >
+                            			<table class="table table-bordered table-condensed table-hover table-striped">
+                            				<thead>
+                            					<tr>
+                            						<th>Category</th>
+                            						<th>Actual</th>
+                            						<th>Expected</th>
+                            					</tr>
+                            				</thead>
+                            				<tbody>
+                            					<%= failuresbox().html_safe %>
+                            				</tbody>
+                            			</table>
+                            		</div>
+                            	</div>
+                           
+                            <% end %>
+
+                            <div class="panel panel-default panel-body">
+                            	<table class="table table-hover body-shadow" style="background-color:#FFF; text-align: center;">
+									<tr>
+										<% if @offer.first %>
+										<% 
+										headers = [
+											'Offercode',
+											'SupplySize',
+											'PieceCount',
+											'Bonus',
+											'Offer',
+											'Entry',
+											'Continuity',
+											'StartSH',
+											'ContinuitySH',
+											'Rush',
+											'OND',
+											'ExtraStep'
+											] 
+
+										headers.each do |header| %>
+											<th style='text-align: center;'><%= header %></th>
+										<% end %>
+									</tr>
+									
+										<tr>
+											<td><%=	@offer.first[:OfferCode] %></td>
+											<td><%=	@offer.first[:SupplySize] %></td>
+											<td><%=	@offer.first[:PieceCount] %></td>
+											<td><%=	@offer.first[:Bonus] %></td>
+											<td><%=	@offer.first[:Offer] %></td>
+											<td><%=	@offer.first[:Entry] %></td>
+											<td><%=	@offer.first[:Continuity] %></td>
+											<td><%=	@offer.first[:StartSH] %></td>
+											<td><%=	@offer.first[:ContinuitySH] %></td>
+											<td><%=	@offer.first[:Rush] %></td>
+											<td><%=	@offer.first[:OND] %></td>
+											<td><%=	@offer.first[:ExtraStep] %></td>
+										</tr>
+									<% end %>
+								</table>
+                            <div>
+                            	</div></div>
+
+                       
+                        <div class="panel panel-primary" id="notesresults">
+                        	<div class="panel-heading">
+                        		<h3 class="text-center panel-title">Notes</h3>
+                        	</div>
+                        	<div class="panel-body">
+                        		<p>
+                        			<%= @testrun['comments'] %>
+                        		</p>
+                        	</div>
+                        	<div class="panel-footer text-left">
+                        		<a class="btn btn-primary " data-toggle="modal" data-target="#modalexampleforediting">Edit Notes</a>
+                        	</div>
+                        </div>
+
+
+                        <ul class="pager">
+                        	<% if @previous %>
+                        	<li class="previous">
+
+                        		<a href="/testruns/<%= @previous.id %>">←  Prev</a>
+
+                        	</li>
+                        	<% end %>
+                        	<% if @next %>
+                        	<li class="next">
+                        		<a href="/testruns/<%= @next.id %>">Next  →</a>
+                        	</li>
+                        	<% end %>
+                        </ul>
+
+                        <ul class="breadcrumb text-left" id="topofresults">
+                        	<li>
+                        		<a href="/<%= @suite.SuiteType.downcase %>">
+                        			<%= @suite.SuiteType.capitalize %>
+                        			Test Suite</a>
+                        		</li>
+                        		<li>
+                        			<a href="/testsuites/<%= @testrun.test_suites_id %>">Test Suite</a>
+                        		</li>
+                        		<li>
+                        			Test Case
+                        		</li>
+                        	</ul>
+                        </div> </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- notes editing modal -->
+
+<div class="modal fade" id="modalexampleforediting">
+	<%= form_tag("/testruns/#{@testrun[:id]}", method: "patch", :class => "row") do %>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Editing Notes</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group has-feedback">
+                            	<label for="comments">Enter any notes about this testrun:</label>
+                               <textarea class="form-control" rows="5" name="comments" id="comments"><%= @testrun['comments'] %></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+                        <%= submit_tag "Save Changes", class: "btn btn-lg btn-primary" %>
+                    </div>
+                </div>
+            </div>
+            <% end %>
+        </div>
+        <!-- end modal -->
+
+
+
+        <div class="modal fade"id="screenshot_view">
+        	<div class="modal-dialog modal-lg" style="width:100%" >
+        		<div class="modal-content" >
+        			<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h1>Screenshot</h1></div>
+        			<div class="modal-body">
+        				<img src="/debug/<%= @testrun.id %>.png" style="width:100%" class="img-responsive">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <script>
+        	function test_data_popup(actual, expected){
+				$('#expecteddata').html(expected)
+				$('#actualdata').html(actual)
+        	}
+        </script>
+        <div class="modal fade" id="testdata">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        				<h4 class="modal-title">
+        					Step Results
+        				</h4>
+        			</div>
+        			<div class="modal-body">
+        				<p>
+        					<b>
+        						Expected:<br>
+        					</b>
+        					<div id='expecteddata'>Empty</div><br>
+        					<b>
+        						Actual:<br>
+        					</b>
+        					<div id='actualdata'>Empty</div><br><br>
+        				</p>
+        			</div>
+        			<div class="modal-footer">
+        				<a class="btn btn-default" data-dismiss="modal">
+        					Close
+        				</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <!-- end modal -->
+        <div class="modal fade" id="sourcecode">
+        	<div class="modal-dialog modal-lg" style="width:100%; max-height:90%;">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        				<h4 class="modal-title">
+        					source code
+        				</h4>
+        			</div>
+        			<div class="modal-body">
+        				<div style="height:300px; overflow:scroll;">
+		    				<p>
+		    					<plaintext height="inherit"> 
+		    						<%= 
+		    						begin
+		    						(File.read("public/debug/#{@testrun.id}.txt").html_safe)
+		    						rescue => e
+		    							"Failed to read source code log file"
+		    						end 
+		    						%>
+		    					</plaintext>
+		    				</p>
+		    			</div>
+        			</div>
+        			<div class="modal-footer">
+        				<a class="btn btn-default" data-dismiss="modal">
+        					Close
+        				</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <!-- end modal -->
+<!-- END OF testruns/_with_upsell.html.erb -->

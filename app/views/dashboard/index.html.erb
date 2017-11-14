@@ -1,0 +1,81 @@
+<!-- START OF dashboard/index.html.erb -->
+<style>
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+}
+
+</style>
+<div class="row row-eq-height visible-lg">
+	<div class="col-lg-6">
+		<div>
+			<%= render partial: "recent_tests", locals: {suites: @buyflow, type: "Buyflow"} %>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @vanity, type: "Vanity"} %>
+		</div>
+	</div>
+</div>
+
+<div class="row row-eq-height visible-lg">
+	<div class="col-lg-6">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @ucitests, type: "UCI"} %>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div>
+			<%= render partial: "recent_tests", locals: {suites: @offercode, type: "Offercode"} %>
+		</div>
+	</div>
+</div>
+<div class="row row-eq-height visible-lg">
+	<div class="col-lg-6">
+		<div>
+			<%= render partial:"alt_recent_tests", locals: {suites: @pixels, type: "Pixels"} %>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @seo, type: "seo"} %>
+		</div>
+	</div>
+</div>
+
+<div class="row hidden-lg">
+	<div class="col-md-12 col-lg-6">
+		<div>
+			<%= render partial: "recent_tests", locals: {suites: @buyflow, type: "Buyflow"} %>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-6">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @vanity, type: "Vanity"} %>
+		</div>
+	</div>
+</div>
+
+<div class="row hidden-lg">
+	<div class="col-md-12 col-lg-6">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @ucitests, type: "UCI"} %>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-6">
+		<div>
+			<%= render partial: "recent_tests", locals: {suites: @offercode, type: "Offercode"} %>
+		</div>
+	</div>
+</div>
+<div class="row hidden-lg">
+	<div class="col-md-12 col-lg-12">
+		<div>
+			<%= render partial:"recent_tests", locals: {suites: @pixels, type: "Pixels"} %>
+		</div>
+	</div>
+</div>
+<!-- END OF dashboard/index.html.erb -->

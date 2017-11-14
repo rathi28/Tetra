@@ -1,0 +1,38 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>Listing SEO Validations</h1>
+  </div>
+
+  <div class="panel-body">
+
+
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>Page name</th>
+      <th>Validation type</th>
+      <th>Value</th>
+      <th>Present</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @seo_validations.each do |seo_validation| %>
+      <tr>
+        <td><%= seo_validation.page_name %></td>
+        <td><%= seo_validation.validation_type %></td>
+        <td><%= seo_validation.value %></td>
+        <td><%= seo_validation.present %></td>
+        <td><%= link_to 'Show', seo_validation, :class => "btn btn-primary" %></td>
+        <td><%= link_to 'Edit', edit_seo_validation_path(seo_validation), :class => "btn btn-primary" %></td>
+        <td><%= link_to 'Destroy', seo_validation, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-primary" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Seo validation', new_seo_validation_path, :class => "btn btn-primary" %>
+</div></div>

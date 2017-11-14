@@ -1,0 +1,55 @@
+one:
+  idBrands: 6
+  Brandname: CrepeErase
+
+two:
+  idBrands: 12
+  Brandname: DrDenese
+
+three:
+  idBrands: 14
+  Brandname: HandPerfection
+
+four:
+  idBrands: 5
+  Brandname: ITCosmetics
+
+five:
+  idBrands: 4
+  Brandname: MeaningfulBeauty
+
+six:
+  idBrands: 9
+  Brandname: Perricone
+
+seven:
+  idBrands: 13
+  Brandname: PrincipalSecret
+
+eight:
+  idBrands: 2
+  Brandname: Proactiv
+
+nine:
+  idBrands: 1
+  Brandname: ProactivPlus
+
+ten:
+  idBrands: 7
+  Brandname: ReclaimBotanical
+
+eleven:
+  idBrands: 8
+  Brandname: Sheercover
+
+twelve:
+  idBrands: 10
+  Brandname: Supersmile
+
+thirteen:
+  idBrands: 3
+  Brandname: Wen
+
+fourteen:
+  idBrands: 11
+  Brandname: Xout

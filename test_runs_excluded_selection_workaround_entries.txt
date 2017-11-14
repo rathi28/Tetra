@@ -1,0 +1,1730 @@
+52,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:28:33 UTC,Complete,---
+retries: '1'
+,,,,,,
+53,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:29:17 UTC,Complete,---
+retries: '1'
+,,,,,,
+54,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:30:03 UTC,Complete,---
+retries: '1'
+,,,,,,
+55,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:30:47 UTC,Complete,---
+retries: '1'
+,,,,,,
+56,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:31:33 UTC,Complete,---
+retries: '1'
+,,,,,,
+57,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:32:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+58,pixel_content_single,https://www.meaningfulbeauty.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:33:08 UTC,Complete,---
+retries: '1'
+,,,,,,
+59,pixel_content_single,http://original.proactiv.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:33:52 UTC,Complete,---
+retries: '1'
+,,,,,,
+60,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:34:41 UTC,Complete,---
+retries: '1'
+,,,,,,
+61,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:35:22 UTC,Complete,---
+retries: '1'
+,,,,,,
+62,pixel_content_single,https://www.xout.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:36:05 UTC,Complete,---
+retries: '1'
+,,,,,,
+63,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:36:45 UTC,Complete,---
+retries: '1'
+,,,,,,
+64,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:37:28 UTC,Complete,---
+retries: '1'
+,,,,,,
+65,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:38:04 UTC,Complete,---
+retries: '1'
+,,,,,,
+66,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:38:39 UTC,Complete,---
+retries: '1'
+,,,,,,
+67,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:39:28 UTC,Complete,---
+retries: '1'
+,,,,,,
+68,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:40:12 UTC,Complete,---
+retries: '1'
+,,,,,,
+69,pixel_content_single,http://www.trydrd.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:40:55 UTC,Complete,---
+retries: '1'
+,,,,,,
+70,pixel_content_single,http://www.tryitnow.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:41:32 UTC,Complete,---
+retries: '1'
+,,,,,,
+71,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:42:13 UTC,Complete,---
+retries: '1'
+,,,,,,
+72,pixel_content_single,http://www.tryitnow.com/tvoffer?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:42:58 UTC,Complete,---
+retries: '1'
+,,,,,,
+73,pixel_content_single,http://shop.supersmile.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:43:34 UTC,Complete,---
+retries: '1'
+,,,,,,
+74,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:44:10 UTC,Complete,---
+retries: '1'
+,,,,,,
+75,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,cmoseley,,,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:09 UTC,2015-08-06 19:44:51 UTC,Complete,---
+retries: '1'
+,,,,,,
+76,pixel_content_single,http://www.reclaimbotanical.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:09 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:45:36 UTC,Complete,---
+retries: '1'
+,,,,,,
+77,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,cmoseley,,,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:46:15 UTC,Complete,---
+retries: '1'
+,,,,,,
+78,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,cmoseley,,,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:46:58 UTC,Complete,---
+retries: '1'
+,,,,,,
+79,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:47:39 UTC,Complete,---
+retries: '1'
+,,,,,,
+80,pixel_content_single,https://www.crepeerase.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:48:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+81,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:48:59 UTC,Complete,---
+retries: '1'
+,,,,,,
+82,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:49:38 UTC,Complete,---
+retries: '1'
+,,,,,,
+83,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:50:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+84,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:51:00 UTC,Complete,---
+retries: '1'
+,,,,,,
+85,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:51:40 UTC,Complete,---
+retries: '1'
+,,,,,,
+86,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:52:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+87,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:52:58 UTC,Complete,---
+retries: '1'
+,,,,,,
+88,pixel_content_single,http://www.principalsecret.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:53:42 UTC,Complete,---
+retries: '1'
+,,,,,,
+89,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:54:22 UTC,Complete,---
+retries: '1'
+,,,,,,
+90,pixel_content_single,http://www.handperfection.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:55:06 UTC,Complete,---
+retries: '1'
+,,,,,,
+91,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,963,2015-08-06 12:16:10 UTC,,,2015-08-06 19:16:10 UTC,2015-08-06 19:55:48 UTC,Complete,---
+retries: '1'
+,,,,,,
+92,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:15:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+93,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:16:23 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+94,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:17:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+95,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:17:58 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+96,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:18:44 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+97,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:19:26 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+98,pixel_content_single,https://www.meaningfulbeauty.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:20:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+99,pixel_content_single,http://original.proactiv.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:20:56 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+100,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:21:40 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+101,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:22:21 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+102,pixel_content_single,https://www.xout.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:23:05 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+103,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:23:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+104,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:24:26 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+105,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:25:02 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+106,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:25:37 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+107,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:26:24 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+108,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:27:08 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+109,pixel_content_single,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:27:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+110,pixel_content_single,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:28:27 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+111,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:29:08 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+112,pixel_content_single,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:29:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+113,pixel_content_single,http://shop.supersmile.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:30:27 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+114,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:31:03 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+115,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,ssankara,,,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:31:44 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+116,pixel_content_single,http://www.reclaimbotanical.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:32:21 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+117,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,ssankara,,,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:33:00 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+118,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,ssankara,,,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:33:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+119,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:34:24 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+120,pixel_content_single,https://www.crepeerase.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:35:04 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+121,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:35:45 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+122,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:36:23 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+123,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:37:03 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+124,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:37:43 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+125,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:38:23 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+126,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:39:04 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+127,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:39:45 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+128,pixel_content_single,http://www.principalsecret.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:40:27 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+129,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:41:09 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+130,pixel_content_single,http://www.handperfection.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:42:06 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+131,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,ssankara,,1,,,,,,,2,1,firefox,desktop,964,2015-08-06 13:14:56 UTC,,,2015-08-06 20:14:56 UTC,2015-08-06 20:42:48 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+132,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:00:44 UTC,Complete,---
+retries: '1'
+,,,,,,
+133,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:01:23 UTC,Complete,---
+retries: '1'
+,,,,,,
+134,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:02:24 UTC,Complete,---
+retries: '1'
+,,,,,,
+135,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:03:04 UTC,Complete,---
+retries: '1'
+,,,,,,
+136,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:03:51 UTC,Complete,---
+retries: '1'
+,,,,,,
+137,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:04:31 UTC,Complete,---
+retries: '1'
+,,,,,,
+138,pixel_content_single,https://www.meaningfulbeauty.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:05:16 UTC,Complete,---
+retries: '1'
+,,,,,,
+139,pixel_content_single,http://original.proactiv.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:06:00 UTC,Complete,---
+retries: '1'
+,,,,,,
+140,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:06:41 UTC,Complete,---
+retries: '1'
+,,,,,,
+141,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:07:20 UTC,Complete,---
+retries: '1'
+,,,,,,
+142,pixel_content_single,https://www.xout.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:37 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:37 UTC,2015-08-07 04:08:03 UTC,Complete,---
+retries: '1'
+,,,,,,
+143,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:08:39 UTC,Complete,---
+retries: '1'
+,,,,,,
+144,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:09:37 UTC,Complete,---
+retries: '1'
+,,,,,,
+145,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:10:16 UTC,Complete,---
+retries: '1'
+,,,,,,
+146,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:10:52 UTC,Complete,---
+retries: '1'
+,,,,,,
+147,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:11:30 UTC,Complete,---
+retries: '1'
+,,,,,,
+148,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:12:12 UTC,Complete,---
+retries: '1'
+,,,,,,
+149,pixel_content_single,http://www.trydrd.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:13:04 UTC,Complete,---
+retries: '1'
+,,,,,,
+150,pixel_content_single,http://www.tryitnow.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:13:40 UTC,Complete,---
+retries: '1'
+,,,,,,
+151,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:14:20 UTC,Complete,---
+retries: '1'
+,,,,,,
+152,pixel_content_single,http://www.tryitnow.com/tvoffer?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:15:03 UTC,Complete,---
+retries: '1'
+,,,,,,
+153,pixel_content_single,http://shop.supersmile.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:15:39 UTC,Complete,---
+retries: '1'
+,,,,,,
+154,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:16:16 UTC,Complete,---
+retries: '1'
+,,,,,,
+155,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,cmoseley,,,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:17:01 UTC,Complete,---
+retries: '1'
+,,,,,,
+156,pixel_content_single,http://www.reclaimbotanical.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:17:37 UTC,Complete,---
+retries: '1'
+,,,,,,
+157,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,cmoseley,,,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:18:15 UTC,Complete,---
+retries: '1'
+,,,,,,
+158,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,cmoseley,,,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:19:00 UTC,Complete,---
+retries: '1'
+,,,,,,
+159,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:19:39 UTC,Complete,---
+retries: '1'
+,,,,,,
+160,pixel_content_single,https://www.crepeerase.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:20:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+161,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:21:05 UTC,Complete,---
+retries: '1'
+,,,,,,
+162,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:21:44 UTC,Complete,---
+retries: '1'
+,,,,,,
+163,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:22:27 UTC,Complete,---
+retries: '1'
+,,,,,,
+164,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:23:14 UTC,Complete,---
+retries: '1'
+,,,,,,
+165,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:23:54 UTC,Complete,---
+retries: '1'
+,,,,,,
+166,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:24:38 UTC,Complete,---
+retries: '1'
+,,,,,,
+167,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:25:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+168,pixel_content_single,http://www.principalsecret.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:26:01 UTC,Complete,---
+retries: '1'
+,,,,,,
+169,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:26:41 UTC,Complete,---
+retries: '1'
+,,,,,,
+170,pixel_content_single,http://www.handperfection.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:27:26 UTC,Complete,---
+retries: '1'
+,,,,,,
+171,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,965,2015-08-06 13:53:38 UTC,,2015-08-06 21:00:00 UTC,2015-08-06 20:53:38 UTC,2015-08-07 04:28:13 UTC,Complete,---
+retries: '1'
+,,,,,,
+172,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:00:20 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+173,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:01:00 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+174,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:01:47 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+175,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:02:40 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+176,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:03:25 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+177,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:04:07 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+178,pixel_content_single,https://www.meaningfulbeauty.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:05:10 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+179,pixel_content_single,http://original.proactiv.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:06:00 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+180,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:06:41 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+181,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:07:22 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+182,pixel_content_single,https://www.xout.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:08:06 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+183,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:08:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+184,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:09:34 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+185,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:10:10 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+186,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:10:46 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+187,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:11:32 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+188,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:12:17 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+189,pixel_content_single,http://www.trydrd.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:13:17 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+190,pixel_content_single,http://www.tryitnow.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:13:55 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+191,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:14:37 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+192,pixel_content_single,http://www.tryitnow.com/tvoffer?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:15:20 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+193,pixel_content_single,http://shop.supersmile.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:15:57 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+194,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:16:32 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+195,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,cmoseley,,,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:17:13 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+196,pixel_content_single,http://www.reclaimbotanical.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:17:52 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+197,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,cmoseley,,,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:18:32 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+198,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,cmoseley,,,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:19:13 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+199,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:19:55 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+200,pixel_content_single,https://www.crepeerase.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:20:36 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+201,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:21:16 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+202,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:21:54 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+203,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:22:37 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+204,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:23:17 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+205,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:23:57 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+206,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:24:36 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+207,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:25:18 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+208,pixel_content_single,http://www.principalsecret.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:25:59 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+209,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:26:40 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+210,pixel_content_single,http://www.handperfection.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:27:46 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+211,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,966,2015-08-06 13:59:30 UTC,,,2015-08-06 20:59:30 UTC,2015-08-06 21:28:32 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+212,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:29:18 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+213,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:29:57 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+214,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:30:48 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+215,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:31:43 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+216,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:32:29 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+217,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:33:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+218,pixel_content_single,https://www.meaningfulbeauty.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:34:00 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+219,pixel_content_single,http://original.proactiv.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:34:43 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+220,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:35:27 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+221,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:36:09 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+222,pixel_content_single,https://www.xout.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:36:53 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+223,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:37:31 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+224,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:38:14 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+225,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:38:50 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+226,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:39:25 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+227,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:40:06 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+228,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,cmoseley,,1,,,,,,,4,1,firefox,desktop,967,2015-08-06 14:01:26 UTC,,,2015-08-06 21:01:26 UTC,2015-08-06 21:42:57 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+229,pixel_content_single,http://www.trydrd.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:43:44 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+230,pixel_content_single,http://www.tryitnow.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:44:19 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+231,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:44:59 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+232,pixel_content_single,http://www.tryitnow.com/tvoffer?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:45:41 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+233,pixel_content_single,http://shop.supersmile.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:46:16 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+234,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:46:52 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+235,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,cmoseley,,,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:47:33 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+236,pixel_content_single,http://www.reclaimbotanical.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:48:08 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+237,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,cmoseley,,,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:48:44 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+238,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,cmoseley,,,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:49:30 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+239,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:50:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+240,pixel_content_single,https://www.crepeerase.com/order?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:50:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+241,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:51:33 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+242,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:52:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+243,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:52:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+244,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:53:32 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+245,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:54:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+246,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:54:53 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+247,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:55:34 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+248,pixel_content_single,http://www.principalsecret.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:56:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+249,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:56:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+250,pixel_content_single,http://www.handperfection.com/?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:57:33 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+251,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,cmoseley,,1,,,,,,,2,1,firefox,desktop,967,2015-08-06 14:01:27 UTC,,,2015-08-06 21:01:27 UTC,2015-08-06 21:58:14 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+status_code: '1'
+nonexistant: '1'
+,,,,,,
+252,pixel_confirmation,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:00:00 UTC,Complete,---
+retries: '1'
+,,,,,,
+253,pixel_confirmation,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:01:51 UTC,Complete,---
+retries: '1'
+,,,,,,
+254,pixel_confirmation,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:03:34 UTC,Complete,---
+retries: '1'
+,,,,,,
+255,pixel_confirmation,http://original.proactiv.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:05:26 UTC,Complete,---
+retries: '1'
+,,,,,,
+256,pixel_confirmation,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:07:09 UTC,Complete,---
+retries: '1'
+,,,,,,
+257,pixel_confirmation,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:08:49 UTC,Complete,---
+retries: '1'
+,,,,,,
+258,pixel_confirmation,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:10:21 UTC,Complete,---
+retries: '1'
+,,,,,,
+259,pixel_confirmation,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:11:56 UTC,Complete,---
+retries: '1'
+,,,,,,
+260,pixel_confirmation,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:13:38 UTC,Complete,---
+retries: '1'
+,,,,,,
+261,pixel_confirmation,http://www.trydrd.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:15:01 UTC,Complete,---
+retries: '1'
+,,,,,,
+262,pixel_confirmation,http://www.tryitnow.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:16:27 UTC,Complete,---
+retries: '1'
+,,,,,,
+263,pixel_confirmation,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:17:54 UTC,Complete,---
+retries: '1'
+,,,,,,
+264,pixel_confirmation,http://shop.supersmile.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:19:32 UTC,Complete,---
+retries: '1'
+,,,,,,
+265,pixel_confirmation,http://www.reclaimbotanical.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:21:10 UTC,Complete,---
+retries: '1'
+,,,,,,
+266,pixel_confirmation,http://www.crepeerase.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:22:51 UTC,Complete,---
+retries: '1'
+,,,,,,
+267,pixel_confirmation,http://www.crepeerase.com/fse?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:24:34 UTC,Complete,---
+retries: '1'
+,,,,,,
+268,pixel_confirmation,http://www.crepeerase.com/premier?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:26:18 UTC,Complete,---
+retries: '1'
+,,,,,,
+269,pixel_confirmation,http://www.crepeerase.com/maximumresults?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:28:00 UTC,Complete,---
+retries: '1'
+,,,,,,
+270,pixel_confirmation,http://www.principalsecret.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:29:41 UTC,Complete,---
+retries: '1'
+,,,,,,
+271,pixel_confirmation,http://www.handperfection.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,968,2015-08-06 14:15:13 UTC,,,2015-08-06 21:15:13 UTC,2015-08-06 22:30:51 UTC,Complete,---
+retries: '1'
+,,,,,,
+272,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:31:31 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+273,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:32:10 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+274,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:32:55 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+275,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:33:33 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+276,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:34:23 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+277,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:35:07 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+278,pixel_content_single,https://www.meaningfulbeauty.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:48 UTC,,,2015-08-06 21:48:48 UTC,2015-08-06 22:35:50 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+279,pixel_content_single,http://original.proactiv.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:36:30 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+280,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:37:10 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+281,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:37:52 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+282,pixel_content_single,https://www.xout.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:38:35 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+283,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:39:11 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+284,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:39:54 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+285,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:40:29 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+286,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:41:04 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+287,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:41:43 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+288,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:42:26 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+289,pixel_content_single,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:43:06 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+290,pixel_content_single,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:43:42 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+291,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:44:21 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+292,pixel_content_single,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:45:06 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+293,pixel_content_single,http://shop.supersmile.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:45:41 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+294,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:46:16 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+295,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,ssankara,,,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:46:56 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+296,pixel_content_single,http://www.reclaimbotanical.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:47:31 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+297,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,ssankara,,,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:48:07 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+298,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,ssankara,,,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:49 UTC,,,2015-08-06 21:48:49 UTC,2015-08-06 22:48:47 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+299,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:49:26 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+300,pixel_content_single,https://www.crepeerase.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:50:06 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+301,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:50:50 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+302,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:51:29 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+303,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:52:09 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+304,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:52:48 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+305,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:53:28 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+306,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:54:08 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+307,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:54:49 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+308,pixel_content_single,http://www.principalsecret.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:55:26 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+309,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:56:06 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+310,pixel_content_single,http://www.handperfection.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:56:49 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+311,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,ssankara,,1,,,,,,,2,1,firefox,desktop,969,2015-08-06 14:48:50 UTC,,,2015-08-06 21:48:50 UTC,2015-08-06 22:57:31 UTC,Complete,---
+retries: '1'
+nonexistant: '1'
+,,,,,,
+312,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 22:58:12 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+313,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 22:58:55 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+314,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 22:59:41 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+315,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:00:21 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+316,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,ssankara,,,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:01:05 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+317,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:01:44 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+318,pixel_content_single,https://www.meaningfulbeauty.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:02:29 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+319,pixel_content_single,http://original.proactiv.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:03:09 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+320,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:03:53 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+321,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:04:32 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+322,pixel_content_single,https://www.xout.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:05:15 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+323,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:05:50 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+324,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:06:32 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+325,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:07:07 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+326,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:07:42 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+327,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:08:23 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+328,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:09:08 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+329,pixel_content_single,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:09:50 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+330,pixel_content_single,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:10:25 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+331,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:11:04 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+332,pixel_content_single,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:11:46 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+333,pixel_content_single,http://shop.supersmile.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:12:23 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+334,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:12:58 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+335,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,ssankara,,,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:13:38 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+336,pixel_content_single,http://www.reclaimbotanical.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:14:14 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+337,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,ssankara,,,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:14:50 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+338,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,ssankara,,,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:15:32 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+339,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:16:11 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+340,pixel_content_single,https://www.crepeerase.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:16:52 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+341,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:17:34 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+342,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:18:15 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+343,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:18:56 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+344,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:19:35 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+345,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:20:20 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+346,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:20:59 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+347,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:21:41 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+348,pixel_content_single,http://www.principalsecret.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:22:18 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+349,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:22:58 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+350,pixel_content_single,http://www.handperfection.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:23:44 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+351,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,ssankara,,1,,,,,,,2,1,firefox,desktop,970,2015-08-06 14:49:42 UTC,,,2015-08-06 21:49:42 UTC,2015-08-06 23:24:24 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+352,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:25:05 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+353,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:25:45 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+354,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:26:31 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+355,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:27:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+356,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:28:00 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+357,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:28:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+358,pixel_content_single,https://www.meaningfulbeauty.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:29:35 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+359,pixel_content_single,http://original.proactiv.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:30:53 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+360,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:31:34 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+361,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:32:17 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+362,pixel_content_single,https://www.xout.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:33:01 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+363,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:33:38 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+364,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:34:28 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+365,pixel_content_single,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:35:05 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+366,pixel_content_single,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:35:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+367,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:36:20 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+368,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:37:12 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+369,pixel_content_single,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:37:53 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+370,pixel_content_single,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:38:28 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+371,pixel_content_single,https://www.tryitnow.com/cart?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:39:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+372,pixel_content_single,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:39:55 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+373,pixel_content_single,http://shop.supersmile.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:40:30 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+374,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:41:05 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+375,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,ssankara,,,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:41:48 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+376,pixel_content_single,http://www.reclaimbotanical.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:42:25 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+377,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,ssankara,,,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:43:01 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+378,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,ssankara,,,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:43:46 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+379,pixel_content_single,http://www.crepeerase.com/?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:44:26 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+380,pixel_content_single,https://www.crepeerase.com/order?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:45:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+381,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553648673,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:46:02 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+382,pixel_content_single,http://www.crepeerase.com/fse?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:46:41 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+383,pixel_content_single,https://www.crepeerase.com/order?dwcont=C1553739040,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:47:30 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+384,pixel_content_single,http://www.crepeerase.com/premier?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:48:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+385,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:48:52 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+386,pixel_content_single,http://www.crepeerase.com/maximumresults?mmcore.gm=2,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:49:31 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+387,pixel_content_single,https://www.crepeerase.com/order?dwcont=C191623499,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:50:11 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+388,pixel_content_single,http://www.principalsecret.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:50:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+389,pixel_content_single,https://www.principalsecret.com/order?omnActionObjectId=order_2,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:51:31 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+390,pixel_content_single,http://www.handperfection.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:52:14 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+391,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site?,,ssankara,,1,,,,,,,2,1,firefox,desktop,971,2015-08-06 14:50:08 UTC,,,2015-08-06 21:50:08 UTC,2015-08-06 23:53:02 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+392,pixel_confirmation,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-06 23:54:49 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+393,pixel_confirmation,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-06 23:56:53 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+394,pixel_confirmation,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-06 23:58:40 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+395,pixel_confirmation,http://original.proactiv.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:00:38 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+396,pixel_confirmation,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:02:22 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+397,pixel_confirmation,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:04:04 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+398,pixel_confirmation,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:05:46 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+399,pixel_confirmation,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:07:21 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+400,pixel_confirmation,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:09:02 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+401,pixel_confirmation,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:39 UTC,,,2015-08-06 21:50:39 UTC,2015-08-07 00:10:30 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+402,pixel_confirmation,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:11:54 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+403,pixel_confirmation,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:13:18 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+404,pixel_confirmation,http://shop.supersmile.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:15:08 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+405,pixel_confirmation,http://www.reclaimbotanical.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:16:58 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+406,pixel_confirmation,http://www.crepeerase.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:18:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+407,pixel_confirmation,http://www.crepeerase.com/fse?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:20:29 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+408,pixel_confirmation,http://www.crepeerase.com/premier?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:22:13 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+409,pixel_confirmation,http://www.crepeerase.com/maximumresults?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:23:59 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+410,pixel_confirmation,http://www.principalsecret.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:25:39 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+411,pixel_confirmation,http://www.handperfection.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,972,2015-08-06 14:50:40 UTC,,,2015-08-06 21:50:40 UTC,2015-08-07 00:27:54 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+412,pixel_confirmation,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:29:40 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+413,pixel_confirmation,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:31:38 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+414,pixel_confirmation,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:33:30 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+415,pixel_confirmation,http://original.proactiv.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:35:27 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+416,pixel_confirmation,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:37:20 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+417,pixel_confirmation,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:39:02 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+418,pixel_confirmation,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:40:38 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+419,pixel_confirmation,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:42:06 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+420,pixel_confirmation,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:43:40 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+421,pixel_confirmation,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:45:06 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+422,pixel_confirmation,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:46:27 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+423,pixel_confirmation,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:48:05 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+424,pixel_confirmation,http://shop.supersmile.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:49:44 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+425,pixel_confirmation,http://www.reclaimbotanical.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:51:30 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+426,pixel_confirmation,http://www.crepeerase.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:53:22 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+427,pixel_confirmation,http://www.crepeerase.com/fse?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:55:08 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+428,pixel_confirmation,http://www.crepeerase.com/premier?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:56:52 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+429,pixel_confirmation,http://www.crepeerase.com/maximumresults?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 00:58:34 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+430,pixel_confirmation,http://www.principalsecret.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 01:00:16 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+431,pixel_confirmation,http://www.handperfection.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,973,2015-08-06 14:51:00 UTC,,,2015-08-06 21:51:00 UTC,2015-08-07 01:02:02 UTC,Complete,---
+retries: '1'
+status_code: '1'
+,,,,,,
+432,pixel_confirmation,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:21 UTC,,,2015-08-06 21:51:21 UTC,2015-08-07 01:03:54 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+433,pixel_confirmation,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:21 UTC,,,2015-08-06 21:51:21 UTC,2015-08-07 01:05:57 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+434,pixel_confirmation,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:21 UTC,,,2015-08-06 21:51:21 UTC,2015-08-07 01:07:42 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+435,pixel_confirmation,http://original.proactiv.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:09:34 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+436,pixel_confirmation,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:11:20 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+437,pixel_confirmation,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:13:04 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+438,pixel_confirmation,http://www.subd.com/deluxe?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:14:41 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+439,pixel_confirmation,http://www.subd.com/prestige?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:16:17 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+440,pixel_confirmation,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:17:51 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+441,pixel_confirmation,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:19:18 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+442,pixel_confirmation,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:20:45 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+443,pixel_confirmation,http://www.tryitnow.com/tvoffer?,,ssankara,,1,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:22:18 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+444,pixel_confirmation,http://shop.supersmile.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:23:58 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+445,pixel_confirmation,http://www.reclaimbotanical.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:25:40 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+446,pixel_confirmation,http://www.crepeerase.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:27:21 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+447,pixel_confirmation,http://www.crepeerase.com/fse?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:29:13 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+448,pixel_confirmation,http://www.crepeerase.com/premier?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:30:59 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+449,pixel_confirmation,http://www.crepeerase.com/maximumresults?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:32:41 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+450,pixel_confirmation,http://www.principalsecret.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:34:21 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+451,pixel_confirmation,http://www.handperfection.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,974,2015-08-06 14:51:22 UTC,,,2015-08-06 21:51:22 UTC,2015-08-07 01:35:33 UTC,Complete,---
+multiple_pixel: '1'
+retries: '1'
+,,,,,,
+452,pixel_content_single,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:46:14 UTC,Complete,---
+retries: '1'
+,,,,,,
+453,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?uci=US-PA-O-AF-LI-27156&grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:46:53 UTC,Complete,---
+retries: '1'
+,,,,,,
+454,pixel_content_single,https://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/COCart-AddProduct?grcid=core&uci=US-PA-O-AF-LI-27156&currentSelection=PA-formula-Original-sum-compare-ps%7CPA-kit-3G-3StepKit-main-inline-ps%7CPA-gift-3G-bdg-inline-ps%7CPA-supply-30day-3G-3StepKit-inline-ps,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:47:55 UTC,Complete,---
+retries: '1'
+,,,,,,
+455,pixel_content_single,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:48:33 UTC,Complete,---
+retries: '1'
+,,,,,,
+456,pixel_content_single,https://www.wen.com/on/demandware.store/Sites-WenHairCare-Site/default/COCart-AddProduct?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:49:24 UTC,Complete,---
+retries: '1'
+,,,,,,
+457,pixel_content_single,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:50:05 UTC,Complete,---
+retries: '1'
+,,,,,,
+458,pixel_content_single,https://www.meaningfulbeauty.com/on/demandware.store/Sites-MeaningfulBeauty-Site/default/ICOCart-Show?cgid=CoreCampaign&uci=US-MT-O-AF-LI-60634,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:26 UTC,,,2015-08-07 02:45:26 UTC,2015-08-07 02:50:52 UTC,Complete,---
+retries: '1'
+,,,,,,
+459,pixel_content_single,http://original.proactiv.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:51:34 UTC,Complete,---
+retries: '1'
+,,,,,,
+460,pixel_content_single,http://www.proactiv.com/on/demandware.store/Sites-ProactivPlus-Site/default/SAS-Show?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:52:20 UTC,Complete,---
+retries: '1'
+,,,,,,
+461,pixel_content_single,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:53:01 UTC,Complete,---
+retries: '1'
+,,,,,,
+462,pixel_content_single,https://www.xout.com/on/demandware.store/Sites-xout-Site/default/ICOCart-Show?cgid=CoreCampaign&uci=US-DT-O-AF-LI-60636,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:53:54 UTC,Complete,---
+retries: '1'
+,,,,,,
+463,pixel_content_single,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:54:31 UTC,Complete,---
+retries: '1'
+,,,,,,
+464,pixel_content_single,https://www.subd.com/on/demandware.store/Sites-Perricone-Site/default/COCart-AddProduct?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:55:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+465,pixel_content_single,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:55:58 UTC,Complete,---
+retries: '1'
+,,,,,,
+466,pixel_content_single,https://www.sheercover.com/on/demandware.store/Sites-SheerCover-Site/default/COCart-AddProduct?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:56:42 UTC,Complete,---
+retries: '1'
+,,,,,,
+467,pixel_content_single,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:57:26 UTC,Complete,---
+retries: '1'
+,,,,,,
+468,pixel_content_single,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:58:04 UTC,Complete,---
+retries: '1'
+,,,,,,
+469,pixel_content_single,https://www.tryitnow.com/on/demandware.store/Sites-ITCosmetics-Site/default/COCart-AddProduct?grcid=core,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:58:47 UTC,Complete,---
+retries: '1'
+,,,,,,
+470,pixel_content_single,http://shop.supersmile.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:59:22 UTC,Complete,---
+retries: '1'
+,,,,,,
+471,pixel_content_single,http://shop.supersmile.com/order-supersmile.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 02:59:57 UTC,Complete,---
+retries: '1'
+,,,,,,
+472,pixel_content_single,https://store.supersmile.com/supersmile/?new=D7NC3D,,ssankara,,,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:00:38 UTC,Complete,---
+retries: '1'
+,,,,,,
+473,pixel_content_single,http://www.reclaimbotanical.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:01:16 UTC,Complete,---
+retries: '1'
+,,,,,,
+474,pixel_content_single,http://www.reclaimbotanical.com/order.html?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:01:55 UTC,Complete,---
+retries: '1'
+,,,,,,
+475,pixel_content_single,https://www.reclaimbotanical.com/on/demandware.store/Sites-ReclaimBotanical-Site/default/COCart-AddProduct?pid=B67H3M&auth=null,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:02:38 UTC,Complete,---
+retries: '1'
+,,,,,,
+476,pixel_content_single,http://www.crepeerase.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:03:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+477,pixel_content_single,https://www.crepeerase.com/on/demandware.store/Sites-CrepeErase-Site/default/ICOCart-Show?cgid=CoreCampaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:04:03 UTC,Complete,---
+retries: '1'
+,,,,,,
+478,pixel_content_single,http://www.crepeerase.com/fse?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:04:42 UTC,Complete,---
+retries: '1'
+,,,,,,
+479,pixel_content_single,https://www.crepeerase.com/on/demandware.store/Sites-CrepeErase-Site/default/ICOCart-Show?cgid=fse-campaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:05:25 UTC,Complete,---
+retries: '1'
+,,,,,,
+480,pixel_content_single,http://www.crepeerase.com/premier?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:27 UTC,,,2015-08-07 02:45:27 UTC,2015-08-07 03:06:08 UTC,Complete,---
+retries: '1'
+,,,,,,
+481,pixel_content_single,https://www.crepeerase.com/on/demandware.store/Sites-CrepeErase-Site/default/ICOCart-Show?cgid=premier-campaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:06:50 UTC,Complete,---
+retries: '1'
+,,,,,,
+482,pixel_content_single,http://www.crepeerase.com/maximumresults?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:07:34 UTC,Complete,---
+retries: '1'
+,,,,,,
+483,pixel_content_single,https://www.crepeerase.com/on/demandware.store/Sites-CrepeErase-Site/default/ICOCart-Show?cgid=maximumresults-campaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:08:26 UTC,Complete,---
+retries: '1'
+,,,,,,
+484,pixel_content_single,http://www.principalsecret.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:09:07 UTC,Complete,---
+retries: '1'
+,,,,,,
+485,pixel_content_single,https://www.principalsecret.com/on/demandware.store/Sites-principalsecret-Site/default/ICOCart-Show?cgid=CoreCampaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:09:52 UTC,Complete,---
+retries: '1'
+,,,,,,
+486,pixel_content_single,http://www.handperfection.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:28 UTC,,,2015-08-07 02:45:28 UTC,2015-08-07 03:10:36 UTC,Complete,---
+retries: '1'
+,,,,,,
+487,pixel_content_single,https://www.handperfection.com/on/demandware.store/Sites-HandPerfection-Site/default/ICOCart-Show?cgid=CoreCampaign,,ssankara,,1,,,,,,,2,1,firefox,desktop,976,2015-08-06 19:45:29 UTC,,,2015-08-07 02:45:29 UTC,2015-08-07 03:11:19 UTC,Complete,---
+retries: '1'
+,,,,,,
+488,pixel_confirmation,http://www.proactiv.com/?uci=US-PA-O-AF-LI-27156,,ssankara,,1,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:13:15 UTC,Complete,---
+retries: '1'
+,,,,,,
+489,pixel_confirmation,http://www.wen.com/?uci=US-CD-O-AF-LI-60633,,ssankara,,1,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:15:25 UTC,Complete,---
+retries: '1'
+,,,,,,
+490,pixel_confirmation,http://www.meaningfulbeauty.com/?uci=US-MT-O-AF-LI-60634,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:17:11 UTC,Complete,---
+retries: '1'
+,,,,,,
+491,pixel_confirmation,http://original.proactiv.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:19:03 UTC,Complete,---
+retries: '1'
+,,,,,,
+492,pixel_confirmation,http://www.xout.com/?uci=US-DT-O-AF-LI-60636,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:20:46 UTC,Complete,---
+retries: '1'
+,,,,,,
+493,pixel_confirmation,http://www.subd.com/?uci=US-CP-O-AF-LI-26589,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:22:29 UTC,Complete,---
+retries: '1'
+,,,,,,
+494,pixel_confirmation,http://www.sheercover.com/?uci=US-YB-O-AF-LI-60635,,ssankara,,1,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:24:13 UTC,Complete,---
+retries: '1'
+,,,,,,
+495,pixel_confirmation,http://www.trydrd.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:25:41 UTC,Complete,---
+retries: '1'
+,,,,,,
+496,pixel_confirmation,http://www.tryitnow.com/?,,ssankara,,1,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:27:10 UTC,Complete,---
+retries: '1'
+,,,,,,
+497,pixel_confirmation,http://shop.supersmile.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:28:58 UTC,Complete,---
+retries: '1'
+,,,,,,
+498,pixel_confirmation,http://www.reclaimbotanical.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:30:42 UTC,Complete,---
+retries: '1'
+,,,,,,
+499,pixel_confirmation,http://www.crepeerase.com/?mmcore.gm=2,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:32:27 UTC,Complete,---
+retries: '1'
+,,,,,,
+500,pixel_confirmation,http://www.principalsecret.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:34:16 UTC,Complete,---
+retries: '1'
+,,,,,,
+501,pixel_confirmation,http://www.handperfection.com/?,,ssankara,,,,,,,,,2,1,firefox,desktop,977,2015-08-06 19:51:28 UTC,,,2015-08-07 02:51:28 UTC,2015-08-07 03:35:38 UTC,Complete,---
+retries: '1'
+,,,,,,

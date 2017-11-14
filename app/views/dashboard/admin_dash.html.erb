@@ -1,0 +1,92 @@
+<!-- START OF dashboard/admin_dash.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<div class='panel panel-primary'>
+	<div class='panel-heading'>
+		<h2>
+			Admin Console
+		</h2>
+		<small>
+			Server Time is currently: <%= Time.now().getlocal %>
+		</small>
+	</div>
+	<div class='panel-body'>
+		<div class='row'>
+			<div class='col-md-3'>
+				<ul class="list-group">
+					<a href="http://<%= @grid_hub.ip %>:<%= @grid_hub.port %>/grid/console" class="list-group-item">
+						Selenium Grid Console
+					</a>
+					<a href='https://www.grautomation.guthy-renker.com:8808/' class="list-group-item">
+						Code Documentation Server
+					</a>
+					<a href='https://confluence.guthy-renker.com/display/DIG/Digital+QA+-+Automation' class="list-group-item">
+						Confluence Documentation
+					</a>
+					<a href='/error_messages' class="list-group-item">
+						Errors Log
+					</a>
+					<a href='/error_codes' class="list-group-item">
+						Custom Error Codes
+					</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class='panel-heading'>
+		<h2>
+			Workers
+		</h2>
+	</div>
+	<div class='panel-body'>
+		<h3> Workers Running: </h3>
+		<br>
+		<% if @worker_lanes.empty? %>
+			No Workers have checked in with database
+		<% else %>
+			<% @worker_lanes.each do |worker| %>
+				<%= worker.queue %>
+			<% end %>
+		<% end %>
+
+		<br><br>
+
+		<%= link_to "Worker Priority", workers_path, :class => 'btn btn-default' %>
+	</div>
+	<div class='panel-heading'>
+		<h2>
+			Grid Hub and Nodes
+		</h2>
+	</div>
+	<div class='panel-body'>
+		<div class='row'>
+			<div class='col-md-3'>
+				ONLY USE RELOAD AS NEEDED - Slows down the server for a moment if there are nodes down. We don't have a general heart beat check for this at this time.<br><br>
+				<%= form_tag("/admin", method: "post") do %>
+				    <button id="reload" class="btn btn-danger" name="reload_status" value="true">Reload</button>
+				<% end %>
+
+				<br><br>
+				<table class="table table-condensed">
+					<tr>
+						<td><h3>Hub</h3></td>
+						<td><h3><%= @grid_hub.ip %>:<%= @grid_hub.port %></h3></td>
+						<td><h3><span class="label label-<%= @hub_status ? 'success': 'danger'%>"><%= @hub_status ? 'Online': 'Offline'%></span></h3></td>
+					</tr>
+					<% @grid_nodes.each do |node| %>
+						<tr>
+							<td><h3><%= node.role.capitalize %></h3></td>
+							<td><h3><%= node.ip + ":" + node.port %></h3></td>
+							<td><h3><span class="label label-<%= @grid_nodes_status[node.id] ? 'success': 'danger'%>"><%= @grid_nodes_status[node.id] ? 'Online': 'Offline'%></span></td>
+						</tr>
+					<% end %>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END OF dashboard/admin_dash.html.erb -->

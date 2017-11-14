@@ -1,0 +1,46 @@
+first_test_suite:
+  id: 1806
+  Ran By: cmoseley
+  DateTime: 2015-09-22 17:12:30.000000000 Z
+  Test Suite Name: Vanity deployment test
+  Runtime: 0.0
+  Pass: 47
+  Fail: 5
+  TotalTests: 52
+  Status: Complete
+  SuiteType: vanity
+  Campaign: core
+  Brand: all
+  Browser: grid-chrome
+  Platform: desktop
+  URL:
+  offercode:
+  Environment: dev
+  emailnotification: ssankara@guthy-renker.com
+  scheduledate:
+  scheduleid:
+  realm: Not Set
+
+buyflow_suite_email_testing:
+  id: 283
+  Ran By: cmoseley
+  DateTime: 2015-05-27 21:44:14.000000000 Z
+  Test Suite Name: all - core - Buyflow
+  Runtime: 1128.09
+  Pass: 8
+  Fail: 4
+  TotalTests: 12
+  Status: Complete
+  SuiteType: Buyflow
+  Campaign: core
+  Brand: all
+  Browser: chrome
+  Platform: Desktop
+  URL: ''
+  offercode: ''
+  Environment: qa
+  emailnotification: ssankara@guthy-renker.com
+  scheduledate:
+  scheduleid:
+  realm: Not Set
+  

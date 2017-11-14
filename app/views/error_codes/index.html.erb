@@ -1,0 +1,30 @@
+<div class="well"><h1>Error Codes</h1></div>
+
+<table class="table table-bordered table-striped table-condensed">
+  <thead>
+    <tr>
+      <th>Human name</th>
+      <th>Errorcode</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @error_codes.each do |error_code| %>
+      <tr>
+        <td><%= error_code.human_name %></td>
+        <td><%= error_code.errorcode %></td>
+        <td><%= link_to 'Show', error_code, class: "btn btn-default btn-sm" %>
+        <%= link_to 'Edit', edit_error_code_path(error_code), class: "btn btn-info btn-sm"  %>
+        <%= link_to 'Destroy', error_code, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-sm"  %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Error code', new_error_code_path, class: "btn btn-success btn-lg" %>
+
+<br>
+<br>

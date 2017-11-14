@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pixel_one:
+  pixel_handle: 12345
+  expected_state: 1
+  test_url_id: first_url
+
+pixel_two:
+  pixel_handle: 56789
+  expected_state: 1
+  test_url_id: first_url

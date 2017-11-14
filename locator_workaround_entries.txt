@@ -1,0 +1,730 @@
+107,.PA-duo-brightening-4g-main-ps,ProactivPlus,Duo,Skin Brightening Duo
+108,.PA-duo-totalbody-4g-main-ps,ProactivPlus,Duo,Total Body Duo
+109,.PA-duo-medicated-4g-main-ps,ProactivPlus,Duo,Medicated Shave Duo
+110,.PA-supply-90day-4g-3step-nothanks-ps,ProactivPlus,Supply,90
+111,.PA-supply-30day-4g-3step-nothanks-ps,ProactivPlus,Supply,30
+112,.PA-supply-30day-4g-3step-nothanks-ps,ProactivPlus,Supply,30
+113,.PA-supply-90day-4g-3step-nothanks-ps,ProactivPlus,Supply,90
+114,.PA-kit-3step-4g-main-ps,ProactivPlus,Kit,Proactiv+ 3-Step System
+115,.PA-kit-3step-3g-main-ps,ProactivPlus,Kit,3-Step System
+191,#system1Kits.D7CM4G .click-more,ProactivPlus,Kit1,Proactiv+ Complete Kit
+192,#system2Kits.D7CM4L .click-more,ProactivPlus,Kit1,Proactiv+ Teen Kit
+193,#system3Kits.D7CM4C .click-more,ProactivPlus,Kit1,Proactiv+ 3-Step System
+194,.pa-plus .click-more,ProactivPlus,Product1,ProactivPlus
+195,.pa-original .click-more,ProactivPlus,Product1,Proactiv
+196,.pa-plus .select-btn,ProactivPlus,Product2,ProactivPlus
+197,.pa-original .select-btn,ProactivPlus,Product2,Proactiv
+198,#system1Kits.D7CM4G .selected,ProactivPlus,Kit2,Proactiv+ Complete Kit
+199,#system2Kits.D7CM4L .selected,ProactivPlus,Kit2,Proactiv+ Teen Kit
+200,#system3Kits.D7CM4C .selected,ProactivPlus,Kit2,Proactiv+ 3-Step System
+213,.PA-formula-PAplus-sum-inline-ps,ProactivPlus,Product,ProactivPlus
+214,.PA-formula-Original-sum-inline-ps,ProactivPlus,Product,Proactiv
+215,.PA-kit-3G-3StepKit-main-inline-ps,ProactivPlus,Kit,3-Step System
+216,.PA-kit-3G-TeenKit-main-inline-ps,ProactivPlus,Kit,Teen Kit
+217,.PA-kit-3G-CompleteKit-main-inline-ps,ProactivPlus,Kit,Deluxe Kit
+218,.PA-kit-3StepKit-main-inline-ps,ProactivPlus,Kit,Proactiv+ 3-Step System
+219,.PA-kit-TeenKit-main-inline-ps,ProactivPlus,Kit,Proactiv+ Teen Kit
+220,.PA-kit-CompleteKit-umbrellaoffer-inline-ps,ProactivPlus,Kit,Proactiv+ Complete Kit
+221,.PA-gift-3G-bdg-inline-ps,ProactivPlus,Gift,BDG
+222,.PA-gift-3G-RefiningMask-inline-ps,ProactivPlus,Gift,RM
+223,.PA-gift-radianceDuo-main-inline-ps,ProactivPlus,Gift,IRD
+224,.PA-gift-advancedDarkSpotCorrector-2wide-inline-ps,ProactivPlus,Gift,ADSCS
+225,.PA-supply-30day-3G-3StepKit-inline-ps,ProactivPlus,Supply,30
+226,.PA-supply-30day-3G-TeenKit-inline-ps,ProactivPlus,Supply,30
+227,.PA-supply-90day-TeenKit-inline-ps,ProactivPlus,Supply,90
+228,.PA-supply-90day-CompleteKit-inline-ps,ProactivPlus,Supply,90
+229,.PA-supply-30day-3G-CompleteKit-inline-ps,ProactivPlus,Supply,30
+230,.PA-supply-90day-3G-3StepKit-inline-ps,ProactivPlus,Supply,90
+231,.PA-supply-90day-3G-TeenKit-inline-ps,ProactivPlus,Supply,90
+232,.PA-supply-90day-3G-CompleteKit-inline-ps,ProactivPlus,Supply,90
+233,.PA-supply-30day-3StepKit-inline-ps,ProactivPlus,Supply,30
+234,.PA-supply-30day-TeenKit-inline-ps,ProactivPlus,Supply,30
+235,.PA-supply-30day-CompleteKit-inline-ps,ProactivPlus,Supply,30
+236,.PA-supply-90day-3StepKit-inline-ps,ProactivPlus,Supply,90
+267,.system_1 .productDesc a,Supersmile,Kit,Supersmile 30-Day 5pc System
+268,.system_2 .productDesc a,Supersmile,Kit,Supersmile 90-Day 5pc System
+273,.PA-formula-PAplus-sum-ps,ProactivPlus,Product,ProactivPlus
+274,.PA-formula-Original-sum-ps,ProactivPlus,Product,Proactiv
+275,.PA-kit-3G-3StepKit-main-ps,ProactivPlus,Kit,3-Step System
+276,.PA-kit-3G-TeenKit-main-ps,ProactivPlus,Kit,Teen Kit
+277,.PA-kit-3G-CompleteKit-main-ps,ProactivPlus,Kit,Deluxe Kit
+278,.PA-kit-CompleteKit-umbrellaoffer-ps,ProactivPlus,Kit,Proactiv+ Complete Kit
+279,.PA-gift-3G-bdg-ps,ProactivPlus,Gift,BDG
+280,.PA-gift-3G-RefiningMask-ps,ProactivPlus,Gift,RM
+281,.PA-supply-30day-3G-3StepKit-ps,ProactivPlus,Supply,30
+282,.PA-supply-30day-3G-TeenKit-ps,ProactivPlus,Supply,30
+283,.PA-supply-30day-3G-CompleteKit-ps,ProactivPlus,Supply,30
+284,.PA-supply-90day-3G-3StepKit-ps,ProactivPlus,Supply,90
+285,.PA-supply-90day-3G-TeenKit-ps,ProactivPlus,Supply,90
+286,.PA-supply-90day-3G-CompleteKit-ps,ProactivPlus,Supply,90
+287,.PA-gift-dcb-main-ps,ProactivPlus,Gift,DCB
+288,.PA-supply-30day-TeenKit-nfs-ps,ProactivPlus,Supply,30
+289,.PA-supply-30day-3StepKit-nfs-ps,ProactivPlus,Supply,30
+290,.PA-supply-30day-CompleteKit-nfs-ps,ProactivPlus,Supply,30
+292,.PA-gift-instantRadiance-4g-main-ps,ProactivPlus,Gift,IRD
+293,.PA-kit-CompleteKit-4g-main-ps,ProactivPlus,Kit,Proactiv+ Complete Kit
+294,.PA-kit-TeenKit-4g-main-ps,ProactivPlus,Kit,Proactiv+ Teen Kit
+295,.PA-kit-DulexKit-3g-main-ps,ProactivPlus,Kit,Deluxe Kit
+296,.PA-kit-TeenKit-3g-main-ps,ProactivPlus,Kit,Teen Kit
+297,.PA-4g .click-more,ProactivPlus,Product1,ProactivPlus
+298,.PA-3g .click-more,ProactivPlus,Product1,Proactiv
+299,.PA-4g .select-pseudo,ProactivPlus,Product2,ProactivPlus
+300,.PA-3g .select-pseudo,ProactivPlus,Product2,Proactiv
+301,.PA-kit-CompleteKit-4g-main-ps .click-more,ProactivPlus,Kit1,Proactiv+ Complete Kit
+302,.PA-kit-TeenKit-4g-main-ps .click-more,ProactivPlus,Kit1,Proactiv+ Teen Kit
+303,.PA-kit-3step-4g-main-ps .click-more,ProactivPlus,Kit1,Proactiv+ 3-Step System
+304,.PA-kit-DulexKit-3g-main-ps .click-more,ProactivPlus,Kit1,Deluxe Kit
+305,.PA-kit-TeenKit-3g-main-ps .click-more,ProactivPlus,Kit1,Teen Kit
+306,.PA-kit-3step-3g-main-ps .click-more,ProactivPlus,Kit1,3-Step System
+307,.PA-kit-CompleteKit-4g-main-ps .select-pseudo,ProactivPlus,Kit2,Proactiv+ Complete Kit
+308,.PA-kit-TeenKit-4g-main-ps .select-pseudo,ProactivPlus,Kit2,Proactiv+ Teen Kit
+309,.PA-kit-3step-4g-main-ps .select-pseudo,ProactivPlus,Kit2,Proactiv+ 3-Step System
+310,.PA-kit-DulexKit-3g-main-ps .select-pseudo,ProactivPlus,Kit2,Deluxe Kit
+311,.PA-kit-TeenKit-3g-main-ps .select-pseudo,ProactivPlus,Kit2,Teen Kit
+312,.PA-kit-3step-3g-main-ps .select-pseudo,ProactivPlus,Kit2,3-Step System
+313,.PA-newformula-Original-sum-ps,ProactivPlus,Product,Proactiv
+314,.PA-newformula-PAplus-sum-ps,ProactivPlus,Product,ProactivPlus
+315,.PA-gift-refining-3g-main-ps .click-more,ProactivPlus,Gift1,RM
+316,.PA-gift-blackhead-3g-main-ps .click-more,ProactivPlus,Gift1,BDG
+317,.PA-gift-refining-3g-main-ps .select-pseudo,ProactivPlus,Gift2,RM
+318,.PA-gift-blackhead-3g-main-ps .select-pseudo,ProactivPlus,Gift2,BDG
+324,#offer-D7NC3D .priceBlock,Supersmile,Kit,Supersmile 30-Day 5pc System
+325,#offer-D7NC3E  .priceBlock,Supersmile,Kit,Supersmile 90-Day 5pc System
+334,.D7KP48.updatecartbtn#system1,Proactiv,Kit,Deluxe Kit
+335,.D7KP47.updatecartbtn#system2,Proactiv,Kit,Teen Kit
+336,.D7KP46.updatecartbtn#system3,Proactiv,Kit,3-Step System
+337,.D7KP48.updatecartbtn.column1#system1Gift1,Proactiv,Gift,BDG
+338,.D7KP47.updatecartbtn.column1#system2Gift1,Proactiv,Gift,BDG
+339,.D7KP46.updatecartbtn.column1#system3Gift1,Proactiv,Gift,BDG
+340,.D7KP48.updatecartbtn#system1Gift1Upsell1,Proactiv,Supply,30
+341,.D7KP44.updatecartbtn#system1Gift1Upsell2,Proactiv,Supply,90
+342,.D7KP47.updatecartbtn#system2Gift1Upsell1,Proactiv,Supply,30
+343,.D7KP43.updatecartbtn#system2Gift1Upsell2,Proactiv,Supply,90
+344,.D7KP46.updatecartbtn#system3Gift1Upsell1,Proactiv,Supply,30
+345,.D7KP3Y.updatecartbtn#system3Gift1Upsell2,Proactiv,Supply,90
+347,.PA-gift-instantRadianceDuo-1gift-ps,ProactivPlus,Gift,IRD
+361,.orderVarButton-deluxe,Supersmile,Kit,Supersmile 90-Day 5pc System
+362,.orderVarButton-basic,Supersmile,Kit,Supersmile 30-Day 5pc System
+390,.BD9C7Y.system1 .icon-more,Xout,Kit1,X Out® Body Kit
+391,.BD9C7A.system2 .icon-more,Xout,Kit1,X Out® Shine Kit
+392,.BD9C7W.system3 .icon-more,Xout,Kit1,X Out® Basic Kit
+393,.valuepack .add-value-pack,Xout,ValuePack,ValuePack
+394,.valuepack .no-thanks,Xout,ValuePack,None
+395,.BD9C7Y.system1 .select-system.yellow-button,Xout,Kit2,X Out® Body Kit
+396,.BD9C7A.system2 .select-system.yellow-button,Xout,Kit2,X Out® Shine Kit
+397,.BD9C7W.system3 .select-system.yellow-button,Xout,Kit2,X Out® Basic Kit
+398,[data-pid="DT-kit-BodyKit-main-ps"] .icon-more,Xout,Kit1,X Out® Body Kit
+399,[data-pid="DT-kit-ShineKit-main-ps"] .icon-more,Xout,Kit1,X Out® Shine Kit
+400,[data-pid="DT-kit-BasicKit-main-ps"] .icon-more,Xout,Kit1,X Out® Basic Kit
+401,[data-pid="DT-kit-BodyKit-main-ps"] .select-system.yellow-button,Xout,Kit2,X Out® Body Kit
+402,[data-pid="DT-kit-ShineKit-main-ps"] .select-system.yellow-button,Xout,Kit2,X Out® Shine Kit
+403,[data-pid="DT-kit-BasicKit-main-ps"] .select-system.yellow-button,Xout,Kit2,X Out® Basic Kit
+404,.DT-kit-Body-main-ps,Xout,Kit,X Out® Body Kit
+405,.DT-kit-Shine-main-ps,Xout,Kit,X Out® Shine Kit
+406,.DT-kit-Basic-main-ps,Xout,Kit,X Out® Basic Kit
+407,.DT-gift-brush-main-ps,Xout,Gift,CB
+408,.DT-supply-30days-Basic-main-t4ps,Xout,Supply,30
+409,.DT-supply-90days-Basic-main-ps,Xout,Supply,90
+410,.DT-supply-30days-Body-main-t4ps,Xout,Supply,30
+411,.DT-supply-90days-Body-main-ps,Xout,Supply,90
+412,.DT-supply-30days-Shine-main-t4ps,Xout,Supply,30
+413,.DT-supply-90days-Shine-main-ps,Xout,Supply,90
+414,.DT-valuePack-Empty-Basic-30-main-t4ps,Xout,ValuePack,None
+415,.DT-valuePack-Empty-Basic-90-main-t4ps,Xout,ValuePack,None
+416,.DT-valuePack-Empty-Body-30-main-t4ps,Xout,ValuePack,None
+417,.DT-valuePack-Empty-Body-90-main-t4ps,Xout,ValuePack,None
+418,.DT-valuePack-Empty-Shine-30-main-t4ps,Xout,ValuePack,None
+419,.DT-valuePack-Empty-Shine-90-main-t4ps,Xout,ValuePack,None
+420,.DT-valuePack-Extra-Basic-30-main-t4ps,Xout,ValuePack,ValuePack
+421,.DT-valuePack-Extra-Basic-90-main-t4ps,Xout,ValuePack,ValuePack
+422,.DT-valuePack-Extra-Body-30-main-t4ps,Xout,ValuePack,ValuePack
+423,.DT-valuePack-Extra-Body-90-main-t4ps,Xout,ValuePack,ValuePack
+424,.DT-valuePack-Extra-Shine-30-main-t4ps,Xout,ValuePack,ValuePack
+425,.DT-valuePack-Extra-Shine-90-main-t4ps,Xout,ValuePack,ValuePack
+434,[data-pid='DT-kit-BodyKit-main-ps'],Xout,Kit,X Out® Body Kit
+435,[data-pid='DT-kit-ShineKit-main-ps'],Xout,Kit,X Out® Shine Kit
+436,[data-pid='DT-kit-BasicKit-main-ps'],Xout,Kit,X Out® Basic Kit
+437,[data-pid='DT-gift-CleansingBodyBar-ps'],Xout,Gift,CB
+438,[data-pid='DT-supply-30day-BodyKit-ps'],Xout,Supply,30
+439,[data-pid='DT-supply-90day-BodyKit-ps'],Xout,Supply,90
+440,[data-pid='DT-supply-30day-ShineKit-ps'],Xout,Supply,30
+441,[data-pid='DT-supply-30day-BasicKit-ps'],Xout,Supply,30
+442,[data-pid='DT-supply-90day-ShineKit-ps'],Xout,Supply,90
+443,[data-pid='DT-supply-90day-BasicKit-ps'],Xout,Supply,90
+444,[data-pid='DT-valuepack-nopack-30day-BodyKit-ps'],Xout,ValuePack,None
+445,[data-pid='DT-valuepack-pack-30day-BodyKit-ps'],Xout,ValuePack,ValuePack
+446,[data-pid='DT-valuepack-nopack-30day-BasicKit-ps'],Xout,ValuePack,None
+447,[data-pid='DT-valuepack-nopack-30day-ShineKit-ps'],Xout,ValuePack,None
+448,[data-pid='DT-valuepack-pack-30day-BasicKit-ps'],Xout,ValuePack,ValuePack
+449,[data-pid='DT-valuepack-pack-30day-ShineKit-ps'],Xout,ValuePack,ValuePack
+450,[data-pid='DT-valuepack-nopack-90day-BasicKit-ps'],Xout,ValuePack,None
+451,[data-pid='DT-valuepack-nopack-90day-BodyKit-ps'],Xout,ValuePack,None
+452,[data-pid='DT-valuepack-nopack-90day-ShineKit-ps'],Xout,ValuePack,None
+453,[data-pid='DT-valuepack-pack-90day-BasicKit-ps'],Xout,ValuePack,ValuePack
+454,[data-pid='DT-valuepack-pack-90day-BodyKit-ps'],Xout,ValuePack,ValuePack
+455,[data-pid='DT-valuepack-pack-90day-ShineKit-ps'],Xout,ValuePack,ValuePack
+456,[data-pid='DT-gift-Brush-ps'],Xout,Gift,CB
+457,[data-pid='DT-supply-30day-NoFreeShipping-BodyKit-ps'],Xout,supply,30
+458,[data-pid='DT-supply-30day-NoFreeShipping-ShineKit-ps'],Xout,supply,30
+459,[data-pid='DT-supply-30day-NoFreeShipping-BasicKit-ps'],Xout,supply,30
+460,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-BodyKit-ps'],Xout,ValuePack,None
+461,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-BodyKit-ps'],Xout,ValuePack,ValuePack
+462,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-BasicKit-ps'],Xout,ValuePack,None
+463,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-ShineKit-ps'],Xout,ValuePack,None
+464,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-BasicKit-ps'],Xout,ValuePack,ValuePack
+465,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-ShineKit-ps'],Xout,ValuePack,ValuePack
+476,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-BasicKit-ps'] a,Xout,ValuePack,ValuePack
+477,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-BasicKit-ps'] a,Xout,ValuePack,None
+478,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-ShineKit-ps'] a,Xout,ValuePack,None
+479,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-ShineKit-ps'] a,Xout,ValuePack,ValuePack
+480,[data-pid='DT-valuepack-nopack-90day-BodyKit-ps'] a,Xout,ValuePack,None
+481,[data-pid='DT-valuepack-nopack-90day-ShineKit-ps'] a,Xout,ValuePack,None
+482,[data-pid='DT-valuepack-pack-90day-BodyKit-ps'] a,Xout,ValuePack,ValuePack
+483,[data-pid='DT-valuepack-pack-90day-ShineKit-ps'] a,Xout,ValuePack,ValuePack
+484,[data-pid='DT-valuepack-nopack-30day-NoFreeShipping-BodyKit-ps'] a,Xout,ValuePack,None
+485,[data-pid='DT-valuepack-pack-30day-NoFreeShipping-BodyKit-ps'] a,Xout,ValuePack,ValuePack
+486,[data-pid='DT-valuepack-nopack-90day-BasicKit-ps'] a,Xout,ValuePack,None
+487,[data-pid='DT-valuepack-pack-90day-BasicKit-ps'] a,Xout,ValuePack,ValuePack
+488,.PA-formula-Original-newgel-ps,ProactivPlus,Product,Proactiv
+489,.PA-formula-PAplus-newgel-ps,ProactivPlus,Product,ProactivPlus
+490,.PA-kit-3G-CompleteKit-newgel-ps,ProactivPlus,Kit,Deluxe Kit
+491,.PA-gift-3G-SSG-CBB-inline-ps,ProactivPlus,Gift,
+492,.PA-gift-SSG-CBB-inline-ps,ProactivPlus,Gift,
+493,body > div.page-sas.product-variations > div.section.brandpseudo > div > ul > li.PA-formula-PAplus-compare-ps.select-product-list > div > div > h3 > span,ProactivPlus,Product,ProactivPlus
+494,body > div.page-sas.product-variations > div.section.brandpseudo > div > ul > li.PA-formula-Original-sum-compare-ps.select-product-list.active > div > div > h3 > span,ProactivPlus,Product,Proactiv
+502,.PA-formula-Original-sum-ps-spf,ProactivPlus,Product,Proactiv
+503,.PA-formula-PAplus-sum-ps-spf,ProactivPlus,Product,ProactivPlus
+504,.PA-gift-LiquidSPFandDCW-ps,ProactivPlus,Gift,SPF_DCW
+505,.PA-gift-LiquidSPFandDCW-ps-3g,ProactivPlus,Gift,SPF_DCW
+506,.PA-kit-3Step-3g-ps,ProactivPlus,Kit,3-Step System
+507,.PA-kit-Deluxe-3g-ps,ProactivPlus,Kit,Deluxe Kit
+508,.PA-gift-3Step-3g-DCW-ps,ProactivPlus,Gift,DCW
+509,.PA-supply-30day-3Step-3g-ps,ProactivPlus,Supply,30
+510,.PA-supply-30day-Deluxe-3g-ps,ProactivPlus,Supply,30
+511,.PA-supply-90day-3Step-3g-ps,ProactivPlus,Supply,90
+512,.PA-supply-90day-Deluxe-3g-ps,ProactivPlus,Supply,90
+514,.PA-kit-3Step-3g-ps,ProactivPlus,Kit,Proactiv+ 3-Step System
+515,.PA-kit-Deluxe-3g-ps,ProactivPlus,Kit,Deluxe Kit
+516,PA-gift-3Step-3g-DCW-ps,ProactivPlus,Gift,DCW
+517,.PA-supply-30day-3Step-3g-ps,ProactivPlus,Supply,30
+518,.PA-supply-30day-Deluxe-3g-ps,ProactivPlus,Supply,30
+519,.PA-supply-90day-3Step-3g-ps,ProactivPlus,Supply,90
+520,.PA-supply-90day-Deluxe-3g-ps,ProactivPlus,Supply,90
+585,.PA-gift-3G-spm-plus-inline-ps select-product-list,ProactivPlus,Gift,SPM
+586,.PA-gift-spm-rtt-main-inline-ps select-product-list,ProactivPlus,Gift,SPM & RT
+587,.PA-gift-spm-bdg-Duo-main-inline-ps select-product-list,ProactivPlus,Gift,SPM & BDG
+588,.PA-gift-3G-spm-plus-inline-ps,ProactivPlus,Gift,SPM
+589,.PA-gift-spm-rtt-main-inline-ps,ProactivPlus,Gift,SPM & RT
+590,.PA-gift-spm-bdg-Duo-main-inline-ps,ProactivPlus,Gift,SPM & BDG
+592,.PA-formula-Original-sum-compare-ps,ProactivPlus,Product,Proactiv
+593,.PA-formula-PAplus-compare-ps,ProactivPlus,Product,ProactivPlus
+734,.PA-gift-3G-bdg-inline-ps .click-more,ProactivPlus,Gift1,BDG
+735,.PA-gift-3G-bdg-inline-ps .select-pseudo,ProactivPlus,Gift2,BDG
+736,.PA-gift-3G-spm-plus-inline-ps .click-more,ProactivPlus,Gift1,SPM
+737,.PA-gift-3G-spm-plus-inline-ps .select-pseudo,ProactivPlus,Gift2,SPM
+738,.PA-gift-spm-rtt-main-inline-ps .click-more,ProactivPlus,Gift1,SPM & RT
+739,.PA-gift-spm-rtt-main-inline-ps .select-pseudo,ProactivPlus,Gift2,SPM & RT
+740,.PA-gift-spm-bdg-Duo-main-inline-ps .click-more,ProactivPlus,Gift1,SPM & BDG
+741,.PA-gift-spm-bdg-Duo-main-inline-ps .select-pseudo,ProactivPlus,Gift2,SPM & BDG
+795,[data-pid=DT-kit-ShineKit-main-ps],Xout,Kit,X Out® Shine Kit
+796,[data-pid=DT-kit-BasicKit-main-ps],Xout,Kit,X Out® Basic Kit
+797,[data-pid=DT-gift-CleansingBodyBar-ps],Xout,Gift,CB
+798,[data-pid=DT-kit-ShineKit-main-deep-clean-ps],Xout,Kit,X Out® Shine Kit
+799,[data-pid=DT-kit-BasicKit-main-deep-clean-ps],Xout,Kit,X Out® Basic Kit
+800,[data-pid=DT-gift-Brush-deep-clean-ps],Xout,Gift,Brush
+818,[data-pid=HP-kit-DeluxeKit-main-ps],HandPerfection,Kit,Deluxe Kit
+819,[data-pid=HP-kit-BasicKit-main-ps],HandPerfection,Kit,Introductory Kit
+848,.PA-gel-supply-30day-CompleteKit-ps,Proactiv,Supply,30
+849,.PA-gel-supply-30day-TeenKit-ps,Proactiv,Supply,30
+850,.PA-gel-supply-30day-3StepKit-ps,Proactiv,Supply,30
+851,.PA-supply-90day-CompleteKit-ps,Proactiv,Supply,90
+852,.PA-supply-90day-TeenKit-ps,Proactiv,Supply,90
+853,.PA-supply-90day-3StepKit-ps,Proactiv,Supply,90
+854,.PA-gift-radianceDuo-main-ps,Proactiv,Gift,IRD
+855,.PA-gift-advancedDarkSpotCorrector-2wide-ps,Proactiv,Gift,ADSCS
+856,.PA-kit-3StepKit-main-ps,Proactiv,Kit,Proactiv+ 3-Step System
+857,.PA-kit-TeenKit-main-ps,Proactiv,Kit,Proactiv+ Teen Kit
+858,.PA-kit-CompleteKit-main-ps,Proactiv,Kit,Proactiv+ Complete Kit
+859,.P4#system1,Proactiv,Kit,Proactiv+ 3-Step System
+860,.P4#system2,Proactiv,Kit,Proactiv+ Teen Kit
+861,.P4#system3,Proactiv,Kit,Proactiv+ Complete Kit
+862,.PA#system4,Proactiv,Kit,3-Step System
+863,.PA#system5,Proactiv,Kit,Teen Kit
+864,.PA#system6,Proactiv,Kit,Deluxe Kit
+865,#system1Gift1,Proactiv,Gift,IRD
+866,#system1Gift2,Proactiv,Gift,ADSCS
+867,#system2Gift1,Proactiv,Gift,IRD
+868,#system2Gift2,Proactiv,Gift,ADSCS
+869,#system3Gift1,Proactiv,Gift,IRD
+870,#system3Gift2,Proactiv,Gift,ADSCS
+871,#system4Gift1,Proactiv,Gift,BDG
+872,#system4Gift2,Proactiv,Gift,RM
+873,#system5Gift1,Proactiv,Gift,BDG
+874,#system5Gift2,Proactiv,Gift,RM
+875,#system6Gift1,Proactiv,Gift,BDG
+876,#system6Gift2,Proactiv,Gift,RM
+877,#system1Gift1Upsell1,Proactiv,Supply,30
+878,#system1Gift1Upsell2,Proactiv,Supply,90
+879,#system1Gift2Upsell1,Proactiv,Supply,30
+880,#system1Gift2Upsell2,Proactiv,Supply,90
+881,#system2Gift1Upsell1,Proactiv,Supply,30
+882,#system2Gift1Upsell2,Proactiv,Supply,90
+883,#system2Gift2Upsell1,Proactiv,Supply,30
+884,#system2Gift2Upsell2,Proactiv,Supply,90
+885,#system3Gift1Upsell1,Proactiv,Supply,30
+886,#system3Gift1Upsell2,Proactiv,Supply,90
+887,#system3Gift2Upsell1,Proactiv,Supply,30
+888,#system3Gift2Upsell2,Proactiv,Supply,90
+889,#system4Gift1Upsell1,Proactiv,Supply,30
+890,#system4Gift1Upsell2,Proactiv,Supply,90
+891,#system4Gift2Upsell1,Proactiv,Supply,30
+892,#system4Gift2Upsell2,Proactiv,Supply,90
+893,#system5Gift1Upsell1,Proactiv,Supply,30
+894,#system5Gift1Upsell2,Proactiv,Supply,90
+895,#system5Gift2Upsell1,Proactiv,Supply,30
+896,#system5Gift2Upsell2,Proactiv,Supply,90
+897,#system6Gift1Upsell1,Proactiv,Supply,30
+898,#system6Gift1Upsell2,Proactiv,Supply,90
+899,#system6Gift2Upsell1,Proactiv,Supply,30
+900,#system6Gift2Upsell2,Proactiv,Supply,90
+901,.selectproduct li.PA,Proactiv,Product,Proactiv
+902,.selectproduct li.P4,Proactiv,Product,ProactivPlus
+903,.PA-gift-skinPurifying-4g-main-ps,Proactiv,Gift,SPM/RT
+904,.PA-gift-advanceDarkspot-4g-main-ps,Proactiv,Gift,ADSCS
+905,.PA-gift-blackhead-3g-main-ps,Proactiv,Gift,BDG
+906,.PA-gift-refining-3g-main-ps,Proactiv,Gift,RM
+907,.PA-4g,Proactiv,Product,ProactivPlus
+908,.PA-3g,Proactiv,Product,Proactiv
+909,.PA-duo-nothanks-3g-main-ps,Proactiv,Duo,None
+910,.PA-duo-nothanks-4g-main-ps,Proactiv,Duo,None
+911,.PA-duo-totalbody-3g-main-ps,Proactiv,Duo,Total Body Duo
+912,.PA-duo-oilcontrol-3g-main-ps,Proactiv,Duo,Oil Control Duo
+913,.PA-duo-brightening-4g-main-ps,Proactiv,Duo,Skin Brightening Duo
+914,.PA-duo-totalbody-4g-main-ps,Proactiv,Duo,Total Body Duo
+915,.PA-duo-medicated-4g-main-ps,Proactiv,Duo,Medicated Shave Duo
+916,.PA-supply-90day-4g-3step-nothanks-ps,Proactiv,Supply,90
+917,.PA-supply-30day-4g-3step-nothanks-ps,Proactiv,Supply,30
+918,.PA-supply-30day-4g-3step-nothanks-ps,Proactiv,Supply,30
+919,.PA-supply-90day-4g-3step-nothanks-ps,Proactiv,Supply,90
+920,.PA-kit-3step-4g-main-ps,Proactiv,Kit,Proactiv+ 3-Step System
+921,.PA-kit-3step-3g-main-ps,Proactiv,Kit,3-Step System
+922,#system1Kits.D7CM4G .click-more,Proactiv,Kit1,Proactiv+ Complete Kit
+923,#system2Kits.D7CM4L .click-more,Proactiv,Kit1,Proactiv+ Teen Kit
+924,#system3Kits.D7CM4C .click-more,Proactiv,Kit1,Proactiv+ 3-Step System
+925,.pa-plus .click-more,Proactiv,Product1,ProactivPlus
+926,.pa-original .click-more,Proactiv,Product1,Proactiv
+927,.pa-plus .select-btn,Proactiv,Product2,ProactivPlus
+928,.pa-original .select-btn,Proactiv,Product2,Proactiv
+929,#system1Kits.D7CM4G .selected,Proactiv,Kit2,Proactiv+ Complete Kit
+930,#system2Kits.D7CM4L .selected,Proactiv,Kit2,Proactiv+ Teen Kit
+931,#system3Kits.D7CM4C .selected,Proactiv,Kit2,Proactiv+ 3-Step System
+932,.PA-formula-PAplus-sum-inline-ps,Proactiv,Product,ProactivPlus
+933,.PA-formula-Original-sum-inline-ps,Proactiv,Product,Proactiv
+934,.PA-kit-3G-3StepKit-main-inline-ps,Proactiv,Kit,3-Step System
+935,.PA-kit-3G-TeenKit-main-inline-ps,Proactiv,Kit,Teen Kit
+936,.PA-kit-3G-CompleteKit-main-inline-ps,Proactiv,Kit,Deluxe Kit
+937,.PA-kit-3StepKit-main-inline-ps,Proactiv,Kit,Proactiv+ 3-Step System
+938,.PA-kit-TeenKit-main-inline-ps,Proactiv,Kit,Proactiv+ Teen Kit
+939,.PA-kit-CompleteKit-umbrellaoffer-inline-ps,Proactiv,Kit,Proactiv+ Complete Kit
+940,.PA-gift-3G-bdg-inline-ps,Proactiv,Gift,BDG
+941,.PA-gift-3G-RefiningMask-inline-ps,Proactiv,Gift,RM
+942,.PA-gift-radianceDuo-main-inline-ps,Proactiv,Gift,IRD
+943,.PA-gift-advancedDarkSpotCorrector-2wide-inline-ps,Proactiv,Gift,ADSCS
+944,.PA-supply-30day-3G-3StepKit-inline-ps,Proactiv,Supply,30
+945,.PA-supply-30day-3G-TeenKit-inline-ps,Proactiv,Supply,30
+946,.PA-supply-90day-TeenKit-inline-ps,Proactiv,Supply,90
+947,.PA-supply-90day-CompleteKit-inline-ps,Proactiv,Supply,90
+948,.PA-supply-30day-3G-CompleteKit-inline-ps,Proactiv,Supply,30
+949,.PA-supply-90day-3G-3StepKit-inline-ps,Proactiv,Supply,90
+950,.PA-supply-90day-3G-TeenKit-inline-ps,Proactiv,Supply,90
+951,.PA-supply-90day-3G-CompleteKit-inline-ps,Proactiv,Supply,90
+952,.PA-supply-30day-3StepKit-inline-ps,Proactiv,Supply,30
+953,.PA-supply-30day-TeenKit-inline-ps,Proactiv,Supply,30
+954,.PA-supply-30day-CompleteKit-inline-ps,Proactiv,Supply,30
+955,.PA-supply-90day-3StepKit-inline-ps,Proactiv,Supply,90
+956,.PA-formula-PAplus-sum-ps,Proactiv,Product,ProactivPlus
+957,.PA-formula-Original-sum-ps,Proactiv,Product,Proactiv
+958,.PA-kit-3G-3StepKit-main-ps,Proactiv,Kit,3-Step System
+959,.PA-kit-3G-TeenKit-main-ps,Proactiv,Kit,Teen Kit
+960,.PA-kit-3G-CompleteKit-main-ps,Proactiv,Kit,Deluxe Kit
+961,.PA-kit-CompleteKit-umbrellaoffer-ps,Proactiv,Kit,Proactiv+ Complete Kit
+962,.PA-gift-3G-bdg-ps,Proactiv,Gift,BDG
+963,.PA-gift-3G-RefiningMask-ps,Proactiv,Gift,RM
+964,.PA-supply-30day-3G-3StepKit-ps,Proactiv,Supply,30
+965,.PA-supply-30day-3G-TeenKit-ps,Proactiv,Supply,30
+966,.PA-supply-30day-3G-CompleteKit-ps,Proactiv,Supply,30
+967,.PA-supply-90day-3G-3StepKit-ps,Proactiv,Supply,90
+968,.PA-supply-90day-3G-TeenKit-ps,Proactiv,Supply,90
+969,.PA-supply-90day-3G-CompleteKit-ps,Proactiv,Supply,90
+970,.PA-gift-dcb-main-ps,Proactiv,Gift,DCB
+971,.PA-supply-30day-TeenKit-nfs-ps,Proactiv,Supply,30
+972,.PA-supply-30day-3StepKit-nfs-ps,Proactiv,Supply,30
+973,.PA-supply-30day-CompleteKit-nfs-ps,Proactiv,Supply,30
+974,.PA-gift-instantRadiance-4g-main-ps,Proactiv,Gift,IRD
+975,.PA-kit-CompleteKit-4g-main-ps,Proactiv,Kit,Proactiv+ Complete Kit
+976,.PA-kit-TeenKit-4g-main-ps,Proactiv,Kit,Proactiv+ Teen Kit
+977,.PA-kit-DulexKit-3g-main-ps,Proactiv,Kit,Deluxe Kit
+978,.PA-kit-TeenKit-3g-main-ps,Proactiv,Kit,Teen Kit
+979,.PA-4g .click-more,Proactiv,Product1,ProactivPlus
+980,.PA-3g .click-more,Proactiv,Product1,Proactiv
+981,.PA-4g .select-pseudo,Proactiv,Product2,ProactivPlus
+982,.PA-3g .select-pseudo,Proactiv,Product2,Proactiv
+983,.PA-kit-CompleteKit-4g-main-ps .click-more,Proactiv,Kit1,Proactiv+ Complete Kit
+984,.PA-kit-TeenKit-4g-main-ps .click-more,Proactiv,Kit1,Proactiv+ Teen Kit
+985,.PA-kit-3step-4g-main-ps .click-more,Proactiv,Kit1,Proactiv+ 3-Step System
+986,.PA-kit-DulexKit-3g-main-ps .click-more,Proactiv,Kit1,Deluxe Kit
+987,.PA-kit-TeenKit-3g-main-ps .click-more,Proactiv,Kit1,Teen Kit
+988,.PA-kit-3step-3g-main-ps .click-more,Proactiv,Kit1,3-Step System
+989,.PA-kit-CompleteKit-4g-main-ps .select-pseudo,Proactiv,Kit2,Proactiv+ Complete Kit
+990,.PA-kit-TeenKit-4g-main-ps .select-pseudo,Proactiv,Kit2,Proactiv+ Teen Kit
+991,.PA-kit-3step-4g-main-ps .select-pseudo,Proactiv,Kit2,Proactiv+ 3-Step System
+992,.PA-kit-DulexKit-3g-main-ps .select-pseudo,Proactiv,Kit2,Deluxe Kit
+993,.PA-kit-TeenKit-3g-main-ps .select-pseudo,Proactiv,Kit2,Teen Kit
+994,.PA-kit-3step-3g-main-ps .select-pseudo,Proactiv,Kit2,3-Step System
+995,.PA-newformula-Original-sum-ps,Proactiv,Product,Proactiv
+996,.PA-newformula-PAplus-sum-ps,Proactiv,Product,ProactivPlus
+997,.PA-gift-refining-3g-main-ps .click-more,Proactiv,Gift1,RM
+998,.PA-gift-blackhead-3g-main-ps .click-more,Proactiv,Gift1,BDG
+999,.PA-gift-refining-3g-main-ps .select-pseudo,Proactiv,Gift2,RM
+1000,.PA-gift-blackhead-3g-main-ps .select-pseudo,Proactiv,Gift2,BDG
+1001,.PA-gift-instantRadianceDuo-1gift-ps,Proactiv,Gift,IRD
+1002,.PA-formula-Original-newgel-ps,Proactiv,Product,Proactiv
+1003,.PA-formula-PAplus-newgel-ps,Proactiv,Product,ProactivPlus
+1004,.PA-kit-3G-CompleteKit-newgel-ps,Proactiv,Kit,Deluxe Kit
+1005,.PA-gift-3G-SSG-CBB-inline-ps,Proactiv,Gift,
+1006,.PA-gift-SSG-CBB-inline-ps,Proactiv,Gift,
+1007,body > div.page-sas.product-variations > div.section.brandpseudo > div > ul > li.PA-formula-PAplus-compare-ps.select-product-list > div > div > h3 > span,Proactiv,Product,ProactivPlus
+1008,body > div.page-sas.product-variations > div.section.brandpseudo > div > ul > li.PA-formula-Original-sum-compare-ps.select-product-list.active > div > div > h3 > span,Proactiv,Product,Proactiv
+1009,.PA-formula-Original-sum-ps-spf,Proactiv,Product,Proactiv
+1010,.PA-formula-PAplus-sum-ps-spf,Proactiv,Product,ProactivPlus
+1011,.PA-gift-LiquidSPFandDCW-ps,Proactiv,Gift,SPF_DCW
+1012,.PA-gift-LiquidSPFandDCW-ps-3g,Proactiv,Gift,SPF_DCW
+1013,.PA-kit-3Step-3g-ps,Proactiv,Kit,3-Step System
+1014,.PA-kit-Deluxe-3g-ps,Proactiv,Kit,Deluxe Kit
+1015,.PA-gift-3Step-3g-DCW-ps,Proactiv,Gift,DCW
+1016,.PA-supply-30day-3Step-3g-ps,Proactiv,Supply,30
+1017,.PA-supply-30day-Deluxe-3g-ps,Proactiv,Supply,30
+1018,.PA-supply-90day-3Step-3g-ps,Proactiv,Supply,90
+1019,.PA-supply-90day-Deluxe-3g-ps,Proactiv,Supply,90
+1020,.PA-kit-3Step-3g-ps,Proactiv,Kit,Proactiv+ 3-Step System
+1021,.PA-kit-Deluxe-3g-ps,Proactiv,Kit,Deluxe Kit
+1022,PA-gift-3Step-3g-DCW-ps,Proactiv,Gift,DCW
+1023,.PA-supply-30day-3Step-3g-ps,Proactiv,Supply,30
+1024,.PA-supply-30day-Deluxe-3g-ps,Proactiv,Supply,30
+1025,.PA-supply-90day-3Step-3g-ps,Proactiv,Supply,90
+1026,.PA-supply-90day-Deluxe-3g-ps,Proactiv,Supply,90
+1027,.PA-gift-3G-spm-plus-inline-ps select-product-list,Proactiv,Gift,SPM
+1028,.PA-gift-spm-rtt-main-inline-ps select-product-list,Proactiv,Gift,SPM & RT
+1029,.PA-gift-spm-bdg-Duo-main-inline-ps select-product-list,Proactiv,Gift,SPM & BDG
+1030,.PA-gift-3G-spm-plus-inline-ps,Proactiv,Gift,SPM
+1031,.PA-gift-spm-rtt-main-inline-ps,Proactiv,Gift,SPM & RT
+1032,.PA-gift-spm-bdg-Duo-main-inline-ps,Proactiv,Gift,SPM & BDG
+1033,.PA-formula-Original-sum-compare-ps,Proactiv,Product,Proactiv
+1034,.PA-formula-PAplus-compare-ps,Proactiv,Product,ProactivPlus
+1035,.PA-gift-3G-bdg-inline-ps .click-more,Proactiv,Gift1,BDG
+1036,.PA-gift-3G-bdg-inline-ps .select-pseudo,Proactiv,Gift2,BDG
+1037,.PA-gift-3G-spm-plus-inline-ps .click-more,Proactiv,Gift1,SPM
+1038,.PA-gift-3G-spm-plus-inline-ps .select-pseudo,Proactiv,Gift2,SPM
+1039,.PA-gift-spm-rtt-main-inline-ps .click-more,Proactiv,Gift1,SPM & RT
+1040,.PA-gift-spm-rtt-main-inline-ps .select-pseudo,Proactiv,Gift2,SPM & RT
+1041,.PA-gift-spm-bdg-Duo-main-inline-ps .click-more,Proactiv,Gift1,SPM & BDG
+1042,.PA-gift-spm-bdg-Duo-main-inline-ps .select-pseudo,Proactiv,Gift2,SPM & BDG
+1103,[data-pid=DT-kit-BodyKit-main-ps],Xout,Kit,X Out® Body Kit
+1104,[data-pid=DT-kit-ShineKit-main-ps],Xout,Kit,X Out® Shine Kit
+1105,[data-pid=DT-kit-BasicKit-main-ps],Xout,Kit,X Out® Basic Kit
+1106,[data-pid=DT-gift-CleansingBodyBar-ps],Xout,Gift,CBB
+1107,[data-pid=DT-supply-30day-FreeShipping-BodyKit-espanol-ps],Xout,Supply,30
+1108,[data-pid=DT-supply-90day-FreeShipping-BodyKit-espanol-ps],Xout,Supply,90
+1109,[data-pid=DT-supply-30day-FreeShipping-ShineKit-espanol-ps],Xout,Supply,30
+1110,[data-pid=DT-supply-30day-FreeShipping-BasicKit-espanol-ps],Xout,Supply,90
+1111,[data-pid=DT-supply-90day-FreeShipping-ShineKit-espanol-ps],Xout,Supply,30
+1112,[data-pid=DT-supply-90day-FreeShipping-BasicKit-espanol-ps],Xout,Supply,90
+1113,[data-pid=DT-valuepack-none-30day-FreeShipping-BodyKit-espanol-ps],Xout,ValuePack,None
+1114,[data-pid=DT-valuepack-30day-FreeShipping-BodyKit-espanol-ps],Xout,ValuePack,ValuePack
+1115,[data-pid=DT-valuepack-none-90day-FreeShipping-BasicKit-espanol-ps],Xout,ValuePack,None
+1116,[data-pid=DT-valuepack-none-90day-FreeShipping-BodyKit-espanol-ps],Xout,ValuePack,None
+1117,[data-pid=DT-valuepack-none-90day-FreeShipping-ShineKit-espanol-ps],Xout,ValuePack,None
+1118,[data-pid=DT-valuepack-none-30day-FreeShipping-BasicKit-espanol-ps],Xout,ValuePack,None
+1119,[data-pid=DT-valuepack-none-30day-FreeShipping-ShineKit-espanol-ps],Xout,ValuePack,None
+1120,[data-pid=DT-valuepack-90day-FreeShipping-BasicKit-espanol-ps],Xout,ValuePack,ValuePack
+1121,[data-pid=DT-valuepack-90day-FreeShipping-BodyKit-espanol-ps],Xout,ValuePack,ValuePack
+1122,[data-pid=DT-valuepack-90day-FreeShipping-ShineKit-espanol-ps],Xout,ValuePack,ValuePack
+1123,[data-pid=DT-valuepack-30day-FreeShipping-BasicKit-espanol-ps],Xout,ValuePack,ValuePack
+1124,[data-pid=DT-valuepack-30day-FreeShipping-ShineKit-espanol-ps],Xout,ValuePack,ValuePack
+1149,.PA-formula-Original-sum-compare-ps.select-product-list,ProactivPlus,Product,Proactiv
+1150,.PA-formula-PAplus-compare-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1151,.PA-kit-3G-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1152,.PA-kit-3G-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1153,.PA-kit-3G-CompleteKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1154,.PA-kit-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1155,.PA-kit-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1156,.PA-kit-CompleteKit-umbrellaoffer-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Complete Kit
+1157,.PA-gift-1gift-gifttrio-deepcleansingwash-3G-ps.select-product-list,ProactivPlus,Gift,DCW
+1158,.PA-gift-1gift-gifttrio-markcorrectingpads-3G-ps.select-product-list,ProactivPlus,Gift,MCP
+1159,.PA-gift-1gift-gifttrio-quickfixblemishpen-3G-ps.select-product-list,ProactivPlus,Gift,QFBP
+1160,.PA-gift-1gift-gifttrio-deepcleansingwash-ps.select-product-list,ProactivPlus,Gift,DCW
+1161,.PA-gift-1gift-gifttrio-markcorrectingpads-ps.select-product-list,ProactivPlus,Gift,MCP
+1162,.PA-gift-1gift-gifttrio-quickfixblemishpen-ps.select-product-list,ProactivPlus,Gift,QFBP
+1163,.PA-supply-30day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1164,.PA-supply-30day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1165,.PA-supply-30day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1166,.PA-supply-30day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1167,.PA-supply-30day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1168,.PA-supply-30day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1169,.PA-supply-90day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1170,.PA-supply-90day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1171,.PA-supply-90day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1172,.PA-supply-90day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1173,.PA-supply-90day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1174,.PA-supply-90day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1199,.PA-formula-Original-sum-compare-darkspot-ps.select-product-list,ProactivPlus,Product,Proactiv
+1200,.PA-formula-PAplus-compare-darkspot-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1201,.PA-kit-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1202,.PA-kit-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1203,.PA-kit-CompleteKit-umbrellaoffer-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Complete Kit
+1204,.PA-kit-3G-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1205,.PA-kit-3G-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1206,.PA-kit-3G-CompleteKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Complete Kit
+1207,.PA-gift-bodygift-ps.select-product-list,ProactivPlus,Gift,DCBB_DCW
+1208,.PA-gift-bodygift-3G-ps.select-product-list,ProactivPlus,Gift,DCBB_DCW
+1209,.PA-supply-30day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1210,.PA-supply-30day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1211,.PA-supply-30day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1212,.PA-supply-30day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1213,.PA-supply-30day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1214,.PA-supply-30day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1215,.PA-supply-90day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1216,.PA-supply-90day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1217,.PA-supply-90day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1218,.PA-supply-90day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1219,.PA-supply-90day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1220,.PA-supply-90day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1450,.PA-brandpseudo-4G-blackfriday-main-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1451,.PA-brandpseudo-3G-blackfriday-main-ps.select-product-list,ProactivPlus,Product,Proactiv
+1452,.PA-kit-3StepKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1453,.PA-kit-TeenKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1454,.PA-kit-CompleteKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1455,.PA-kit-3G-3StepKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1456,.PA-kit-3G-TeenKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1457,.PA-kit-3G-CompleteKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1458,.PA-gift-3G-blackfriday-ps.select-product-list,ProactivPlus,Gift,BDG_SPM_3G
+1459,.PA-gift-4G-blackfriday-ps.select-product-list,ProactivPlus,Gift,BDG_SPM_4G
+1460,.PA-supply-30day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1461,.PA-supply-30day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1462,.PA-supply-30day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1463,.PA-supply-30day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1464,.PA-supply-30day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1465,.PA-supply-30day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1466,.PA-supply-90day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1467,.PA-supply-90day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1468,.PA-supply-90day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1469,.PA-supply-90day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1470,.PA-supply-90day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1471,.PA-supply-90day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1482,.PA-kit-3G-3StepKit-main-ps,ProactivPlus,Kit,3-Step System
+1483,.PA-kit-3G-TeenKit-main-ps,ProactivPlus,Kit,Teen Kit
+1484,.PA-kit-3G-CompleteKit-newgel-ps,ProactivPlus,Kit,Deluxe Kit
+1485,.PA-kit-3StepKit-main-ps,ProactivPlus,Kit,Proactiv+ 3-Step System
+1486,.PA-kit-TeenKit-main-ps,ProactivPlus,Kit,Proactiv+ Teen Kit
+1487,.PA-kit-CompleteKit-main-ps,ProactivPlus,Kit,Proactiv+ Complete Kit
+1488,.PA-gift-bdg-spm-1gift-newgel-ps,ProactivPlus,Gift,SPM & BDG
+1489,.PA-gift-3G-bdg-newgel-ps,ProactivPlus,Gift,SPM & RT
+1490,.PA-formula-Original-newgel-ps,ProactivPlus,Formula,Proactiv
+1491,.PA-formula-PAplus-newgel-ps,ProactivPlus,Formula,ProactivPlus
+1492,.PA-supply-30day-3G-TeenKit-ps,ProactivPlus,Supply,30
+1493,.PA-supply-30day-3G-CompleteKit-ps,ProactivPlus,Supply,30
+1494,.PA-supply-30day-3G-3StepKit-ps,ProactivPlus,Supply,30
+1495,.PA-supply-90day-3G-3StepKit-ps,ProactivPlus,Supply,90
+1496,.PA-supply-90day-3G-TeenKit-ps,ProactivPlus,Supply,90
+1497,.PA-supply-90day-3G-CompleteKit-ps,ProactivPlus,Supply,90
+1498,.PA-gel-supply-30day-3StepKit-ps,ProactivPlus,Supply,30
+1499,.PA-gel-supply-30day-TeenKit-ps,ProactivPlus,Supply,30
+1500,.PA-gel-supply-30day-CompleteKit-ps,ProactivPlus,Supply,30
+1501,.PA-supply-90day-3StepKit-ps,ProactivPlus,Supply,90
+1502,.PA-supply-90day-TeenKit-ps,ProactivPlus,Supply,90
+1503,.PA-supply-90day-CompleteKit-ps,ProactivPlus,Supply,90
+1522,.PA-brandpseudo-4G-blackfriday-main-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1523,.PA-brandpseudo-3G-blackfriday-main-ps.select-product-list,ProactivPlus,Product,Proactiv
+1524,.PA-kit-3StepKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1525,.PA-kit-TeenKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1526,.PA-kit-CompleteKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1527,.PA-kit-3G-3StepKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1528,.PA-kit-3G-TeenKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1529,.PA-kit-3G-CompleteKit-blackfriday-main-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1530,.PA-gift-3G-blackfriday-ps.select-product-list,ProactivPlus,Gift,BDG_SPM_3G
+1531,.PA-gift-4G-blackfriday-ps.select-product-list,ProactivPlus,Gift,BDG_SPM_4G
+1532,.PA-supply-30day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1533,.PA-supply-30day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1534,.PA-supply-30day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1535,.PA-supply-90day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1536,.PA-supply-90day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1537,.PA-supply-90day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1538,.PA-supply-30day-TeenKit-inline-blackfriday-ps.select-product-list,ProactivPlus,Supply,30
+1539,.PA-supply-30day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1540,.PA-supply-30day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1541,.PA-supply-90day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1542,.PA-supply-90day-TeenKit-inline-blackfriday-ps.select-product-list,ProactivPlus,Supply,90
+1543,.PA-supply-90day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1547,[data-pid=DT-kit-BodyKit-main-ps] .icon-more,Xout,Kit1,X Out® Body Kit
+1548,[data-pid=DT-kit-BodyKit-main-ps] .yellow-button,Xout,Kit2,X Out® Body Kit
+1549,[data-pid=DT-kit-ShineKit-main-ps] .icon-more,Xout,Kit1,X Out® Shine Kit
+1550,[data-pid=DT-kit-ShineKit-main-ps] .yellow-button,Xout,Kit2,X Out® Shine Kit
+1551,[data-pid=DT-kit-BasicKit-main-ps] .icon-more,Xout,Kit1,X Out® Basic Kit
+1552,[data-pid=DT-kit-BasicKit-main-ps] .yellow-button,Xout,Kit2,X Out® Basic Kit
+1553,[data-pid=DT-valuepack-nopack-30day-BodyKit-ps] .icon-more,Xout,ValuePack1,None
+1554,[data-pid=DT-valuepack-nopack-30day-BodyKit-ps] .yellow-button,Xout,ValuePack2,None
+1555,[data-pid=DT-valuepack-pack-30day-BodyKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1556,[data-pid=DT-valuepack-pack-30day-BodyKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1557,[data-pid=DT-valuepack-nopack-30day-BasicKit-ps] .icon-more,Xout,ValuePack1,None
+1558,[data-pid=DT-valuepack-nopack-30day-BasicKit-ps] .yellow-button,Xout,ValuePack2,None
+1559,[data-pid=DT-valuepack-nopack-30day-ShineKit-ps] .icon-more,Xout,ValuePack1,None
+1560,[data-pid=DT-valuepack-nopack-30day-ShineKit-ps] .yellow-button,Xout,ValuePack2,None
+1561,[data-pid=DT-valuepack-pack-30day-BasicKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1562,[data-pid=DT-valuepack-pack-30day-BasicKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1563,[data-pid=DT-valuepack-pack-30day-ShineKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1564,[data-pid=DT-valuepack-pack-30day-ShineKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1565,[data-pid=DT-valuepack-nopack-90day-BasicKit-ps] .icon-more,Xout,ValuePack1,None
+1566,[data-pid=DT-valuepack-nopack-90day-BasicKit-ps] .yellow-button,Xout,ValuePack2,None
+1567,[data-pid=DT-valuepack-nopack-90day-BodyKit-ps] .icon-more,Xout,ValuePack1,None
+1568,[data-pid=DT-valuepack-nopack-90day-BodyKit-ps] .yellow-button,Xout,ValuePack2,None
+1569,[data-pid=DT-valuepack-nopack-90day-ShineKit-ps] .icon-more,Xout,ValuePack1,None
+1570,[data-pid=DT-valuepack-nopack-90day-ShineKit-ps] .yellow-button,Xout,ValuePack2,None
+1571,[data-pid=DT-valuepack-pack-90day-BasicKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1572,[data-pid=DT-valuepack-pack-90day-BasicKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1573,[data-pid=DT-valuepack-pack-90day-BodyKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1574,[data-pid=DT-valuepack-pack-90day-BodyKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1575,[data-pid=DT-valuepack-pack-90day-ShineKit-ps] .icon-more,Xout,ValuePack1,ValuePack
+1576,[data-pid=DT-valuepack-pack-90day-ShineKit-ps] .yellow-button,Xout,ValuePack2,ValuePack
+1585,.PA-formula-Original-sum-compare-ps.select-product-list,ProactivPlus,Product,Proactiv
+1586,.PA-formula-PAplus-compare-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1587,.PA-kit-3G-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1588,.PA-kit-3G-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1589,.PA-kit-3G-CompleteKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1590,.PA-kit-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1591,.PA-kit-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1592,.PA-kit-CompleteKit-umbrellaoffer-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1593,.PA-gift-3G-superduo-ps.select-product-list,ProactivPlus,Gift,ADSC_BDG_3G
+1594,.PA-gift-4G-superduo-ps.select-product-list,ProactivPlus,Gift,ADSC_BDG
+1595,.PA-supply-30day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1596,.PA-supply-30day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1597,.PA-supply-30day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1598,.PA-supply-90day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1599,.PA-supply-90day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1600,.PA-supply-90day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1601,.PA-supply-30day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1602,.PA-supply-30day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1603,.PA-supply-30day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1604,.PA-supply-90day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1605,.PA-supply-90day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1606,.PA-supply-90day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1610,[data-pid=DT-kit-BodyKit-ppt-ps],Xout,Kit,X Out® Body Kit
+1611,[data-pid=DT-kit-ShineKit-ppt-ps],Xout,Kit,X Out® Shine Kit
+1612,[data-pid=DT-kit-BasicKit-ppt-ps],Xout,Kit,X Out® Basic Kit
+1613,[data-pid=DT-gift-CleansingBodyBar-ps],Xout,Gift,CB
+1614,[data-pid=DT-valuepack-nopack-30day-BodyKit-ppt-ps],Xout,ValuePack,None
+1615,[data-pid=DT-valuepack-pack-30day-BodyKit-ppt-ps],Xout,ValuePack,ValuePack
+1616,[data-pid=DT-valuepack-nopack-30day-BasicKit-ppt-ps],Xout,ValuePack,None
+1617,[data-pid=DT-valuepack-nopack-30day-ShineKit-ppt-ps],Xout,ValuePack,None
+1618,[data-pid=DT-valuepack-pack-30day-BasicKit-ppt-ps],Xout,ValuePack,ValuePack
+1619,[data-pid=DT-valuepack-pack-30day-ShineKit-ppt-ps],Xout,ValuePack,ValuePack
+1620,[data-pid=DT-valuepack-nopack-90day-BasicKit-ppt-ps],Xout,ValuePack,None
+1621,[data-pid=DT-valuepack-nopack-90day-BodyKit-ppt-ps],Xout,ValuePack,None
+1622,[data-pid=DT-valuepack-nopack-90day-ShineKit-ppt-ps],Xout,ValuePack,None
+1623,[data-pid=DT-valuepack-pack-90day-BasicKit-ppt-ps],Xout,ValuePack,ValuePack
+1624,[data-pid=DT-valuepack-pack-90day-BodyKit-ppt-ps],Xout,ValuePack,ValuePack
+1625,[data-pid=DT-valuepack-pack-90day-ShineKit-ppt-ps],Xout,ValuePack,ValuePack
+1626,[data-pid=DT-supply-30day-BodyKit-ps],Xout,Supply,30
+1627,[data-pid=DT-supply-90day-BodyKit-ps],Xout,Supply,90
+1628,[data-pid=DT-supply-30day-ShineKit-ps],Xout,Supply,30
+1629,[data-pid=DT-supply-30day-BasicKit-ps],Xout,Supply,30
+1630,[data-pid=DT-supply-90day-ShineKit-ps],Xout,Supply,90
+1631,[data-pid=DT-supply-90day-BasicKit-ps],Xout,Supply,90
+1632,[data-pid=DT-kit-BodyKit-brush2-ps],Xout,Kit,X Out® Body Kit
+1633,[data-pid=DT-kit-ShineKit-brush2-ps],Xout,Kit,X Out® Shine Kit
+1634,[data-pid=DT-kit-BasicKit-brush2-ps],Xout,Kit,X Out® Basic Kit
+1635,[data-pid=DT-gift-Brush-ps],Xout,Gift,Brush
+1636,[data-pid=DT-valuepack-nopack-90day-BasicKit-brush2-ps],Xout,ValuePack,None
+1637,[data-pid=DT-valuepack-pack-90day-BasicKit-brush2-ps],Xout,ValuePack,ValuePack
+1638,[data-pid=DT-valuepack-nopack-30day-NoFreeShipping-ShineKit-brush2-ps],Xout,ValuePack,None
+1639,[data-pid=DT-valuepack-pack-30day-NoFreeShipping-ShineKit-brush2-ps],Xout,ValuePack,ValuePack
+1640,[data-pid=DT-valuepack-nopack-90day-BodyKit-brush2-ps],Xout,ValuePack,None
+1641,[data-pid=DT-valuepack-nopack-90day-ShineKit-brush2-ps],Xout,ValuePack,None
+1642,[data-pid=DT-valuepack-pack-90day-BodyKit-brush2-ps],Xout,ValuePack,ValuePack
+1643,[data-pid=DT-valuepack-pack-90day-ShineKit-brush2-ps],Xout,ValuePack,ValuePack
+1644,[data-pid=DT-valuepack-nopack-30day-NoFreeShipping-BodyKit-brush2-ps],Xout,ValuePack,None
+1645,[data-pid=DT-valuepack-pack-30day-NoFreeShipping-BodyKit-brush2-ps],Xout,ValuePack,ValuePack
+1646,[data-pid=DT-valuepack-nopack-30day-NoFreeShipping-BasicKit-brush2-ps],Xout,ValuePack,None
+1647,[data-pid=DT-valuepack-pack-30day-NoFreeShipping-BasicKit-brush2-ps],Xout,ValuePack,ValuePack
+1648,[data-pid=DT-supply-30day-NoFreeShipping-BasicKit-ps],Xout,Supply,30
+1649,[data-pid=DT-supply-90day-BasicKit-ps],Xout,Supply,90
+1650,[data-pid=DT-supply-30day-NoFreeShipping-ShineKit-ps],Xout,Supply,30
+1651,[data-pid=DT-supply-90day-ShineKit-ps],Xout,Supply,90
+1652,[data-pid=DT-supply-30day-NoFreeShipping-BodyKit-ps],Xout,Supply,30
+1653,[data-pid=DT-supply-90day-BodyKit-ps],Xout,Supply,90
+1655,.PA-formula-Original-sum-compare-darkspot-ps.select-product-list,ProactivPlus,Product,Proactiv
+1656,.PA-formula-PAplus-compare-darkspot-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1657,.PA-kit-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1658,.PA-kit-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1659,.PA-kit-CompleteKit-umbrellaoffer-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1660,.PA-kit-3G-3StepKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1661,.PA-kit-3G-TeenKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1662,.PA-kit-3G-CompleteKit-main-inline-darkspot-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1663,.PA-gift-bodygift-ps.select-product-list,ProactivPlus,Gift,DCBB_DCW
+1664,.PA-gift-bodygift-3G-ps.select-product-list,ProactivPlus,Gift,DCBB_DCW_3G
+1665,.PA-supply-30day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1666,.PA-supply-30day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1667,.PA-supply-30day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1668,.PA-supply-30day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1669,.PA-supply-30day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1670,.PA-supply-30day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,30
+1671,.PA-supply-90day-3G-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1672,.PA-supply-90day-3G-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1673,.PA-supply-90day-3G-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1674,.PA-supply-90day-3StepKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1675,.PA-supply-90day-TeenKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1676,.PA-supply-90day-CompleteKit-inline-darkspot-ps.select-product-list,ProactivPlus,Supply,90
+1677,.PA-formula-Original-sum-compare-freebrush-ps.select-product-list,ProactivPlus,Product,Proactiv
+1678,.PA-formula-PAplus-compare-freebrush-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1679,.PA-kit-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1680,.PA-kit-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1681,.PA-kit-CompleteKit-umbrellaoffer-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1682,.PA-kit-3G-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1683,.PA-kit-3G-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1684,.PA-kit-3G-CompleteKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1685,.PA-gift-1gift-brushoffer-3G-ps.select-product-list,ProactivPlus,Gift,DCB_3G
+1686,.PA-gift-1gift-brushoffer-ps.select-product-list,ProactivPlus,Gift,DCB
+1687,.PA-supply-30day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1688,.PA-supply-30day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1689,.PA-supply-30day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1690,.PA-supply-30day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1691,.PA-supply-30day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1692,.PA-supply-30day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1693,.PA-supply-90day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1694,.PA-supply-90day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1695,.PA-supply-90day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1696,.PA-supply-90day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1697,.PA-supply-90day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1698,.PA-supply-90day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1699,.PA-formula-Original-sum-compare-ps.select-product-list,ProactivPlus,Product,Proactiv
+1700,.PA-formula-PAplus-compare-ps.select-product-list,ProactivPlus,Product,ProactivPlus
+1701,.PA-kit-3G-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,3-Step System
+1702,.PA-kit-3G-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Teen Kit
+1703,.PA-kit-3G-CompleteKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Deluxe Kit
+1704,.PA-kit-3StepKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ 3-Step System
+1705,.PA-kit-TeenKit-main-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Teen Kit
+1706,.PA-kit-CompleteKit-umbrellaoffer-inline-ps.select-product-list,ProactivPlus,Kit,Proactiv+ Complete Kit
+1707,.PA-gift-3G-travel-kit-green-tea-inline-ps.select-product-list,ProactivPlus,Gift,Travel Kit_3G
+1708,.PA-gift-travel-kit-green-tea-inline-ps.select-product-list,ProactivPlus,Gift,Travel Kit
+1709,.PA-gift-spm-rtt-main-inline-ps.select-product-list,ProactivPlus,Gift,RT_SPM
+1710,.PA-supply-30day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1711,.PA-supply-30day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1712,.PA-supply-30day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1713,.PA-supply-90day-3G-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1714,.PA-supply-90day-3G-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1715,.PA-supply-90day-3G-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1716,.PA-supply-30day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1717,.PA-supply-30day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1718,.PA-supply-30day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,30
+1719,.PA-supply-90day-3StepKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1720,.PA-supply-90day-TeenKit-inline-ps.select-product-list,ProactivPlus,Supply,90
+1721,.PA-supply-90day-CompleteKit-inline-ps.select-product-list,ProactivPlus,Supply,90

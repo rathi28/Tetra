@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <div class="panel-title">
+<p>
+  <strong>Brand:</strong>
+  <%= @brandurldatum.brand %>
+</p>
+</h1>
+    </div>
+  </div>
+
+  <div class="panel-body">
+<p>
+  <strong>Development:</strong>
+  <%= @brandurldatum.development %>
+</p>
+
+<p>
+  <strong>QA:</strong>
+  <%= @brandurldatum.qa %>
+</p>
+<p>
+  <strong>STG:</strong>
+  <%= @brandurldatum.stg %>
+</p>
+
+<p>
+  <strong>Prod:</strong>
+  <%= @brandurldatum.prod %>
+</p>
+
+<p>
+  <strong>Test env:</strong>
+  <%= @brandurldatum.test_env %>
+</p>
+
+  </div>
+
+  <div class="panel-footer">
+
+<%= link_to 'Edit', edit_brandurldatum_path(@brandurldatum), :class => 'btn btn-primary' %> 
+<%= link_to 'Back', brandurldata_path, :class => 'btn btn-primary' %>
+  </div>
+</div>

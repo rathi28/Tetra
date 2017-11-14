@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  message: MyText
+  backtrace: MyText
+  class_name: MyText
+  testrun_id: 
+  test_run_id: 
+
+two:
+  message: MyText
+  backtrace: MyText
+  class_name: MyText
+  testrun_id: 
+  test_run_id: 

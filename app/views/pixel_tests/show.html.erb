@@ -1,0 +1,228 @@
+<!-- this file lives in pixels/show.html.erb -->
+<%
+testtypes = nil
+pixels = []
+if(@urls.first)
+    @pixels[@urls.first.id].each do |pixel_handle|
+        pixels.push pixel_handle.pixel_handle
+    end
+end
+
+urls = {}
+@urls.each do |url|
+    urls[url.id] = url.url
+end
+
+%>
+<!-- debug values -->
+<script type="text/javascript">
+
+    pixels  = <%= pixels.to_json.html_safe %>;
+    urls    = <%= urls.to_json.html_safe %>;
+    suite    = <%= @test.to_json.html_safe %>;
+</script>
+<!-- Tempates --> 
+<script type="text/template" id="pixelInputTemplate">
+    <td class="pixel_{{pixel_id}}">
+        <input type="hidden" name="pixels[{{pixel_handle}}]" value="0" checked='true'>
+        <input data-id="{{pixel_id}}" type="checkbox" name="pixels[{{pixel_handle}}]" value="1" onchange='update_pixel_api(this)'>
+    </td>
+</script>
+
+<script type="text/template" id="pixelHeaderTemplate">
+    <th class="table_header {{newpixelname}}" id="{{newpixelname}}_header">
+    	{{newpixelname}}
+    </th>
+</script>
+
+<script type="text/template" id="pixelDeleteTemplate">
+    <td class="{{pixel_handle}}">
+	    <a class="btn btn-danger btn-xs delete_pixel" onclick="deletePixel('{{pixel_handle}}', '{{pixel_id}}')">Delete Pixel</a>
+	</td>
+</script>
+
+<script type="text/template" id="newUrlTemplate">
+
+    <tr class="pixel_row {{newindex}}_url">
+        <td id="{{newindex}}_url_string">
+            <input placeholder="http://wen.com" value='{{url}}' onchange='update_url(this)' data-id="{{newindex}}" data-name="url" class="form-control">
+        </td>
+        <td id='{{newindex}}_append_string'>
+            <input placeholder="/path?grcid=example&amp;mmcore.gm=2" size="40px" value='' onchange='update_url(this)' data-id="{{newindex}}" data-name="appendstring" class="form-control">
+        </td>
+	</tr>
+</script>
+
+<div class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well">
+                            <h2><%= @test.suitetype.nil? ? "Pixel" : (@test.suitetype == "seo" ? @test.suitetype.upcase : @test.suitetype) %> Suite Page</h2>
+                            <p>
+                                View A <%= @test.suitetype.nil? ? "Pixel" : (@test.suitetype == "seo" ? @test.suitetype.upcase : @test.suitetype) %> Test Suite Configuration
+                            </p>
+                            <a class="btn btn-info" href="/pixel_tests/<%= @test.id %>/edit">Edit Suite</a>
+                            <a class="btn btn-warning" data-method="post" href="/pixel_tests/<%= @test.id %>/duplicate">Duplicate Suite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                       <h4>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_suite_title" class="control-label">Test Suite Title</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <%= @test.testname %>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_type" class="control-label">Type</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <%= @test.testtype.capitalize if @test.testtype %>
+
+                                </div>
+                            </div><br>
+
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_environment" class="control-label">Environment</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <%= @test.environment %>
+                                </div>
+                            </div><br>
+                            <% if @test.suitetype != "seo" %>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_environment" class="control-label">Is MM Test? (suite level)</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <%= @test.mmtest ? @test.mmtest.capitalize : 'No' %>
+                                </div>
+                            </div><br>
+                            <% end %>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="overflow:auto;">
+                        <table class="table table-condensed table-hover table-bordered">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th><% if @test.suitetype != "seo" %>
+                                    <th></th>
+                                    <% end %>
+                                    
+                                    <% if @urls.first %>
+                                        <% @pixels[@urls.first.id].each do |pixel| %>
+                                            <th>
+                                                <%= pixel.pixel_name %>
+                                            </th>
+                                        <% end %>
+                                    <% end %>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                	<th style="text-align:center;" class="table_header " id="url_header">URL</th>
+                                    <th style="text-align:center;" class="table_header" id="url_header">Appended String</th>
+                                    <% if @test.suitetype != "seo" %>
+                                    <th style="text-align:center;" class="table_header" id="url_header">Page Type</th>
+                                    <th style="text-align:center;" class="table_header" id="url_header">Is MM Test?</th>
+                                    <% end %>
+                                    
+
+                                    <% if(@urls.first) %>
+                                    	<% @pixels[@urls.first.id].each do |pixel_handle| %>
+                                        	<th style="text-align:center;" class="pixel_<%= pixel_handle.id %> pixel_header table_header" id="pixel_<%= pixel_handle.id %>_header">	<%= pixel_handle.pixel_handle %>
+                                        	</th>
+                                        <% end %>
+                                    <% end %>
+                                    <th style="text-align:center;" id='option_header'>Options</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                            	<% @urls.each do |url_obj| 
+                                    if(params[:validate_urls])
+                                        url_valid = @url_validation[url_obj.id][:status] != 'failed'
+                                    else
+                                        url_valid = true;
+                                    end
+                                    %>
+	                                <tr class="pixel_row <%= url_obj.id %>_url<%= " has-error danger" if(!url_valid) %>">
+	                                    <td id="<%= url_obj.id %>_url_string">
+	                                        <%= url_obj.url %>
+                                            <%= ("<label class='control-label'>"+@url_validation[url_obj.id][:reason] + "</label>").html_safe if !url_valid %>
+                                        </td>
+                                        <td id='<%= url_obj.id %>_append_string'>
+                                            <%= url_obj.appendstring %>
+	                                    </td><% if @test.suitetype != "seo" %>
+                                        <td>
+                                            <%= url_obj.page_type %>
+                                        </td>
+                                        <td>
+                                            <%= url_obj.mmtest %>
+                                        </td>
+                                        
+                      
+                                        <% end %>
+	                                    <% @pixels[url_obj.id].each do |pixel_handle| %>
+		                                    <td style="text-align:center;" class="pixel_<%= pixel_handle.id %> <%= "last_pixel" if(pixels.last == pixel_handle.pixel_handle) %>">
+		                                        <input type="hidden" name="pixels[<%= pixel_handle.pixel_handle %>]" value="0" checked='true'>
+		                                        <input data-id="<%= pixel_handle.id %>" type="checkbox" disabled="disabled" name="pixels[<%= pixel_handle.pixel_handle %>]" value="1" <%= 'checked="checked"' if(pixel_handle.expected_state == 1) %>>
+		                                    </td>
+	                                    <% end %>
+	                                    <td style="text-align:center;"  class="delete_url_cell">
+	                                        <a class="url_<%= url_obj.id %> btn btn-danger delete_url_btn" onclick="removeURL('<%= url_obj.id %>')">
+	                                        	Delete URL
+	                                        </a>
+	                                    </td>
+	                                </tr>
+	                            <% end %>
+                                
+                                
+                            </tbody>
+                        </table>
+                        <a href='/pixel_tests/<%= @test.id %>?validate_urls=true' class="btn btn-primary">Check URLS</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <% if @test.suitetype.nil? %>
+        <div class="container">
+            <div class='row'>
+                
+                <%= form_tag("/pixels/previewimport", method: "post") do %>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <label>Import Data from Spreadsheet</label>
+                    </div>    
+                    <div class="panel-body">
+                        <input type="hidden" name="pixelsuite" value="<%= @test.id %>">
+                        <textarea name="rawdata" class="form-control col-md-6"></textarea>
+                    </div>
+                    <br>
+                    <div class="panel-footer">
+                        <input name="commit" type="submit" value="Import" class="btn btn-success" />
+                    </div>
+                </div>
+                
+                <% end %>
+                <% end %>
+                
+                <br/><br/>
+            </div>
+        </div>
+
+        <!-- END this file lives in pixels/edit.html.erb -->

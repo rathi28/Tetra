@@ -1,0 +1,139 @@
+<%= form_for :campaigns, url: "/campaigns", method: :post do |f| %>
+<!-- START OF campaigns/new.html.erb -->
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<div>
+			<h4><strong>Creating a new campaign entry</strong>
+			</h4>
+			<br>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="container-fluid">
+			<div class='row'>
+				<div class="col-md-6"><strong>Brand</strong></div>
+				<div class="col-md-6">
+					<select name="campaigns[Brand]" class="form-control">
+						<% @brands.each_with_index do |brand, index| %>
+						<option value="<%= brand['Brandname'].strip %>" <%= 'selected="selected"' if( brand['Brandname'] == @campaign.Brand)%>>
+							<%= brand['Brandname'].strip %>
+						</option>
+						<% end %>
+					</select>
+				</div>
+			</div>
+
+			<div class='row'>
+				<div class="col-md-6"><strong>GrcID</strong></div>
+				<div class="col-md-6">
+					<input type="text" id="campaign_grcid" name="campaigns[grcid]" value="<%= @campaign.grcid %>" class="create_input form-control" />
+				</div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Realm</strong>
+					<h5>
+						<small> 
+							Realm that this campaign configuration applies to
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6"><input type="text" id="campaign_realm" name="campaigns[realm]" value="<%= @campaign.realm %>" class="create_input form-control" /></div>
+			</div>
+
+			<hr />
+			<div class='row'>
+				<div class="col-md-6"><strong>Buyflow</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_DesktopBuyflow" name="campaigns[DesktopBuyflow]" value="<%= @campaign.DesktopBuyflow %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>HomePageTemplate</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_DesktopHomePageTemplate" name="campaigns[DesktopHomePageTemplate]" value="<%= @campaign.DesktopHomePageTemplate %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>SASTemplate</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_DesktopSASTemplate" name="campaigns[DesktopSASTemplate]" value="<%= @campaign.DesktopSASTemplate %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>SASPagePattern</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_DesktopSASPagePattern" name="campaigns[DesktopSASPagePattern]" value="<%= @campaign.DesktopSASPagePattern %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>CartPageTemplate</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_DesktopCartPageTemplate" name="campaigns[DesktopCartPageTemplate]" value="<%= @campaign.DesktopCartPageTemplate %>" class="create_input form-control" /></div>
+			</div>
+			<hr />
+			<div class='row'>
+				<div class="col-md-6"><strong>UCI</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_UCI" name="campaigns[UCI]" value="<%= @campaign.UCI %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Default Offercode</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_default_offercode" name="campaigns[default_offercode]" value="<%= @campaign.default_offercode %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Environment</strong></div>
+				<div class="col-md-6"><input type="text" id="campaign_environment" name="campaigns[environment]" value="<%= @campaign.environment %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Is MM Test Enabled</strong></div>
+				<div class="col-md-6">
+					<select name="campaigns[testenabled]" class="form-control">
+						<option value="1" <%= 'selected="selected"' if( @campaign.testenabled == 1)%>>
+							Yes
+						</option>
+						<option value="0" <%= 'selected="selected"' if( @campaign.testenabled == 0)%>>
+							No
+						</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6"><strong>Is Test Panel?</strong></div>
+				<div class="col-md-6">
+					<input type="hidden" name="campaigns[is_test_panel]" value="0" checked='true'><input type="checkbox" onclick="flip" name="campaigns[is_test_panel]" value="1" <%= "checked='true'" if(@campaign.is_test_panel == true) %>> <br>
+				</div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Comments</strong>
+					<h5>
+						<small> 
+							Any comments to clarify any details about this configuration
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6"><input type="text" id="campaign_comments" name="campaigns[comments]" value="<%= @campaign.comments %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>Prod URL</strong>
+					<h5>
+						<small> 
+							Override url for PROD - ignores mm test settings
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6"><input type="text" id="campaign_produrl" name="campaigns[produrl]" value="<%= @campaign.produrl %>" class="create_input form-control" /></div>
+			</div>
+			<div class='row'>
+				<div class="col-md-6"><strong>QA URL</strong>
+					<h5>
+						<small> 
+							Override url for QA - ignores mm test settings
+						</small>
+					</h5>
+				</div>
+				<div class="col-md-6"><input type="text" id="campaign_qaurl" name="campaigns[qaurl]" value="<%= @campaign.qaurl %>" class="create_input form-control" /></div>
+			</div>
+			<hr />
+			<div class="btn-group" role="group">
+				<%= submit_tag("Create", :class => "btn btn-success") %>
+				<a href="/campaigns/" class="btn btn-danger" role="button">Cancel</a>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="panel-footer">Creating Campaign</div>
+</div>
+</div>
+<% end %>
+<!-- END OF campaigns/new.html.erb -->

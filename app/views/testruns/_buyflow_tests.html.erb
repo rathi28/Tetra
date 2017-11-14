@@ -1,0 +1,242 @@
+<% 
+tooltips = {}
+tooltips['emailnotification'] = """
+Enter valid email addresses separated by a semi-colon.
+"""
+tooltips['offers'] = """
+Enter valid offercodes separated by a semi-colon.
+"""
+tooltips['custom_url'] = """
+Enter valid url including http (ex: http://wen.com) along with authentication for qa environments (ex: https://<user>:<password>@address.com)
+"""
+%>
+<!-- START OF testruns/_buyflow_tests.html.erb -->
+<%= form_tag("/testsuites/#{type.downcase}/create", method: "post", :class => "row") do %>
+<script type="text/javascript">
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip();
+})
+function get_brand_dropdown(element){
+	if(element.value == "all"){
+		console.log('All Brands Dropdown Triggered');
+		$('#brand_checkboxes').show();
+		//$('#realm').val('all')
+	}else{
+		console.log('Not All Brands - Hide Dropdown');
+		$('#brand_checkboxes').hide();
+	}
+}
+	//$(document).ready(function() { $("#brands").select2(); });
+	//$(document).ready(function() { $("#browser").select2(); });
+
+	$( document ).ready(function() {
+		selected_campaign = "core-campaign"
+		get_campaigns();
+	});
+	</script>
+	<div class="col-md-12 col-lg-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12" id="buyflow_form">
+					<% if(defined? scheduler) %>
+					<br />
+					<%= render partial: "widgets/schedule_widget", locals: {testtype: type} %>
+					<% end %>
+					<br />
+					<p>
+						This form is for launching new <%= type %> test suites.
+					</p> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-lg-12 col-sm-12">
+					<%= label_tag(:brand, "Brand", :class => "control-label") %>
+					<strong style="color:#990000">
+						<em> *</em>
+					</strong>
+					<br />	
+					<select id="brands" name="brand" class="form-control" onchange="get_campaigns(); get_brand_dropdown(this);"  onfocus="get_campaigns()">
+						<b><option value="all">
+							All
+						</option></b>
+						<% brands.each_with_index do |brand, index| %>
+
+						<option value="<%= brand['Brandname'].strip %>" <%= 'selected="selected"' if( brand['Brandname'] == 'Wen')%>>
+							<%= brand['Brandname'].strip %>
+						</option>
+						<% end %>
+					</select>
+					<br />
+
+					<%= label_tag(:campaign, "Campaign", :class => "control-label") %>
+					<strong style="color:#990000">
+						<em> 
+							*
+						</em>
+					</strong>
+					<br />
+					<select name="campaign" class="form-control" title="GrcID">
+						<option value="core-campaign" selected="selected">core-campaign</option>
+					</select>
+					<br />
+
+					<div id='platformform'>
+						<label for="platform" class="control-label">
+							Platform
+						</label>
+						<strong style="color:#990000">
+							<em> 
+								*
+							</em>
+						</strong>
+						<br />
+						<select name="platform" class="form-control" onchange="get_campaigns(); check_compatiblity();"  onfocus="get_campaigns()">
+							<option value="Desktop" selected="selected">
+								Desktop
+							</option>
+							<option value="Mobile">
+								Mobile
+							</option>
+						</select>
+					</div>
+					<br />
+
+
+					<label for="realm" class="control-label">
+						Realm
+					</label>
+					<strong style="color:#990000">
+						<em>
+							*
+						</em>
+					</strong>
+					<br />
+					<%
+					# Get unique list of realms to be listed
+        			#@realm_list = Campaign.all.select(:realm).map(&:realm).uniq 
+        			@realm_list = Campaign.all.uniq.pluck(:realm)
+        			%>
+
+					<select id="realm" name="realm" class="form-control" onchange="get_campaigns();"  onfocus="get_campaigns()">
+						<option value="all">
+							All
+						</option>
+						<% @realm_list.each do |env| %> 
+						<option value="<%= env %>"<%= env == 'realm1' ? " selected='selected'" : "" %> >
+							<%= env %>
+						</option>
+						<% end %>
+
+					</select>
+					<br />
+					
+
+
+					<label for="server" class="control-label">
+						Environment
+					</label>
+					<strong style="color:#990000">
+						<em>
+							*
+						</em>
+					</strong>
+					<br />
+					<%
+					# Get unique list of environments to be listed
+        			@environment_list = Campaign.all.select(:environment).map(&:environment).uniq 
+        			%>
+
+					<select id="server" name="server" class="form-control" onchange="get_campaigns();"  onfocus="get_campaigns()">
+						<% @environment_list.sort.reverse.each do |env| %> 
+						<option value="<%= env %>"<%= env == 'prod' ? " selected='selected'" : "" %> >
+							<%= env.upcase %>
+						</option>
+						<% end %>
+					</select>
+					<br />
+					<div id='browserform'>
+						<%= label_tag(:browser, "Browser", :class => "control-label") %>
+						<strong style="color:#990000">
+							<em>
+								*
+							</em>
+						</strong>
+						<br />
+						<select id="browser" name="browser" onchange="check_compatiblity()" class="form-control">
+							<% browsers.each_with_index do |browser, index| %>
+							<option value="<%= browser['browser'].strip %>" <%= 'selected="selected"' if(browser['browser'] == 'grid-chrome')%>>
+								<%= browser['human_name'].strip %>
+							</option>
+							<% end %>
+						</select>
+					</div>
+				</div>
+				<br />
+
+
+
+
+
+
+
+				<div class="form-group col-sm-12 col-sm-12">
+					<%= label_tag(:custom_url, "Custom URL", :class => "control-label") %>
+					<span class="glyphicon glyphicon-question-sign pull-right" data-toggle="tooltip"  data-placement="bottom" title="<%= tooltips['custom_url'] %>"> </span>
+					<br />
+					<div class="input-group">
+							<span class="input-group-addon">URL</span>
+					<%= text_field_tag(:custom_url, nil, :class => "form-control") %>
+					</div><br />
+					<%= check_box_tag :is_upsell %> Select to run Upsell upgrade <br><br>
+					<%= label_tag(:custom_offer, "Custom Offer", :class => "control-label") %>
+					<span class="glyphicon glyphicon-question-sign pull-right" data-toggle="tooltip"  data-placement="bottom" title="<%= tooltips['offers'] %>"> </span>
+					<br />
+					<%= text_field_tag(:custom_offer, nil, :class => "form-control") %><br />
+					<div id='email_form_<%= type %>'>
+						<%= label_tag(:emailnotification, "Email for Notification", :class => "control-label", :testtype => type) %>
+
+						<span class="glyphicon glyphicon-question-sign pull-right" data-toggle="tooltip"  data-placement="bottom" title="<%= tooltips['emailnotification'] %>">
+						</span>
+						<br />
+						<div class="input-group">
+							<span class="input-group-addon">@</span>
+							<%= text_field_tag(:emailnotification, default_email, :class => "form-control", :testtype => type, :onchange => "validate_email(this)") %>
+						</div>
+						<span id="helpBlock" class="help-block">
+						The first email listed will be used for confirmation email for any test orders.
+						</span>
+						<%= check_box_tag :email_random, 1, true %> - Use Random Email (Above Email only used for notifications) <br>
+						<br />
+						<%= check_box_tag :isolated %> - Run these tests with isolated queue <br><br>
+					</div>
+					<% button_name = "Launch" %>
+					<strong style="color:#990000"><em> *</em></strong> Required Fields
+					<br /><br />
+					<% if(defined? scheduler) 
+						button_name = "Schedule"
+						end %>
+						<%= submit_tag(button_name, :class => "btn btn-primary") if(!(defined? modal)) %>
+					</div>
+
+					<br />
+				</div>
+			</div>
+		</div>
+		<% if(defined?(scheduler).nil?) %>
+		<div class="col-lg-6 col-sm-12 col-md-6" id="brand_checkboxes" style="display: none;">
+			<div class="well">
+				<h2>Brands to be tested</h2>
+				<% brands.each do |brand| %>
+					<input class="brand_subset_checkbox" type="checkbox" name="brand_subset[<%= brand.Brandname.strip %>]" value="<%= brand.Brandname.strip %>" checked="checked"> <%= brand.Brandname.strip %>
+					<br>
+				<% end %>
+			</div>
+		</div>
+		<% end %>
+
+			<% if(defined? modal) %>
+			<div class="modal-footer"><a class="btn btn-danger" data-dismiss="modal">Close</a> <%= submit_tag("Launch Test", :class => "btn btn-primary") %>
+			</div>
+			<% end %>
+			<% end %>
+<!-- END OF testruns/_buyflow_tests.html.erb -->

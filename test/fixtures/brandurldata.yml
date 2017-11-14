@@ -1,0 +1,125 @@
+one:
+  id: 1
+  brand: DrDenese
+  development: drdenese
+  qa: drdenese
+  prod: www.trydrd
+  test_env: dw.grdev
+  stg: drdenese
+
+two:
+  id: 3
+  brand: MeaningfulBeauty
+  development: meaningfulbeauty
+  qa: meaningfulbeauty
+  prod: meaningfulbeauty
+  test_env: dw2.grdev
+  stg: meaningfulbeauty
+
+three:
+  id: 4
+  brand: Wen
+  development: wen
+  qa: wen
+  prod: wen
+  test_env: dw.grdev
+  stg: wen
+
+four:
+  id: 5
+  brand: CrepeErase
+  development: crepeerase
+  qa: crepeerase
+  prod: crepeerase
+  test_env: dw2.grdev
+  stg: crepeerase
+
+five:
+  id: 6
+  brand: Sheercover
+  development: sheercover
+  qa: sheercover
+  prod: sheercover
+  test_env: dw.grdev
+  stg: sheercover
+
+six:
+  id: 7
+  brand: ProactivPlus
+  development: proactiv
+  qa: proactiv
+  prod: proactiv
+  test_env: dw.grdev
+  stg: proactiv
+
+seven:
+  id: 8
+  brand: Proactiv
+  development: original.proactiv
+  qa: original.proactiv
+  prod: original.proactiv
+  test_env: dw.grdev
+  stg: original.proactiv
+
+eight:
+  id: 9
+  brand: Perricone
+  development: perricone
+  qa: perricone
+  prod: subd
+  test_env: dw.grdev
+  stg: perricone
+
+nine:
+  id: 10
+  brand: Supersmile
+  development: supersmile
+  qa: supersmile
+  prod: shop.supersmile
+  test_env: dw.grdev
+  stg: supersmile
+
+ten:
+  id: 11
+  brand: Xout
+  development: xout
+  qa: xout
+  prod: xout
+  test_env: dw2.grdev
+  stg: xout
+
+eleven:
+  id: 12
+  brand: ITCosmetics
+  development: tryitnow
+  qa: tryitnow
+  prod: tryitnow
+  test_env: dw.grdev
+  stg: tryitnow
+
+twelve:
+  id: 13
+  brand: Reclaimbotanical
+  development: reclaimbotanical
+  qa: reclaimbotanical
+  prod: reclaimbotanical
+  test_env: dw.grdev
+  stg: reclaimbotanical
+
+thirteen:
+  id: 14
+  brand: PrincipalSecret
+  development: principalsecret
+  qa: principalsecret
+  prod: principalsecret
+  test_env: dw2.grdev
+  stg: principalsecret
+
+fifteen:
+  id: 15
+  brand: HandPerfection
+  development: handperfection
+  qa: handperfection
+  prod: handperfection
+  test_env: dw2.grdev
+  stg: handperfection

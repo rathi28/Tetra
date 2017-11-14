@@ -1,0 +1,43 @@
+<% 
+# TODO Move this code to ruby logic isolation
+headers = ['Offercode',
+'SupplySize',
+'PieceCount',
+'Bonus',
+'Offer',
+'Entry',
+'Continuity',
+'StartSH',
+'ContinuitySH',
+'Rush',
+'OND',
+'ExtraStep'
+] 
+
+%>
+
+<!-- START OF campaigns/_offers.html.erb -->
+<table class="table table-hover body-shadow" style="background-color:#FFF; text-align: center;">
+	<tr>
+		<% headers.each do |header| %>
+			<th style='text-align: center;'><%= header %></th>
+		<% end %>
+	</tr>
+	<% @offers.each do |offer| %>
+		<tr>
+			<td><%=	offer[:OfferCode] %></td>
+			<td><%=	offer[:SupplySize] %></td>
+			<td><%=	offer[:PieceCount] %></td>
+			<td><%=	offer[:Bonus] %></td>
+			<td><%=	offer[:Offer] %></td>
+			<td><%=	offer[:Entry] %></td>
+			<td><%=	offer[:Continuity] %></td>
+			<td><%=	offer[:StartSH] %></td>
+			<td><%=	offer[:ContinuitySH] %></td>
+			<td><%=	offer[:Rush] %></td>
+			<td><%=	offer[:OND] %></td>
+			<td><%=	offer[:ExtraStep] %></td>
+		</tr>
+	<% end %>
+</table>
+<!-- END OF campaigns/_offers.html.erb -->

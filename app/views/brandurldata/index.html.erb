@@ -1,0 +1,35 @@
+<h1>Listing brandurldata</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Development</th>
+      <th>STG</th>
+      <th>QA</th>
+      <th>Prod</th>
+      <th>Test env</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @brandurldata.each do |brandurldatum| %>
+      <tr>
+        <td><%= brandurldatum.brand %></td>
+        <td><%= brandurldatum.development %></td>
+        <td><%= brandurldatum.stg %></td>
+        <td><%= brandurldatum.qa %></td>
+        <td><%= brandurldatum.prod %></td>
+        <td><%= brandurldatum.test_env %></td>
+        <td><%= link_to 'Show', brandurldatum, :class => 'btn btn-success' %></td>
+        <td><%= link_to 'Edit', edit_brandurldatum_path(brandurldatum), :class => 'btn btn-warning' %></td>
+        <td><%= link_to 'Remove', brandurldatum, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Brandurldatum', new_brandurldatum_path, :class => 'btn btn-success' %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Browser:</strong>
+  <%= @browsertype.browser %>
+</p>
+
+<p>
+  <strong>Device type:</strong>
+  <%= @browsertype.device_type %>
+</p>
+
+<p>
+  <strong>Remote:</strong>
+  <%= @browsertype.remote %>
+</p>
+
+<p>
+  <strong>Human name:</strong>
+  <%= @browsertype.human_name %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @browsertype.active %>
+</p>
+
+<%= link_to 'Edit', edit_browsertype_path(@browsertype) %> |
+<%= link_to 'Back', browsertypes_path %>

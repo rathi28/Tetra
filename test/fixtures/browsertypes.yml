@@ -1,0 +1,23 @@
+one:
+  id: 1
+  browser: local-iphone
+  device_type: 1
+  remote: 0
+  human_name: iPhone (Firefox Emulator)
+  active: 0
+
+two:
+  id: 2
+  browser: local-ipad
+  device_type: 0
+  remote: 0
+  human_name: iPad (Firefox Emulator)
+  active: 0
+
+three:
+  id: 3
+  browser: local-android
+  device_type: 1
+  remote: 0
+  human_name: Android (Firefox Emulator)
+  active: 0

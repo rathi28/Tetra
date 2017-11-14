@@ -1,0 +1,57 @@
+<% 
+require "open-uri" 
+require "nokogiri"
+
+def pass_label
+  return '<span class="label label-success">PASS</span>'
+end
+
+def fail_label
+  return '<span class="label label-danger">FAIL</span>'
+end
+
+%>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>Viewing SEO File</h1>
+  </div>
+
+  <div class="panel-body">
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Filename:</strong><br>
+  <%= @seo_file.filename %>
+</p>
+
+<p>
+  <strong>Domain:</strong><br>
+  <%= @seo_file.domain %>
+</p>
+
+<p>
+  <strong>Targeturl:</strong><br>
+  <%= @seo_file.targeturl %>
+</p>
+
+<p>
+  <strong>Valid content:</strong><br>
+  <%= @seo_file.valid_content %>
+</p>
+<%
+begin
+open(@seo_file.targeturl) {|f| %>
+  <%= (f.status[0] == "200" && f.status[1] == "OK") ? pass_label.html_safe : fail_label.html_safe %> File Found<br>
+   <%#= f.readlines.join.gsub("\r","") == @seo_file.valid_content.gsub("\r","") ? pass_label.html_safe : fail_label.html_safe %> <!-- Content Correct<br> -->
+   <%= sitemap_xml_comparison(@seo_file) %> Content Correct<br><br>
+<%
+}
+rescue => e %>
+  <%= "<font color='red'>error: #{e.message}</font>".html_safe %>
+<% end
+%>
+<%= link_to 'Edit', edit_seo_file_path(@seo_file), :class => "btn btn-primary" %> <br><br>
+<%= link_to 'Back', seo_files_path, :class => "btn btn-primary" %>
+</div>
+</div>

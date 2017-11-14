@@ -1,0 +1,150 @@
+<!-- START OF schedule/show.html.erb -->
+<div class="panel panel-primary">
+	
+	<div class="panel-heading">
+		<div>
+			<h4><strong><%= @test["name"] ? @test["name"] : @test["id"] %></strong>
+			</h4>
+			<br>
+		</div>
+		<td>
+			<a href="/schedule/edit/<%= @test.id %>">
+				<button type="button" class="btn btn-default">
+					Edit
+				</button>
+			</a>
+		</td>
+
+		<td>
+			<a data-method="post" href="/schedule/<%= @test.active ? "disable" : "enable" %>/<%= @test.id %>">
+						<button type="button" class="btn btn-<%= @test.active ? "warning" : "success" %>">
+							<%= @test.active ? "Disable" : "Enable" %>
+						</button>
+					</a>
+		</td>
+
+		<td><a data-confirm="Are you sure?" data-method="delete" href="/schedule/<%= @test.id %>" rel="nofollow">
+				<button type="button" class="btn btn-danger btn">
+					Delete
+				</button>
+			</a>
+		</td>
+		
+
+
+	</div>
+	<div class="panel-body">
+		<table class="table table-striped">
+			<tr class='<%= @test['active'] ? 'success' : 'warning' %>'>
+				<td><strong>Is this scheduled task active?</strong></td>
+				<td><%= @test['active'] ? 'Yes' : 'No' %></td>
+			</tr>
+
+			<tr>
+				<td><strong>Day of Week to Run</strong></td>
+				<td><%= @test['weeklyday'] ? @test['weeklyday'] : 'Everyday' %></td>
+			</tr>
+			
+			<tr>
+				<td><strong>Last Run Date</strong></td>
+				<td><%= @test['lastrundate'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Brand</strong></td>
+				<td><%= @test['brand'] %> </td>
+			</tr>
+			<tr>
+				<td><strong>Campaign</strong></td>
+				<td><%= @test['grcid'] %> </td>
+			</tr>
+			<tr>
+				<td><strong>Browser</strong></td>
+				<td><%= @test['driver'] %> </td>
+			</tr>
+			<tr>
+				<td><strong>Platform</strong></td>
+				<td><%= @test['platform'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Environment</strong></td>
+				<td><%= @test['environment'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Realm</strong></td>
+				<td><%= @test['realm'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Test Type</strong></td>
+				<td><%= @test['testtype'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Created</strong></td>
+				<td><%= @test['creationdate'] %></td>
+			</tr>
+			<% if @test['customurl']
+			if(!@test['customurl'].empty?) %> 
+			<tr>
+				<td><strong>URL</strong></td>
+				<td><%= @test['customurl'] %></td>
+			</tr>
+			<%
+			end 
+			end %>
+
+			<%
+			if @test['customoffer'] 
+				if(!@test['customoffer'].empty?) %> 
+				<tr>
+					<td><strong>Offer</strong></td>
+					<td><%= @test['customoffer'] %></td>
+				</tr>
+				<%
+				end
+			end %>
+			<tr>
+				<td><strong>Email</strong></td>
+				<td><%= @test['email'] %></td>
+			</tr>
+			<% if @test['testtype'] == 'pixels' %>
+			<tr>
+				<td><strong>Pixel Suite (If Applicable)</strong></td>
+				<td><%= @test['pixel_suite'] %></td>
+			</tr>
+			<% end %>
+			</table>
+		</div>
+		<% if @suite %>
+		<table class="testruns table table-hover body-shadow" style="background-color:#FFF">
+	<tr>
+		<th>Result</th>
+		<th>Datetime</th>
+		<th>Pass</th>
+		<th>Fail</th>
+		<th>TotalTests</th>
+		<th>Status</th>
+	</tr>
+	
+	<% @suite.each do |run|
+	tests = run["TotalTests"]
+	tests = 1 if(run["TotalTests"] == 0) %>
+	<tr>
+		<td class="<%= (run["Pass"]/tests) == 1 ? 'success' : 'danger' %>"><b><%= (run["Pass"]/tests) == 1 ? 'Pass' : 'Fail' %></td>
+		<td><%= run["DateTime"]%></td>
+		<td><%= run["Pass"]%></td>
+		<td><%= run["Fail"]%></td>
+		<td><%= run["TotalTests"]%></td>
+		<td><%= run["Status"]%></td>
+		<td>
+			<a href="/testsuites/<%= run.id %>">
+				<button type="button" class="btn btn-default">
+					Details
+				</button>
+			</a>
+		</td>
+	</tr>
+	<% end %>
+	<% end %>
+</table>
+	</div>
+</div>
+<!-- END OF schedule/show.html.erb -->

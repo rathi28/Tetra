@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: MyString
+  action: MyString
+  target: MyString
+  time_of_action: 2015-09-22 13:49:08
+
+two:
+  user: MyString
+  action: MyString
+  target: MyString
+  time_of_action: 2015-09-22 13:49:08

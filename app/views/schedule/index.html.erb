@@ -1,0 +1,140 @@
+<!-- START OF schedule/index.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h1>Testcases Scheduled to be run</h1>
+	</div>
+
+	<div class="panel-body">
+		<table class="table table-hover body-shadow" style="text-align:center; background-color:#FFF">
+			<tr>
+				<th style="text-align:center;">Run ID</th>
+				<th style="text-align:center;">Test Type</th>
+				<th style="text-align:center;">URL</th>
+				<th style="text-align:center;">DateTime</th>
+				<th style="text-align:center;">Brand</th>
+				<th style="text-align:center;">Campaign</th>
+				<th style="text-align:center;">Environment</th>
+				<th style="text-align:center;">Browser</th>
+				<th style="text-align:center;">Result</th>
+				<th style="text-align:center;"></th>
+				<th style="text-align:center;"></th>
+			</tr>
+			<% @testruns.each do |run| %>
+			<tr style="text-align:center;">
+				<td><%= run["id"] %></td>
+				<td><%= run["testtype"] ? run["testtype"] : run["testtype"] %></td>
+				<td><%= run["url"] ? run["url"] : run["url"] %></td>
+				<td><%= run["DateTime"] ? run["DateTime"] : run["datetime"] %></td>
+				<td><%= run["Brand"] ? run["Brand"] : run["brand"] %></td>
+				<td><%= run["expectedcampaign"] ? run["expectedcampaign"] : run["campaign"]%></td>
+				<td><%= run["Env"] ? run["Env"] : run["env"] %></td>
+				<td><%= run["Browser"] ? run["Browser"] : run["browser"]%></td>
+				<td><%= run.realm %></td>
+				<td class="<%= get_color(run) %>"><%= run["result"]%></td>
+				<td><a href="/testsuites/<%= run["test_suites_id"]%>">
+						<button type="button" class="btn btn-default">
+							Test Suite
+						</button>
+					</a>
+				</td>
+				<td>
+					<a href="/<% run.class == Testrun ? "testruns" : "test_run" %>/<%= run.id %>">
+						<button type="button" class="btn btn-default">
+							Details
+						</button>
+					</a>
+				</td>
+
+			</tr>
+			<% end %>
+		</table>
+		<%= will_paginate @testruns, renderer: BootstrapPagination::Rails, param_name: :page_scheduled  %>
+	</div>
+</div>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h1>Recurring Tests</h1>
+	</div>
+	<div class="panel-body">
+		<table class="table table-hover body-shadow" style="text-align:center; background-color:#FFF">
+			<tr>
+				<th style="text-align:center;">Name</th>
+				<th style="text-align:center;">Test Type</th>
+				<th style="text-align:center;">Brand</th>
+				<th style="text-align:center;">Platform</th>
+				<th style="text-align:center;">Browser</th>
+				<th style="text-align:center;">Environment</th>
+				<th style="text-align:center;">Realm</th>
+				<th style="text-align:center;">Last Run Date</th>
+				<th style="text-align:center;"></th>
+			</tr>
+			<% @recurring_tests.each do |test| %>
+			<tr style="text-align:center;<%= test.active ? "" : "background-color: #B8B8B8;" %>">
+				<td ><%= test["name"]%></td>
+				<td ><%= test["testtype"]%> - 
+					<%= test[:weeklyday] ? "Weekly" : "Daily" %>
+				</td>
+				<td ><%= test["brand"]%></td>
+				<td ><%= test["platform"]%></td>
+				<td ><%= test["driver"]%></td>
+				<td ><%= test["environment"]%></td>
+				<td ><%= test["realm"]%></td>
+				<!--<td ><%= test["creationdate"].strftime('%a, %-d %b %Y') %></td>-->
+				<td ><%= test["lastrundate"].strftime('%a, %-d %b %Y') %></td>
+				<td class="<%= get_color(test) %>"><%= test["result"]%></td>
+				<td>
+					<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu<%= test.id %>" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Actions
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu<%= test.id %>">
+					    <li><a data-method="post" href="/schedule/<%= test.active ? "disable" : "enable" %>/<%= test.id %>" class="bg-<%= test.active ? "warning" : "success" %>">
+							<%= test.active ? "Disable" : "Enable" %>
+						
+					</a></li>
+					    <li><a data-confirm="Are you sure?" data-method="delete" href="/schedule/<%= test.id %>" rel="nofollow" class="bg-danger">
+							Delete
+						
+					</a></li>
+					    <li><a href="/schedule/<%= test.id %>">
+						
+							Details
+						
+					</a></li>
+					    <li><a href="/schedule/edit/<%= test.id %>">
+							Edit
+					</a></li>
+					<li><a data-method="post" rel="nofollow" href="/schedule/run/<%= test.id %>">
+						
+							Run Now
+						
+					</a></li>
+					  </ul>
+					</div>
+				</td>
+				
+			</tr>
+			<% end %>
+		</table>
+		<%= will_paginate @recurring_tests, renderer: BootstrapPagination::Rails, param_name: :page_recur %>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-body">
+		The tests shown are the test runs scheduled for the near future, and the recurring tests that run weekly and daily.<br><br>
+		<a href="/schedule/new">
+			<button type="button" class="btn btn-success">
+				Schedule a new test
+			</button>
+		</a>
+	</div>
+</div>
+<!-- END OF schedule/index.html.erb -->

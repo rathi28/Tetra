@@ -1,0 +1,297 @@
+<script type="text/javascript">
+	function remove_pixel_urls_<%= type.nil? ? 'pixel' : type.downcase %>(){
+		$('.url_<%= type.nil? ? 'pixel' : type.downcase %>').remove()
+	}
+	function remove_pixel_flags_<%= type.nil? ? 'pixel' : type.downcase %>(){
+		$('.pixel_flag<%= type.nil? ? 'pixel' : type.downcase %>').remove()
+	}
+	function uncheckallurls_<%= type.nil? ? 'pixel' : type.downcase %>(){
+		urlcheckboxes = $('.urlcheck')
+		if(urlcheckboxes[0].checked == true){
+			console.info('Unchecking all urls')
+			urlcheckboxes.prop('checked', false);			
+		}else{
+			console.info('Checking all urls')
+			urlcheckboxes.prop('checked', true);
+		}
+	}
+	function uncheckallpixels_<%= type.nil? ? 'pixel' : type.downcase %>(){
+		pixelcheckboxes = $('.pixelcheck')
+		if(pixelcheckboxes[0].checked == true){
+			console.info('Unchecking all pixels')
+			pixelcheckboxes.prop('checked', false);			
+		}else{
+			console.info('Checking all pixels')
+			pixelcheckboxes.prop('checked', true);
+		}
+	}
+
+	function get_urls_<%= type.nil? ? 'pixel' : type.downcase %>(suiteid){
+		var suiteselect = $('#testsuite<%= type.nil? ? 'pixel' : type.downcase %>');
+		try{
+            var response = $.ajax(
+                {
+                    url: '/api/testurls/suite/' + suiteselect.val(),
+                    type: 'get'
+                }
+            )
+            .done(function(result){
+            	result_var = result
+                // if(result){
+                //     console.log('Added Test URL')
+                // }
+                console.debug(result);
+                remove_pixel_urls_<%= type.nil? ? 'pixel' : type.downcase %>();
+                urllists = $('#urllist<%= type.nil? ? "pixel" : type.downcase %>')
+                appender_header = $('#AppenderHeader<%= type.nil? ? 'pixel' : type.downcase %>')
+                remove_pixel_flags_<%= type.nil? ? 'pixel' : type.downcase %>()
+                headers = "";
+                for (var k = 0; k < result[0].pixels.length; k++){
+					
+					var pixels = result[0].pixels;
+					headers += '<th class="pixel_flag<%= type.nil? ? 'pixel' : type.downcase %>" id="pixel'+k+'">'  + 
+					'<input type="checkbox" class="pixelcheck" name="pixel['+pixels[k].id+']" value="true" checked="true"><br>'+ pixels[k].pixel_handle +'</th>';
+					
+				}
+				appender_header.after(headers);
+
+
+                for (var current_result_index = 0; current_result_index < result.length; current_result_index++) {
+                	// store current data
+                	var current_url = result[current_result_index].url
+                	var pixels = result[current_result_index].pixels
+                	// clear new row variable
+    				var row = ""
+    				// create row 
+    				row += '<tr class="url_<%= type.nil? ? 'pixel' : type.downcase %>">\n'
+    				// Add url launch checkbox
+    				row += '<td><input class="urlcheck" name="test_url_target['+current_url.id+']" type="checkbox" value="' + current_url.id + '" checked="true"></td>'
+    				// Add url for row
+					row += '<td>' + current_url.url + '</td>\n'
+					// Add appender for row
+					if(current_url.appendstring != ''){
+						row += '<td>' + current_url.appendstring + '</td>\n'
+					}else{
+						row += '<td style="color:lightgray;">No Appender Provided</td>\n'
+					}
+					// get pixels
+					
+
+					for (var k = 0; k < pixels.length; k++){
+						// Add pixel state to table
+						row += '<td>' + pixels[k].expected_state + '</td>\n'	
+					}
+					<% if type %>
+						<% if type.downcase == 'uci' || type.downcase == 'vanity' %>
+							if(current_url.uci != null){
+								row += '<td>' + current_url.uci + '</td>\n'
+							}else{
+								row += '<td style="color:lightgray;">No UCI Provided</td>\n'
+							}
+						<% end %>
+					<% end %>
+
+					// cap off row
+					row += '</tr>\n'
+					// append row to end of table
+					urllists.append(row)
+    			};
+                
+            
+    			// var new_row = $('#newUrlTemplate').html();
+    			// new_row = new_row.replace(/{{url}}/g, user_input).replace(/{{newindex}}/g, result.id)
+    			// $(new_row).insertBefore($('.modify_row'))
+    			// for (var i = 0; i < pixels.length; i++) {
+    			// 	addPixelViaAPI(pixels[current_result_index], 0, result.id);
+    			// };
+       			// urls[result.id] = result.url
+            })
+            .fail(function(result){
+                        console.error(result)
+                        console.error('Failed to get urls - Reason: ' + result['statusText'])
+                    });
+		}catch(err){
+			console.log(err)
+			remove_pixel_urls_<%= type.nil? ? 'pixel' : type.downcase %>()
+		}
+	}
+
+	$(document).ready(function(){
+		get_urls_<%= type.nil? ? 'pixel' : type.downcase %>(<%= pixeltests[0].id  %>);
+	})
+</script>
+
+
+<%= form_tag("/test_run/create/#{type.nil? ? 'pixel' : type.downcase}", method: "post", :class => "row") do %>
+	<div class="row">
+		
+	</div>
+	<div class="row">
+		<% if(defined? scheduler) %>
+			<div class="col-md-12">
+				<div class="panel panel-default">
+				<div class="panel-body">
+				<%= render partial: "widgets/schedule_widget", locals: {testtype: type} %>
+			</div></div>
+		<% else %>
+			<div class="col-md-8 col-md-offset-2">
+		<% end %>
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h1>Start a new <%= type.nil? ? "Pixel" : type %> test</h1>
+					</div>
+				</div>
+				<div class="panel-body">
+					<h3>Select a Test Suite</h3>
+					<select id="testsuite<%= type.nil? ? 'pixel' : type.downcase %>" name="testsuite" class="form-control" title="GrcID" onchange="get_urls_<%= type.nil? ? 'pixel' : type.downcase %>(this)">
+						<% pixeltests.each_with_index do |suite, index| %>
+							<option value="<%= suite.id %>" <% 'selected="selected"'.html_safe if(index == 0) %>><%= suite.testname %></option>
+						<% end %>
+					</select>
+					<input name="suitetype" value="<%= type.nil? ? "pixels" : type %>" type="hidden">
+					
+					<div class="section" >
+						<h3 style='padding:5px;'>Urls to be tested</h3>
+						<% if(defined?(scheduler)) %>
+							Note: Selecting a subset of URLs only works for one-time tests scheduled in the future.
+													<br>
+						<% end %>
+
+
+						<a onclick="uncheckallurls_<%= type.nil? ? 'pixel' : type.downcase %>()" class="btn btn-primary">Select/Deselect All Urls</a>
+						<% if type.nil? %>
+							<a onclick="uncheckallpixels_<%= type.nil? ? 'pixel' : type.downcase %>()" class="btn btn-primary">Select/Deselect All Pixels</a>
+						<% end %>
+						<br>
+						<br>
+						<div class="panel panel-default" style="width:'100%'; overflow: auto; padding:5px;">
+							<table class="table table-bordered" >
+								<thead>
+									<th>Test This URL?</th>
+									<th>URL</th>
+									<th id="AppenderHeader<%= type.nil? ? 'pixel' : type.downcase %>">Appender</th>
+									<% if type %>
+										<% if type.downcase == 'uci' || type.downcase == 'vanity' %>
+											<th>UCI</th>
+										<% end %>
+									<% end %>
+								</thead>
+								<tbody id="urllist<%= type.nil? ? 'pixel' : type.downcase %>">
+									
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body">
+					<h3>Test Configuration</h3>
+					<% 
+					browser_array = []
+					if @browsers
+						@browsers.each do |browser|
+							browser_array.push([browser.human_name, browser.browser])
+						end 
+					end %>
+
+					<%= label_tag :email %>
+					<%= text_field_tag(:email, default_email, :class => "form-control", :testtype => type) %>
+					<br>
+					
+					<%= label_tag :platform %>
+					<%= select_tag :platform, options_for_select(["desktop","tablet","mobile"], 'desktop'), class: "form-control" %>
+
+					<% if type.nil? == false %>
+						<%= label_tag :driver, 'Browser' %>
+						<%= select_tag :driver, options_for_select(browser_array), class: "form-control" %>
+					<% end %>
+					<hr>
+					<h3>Optional Custom Settings</h3>
+					<%= label_tag :retries %>: 
+      				<%= number_field_tag :retries, 1, class: 'form-control' %><br><br>
+      				<%= check_box_tag :email_random, 1, true %> - Use Random Email (Above Email only used for notifications) <br>
+
+      				<% if type.nil? %>
+      					<!-- Pixel Specific settings -->
+						<%= check_box_tag :nonexistant %> - Check that other pixels don't exist <br>
+						<%= check_box_tag :status_code %> - Check for status code <br>
+						<%= check_box_tag :multiple_pixel %> - Check for multiple pixel problems <br>
+					<% end %>
+					
+					<% if type == 'seo' %>
+						<h3>SEO Files to be checked</h3>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Check during test</th>
+									<th>Filename</th>
+								</tr>
+							</thead>
+							<tbody id="filelistseo">
+								<tr>
+									<td><%= check_box_tag :robottxtseocheck, 1, true %></td>
+									<td>robots.txt</td>
+								</tr>
+								<tr>
+									<td><%= check_box_tag :sitemapxmlseocheck, 1, true %></td>
+									<td>sitemap.xml</td>
+								</tr>
+							</tbody>
+						</table>
+						<h2>Pages to be checked</h2>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>
+										Check for SEO/Redirect code
+									</th>
+									<th>
+										Page
+									</th>
+								</tr>
+							</thead>
+							<tbody id="pagelistseo">
+								
+							<tr>
+								<td>
+									<%= check_box_tag :homepageseocheck, 1, true %>
+								</td>
+								<td>
+									Homepage
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<%= check_box_tag :saspageseocheck, 1, true %>
+								</td>
+								<td>
+									SAS page
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<%= check_box_tag :cartpageseocheck, 1, true %>
+								</td>
+								<td>
+									Cart page
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<%= check_box_tag :confirmationseocheck, 1, true %>
+								</td>
+								<td>
+									Confirmation
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					<% end %>
+					<%= check_box_tag :isolated %> - Run these tests with isolated queue <br><br>
+					<hr>
+					<%= submit_tag("Launch Test", :class => "btn btn-primary btn-lg") %>
+				</div>
+			</div>
+		</div>
+	</div>
+<% end %>

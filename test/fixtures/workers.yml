@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  ip: MyString
+  pixel: 1
+  buyflow: 1
+  offercode: 1
+  scheduled: 1
+
+two:
+  name: MyString
+  ip: MyString
+  pixel: 1
+  buyflow: 1
+  offercode: 1
+  scheduled: 1

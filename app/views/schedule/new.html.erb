@@ -1,0 +1,67 @@
+<!-- START OF schedule/new.html.erb -->
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h2>Schedule a new test</h2>
+	</div>
+  <!-- Nav tabs -->
+  <br>
+  <div class="panel-body">
+    <div class='row'>
+      <div class='col-md-12'>
+      <h3>What type of test to schedule?</h3>
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#buyflow" aria-controls="buyflow" role="tab" data-toggle="tab"><b>Buyflow Test</b></a></li>
+        <li role="presentation"><a href="#vanity" aria-controls="vanity" role="tab" data-toggle="tab"><b>Vanity Test</b></a></li>
+        <li role="presentation"><a href="#uci" aria-controls="uci" role="tab" data-toggle="tab"><b>UCI Test</b></a></li>
+        <li role="presentation"><a href="#offercode" aria-controls="offercode" role="tab" data-toggle="tab"><b>Offercode Test</b></a></li>
+        <li role="presentation"><a href="#pixels" aria-controls="offercode" role="tab" data-toggle="tab"><b>Pixels</b></a></li>
+        <li role="presentation"><a href="#seo" aria-controls="seo" role="tab" data-toggle="tab"><b>SEO Test</b></a></li>
+      </ul>
+        </div>
+        </div>
+        <hr />
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="buyflow">
+    	    	<%= render partial: "testruns/buyflow_tests", locals: {type: 'buyflow', brands: @brands, default_email: @default_email, testrun: @testrun, browsers: @browsers,  scheduler: true} %>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="vanity">
+          <% if @vanitytests.first %>
+        	 <%= render partial: "test_run/pixel_run", locals: {type: 'vanity', pixeltests: @vanitytests, test_urls: nil, default_email: @default_email, scheduler: true, browsers: @browsers} %>
+          <% else %>
+            <div class="well">
+              No Vanity Suites setup
+            </div>
+          <% end %>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="uci">
+          <% if @ucitests.first %>
+            <%= render partial: "test_run/pixel_run", locals: {type: 'uci', pixeltests: @ucitests, test_urls: @test_urls, default_email: @default_email, scheduler: true, browsers: @browsers} %>
+          <% else %>
+            <div class="well">
+              No UCI Suites setup
+            </div>
+          <% end %>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="pixels">
+          <%= render partial: "test_run/pixel_run", locals: {type: 'pixel', pixeltests: @pixeltests, test_urls: @test_urls, default_email: @default_email, scheduler: true} %>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="seo">
+          <% if @seotests.first %>
+            <%= render partial: "test_run/pixel_run", locals: {type: 'seo', pixeltests: @seotests, test_urls: @seo_test_urls, default_email: @default_email, scheduler: true, browsers: @browsers} %>
+          <% else %>
+            <div class="well">
+              No SEO Suites setup
+            </div>
+          <% end %>
+        </div>
+      
+
+        <div role="tabpanel" class="tab-pane" id="offercode">
+        	<%= render partial: "testruns/buyflow_tests", locals: {type: 'offercode', brands: @brands, default_email: @default_email, testrun: @testrun, browsers: @browsers, scheduler: true} %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END OF schedule/new.html.erb -->

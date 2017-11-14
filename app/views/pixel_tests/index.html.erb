@@ -1,0 +1,40 @@
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<div class="panel panel-default panel-body">
+<h1><%= params[:suitetype] == nil ? 'Pixel': params[:suitetype].capitalize %> Test Configurations</h1>
+<p>Configurations used to drive <%= params[:suitetype] == nil ? 'Pixel': params[:suitetype] %> Testing</p>
+</div>
+<table class="table table-bordered table-stripped" style="background-color: #FFFFFF;">
+	<thead>
+		<th>Test Name</th>
+		<th>URLs</th>
+		<% if params[:suitetype].nil? %>
+			<th>Pixels</th>
+		<% end %>
+		<th>Actions</th>
+	</thead>
+<% @pixelsuites.each do |suite| %>
+	<tr>
+		<td><%= suite.testname %></td>
+		<td><%= @url_count[suite.id] %></td>
+		<% if params[:suitetype].nil? %>
+			<td><%= @pixel_count[suite.id] %></td>
+		<% end %>
+		<td>
+			<a class="btn btn-primary" href="/pixel_tests/<%= suite.id %>/">
+				View
+			</a>
+			<a class="btn btn-info" href="/pixel_tests/<%= suite.id %>/edit">
+				Edit
+			</a>
+			<a class="btn btn-danger" data-confirm="Are you sure you want to delete this Pixel Suite?" data-method="delete" href="/pixel_tests/<%= suite.id %>/" rel="nofollow">
+				Remove
+			</a>
+		</td>
+	</tr>
+<% end %>
+</table>

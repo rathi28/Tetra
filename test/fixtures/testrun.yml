@@ -1,0 +1,289 @@
+testrun_one:
+  id: 488
+  test name: placeholder name
+  runby: Automation
+  runtime: 131.356
+  result: Fail
+  Brand: Sheercover
+  Campaign: core
+  Platform: Windows 7
+  Browser: Chrome 43.0.2357.81
+  Env: qa
+  ExpectedOffercode: B9AW86
+  ActualOffercode: B9AW86
+  Expected UCI: ''
+  UCI HP: ''
+  UCI OP: ''
+  UCI CP: ''
+  ConfirmationNum: ''
+  DateTime: 2015-05-27 22:04:54.000000000 Z
+  test_suites_id: 1806
+  Notes: Confirmation Number Not Found
+  Driver: chrome
+  DriverPlatform: ''
+  status: Complete
+  url: https://storefront:Grcweb123@sheercover.qa.dw.grdev.com/?grcid=core
+  testtype: Buyflow
+  expectedcampaign: core
+  Backtrace: C:/Sites/magenic_automation/Tetra/lib/grotto/page_models/t5/confirmation_page.rb:14:in
+    `get_confirmation_number'
+  workerassigned:
+  scheduledate:
+  lock_test: 0
+  comments:
+  remote_url:
+  price_a:
+  price_e:
+  confoffercode:
+  vitamincode:
+  vitaminexpected:
+  vitamin_pricing:
+  cart_language:
+  cart_title:
+  total_pricing:
+  subtotal_price:
+  saspricing:
+  billname:
+  billemail:
+  shipaddress:
+  billaddress:
+  Standard:
+  Rush:
+  Overnight:
+  continuitysh:
+  sas_kit_name:
+  cart_quantity:
+  vitamin_title:
+  vitamin_description:
+  conf_kit_name:
+  conf_vitamin_name:
+  confvitaminpricing:
+  confpricing:
+  shipping_conf:
+  dummyboolean:
+  uci_sas:
+  shipping_conf_val:
+  selected_shipping:
+  kitnames:
+  sasprices:
+  lastpagefound:
+  billing_shipping_hash:
+  isolated:
+  realm:
+
+testrun_two:
+  id: 489
+  test name: placeholder name
+  runby: Automation
+  runtime: 0.0
+  result: Fail
+  Brand: Supersmile
+  Campaign: ''
+  Platform: ''
+  Browser: chrome
+  Env: qa
+  ExpectedOffercode: ''
+  ActualOffercode: ''
+  Expected UCI: ''
+  UCI HP: ''
+  UCI OP: ''
+  UCI CP: ''
+  ConfirmationNum: ''
+  DateTime: 2015-05-27 21:44:14.000000000 Z
+  test_suites_id: 283
+  Notes: "undefined method `testrun_' for nil:NilClass \nC:/Sites/magenic_automation/Tetra/app/jobs/test_launcher.rb:43:in
+    `buyflow'"
+  Driver: chrome
+  DriverPlatform: Desktop
+  status: Complete
+  url: ''
+  testtype: Buyflow
+  expectedcampaign: core
+  Backtrace: ''
+  workerassigned:
+  scheduledate:
+  lock_test: 0
+  comments:
+  remote_url:
+  price_a:
+  price_e:
+  confoffercode:
+  vitamincode:
+  vitaminexpected:
+  vitamin_pricing:
+  cart_language:
+  cart_title:
+  total_pricing:
+  subtotal_price:
+  saspricing:
+  billname:
+  billemail:
+  shipaddress:
+  billaddress:
+  Standard:
+  Rush:
+  Overnight:
+  continuitysh:
+  sas_kit_name:
+  cart_quantity:
+  vitamin_title:
+  vitamin_description:
+  conf_kit_name:
+  conf_vitamin_name:
+  confvitaminpricing:
+  confpricing:
+  shipping_conf:
+  dummyboolean:
+  uci_sas:
+  shipping_conf_val:
+  selected_shipping:
+  kitnames:
+  sasprices:
+  lastpagefound:
+  billing_shipping_hash:
+  isolated:
+  realm:
+
+testrun_three:
+  id: 490
+  test name: placeholder name
+  runby: Automation
+  runtime: 97.3886
+  result: Pass
+  Brand: Wen
+  Campaign: core
+  Platform: Windows 7
+  Browser: Chrome 43.0.2357.81
+  Env: qa
+  ExpectedOffercode: D7843C
+  ActualOffercode: D7843C
+  Expected UCI: ''
+  UCI HP: ''
+  UCI OP: ''
+  UCI CP: ''
+  ConfirmationNum: DW9014F800
+  DateTime: 2015-05-27 22:06:45.000000000 Z
+  test_suites_id: 283
+  Notes: ''
+  Driver: chrome
+  DriverPlatform: ''
+  status: Complete
+  url: https://storefront:Grcweb123@wen.qa.dw.grdev.com/?grcid=core
+  testtype: Buyflow
+  expectedcampaign: core
+  Backtrace: ''
+  workerassigned:
+  scheduledate:
+  lock_test: 0
+  comments:
+  remote_url:
+  price_a:
+  price_e:
+  confoffercode:
+  vitamincode:
+  vitaminexpected:
+  vitamin_pricing:
+  cart_language:
+  cart_title:
+  total_pricing:
+  subtotal_price:
+  saspricing:
+  billname:
+  billemail:
+  shipaddress:
+  billaddress:
+  Standard:
+  Rush:
+  Overnight:
+  continuitysh:
+  sas_kit_name:
+  cart_quantity:
+  vitamin_title:
+  vitamin_description:
+  conf_kit_name:
+  conf_vitamin_name:
+  confvitaminpricing:
+  confpricing:
+  shipping_conf:
+  dummyboolean:
+  uci_sas:
+  shipping_conf_val:
+  selected_shipping:
+  kitnames:
+  sasprices:
+  lastpagefound:
+  billing_shipping_hash:
+  isolated:
+  realm:
+
+testrun_four:
+  id: 491
+  test name: placeholder name
+  runby: Automation
+  runtime: 127.143
+  result: Pass
+  Brand: Xout
+  Campaign: core-campaign
+  Platform: Windows 7
+  Browser: Chrome 43.0.2357.81
+  Env: qa
+  ExpectedOffercode: BD9C7Y
+  ActualOffercode: BD9C7Y
+  Expected UCI: ''
+  UCI HP: ''
+  UCI OP: ''
+  UCI CP: ''
+  ConfirmationNum: DW0014F801
+  DateTime: 2015-05-27 22:09:00.000000000 Z
+  test_suites_id: 283
+  Notes: ''
+  Driver: chrome
+  DriverPlatform: ''
+  status: Complete
+  url: https://storefront:Grcweb123@xout.qa.dw.grdev.com/?grcid=core
+  testtype: Buyflow
+  expectedcampaign: core
+  Backtrace: ''
+  workerassigned:
+  scheduledate:
+  lock_test: 0
+  comments:
+  remote_url:
+  price_a:
+  price_e:
+  confoffercode:
+  vitamincode:
+  vitaminexpected:
+  vitamin_pricing:
+  cart_language:
+  cart_title:
+  total_pricing:
+  subtotal_price:
+  saspricing:
+  billname:
+  billemail:
+  shipaddress:
+  billaddress:
+  Standard:
+  Rush:
+  Overnight:
+  continuitysh:
+  sas_kit_name:
+  cart_quantity:
+  vitamin_title:
+  vitamin_description:
+  conf_kit_name:
+  conf_vitamin_name:
+  confvitaminpricing:
+  confpricing:
+  shipping_conf:
+  dummyboolean:
+  uci_sas:
+  shipping_conf_val:
+  selected_shipping:
+  kitnames:
+  sasprices:
+  lastpagefound:
+  billing_shipping_hash:
+  isolated:
+  realm:

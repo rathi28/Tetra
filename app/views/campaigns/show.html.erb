@@ -1,0 +1,145 @@
+<!-- START OF campaigns/show.html.erb -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel panel-primary">
+	
+	<div class="panel-heading">
+		<div>
+			<h3><strong><%=  @campaign["Brand"].capitalize  + " - " + @campaign["grcid"].capitalize + " - " + @campaign["experience"].capitalize %></strong>
+				<div class="btn-group pull-right">
+					<a href="/campaigns/<%= @campaign.id %>/edit"><button type="button" class="btn btn-default">
+						Edit Campaign
+					</button></a>
+					<a href="/campaigns/<%= @campaign.id %>/duplicate"><button type="button" class="btn btn-default">
+						Duplicate Campaign
+					</button></a>
+					<a data-confirm="Are you sure?" data-method="delete" href="/campaigns/<%= @campaign.id %>" rel="nofollow">
+						<button type="button" class="btn btn-default">
+								Delete Campaign
+						</button>
+					</a>
+				</div>
+			</h3>
+			<br>
+		</div>
+	</div>
+	<div class="panel-body">
+		<table class="table table-striped">
+			<tr>
+				<td><strong>Brand</strong></td>
+				<td><%= @campaign['Brand'].capitalize %></td>
+			</tr>
+			<tr>
+				<td><strong>GrcID</strong></td>
+				<td><%= @campaign['grcid'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Realm</strong></td>
+				<td><%= @campaign['realm'].capitalize %></td>
+			</tr>
+			<tr>
+				<td><strong>Environment</strong></td>
+				<td><%= @campaign['environment'].upcase %></td>
+			</tr>
+			<tr>
+				<td><strong>Experience Platform</strong></td>
+				<td><%= @campaign['experience'].capitalize %></td>
+			</tr>
+			<tr>
+				<td><strong>Buyflow</strong></td>
+				<td><%= @campaign['DesktopBuyflow'] %></td>
+			</tr>
+			<tr>
+				<td><strong>HomePageTemplate</strong></td>
+				<td><%= @campaign['DesktopHomePageTemplate'] %></td>
+			</tr>
+			<tr>
+				<td><strong>SASTemplate</strong></td>
+				<td><%= @campaign['DesktopSASTemplate'] %></td>
+			</tr>
+			<tr>
+				<td><strong>SASPagePattern</strong></td>
+				<td><%= @campaign['DesktopSASPagePattern'] %></td>
+			</tr>
+			<tr>
+				<td><strong>CartPageTemplate</strong></td>
+				<td><%= @campaign['DesktopCartPageTemplate'] %></td>
+			</tr>
+			<tr>
+				<td><strong>UCI</strong></td>
+				<td><%= @campaign['UCI'] %></td>
+			</tr>
+			<tr>
+				<td><strong>Default Offercode</strong></td>
+				<td><%= @campaign['default_offercode'] %></td>
+			</tr>
+			
+			<tr>
+				<td><strong>Is MM Test Enabled</strong></td>
+				<td><%= @campaign['testenabled'] == 1 ? "Yes" : "No" %></td>
+			</tr>
+
+			<tr>
+				<td><strong>Is Test Panel</strong></td>
+				<td><%= @campaign['is_test_panel'] == true ? "Yes" : "No" %></td>
+			</tr>
+			
+			<tr>
+				<td><strong>Comments</strong></td>
+				<td><%= @campaign['comments'].capitalize %></td>
+			</tr>
+			<% if(!@campaign['produrl'].empty?) %>
+			<tr>
+				<td><strong>Prod URL</strong></td>
+				<td><%= @campaign['produrl'] %></td>
+			</tr>
+			<% end %>
+			<% if(!@campaign['qaurl'].empty?) %>
+			<tr>
+				<td><strong>QA URL</strong></td>
+				<td><%= @campaign['qaurl'] %></td>
+			</tr>
+			<% end %>
+			<% if(@campaign['expectedvitamin']) %>
+			<tr>
+				<td><strong>Vitamin Offercode</strong></td>
+				<td><%= @campaign['expectedvitamin'] %></td>
+			</tr>
+			<% end %>
+		</table>
+	</div>
+		</div></div>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+		<h3>Offer Codes</h3>
+	</div>
+		<div class="panel-body">
+		
+			<br/><br/>
+		<%= render partial: "offers", locals: {offers: @offers} %>
+		</div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		Load New Offercodes <small>Will deactivate old codes</small>
+		</a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+      	<a href="/offerdata/example.txt" color="blue">Click here to download</a> an example of offerdata to paste into field.
+		<%= form_tag("/offerdata/previewimport", method: "post", previouscampaign: @campaign.id) do %>
+		<input type="text" hidden="true" id="brand" name="brand" size="20" value="<%= @campaign.Brand %>" />
+		<input type="text" hidden="true" id="campaign_id" name="campaign_id" size="20" value="<%= @campaign.id %>" />
+	<input type="text" hidden="true" id="campaign" name="campaign" size="20" value="<%= @campaign.grcid %>" />
+	<input type="text" hidden="true" id="env" name="env" size="20" value="<%= @campaign.environment %>" />
+	<input type="text" hidden="true" id="prevpage" name="prevpage" size="20" value="<%= @campaign.id %>" />
+	<input type="text" hidden="true" id="platform" name="platform" size="20" value="<%= @campaign.experience %>" /><br \>
+		<%= label_tag('offerdata', "Offers to be imported:") %>
+		<%= text_area_tag('offerdata',nil, :class => 'form-control') %> <br>
+		<%= submit_tag("Preview Import", {:class => "btn btn-primary"}) %>
+		<% end %>
+		</div>
+			
+	</div>
+<!-- END OF campaigns/show.html.erb -->

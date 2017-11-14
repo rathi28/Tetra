@@ -1,0 +1,38 @@
+<%= form_for(@worker) do |f| %>
+  <% if @worker.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@worker.errors.count, "error") %> prohibited this worker from being saved:</h2>
+
+      <ul>
+      <% @worker.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :pixel %><br>
+    <%= f.number_field :pixel, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :buyflow %><br>
+    <%= f.number_field :buyflow, :class => 'form-control' %>
+  </div>
+<!--   <div class="field">
+    <%= f.label :offercode %><br>
+    <%= f.number_field :offercode, :class => 'form-control' %>
+  </div> -->
+  <div class="field">
+    <%= f.label :scheduled %><br>
+    <%= f.number_field :scheduled, :class => 'form-control' %>
+  </div>
+  <div class="actions">
+    <br>
+    <%= f.submit :class => 'btn btn-primary' %>
+  </div>
+<% end %>

@@ -1,0 +1,34 @@
+<% 
+##
+# Returns the default date and time for the datetime picker widget
+def default_datetime
+    # Get current date
+    datetime_currently = Time.now()
+    # Format it appropriotely ('01/01/2015 12:01 AM' style) 
+    return datetime_currently.strftime('%m/%d/%Y %I:%M %p')
+end
+
+%>
+<!-- START OF widgets/_datetime_picker.html.erb -->
+
+<label for="datetime" class="control-label">
+    Time to be run
+</label>
+
+<div class="form-group">
+    <div class='input-group date' id='<%= testtype %>-<%= type %>-timepicker'>
+        <input type='text' class="form-control" name="datetime" value="<%= default_datetime %>"/>
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+        </span>
+    </div>
+</div>
+
+<!-- END OF widgets/_datetime_picker.html.erb -->
+
+<script type="text/javascript">
+$(function () {
+    $('#<%= testtype %>-<%= type %>-timepicker').datetimepicker();
+});
+</script>
+    

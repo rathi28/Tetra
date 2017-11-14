@@ -1,0 +1,416 @@
+
+<!-- this file lives in pixels/edit.html.erb -->
+
+<%= form_tag("/pixel_tests/#{@test.id}", method: "patch") do |f|%>
+<%
+testtypes = nil
+testtypes = [
+    'Landing Page', 
+    'SAS Page', 
+    'Content', 
+    'Confirmation', 
+    'Buyflow Pages',
+    'Cart Page',
+    'Direct',
+    'Indirect'
+]
+
+pixels = []
+if(@urls.first)
+    @pixels[@urls.first.id].each do |pixel_handle|
+        pixels.push pixel_handle.pixel_handle
+    end
+end
+
+urls = {}
+@urls.each do |url|
+    urls[url.id] = url.url
+end
+
+%>
+<!-- debug values -->
+<script type="text/javascript">
+    pixels  = <%= pixels.to_json.html_safe %>;
+    urls    = <%= urls.to_json.html_safe %>;
+    suite    = <%= @test.to_json.html_safe %>;
+</script>
+<!-- Tempates --> 
+<script type="text/template" id="pixelInputTemplate">
+    <td class="{{pixel_handle}}">
+        <input type="hidden" name="pixels[{{pixel_handle}}]" value="0" checked='true'>
+        <input data-id="{{pixel_id}}" type="checkbox" name="pixels[{{pixel_handle}}]" value="1" onchange='update_pixel_api(this)'>
+    </td>
+</script>
+
+<script type="text/template" id="pixelHeaderTemplate">
+    <th class="table_header {{newpixelname}}" id="{{newpixelname}}_header">
+    	{{newpixelname}}
+    </th>
+</script>
+
+<script type="text/template" id="pixelDeleteTemplate">
+    <td class="{{pixel_handle}}">
+	    <a class="btn btn-danger btn-xs delete_pixel" onclick="deletePixel('{{pixel_handle}}')">Delete Pixel</a>
+	</td>
+</script>
+
+<script type="text/template" id="newUrlTemplate">
+
+    <tr class="pixel_row {{newindex}}_url">
+        <td id="{{newindex}}_url_string">
+            <input placeholder="http://wen.com" value='{{url}}' onchange='update_url(this)' data-id="{{newindex}}" data-name="url" class="form-control">
+        </td>
+        <td id='{{newindex}}_append_string'>
+            <input placeholder="/path?grcid=example&amp;mmcore.gm=2" size="40px" value='' onchange='update_url(this)' data-id="{{newindex}}" data-name="appendstring" class="form-control">
+        </td>
+        <% if @test.suitetype.nil? == false && @test.suitetype != 'seo' %>
+            <td id="{{newindex}}_uci_string" style="width: 32px !important;">
+                <input placeholder="US-Fa-k-eu-ci-12345" value='' onchange='update_url(this)'  size="40px" data-id="{{newindex}}" data-name="uci" class="form-control" style="width: 200px !important;">
+            </td>
+            <td id="{{newindex}}_campaign_string" style="width: 32px !important;">
+                <input placeholder="core-campaign" value='' onchange='update_url(this)'  size="40px" data-id="{{newindex}}" data-name="campaign" class="form-control" style="width: 200px !important;">
+            </td>
+            <td id="{{newindex}}_offercode_string" style="width: 32px !important;">
+                <input placeholder="DF4563" value='' onchange='update_url(this)'  size="40px" data-id="{{newindex}}" data-name="offercode" class="form-control" style="width: 200px !important;">
+            </td>
+        <% end %>
+         <% if @test.suitetype != 'seo' %>
+        <td>
+            <select class="form-control" id="page_type" placeholder="Type" onchange='update_url(this)' data-id="{{newindex}}" data-name="page_type" style="width: 100px !important;">
+                <% testtypes.each do |testtype| %>
+                    <option value="<%= testtype %>">
+                            <%= testtype.capitalize %>
+                    </option>
+                <% end %>
+            </select>
+        </td>
+       
+            <td>
+                <select class="form-control" id="mmtest" placeholder="Type" onchange='update_url(this)' data-id="{{newindex}}" data-name="mmtest" style="width: 100px !important;">
+                    <% ['yes','no'].each do |mmtestsetting| %>
+                        <option value="<%= mmtestsetting %>" <%= "selected='selected'".html_safe if('No' == mmtestsetting)%>>
+                            <%= mmtestsetting.capitalize %>
+                        </option>
+                    <% end %>
+                </select>
+            </td>
+            <% end %>
+            <td style="text-align:center;"  class="delete_url_cell">
+                <a class="url_{{newindex}} btn btn-danger delete_url_btn" onclick="removeURL('{{newindex}}')">
+                    Delete URL
+                </a>
+            </td>
+        
+	</tr>
+</script>
+<div class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well">
+                            <h2><%= @test.suitetype.nil? ? "Pixel" : @test.suitetype.capitalize %> Suite Editing Page</h2>
+                            <p>
+                                Here you can edit a Suite and add pixels and/or urls to it.
+                                <br /> 
+                                Any modifications done here will be saved immediately. If drafting a new suite, make sure to duplicate first if you need to go back to old one.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_suite_title" class="control-label">Test Suite Title</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input name="pixel_test[testname]" type="text" class="form-control" id="test_suite_title" placeholder="Title of test suite"<%= " value='#{@test.testname.to_s}'".html_safe if @test %>>
+                                </div>
+                            </div>
+
+                            <br><div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_type" class="control-label">Type</label>
+                                </div>
+                                
+                                <div class="col-sm-10">
+                                    <select name="pixel_test[testtype]" class="form-control" id="test_type" placeholder="Type">
+                                        <% testtypes.each do |testtype| %>
+                                            <option value="<%= testtype %>" <%= "selected='selected'".html_safe if(@test.testtype == testtype)%>>
+                                                <%= testtype.capitalize %>
+                                            </option>
+                                        <% end %>
+                                    </select>
+                                </div>
+                            </div>
+                            <% 
+                                    environments = [
+                                        'DEV',
+                                        'STG',
+                                        'QA',
+                                        'PROD'
+                                    ]
+                                    environments_human_read = [
+                                        'Dev',
+                                        'Staging',
+                                        'QA',
+                                        'Production'
+                                    ]
+                                %>
+                            <br><div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_environment" class="control-label">Environment</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select  name="pixel_test[environment]" class="form-control" id="test_environment" placeholder="">
+                                        <option <%= "selected='selected'".html_safe if(@test.environment == "DEV")%> value="DEV">Dev</option>
+                                        <option <%= "selected='selected'".html_safe if(@test.environment == "STG")%> value="STG">Staging</option>
+                                        <option <%= "selected='selected'".html_safe if(@test.environment == "QA")%> value="QA">QA</option>
+                                        <option <%= "selected='selected'".html_safe if(@test.environment == "PROD")%> value="PROD">Production</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <% if @test.suitetype != 'seo' %>
+                            <br><div class="row">
+                                <div class="col-sm-2">
+                                    <label for="test_mmtest" class="control-label">Is MM test?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select  name="pixel_test[mmtest]" class="form-control" id="test_mmtest" placeholder="">
+                                        <option <%= "selected='selected'".html_safe if(@test.mmtest == "no")%> value="no">No</option>
+                                        <option <%= "selected='selected'".html_safe if(@test.mmtest == "yes")%> value="yes">Yes</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <% end %>
+                            <div class="row">
+                            <br>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="overflow:auto;">
+                        <table class="table table-condensed table-hover table-bordered">
+                            <thead>
+                                <tr>
+                                    <!-- <th></th>
+                                    <th></th> -->
+                                    <%# if @test.suitetype.nil? == false && @test.suitetype != 'seo' %>
+                                    <!-- <th></th>
+                                    <th></th>
+                                    <th></th><th></th> -->
+                                    <%# end %>
+                                    
+                                    <% if @test.suitetype.nil? %>
+                                        <th></th>
+                                        <th></th>                                    
+                                        <th></th>
+                                        <th></th>                                    
+                                    <% end %>       
+                                    <!-- <th></th> -->
+                                    <% if @urls.first %>
+                                        <% @pixels[@urls.first.id].each do |pixel| %>
+                                            <th>
+                                                <%= pixel.pixel_name %>
+                                            </th>
+                                        <% end %>
+                                    <% end %>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                	<th style="text-align:center;" class="table_header " id="url_header">URL</th>
+                                    <th style="text-align:center;" class="table_header" id="url_header">Appended String</th>
+                                    <% if @test.suitetype.nil? == false && @test.suitetype != 'seo' %>
+                                    <th>UCI</th>
+                                    <th>Campaign</th>
+                                    <th>Offercode</th>
+                                    <% end %>
+                                    
+                                    <% if @test.suitetype != 'seo' %>
+                                    <th style="text-align:center;" class="table_header" id="url_header">Page Type</th>
+                                    
+                                    <th style="text-align:center;" class="table_header" id="url_header">Is MM Test?</th>
+                                    <% end %>
+                                    <% if(@urls.first) %>
+                                    	<% @pixels[@urls.first.id].each do |pixel_handle| %>
+                                        	<th style="text-align:center;" class="<%= pixel_handle.pixel_handle %> pixel_header table_header" id="<%= pixel_handle.pixel_handle %>_header">	<%= pixel_handle.pixel_handle %>
+                                        	</th>
+                                        <% end %>
+                                    <% end %>
+                                    
+
+                                    
+                                    <th style="text-align:center;" id='option_header'>Options</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                            	<% @urls.each do |url_obj| 
+                                    if(params[:validate_urls])
+                                        url_valid = @url_validation[url_obj.id][:status] != 'failed'
+                                    else
+                                        url_valid = true;
+                                    end
+                                    %>
+	                                <tr class="pixel_row <%= url_obj.id %>_url<%= " has-error danger" if(!url_valid) %>">
+	                                    <td id="<%= url_obj.id %>_url_string" style="width: 32px !important;">
+	                                        <input placeholder="http://wen.com" value='<%= url_obj.url %>' onchange='update_url(this)'  size="40px" data-id="<%= url_obj.id %>" data-name="url" class="form-control" style="width: 200px !important;">
+                                            <%= ("<label class='control-label'>"+@url_validation[url_obj.id][:reason] + "</label>").html_safe if !url_valid %>
+                                        </td>
+                                        
+                                        <td id='<%= url_obj.id %>_append_string'>
+                                            <input placeholder="/path?grcid=example&amp;mmcore.gm=2" size="40px" value='<%= url_obj.appendstring %>' onchange='update_url(this)' data-id="<%= url_obj.id %>" data-name="appendstring" class="form-control" style="width: 200px !important;">
+	                                    </td>
+                                        <% if @test.suitetype.nil? == false && @test.suitetype != 'seo' %>
+                                            <td id="<%= url_obj.id %>_uci_string" style="width: 32px !important;">
+                                                <input placeholder="US-Fa-k-eu-ci-12345" value='<%= url_obj.uci %>' onchange='update_url(this)'  size="40px" data-id="<%= url_obj.id %>" data-name="uci" class="form-control" style="width: 200px !important;">
+                                                
+                                            </td>
+                                            <td id="<%= url_obj.id %>_campaign_string" style="width: 32px !important;">
+                                                <input placeholder="core-campaign" value='<%= url_obj.campaign %>' onchange='update_url(this)'  size="40px" data-id="<%= url_obj.id %>" data-name="campaign" class="form-control" style="width: 200px !important;">
+                                                
+                                            </td>
+                                            <td id="<%= url_obj.id %>_offercode_string" style="width: 32px !important;">
+                                                <input placeholder="DF4563" value='<%= url_obj.offercode %>' onchange='update_url(this)'  size="40px" data-id="<%= url_obj.id %>" data-name="offercode" class="form-control" style="width: 200px !important;">
+                                                
+                                            </td>
+                                            <% end  %>
+                                        <% if @test.suitetype != 'seo' %>
+                                        <td>
+                                            <select class="form-control" id="page_type" placeholder="Type" onchange='update_url(this)' data-id="<%= url_obj.id %>" data-name="page_type" style="width: 100px !important;">
+                                        <% testtypes.each do |testtype| %>
+                                            <option value="<%= testtype %>" <%= "selected='selected'".html_safe if(url_obj.page_type == testtype)%>>
+                                                <%= testtype.capitalize %> Page
+                                            </option>
+                                        <% end %>
+                                    </select>
+                                        </td>
+                                        
+                                        <td>
+
+                                            <select class="form-control" id="mmtest" placeholder="Type" onchange='update_url(this)' data-id="<%= url_obj.id %>" data-name="mmtest" style="width: 100px !important;">
+                                                <% ['yes','no'].each do |mmtestsetting| %>
+                                                    <option value="<%= mmtestsetting %>" <%= "selected='selected'".html_safe if(url_obj.mmtest == mmtestsetting)%>>
+                                                        <%= mmtestsetting.capitalize %>
+                                                    </option>
+                                                <% end %>
+                                            </select>
+                                        </td>
+                                        <% end %>
+                                                
+                                                
+	                                    <% @pixels[url_obj.id].each do |pixel_handle| %>
+		                                    <td style="text-align:center;" class="<%= pixel_handle.pixel_handle %> <%= "last_pixel" if(pixels.last == pixel_handle.pixel_handle) %>">
+		                                        <input type="hidden" name="pixels[<%= pixel_handle.pixel_handle %>]" value="0" checked='true'>
+		                                        <input data-id="<%= pixel_handle.id %>" type="checkbox" name="pixels[<%= pixel_handle.pixel_handle %>]" value="1" onchange='update_pixel_api(this)' <%= 'checked="checked"' if(pixel_handle.expected_state == 1) %>>
+		                                    </td>
+	                                    <% end %>
+	                                    <td style="text-align:center;"  class="delete_url_cell">
+	                                        <a class="url_<%= url_obj.id %> btn btn-danger delete_url_btn" onclick="removeURL('<%= url_obj.id %>')">
+	                                        	Delete URL
+	                                        </a>
+	                                    </td>
+	                                </tr>
+	                            <% end %>
+                                
+                                <tr class="modify_row">
+                                    <td>
+                                        <a class="btn btn-success" onclick="addURL(<%= @test.id %>)">
+                                        	Add URL
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <% if(@urls.first) %>
+                                    <% @pixels[@urls.first.id].each do |pixel_handle| %>
+                                    	
+                                    	<td style="text-align:center;" class="<%= pixel_handle.pixel_handle %>">
+	                                        <a class="btn btn-danger delete_pixel" onclick="deletePixel('<%= pixel_handle.pixel_handle %>')">
+	                                        	Delete Pixel
+	                                        </a>
+	                                    </td>
+                                    <% end %>
+                                    <% end %>
+                                    
+                                    <% if(@urls.first && @test.suitetype.nil?) %>
+                                    <td class="add_pixel_cell" style="text-align:center;" >
+                                        <a class="btn btn-success" onclick="addPixel()">Add Pixel</a>
+                                    </td>
+                                    <% end %>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href='/pixel_tests/<%= @test.id %>/edit?validate_urls=true' class="btn btn-primary">Check URLS</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well" style="height:150px;">
+                <br>
+                <div class="pull-right">
+                <small>Warning, this will not save data in import field</small> 
+                <br>
+                <%= submit_tag('Save Test Suite Settings', class: 'btn btn-success btn-lg') %>
+            </div>
+                        
+                        </div>
+                </div>
+                </div>
+                <% end %>
+
+                
+                <div class="container">
+            <div class='row'>
+                
+                <%= form_tag("/pixel_tests/previewimport", method: "post") do %>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <label>Import Data from Spreadsheet</label>
+                    </div>    
+                    <div class="panel-body">
+                        <p>
+                            Import data by pasting the excel table one worksheet per test suite or if using one for multiple, by repeating the process once for each sheet.
+                        </p>
+                        <% case @test.suitetype %>
+                        <% when nil %>
+                        <a href="/example%20pixel%20sheet.xlsx" class="btn btn-primary">Example Excel</a>
+                        <% when 'seo' %>
+                        <a href="/example%20seo%20sheet.xlsx" class="btn btn-primary">Example Excel</a>
+                        <% else %>
+                        <a href="/example%20vanityuci%20sheet.xlsx" class="btn btn-primary">Example Excel</a>
+                        <% end %>
+                        <hr>
+                        <input type="hidden" name="pixelsuite" value="<%= @test.id %>">
+                        <label for="rawdata">Paste Import Data:</label>
+                        <textarea name="rawdata" class="form-control col-md-6" rows=8></textarea>
+                    </div>
+                    <br>
+                    <div class="panel-footer">
+                        <input name="commit" type="submit" value="Import" class="btn btn-success" />
+                    </div>
+                </div>
+                
+                
+                <% end %>
+                
+                <br/><br/>
+              </div>
+        </div>
+
+
+        <!-- END this file lives in pixels/edit.html.erb -->

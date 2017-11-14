@@ -1,0 +1,12 @@
+<div class="modal fade" id="<%= type %>_new_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h2 class="modal-title text-center">Run a New <%= type.capitalize %> Test</h2>
+			</div>
+			<div class="modal-body">
+				<%= render partial: "testruns/buyflow_tests", locals: {type: type, brands: brands, default_email: default_email, testrun: testrun, browsers: browsers, modal: true} %>
+			
+		</div>
+	</div>
+</div>

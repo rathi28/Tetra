@@ -1,0 +1,161 @@
+<% @environment_list = ['prod','qa', 'stg'] %>
+<% @platform_list = ['desktop','mobile'] %>
+<!-- START OF campaigns/index.html.erb -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    bodyele = $('body');
+	    bodyele.attr('style', 'background-color:#f5f5f5');
+	});
+</script>
+<div class="panel panel-default">
+	<div class="panel-body">
+		<h1>Select a Campaign </h1><br>
+		<div class="btn-toolbar" role="toolbar">
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+				
+					<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+						<%= params[:brand].nil? ? "Select Brand" : params[:brand] %>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><%= link_to 'All', url_for(params.except(:brand)) %></li>
+						<li class="divider"></li>
+						<% @brands.each do |brand|%>
+						<li><%= link_to brand.Brandname, url_for(params.merge(:brand => brand.Brandname).except(:page)) %></li>
+						<% end %>
+					</ul>
+				
+			</div>
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+					<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+						<%= params[:campaign].nil? ? "Select Campaign" : params[:campaign] %>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><%= link_to 'All', url_for(params.except(:campaign)) %></li>
+						<li class="divider"></li>
+
+						<% @campaign_list.each do |campaign|%>
+						<li><%= link_to campaign, url_for(params.merge(:campaign => campaign).except(:page)) %></li>
+						<% end %>
+					</ul>
+				
+			</div>
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+				
+					<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+						<%= params[:environment].nil? ? "Select Environment" : params[:environment].upcase %>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><%= link_to 'All', url_for(params.except(:environment)) %></li>
+						<li class="divider"></li>
+
+						<% @environment_list.each do |environment|%>
+						<li><%= link_to environment.upcase, url_for(params.merge(:environment => environment).except(:page)) %></li>
+						<% end %>
+					</ul>
+				
+			</div>
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+			
+				<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+					<%= params[:platform].nil? ? "Select Platform" : params[:platform].capitalize %>
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><%= link_to 'All', url_for(params.except(:platform)) %></li>
+					<li class="divider"></li>
+
+					<% @platform_list.each do |platform|%>
+					<li><%= link_to platform.capitalize, url_for(params.merge(:platform => platform).except(:page)) %></li>
+					<% end %>
+				</ul>
+			</div>
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+			
+				<button class="btn btn-small btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+					<%= params[:realm].nil? ? "Select Realm" : params[:realm].capitalize %>
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><%= link_to 'All', url_for(params.except(:realm)) %></li>
+					<li class="divider"></li>
+
+					<% @realm_list.each do |realm|%>
+					<li><%= link_to realm.capitalize, url_for(params.merge(:realm => realm).except(:page)) %></li>
+					<% end %>
+				</ul>
+			</div>
+			<div class="btn-group" role="group" style="padding-bottom:5px;">
+				<a href="/campaigns"><button class="btn btn-small btn-warning">Reset Filters</button></a>
+			</div>
+		</div>
+	</div>
+<br>
+</div>
+	<div style="overflow:auto">
+		<table class="table table-hover body-shadow" style="font-size:12px; text-align:center; height:14px; background-color:#FFFFFF;">
+			<tr style="text-align:center;">
+				<th style="text-align:center;">
+					Brand
+				</th>
+				<th style="text-align:center;">
+					Campaign Code (GrcID)
+				</th>
+				<th style="text-align:center;">
+					Environment
+				</th>
+				<th style="text-align:center;">
+					Experience
+				</th>
+				<th style="text-align:center;">
+					Realm
+				</th>
+				<th></th>
+			</tr>
+			<% @campaigns.each do |offer| %>
+			<tr style="font-size:12px; text-align:center; height:14px;">
+				<td>
+						<%= offer[:Brand] %>
+				</td>
+				<td>
+						<%= offer[:grcid] %>
+				</td>
+				<td>					
+						<%= offer[:environment].upcase %>
+				</td>
+				<td>
+						<%= offer[:experience].capitalize %>
+				</td>
+				<td>
+						<%= offer[:realm].capitalize %>
+				</td>
+				<td>
+					<a href="/campaigns/<%= offer.id %>">
+						<button type="button" class="btn btn-default btn-xs">
+							Details
+						</button>
+					</a>
+					<a href="/campaigns/<%= offer.id %>/edit">
+						<button type="button" class="btn btn-default btn-xs">
+							Edit
+						</button>
+					</a>
+				</td>
+			</tr>
+			<% end %>
+		</table>
+	</div>
+<%= will_paginate @campaigns, renderer: BootstrapPagination::Rails  %>
+<div class="panel panel-default">
+	<div class="panel-body">
+		This page shows all Campaign Configurations available for testing.<br><br>
+		<a href="/campaigns/new">
+			<button type="button" class="btn btn-success">
+				Create New Campaign Configuration
+			</button>
+		</a>
+	</div>
+</div>
+<!-- END OF campaigns/index.html.erb -->

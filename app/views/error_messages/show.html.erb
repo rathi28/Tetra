@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <div class="panel-title">Error - 
+      <strong><%= @error_message.class_name %>
+      </strong>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>
+      <strong>Message:</strong> <br>
+      <%= @error_message.message %>
+    </p>
+
+    <p>
+      <strong>Backtrace:</strong> <br>
+      <%= @error_message.backtrace.gsub("\n","<br>").html_safe %>
+    </p>
+
+    <% if @error_message.testrun %> 
+      <p>
+        <strong>Testrun:</strong>
+        <a href="/testruns/<%= @error_message.testrun.id %>">
+          Go to Test Run
+        </a>
+        
+      </p>
+    <% end %>
+    <% if @error_message.test_run %> 
+      <p>
+        <strong>Test run:</strong>
+        <a href="/test_run/<%= @error_message.test_run.id %>">
+          Go to Test Run
+        </a>
+      </p>
+    <% end %>
+  </div>
+</div>

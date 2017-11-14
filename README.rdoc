@@ -1,0 +1,75 @@
+# @markup markdown
+## Tetra Automation Technical Documentation
+
+This is the technical documentation for the Tetra Automation system.
+
+For the user documentation and additional maintainer documentation please visit the 
+{Confluence Page}[http://confluence.guthy-renker.com/]
+
+It contains all the information on classes, code, files and other items used to keep this system running.
+
+It also contains some guidelines on maintainance and instructions on rebooting the server as well as restarting the job runners.
+
+
+## Restarting the Job Runner
+If you have setup Scheduled Tasks, this is as simple as ending the currently running worker task, and restarting that task.
+
+## File Directories
+
+### Tetra/app
+
+This directory holds all of the code for the running of the front end of the application, interacting with the database, and manipulating data, as well as the template files for the UI.
+
+```ruby
+/tetra          # top level directory for the Rails Application
+    |-/app      # directory holding most of the UI interaction code, and the test job runner code
+        |-/assets       # All javascript, fonts, and CSS stylesheets are stored in this directory
+        |-/controllers  # Logic for the running of UI request processing, requests from browsers get passed here by the config/routes.rb file map
+        |-/helpers      # Helper modules, contain some code used for creating test cases and suites. Has the non-UI code for controllers
+        |-/jobs         # Worker code, used by worker processes to execute test cases and report results to the database.
+        |-/mailers      # Not used by this framework, would hold the mail templates if we used them from here.
+        |-/models       # Model files for interacting with the database.
+        |-/views        # HTML, XLSX, and JSON template files, for rendering content from the controllers.
+        |-readme.md     # This file
+```
+
+### Tetra/lib
+
+This directory has to do with actual test execution classes. It contains page models, APIs for test resources, and emailers for test completetion.
+
+```ruby
+/tetra          	# top level directory for the Rails Application
+    |-/lib      	# directory for external code not related to UI or Workers
+        |-/grotto 	# directory holding most of the Test Run code
+	        |-/browser # browser related classes
+	        	|-browser_factory.rb # Factory
+	        	|-browserstack_api.rb #
+	        	|-grid_utilities.rb
+	        	|-url_factory.rb
+	        |-/data # legacy data
+	        	|-browserstack.yml
+	        |-/database  # database accessor carried over from when test execution was only executed via command line
+	        |-/gr_testing # all test case scripts used by the framework
+	        	|-buyflow_test.rb	# test case script for buyflow and offercode test runs
+	        	|-gr_testing.rb		# GRTesting Module - contains all classes for test cases.
+	        	|-pixel_test.rb		# test case script for pixel tests
+	        	|-test_case.rb		# Superclass for test case 
+	        	|-uci_test.rb		# UCI test case script
+	        	|-vanity_test.rb	# Vanity test case script
+	        	|-web_test.rb		# web page test case - creates and cleans up browsers for tests
+	        |-/page_models 		# All Page Models used to execute tests on different configurations
+	        	|-\t5			# T5 demandware ACQ related page models
+	        		|-cart.rb				# Cart page models, places order and 
+	        		|-confirmation_page.rb	# Confirmation Page Model - pulls all relevant data
+	        		|-marketing.rb			# Landing Page page models - finds order now buttons
+	        		|-sas.rb				# SAS page models for selecting order
+	        		|-t5.rb					# Base page for all other T5 classes
+	        	|-webpage.rb	# base webpage class - common functions
+	        |-/reports 			# reporting classes and template for the pixel/vanity/uci test complete email.
+	        	|-email_builder.rb		# Email Factory - creates emails based on data given
+	        	|-gr_reporting.rb		# Holds Reporting classes - hold data collected during test runs, 
+	        	|						and some also upload this data.
+	        	|-pixel_email.html.erb	# Pixel Email template - also used for UCI and Vanity testing
+	        |-better_errors.rb 	# a few utility methods that make error handling simpler when you don't want to carry the error up at any time.
+	        |-import.rb 		# file map for initializing files
+```

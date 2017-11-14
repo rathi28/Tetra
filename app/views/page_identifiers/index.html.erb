@@ -1,0 +1,34 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>Listing page_identifiers</h1>
+  </div>
+
+  <div class="panel-body">
+
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>Page</th>
+      <th>Value</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @page_identifiers.each do |page_identifier| %>
+      <tr>
+        <td><%= page_identifier.page %></td>
+        <td><%= page_identifier.value %></td>
+        <td><%= link_to 'Show', page_identifier, :class => "btn btn-primary" %></td>
+        <td><%= link_to 'Edit', edit_page_identifier_path(page_identifier), :class => "btn btn-primary" %></td>
+        <td><%= link_to 'Destroy', page_identifier, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-primary" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Page identifier', new_page_identifier_path, :class => "btn btn-primary" %>
+</div>
+</div>

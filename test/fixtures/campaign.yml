@@ -1,0 +1,111 @@
+one:
+  id: 1
+  Brand: ProactivPlus
+  grcid: core
+  campaignname: core campaign
+  core: 1
+  Active: 1
+  DesktopBuyflow: DBF6
+  DesktopHomePageTemplate: DHP1
+  DesktopSASTemplate: DAL2
+  DesktopSASPagePattern: product|kit|gift|supply
+  DesktopCartPageTemplate: DPC
+  MobileBuyflow: MBF4
+  MobileHomepageTemplate: LegacyMobileHome
+  MobileSASTemplate: MobileB
+  MobileSASPagePattern: kit
+  MobileCartPageTemplate: LegacyMobileCart
+  UCI: ''
+  default_offercode: D8GB6H
+  environment: qa
+  testenabled: 0
+  experience: desktop
+  comments: ''
+  produrl: ''
+  qaurl: ''
+  expectedvitamin: D8GB6B
+  realm: realm1
+
+two:
+  id: 2
+  Brand: DrDenese
+  grcid: core
+  campaignname: core campaign
+  core: 1
+  Active: 1
+  DesktopBuyflow: DBF4
+  DesktopHomePageTemplate: DHP1
+  DesktopSASTemplate: DIL1
+  DesktopSASPagePattern: kit_gift
+  DesktopCartPageTemplate: DPC
+  MobileBuyflow: DBF4
+  MobileHomepageTemplate: DHP1
+  MobileSASTemplate: DIL1
+  MobileSASPagePattern: kit_gift
+  MobileCartPageTemplate: DPC
+  UCI: US-DD-T-TP-GR-60607
+  default_offercode: D6YT3D
+  environment: qa
+  testenabled: 0
+  experience: desktop
+  comments: ''
+  produrl: ''
+  qaurl: https://storefront:Grcweb123@drdenese.qa.dw.grdev.com
+  expectedvitamin: ''
+  realm: realm1
+
+three:
+  id: 3
+  Brand: Wen
+  grcid: core
+  campaignname: core campaign
+  core: 1
+  Active: 1
+  DesktopBuyflow: DBF4
+  DesktopHomePageTemplate: DHP1
+  DesktopSASTemplate: DIL1
+  DesktopSASPagePattern: kit_gift_formula_supply
+  DesktopCartPageTemplate: DPC
+  MobileBuyflow: MBF4
+  MobileHomepageTemplate: LegacyMobileHome
+  MobileSASTemplate: MobileC
+  MobileSASPagePattern: kit_gift_supply
+  MobileCartPageTemplate: LegacyMobileCart
+  UCI:
+  default_offercode: D7843C
+  environment: qa
+  testenabled: 0
+  experience: desktop
+  comments: ''
+  produrl: ''
+  qaurl: ''
+  expectedvitamin:
+  realm: realm1
+
+four:
+  id: 4
+  Brand: Xout
+  grcid: core
+  campaignname: core campaign
+  core: 1
+  Active: 1
+  DesktopBuyflow: DBF4
+  DesktopHomePageTemplate: DHP1
+  DesktopSASTemplate: DIL1
+  DesktopSASPagePattern: kit_gift_supply_pack
+  DesktopCartPageTemplate: RealmTwo
+  MobileBuyflow: MBF4
+  MobileHomepageTemplate: LegacyMobileHome
+  MobileSASTemplate: MobileB
+  MobileSASPagePattern: kit
+  MobileCartPageTemplate: LegacyMobileCart
+  UCI: ''
+  default_offercode: BD9C7Y
+  environment: qa
+  testenabled: 0
+  experience: desktop
+  comments: ''
+  produrl: ''
+  qaurl: https://storefront:Grcweb123@Xout.qa.dw2.grdev.com
+  expectedvitamin: ''
+  realm: realm2

@@ -1,0 +1,178 @@
+<script type="text/javascript">
+	function remove_pixel_urls(){
+		$('.url').remove()
+	}
+	function remove_pixel_flags(){
+		$('.pixel_flag').remove()
+	}
+	function uncheckallurls(){
+		urlcheckboxes = $('.urlcheck')
+		if(urlcheckboxes[0].checked == true){
+			console.info('Unchecking all urls')
+			urlcheckboxes.prop('checked', false);			
+		}else{
+			console.info('Checking all urls')
+			urlcheckboxes.prop('checked', true);
+		}
+	}
+	function uncheckallpixels(){
+		pixelcheckboxes = $('.pixelcheck')
+		if(pixelcheckboxes[0].checked == true){
+			console.info('Unchecking all pixels')
+			pixelcheckboxes.prop('checked', false);			
+		}else{
+			console.info('Checking all pixels')
+			pixelcheckboxes.prop('checked', true);
+		}
+	}
+
+	function get_urls(suiteid){
+		var suiteselect = $('#testsuite');
+		try{
+            var response = $.ajax(
+                {
+                    url: '/api/testurls/vanity/' + suiteselect.val(),
+                    type: 'get'
+                }
+            )
+            .done(function(result){
+            	result_var = result
+                // if(result){
+                //     console.log('Added Test URL')
+                // }
+                console.debug(result);
+                remove_pixel_urls();
+                urllists = $('#urllist')
+                appender_header = $('#AppenderHeader')
+                remove_pixel_flags()
+                headers = "";
+                for (var k = 0; k < result[0].pixels.length; k++){
+					
+					var pixels = result[0].pixels;
+					headers += '<th class="pixel_flag" id="pixel'+k+'">'  + 
+					'<input type="checkbox" class="pixelcheck" name="pixel['+pixels[k].id+']" value="true" checked="true"><br>'+ pixels[k].pixel_handle +'</th>';
+					
+				}
+				appender_header.after(headers);
+
+
+                for (var current_result_index = 0; current_result_index < result.length; current_result_index++) {
+                	// store current data
+                	var current_url = result[current_result_index].url
+                	var pixels = result[current_result_index].pixels
+                	// clear new row variable
+    				var row = ""
+    				// create row 
+    				row += '<tr class="url">\n'
+    				// Add url launch checkbox
+    				row += '<td><input class="urlcheck" name="test_url_target['+current_url.id+']" type="checkbox" value="' + current_url.id + '" checked="true"></td>'
+    				// Add url for row
+					row += '<td>' + current_url.url + '</td>\n'
+					// Add appender for row
+					row += '<td>' + current_url.appendstring + '</td>\n'
+					// get pixels
+					
+
+					for (var k = 0; k < pixels.length; k++){
+						// Add pixel state to table
+						row += '<td>' + pixels[k].expected_state + '</td>\n'	
+					}
+
+					// cap off row
+					row += '</tr>\n'
+					// append row to end of table
+					urllists.append(row)
+    			};
+                
+            
+    			// var new_row = $('#newUrlTemplate').html();
+    			// new_row = new_row.replace(/{{url}}/g, user_input).replace(/{{newindex}}/g, result.id)
+    			// $(new_row).insertBefore($('.modify_row'))
+    			// for (var i = 0; i < pixels.length; i++) {
+    			// 	addPixelViaAPI(pixels[current_result_index], 0, result.id);
+    			// };
+       			// urls[result.id] = result.url
+            })
+            .fail(function(result){
+                        console.error(result)
+                        console.error('Failed to get urls - Reason: ' + result['statusText'])
+                    });
+		}catch(err){
+			console.log(err)
+			remove_pixel_urls()
+		}
+	}
+
+	$(document).ready(function(){
+		get_urls(<%= @vanity_tests.first.id  %>);
+	})
+</script>
+
+
+<%= form_tag("/test_run/create/pixel", method: "post", :class => "row") do %>
+	<div class="row">
+		
+	</div>
+	<div class="row">
+		<% if(defined? scheduler) %>
+			<div class="col-md-12">
+				<div class="panel panel-default">
+				<div class="panel-body">
+				<%= render partial: "widgets/schedule_widget", locals: {testtype: type} %>
+			</div></div>
+		<% else %>
+			<div class="col-md-8 col-md-offset-2">
+		<% end %>
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h1>Start a new Pixel test</h1>
+					</div>
+				</div>
+				<div class="panel-body">
+					<h3>Select a Test Suite</h3>
+					<select id="testsuite" name="testsuite" class="form-control" title="GrcID" onchange="get_urls(this)">
+						<% @vanity_tests.each_with_index do |suite, index| %>
+							<option value="<%= suite.id %>" <% 'selected="selected"'.html_safe if(index == 0) %>><%= suite.testname %></option>
+						<% end %>
+					</select>
+					
+					<div class="section" style="background-color:lightgray; width:'100%'; overflow: auto; padding:5px;">
+						<h3 style='padding:5px;'>Urls to be tested</h3>
+						<br>
+						<a onclick="uncheckallurls()" class="btn btn-primary">Select/Deselect All Urls</a>
+						<a onclick="uncheckallpixels()" class="btn btn-primary">Select/Deselect All Pixels</a>
+						<table class="table table-bordered" style="background-color:white;">
+							<thead>
+								<th>Test This URL?</th>
+								<th>URL</th>
+								<th id="AppenderHeader">Appender</th>
+							</thead>
+							<tbody id="urllist">
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="panel-footer">
+
+					<%= label_tag :email %>
+					<%= text_field_tag(:email, @default_email, :class => "form-control", :testtype => @testtype) %>
+					
+					<%= label_tag :platform %>
+					<%= select_tag :platform, options_for_select(["desktop","tablet","mobile"], 'desktop'), class: "form-control" %>
+					<%= label_tag :retries %>: 
+      				<%= number_field_tag :retries, 1, class: 'form-control' %><br><br>
+					<%= check_box_tag :email_random, 1, true %> - Use Random Email (Above Email only used for notifications) <br>
+					<%= check_box_tag :nonexistant %> - Check that other pixels don't exist <br>
+					<%= check_box_tag :status_code %> - Check for status code <br>
+					<%= check_box_tag :multiple_pixel %> - Check for multiple pixel problems <br>
+					<br>
+					<br>
+					<%= check_box_tag :isolated %> - Run these tests with isolated queue <br><br>
+					<%= submit_tag("Launch Test", :class => "btn btn-primary btn-lg") %>
+				</div>
+			</div>
+		</div>
+	</div>
+<% end %>

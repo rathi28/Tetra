@@ -1,0 +1,49 @@
+<!-- START OF widgets/_schedule_widget.html.erb -->
+<label for="testtitle">Test Title:</label>
+<input name="testtitle" class="form-control">
+<h2>
+  How often should this test run?
+</h2>
+<div id="hidden_scheduletype_dropdown" hidden="true">
+    <select id="scheduletype-<%= testtype %>" class="form-control" name="scheduletype">
+      <option selected="selected" value="one-time">one-time</option>
+      <option value="daily">daily</option>
+      <option value="weekly">weekly</option>
+    </select>
+  </div>
+<!-- Nav tabs -->
+<ul class="nav nav-pills" role="tablist">
+  <li role="presentation" class="active"><a onclick="scheduletype('-<%= testtype %>','one-time')" href="#one-time-<%= testtype %>" aria-controls="one-time" role="tab" data-toggle="tab">One-time</a></li>
+  <li role="presentation"><a onclick="scheduletype('-<%= testtype %>','daily')" href="#daily-<%= testtype %>" aria-controls="daily" role="tab" data-toggle="tab">Daily</a></li>
+  <li role="presentation"><a onclick="scheduletype('-<%= testtype %>','weekly')" href="#weekly-<%= testtype %>" aria-controls="weekly" role="tab" data-toggle="tab">Weekly</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="one-time-<%= testtype %>">
+    <br />
+      <%= render partial: "widgets/datetime_picker", locals: {type: 'onetime', testtype: testtype} %>
+    <br />
+  </div>
+  <div role="tabpanel" class="tab-pane" id="daily-<%= testtype %>">
+    <br />
+      <div class='input-append bootstrap-timepicker-component' style='display: inline;'>
+        <%= render partial: "widgets/time_picker_widget",  locals: {type: "daily", testtype: testtype} %>
+      </div> 
+    <br />
+  </div>
+  <div role="tabpanel" class="tab-pane" id="weekly-<%= testtype %>">
+    <br />
+    <%= render partial: "widgets/time_picker_widget", locals: {type: "weekly", testtype: testtype} %>
+    <br />
+    <label for="day" class="control-label">Day of Week to run test</label>
+    <select name="day" class="form-control">
+      <% Date::DAYNAMES.each do |day| %>
+        <option value="<%= day %>"><%= day %></option>
+      <% end %>
+    </select>
+  </div>
+</div>
+<hr />
+
+<!-- END OF widgets/_schedule_widget.html.erb -->

@@ -1,0 +1,2 @@
+8,Proactiv,original.proactiv,original.proactiv,original.proactiv,dw.grdev,original.proactiv
+10,Supersmile,supersmile,supersmile,shop.supersmile,dw.grdev,supersmile

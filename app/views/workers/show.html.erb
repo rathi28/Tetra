@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @worker.name %>
+</p>
+
+<p>
+  <strong>Pixel:</strong>
+  <%= @worker.pixel %>
+</p>
+
+<p>
+  <strong>Buyflow:</strong>
+  <%= @worker.buyflow %>
+</p>
+<!-- 
+<p>
+  <strong>Offercode:</strong>
+  <%= @worker.offercode %>
+</p>
+ -->
+<p>
+  <strong>Scheduled:</strong>
+  <%= @worker.scheduled %>
+</p>
+
+<%= link_to 'Edit', edit_worker_path(@worker), :class => 'btn btn-primary' %>
+<br>
+<%= link_to 'Back', workers_path, :class => 'btn btn-primary' %>

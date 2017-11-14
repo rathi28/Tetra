@@ -1,0 +1,36 @@
+<%= form_for(@seo_file) do |f| %>
+  <% if @seo_file.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@seo_file.errors.count, "error") %> prohibited this seo_file from being saved:</h2>
+
+      <ul>
+      <% @seo_file.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :filename %><br>
+    <%= f.text_field :filename, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :domain %><br>
+    <%= f.text_field :domain, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :targeturl %><br>
+    <%= f.text_field :targeturl, :class => 'form-control' %>
+  </div>
+  <div class="field">
+    <%= f.label :valid_content %><br>
+    <%= f.text_area :valid_content, size: "60x12", :class => 'form-control' %>
+  </div>
+  <div class="actions">
+    <br>
+    <%= f.submit :class => 'btn btn-primary' %>
+    <br>
+    <br>
+  </div>
+<% end %>

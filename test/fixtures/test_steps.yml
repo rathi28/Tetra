@@ -1,0 +1,74 @@
+
+teststepone:
+  expected: 1
+  step_name: 11177200771930
+  test_run: testrunone
+
+teststeptwo:
+  expected: 1
+  step_name: 11177200771930
+  test_run: testruntwo
+
+teststepthree:
+  expected: 1
+  step_name: mid=2637
+  test_run: testrunthree
+
+teststepthreesecond:
+  expected: 1
+  step_name: '1060518982'
+  test_run: testrunthree
+
+teststepthreethird:
+  expected: 1
+  step_name: type=109584
+  test_run: testrunthree
+
+teststepthreefourth:
+  expected: 1
+  step_name: '6021145690763'
+  test_run: testrunthree
+
+vanitystepone:
+  expected: US-PA-O-AF-LI-27156
+  step_name: 'Landing UCI'
+  test_run: vanityrunone
+  actual: US-PA-O-AF-LI-27156
+  result: 1
+
+
+vanitysteptwo:
+  expected: US-PA-O-AF-LI-27156
+  step_name: 'SAS UCI'
+  test_run: vanityrunone
+  actual: US-PA-O-AF-LI-27156
+  result: 1
+
+seostepone:
+  expected: ''
+  step_name: 'Landing UCI'
+  test_run_id: 13625
+  actual: 
+  result: 1
+
+
+seosteptwo:
+  expected: ''
+  step_name: 'SAS UCI'
+  test_run_id: 13625
+  actual: 
+  result: 1
+
+seostepthree:
+  expected: Content Page
+  step_name: 'Redirect Type'
+  test_run_id: 13625
+  actual: 
+  result: 1
+
+seostepfour:
+  test_run_id: 13625
+  expected: Exists
+  step_name: 'Confirmation Number'
+  actual: 
+  result: 1

@@ -1,0 +1,84 @@
+<%
+	def parse_suite_type_title(type)
+		case type
+		when 'pixels'
+			"Pixel"
+
+		when 'vanity'
+			"Vanity"
+
+		when 'uci'
+			"UCI"
+			
+		end
+	end
+
+	def report_errors(run)
+		text = ""
+		if run.error_message
+			text += "Issue:" + run.error_message.message + '<br>'
+		end
+
+		if run.test_steps
+			if !(run.test_steps.where(result: 0).empty?)
+				run.test_steps.where(result: 0).each do |validation|
+					text += "#{validation.step_name} did not pass - Actual:" + validation.actual + '<br>'
+				end
+			end
+		end
+		return text
+	end
+%>
+
+<body bgcolor='#E6E6E6'>
+	<font face='verdana'>
+		<table width="100%" bgcolor="#4E5E66" cellspacing="0">
+		    <td align="center" face="verdana">
+		        <br> <font face="verdana" size="4" color="#FFFFFF"><b><%= parse_suite_type_title(@suite_obj.SuiteType) %> Test Complete</b></font>
+		        <br>
+		        <br>
+		    </td>
+		</table>
+
+		<table width="100%" cellspacing="1" cellpadding="10">
+	      <tr>
+	          <td bgcolor="#4E5E66" align="center">
+	            <a style="color:#FFFFFF; display:block; text-decoration: none;" href="https://www.grautomation.guthy-renker.com/testsuites/<%= @suite_obj.id %>">
+	              <strong>
+	                <font size="3" face="verdana">
+	                  Go to Detailed Report
+	                </font>
+	              </strong>
+	            </a>
+	          </td>
+	      </tr>
+	    </table>
+
+		<table cellpadding="5px" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+          <thead style="text-align: center; color:#ffffff;" bgcolor="#4E5E66">
+              <th align="center">
+                <strong>
+                  Vanity URL
+                </strong>
+              </th>              
+		      <th align="center">
+		        <strong>
+		        	<font face="verdana">
+		        		Desktop
+		        	</font>
+		        </strong>
+		      </th>
+			</thead>
+			<tbody>
+				<% @test_runs.each do |run| %>
+					<tr>
+			          <td><font face="verdana"><%= run.url %></font></td>
+			          <td style="background-color: #<%= run.result != 1 ? "FF3300" : "009900" %>; color:#FFFFFF;" align="center"><strong><font face="verdana">
+			          	<%= run.result != 1 ? report_errors(run) : "Pass" %>
+			          </font></strong></td>
+			      	</tr>					
+				<% end %>
+			</tbody>
+		</table>
+    </font>
+</body>

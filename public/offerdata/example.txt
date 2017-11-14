@@ -1,0 +1,26 @@
+Offercode	SupplySize	PieceCount	Bonus	Offer	Entry	Continuity	StartSH	ContinuitySH	Rush	OND	ExtraStep
+D8GB6W	30	3	SPM & BDG	Proactiv+ 3-Step System	29.95	89.85	0	8.97	N/A	9.99	None
+D8GB7B	90	3	SPM & BDG	Proactiv+ 3-Step System	89.85	89.85	0	8.97	N/A	9.99	None
+D8GB74	30	5	SPM & BDG	Proactiv+ Complete Kit	39.95	119.85	0	11.97	N/A	9.99	None
+D8GB79	90	5	SPM & BDG	Proactiv+ Complete Kit	119.85	119.85	0	11.97	N/A	9.99	None
+D8GB6Y	30	5	SPM & BDG	Proactiv+ Teen Kit	39.95	119.85	0	11.97	N/A	9.99	None
+D8GB77	90	5	SPM & BDG	Proactiv+ Teen Kit	119.85	119.85	0	11.97	N/A	9.99	None
+D8GB6X	30	3	SPM & RT	Proactiv+ 3-Step System	29.95	89.85	0	8.97	N/A	9.99	None
+D8GB7C	90	3	SPM & RT	Proactiv+ 3-Step System	89.85	89.85	0	8.97	N/A	9.99	None
+D8GB76	30	5	SPM & RT	Proactiv+ Complete Kit	39.95	119.85	0	11.97	N/A	9.99	None
+D8GB7A	90	5	SPM & RT	Proactiv+ Complete Kit	119.85	119.85	0	11.97	N/A	9.99	None
+D8GB73	30	5	SPM & RT	Proactiv+ Teen Kit	39.95	119.85	0	11.97	N/A	9.99	None
+D8GB7F	90	5	SPM & RT	Proactiv+ Teen Kit	119.85	119.85	0	11.97	N/A	9.99	None
+D8GB6G	30	3	SPM	3-Step System	19.95	59.85	0	8.97	N/A	9.99	None
+D8GB6U	90	3	SPM	3-Step System	59.85	59.85	0	8.97	N/A	9.99	None
+D8GB6L	30	5	SPM	Deluxe Kit	29.95	89.85	0	11.97	N/A	9.99	None
+D8GB6R	90	5	SPM	Deluxe Kit	89.85	89.85	0	11.97	N/A	9.99	None
+D8GB6J	30	5	SPM	Teen Kit	29.95	89.85	0	11.97	N/A	9.99	None
+D8GB6N	90	5	SPM	Teen Kit	89.85	89.85	0	11.97	N/A	9.99	None
+D8GB6H	30	3	BDG	3-Step System	$19.95 	$59.85 	0	$8.97 	N/A	$9.99 	None
+D8GB6V	90	3	BDG	3-Step System	59.85	59.85	0	8.97	N/A	9.99	None
+D8GB6M	30	5	BDG	Deluxe Kit	29.95	89.85	0	11.97	N/A	9.99	None
+D8GB6T	90	5	BDG	Deluxe Kit	89.85	89.85	0	11.97	N/A	9.99	None
+D8GB6K	30	5	BDG	Teen Kit	29.95	89.85	0	11.97	N/A	9.99	None
+D8GB6P	90	5	BDG	Teen Kit	89.85	89.85	0	11.97	N/A	9.99	None
+D8GB6B	30	1		VitaClear Vitamins 30-Day Trial	9.95	89.85	0	8.97	N/A	N/A	None

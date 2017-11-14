@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first_url:
+  url: http://proactiv.com/
+  appendstring: brush
+  mode: pixel
+  testdata_id: 1
+  page_type: landing
+
+two_url:
+  url: http://proactiv.com/
+  appendstring: gel
+  mode: pixel
+  testdata_id: 1
+  page_type: landing
+
+three_url:
+  url: http://wen.com/
+  appendstring: brush
+  mode: pixel
+  testdata_id: 1
+  page_type: landing
+
+one:
+  url: http://proactiv.com/
+  appendstring: brush
+  mode: pixel
+  testdata_id: 2
+  page_type: landing

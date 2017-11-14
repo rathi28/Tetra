@@ -1,0 +1,56 @@
+# Configuration file for browserstack devices
+# TODO - Convert this to a table of settings and move it into database
+
+samsung_galaxy_s:
+  browserName:  'android'
+  platform:     'ANDROID'
+  device:       'Samsung Galaxy S5'
+
+samsung_galaxy_note:
+  browserName:  'android'
+  platform:     'ANDROID'
+  device:       'Samsung Galaxy Note 2'
+
+android:
+  browserName:  'android'
+  platform:     'ANDROID'
+  device:       'Samsung Galaxy S5'
+
+iphone:
+  browserName:  'iPhone'
+  platform:     'MAC'
+  device:       'iPhone 5S'
+  emulator:     'true'
+
+ipad:
+  browserName:  'iPad'
+  platform:     'MAC'
+  device:       'iPad 4th Gen'
+  emulator:     'false'
+  emulator:     'true'
+
+iphone-sim:
+  browserName:  'iPhone'
+  platform:     'MAC'
+  device:       'iPhone 5S'
+  emulator:     'true'
+
+ipad-sim:
+  browserName:  'iPad'
+  platform:     'MAC'
+  device:       'iPad 4th Gen'
+  emulator:     'true'
+
+safari:
+  browser:          'Safari'
+  browser_version:  '7.0'
+  os:               'OS X'
+  os_version:       'Mavericks'
+  resolution:       '1024x768'
+
+chrome:
+  browser:          'Chrome'
+  browser_version:  '39.0'
+  os:               'Windows'
+  os_version:       '7'
+  resolution:       '1024x768'

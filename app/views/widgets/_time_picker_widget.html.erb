@@ -1,0 +1,14 @@
+<!-- START OF widgets/_time_picker_widget.html.erb -->
+<span>
+	<div class="form-group has-feedback">
+	<label for="<%= testtype %>-<%= type %>-time" class="control-label">Time of day to be run</label>
+	<strong style="color:#990000"><em> *</em></strong><br />
+	
+	<input id="<%= testtype %>-<%= type %>-time_input" , name="<%= type %>-time" class='dateselect-time input-small form-control' type='text' value='12:30pm'>
+	<i class="glyphicon glyphicon-time form-control-feedback"></i>
+</div>
+</span>
+<script type="text/javascript">
+  $('#<%= testtype %>-<%= type %>-time_input').timepicker()
+</script>
+<!-- END OF widgets/_time_picker_widget.html.erb -->
