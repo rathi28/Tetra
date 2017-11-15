@@ -13,6 +13,8 @@ class BrowserFactory
   
   # Generates a capybara browser for the page model
   def self.create_browser(driver = "chrome")
+    puts "creating browser"
+    puts driver
     case (driver.downcase)
 
     when 'poltergeist', 'phantomjs'
@@ -24,9 +26,10 @@ class BrowserFactory
         browser = self.firefox
 
       when 'local-chrome', 'chrome'
+        puts "creating chrome"
         # regular local capybara sessions for Chrome
         browser = self.chrome
-
+puts "created chrome"
       when 'local-ie', 'ie', 'ie11'
         # regular local capybara sessions for IE11
         browser = self.ie
@@ -89,6 +92,7 @@ class BrowserFactory
         # on hold but still functional-ish
         browser = self.remote_driver(:safari)
       else
+        puts "creating chrome"
         # if no option found, default to Chrome
         browser = self.chrome
       end

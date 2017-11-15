@@ -51,7 +51,9 @@ module GRTesting
       # Create a browser instance and store it in the browser class variable
       @browser = BrowserFactory.create_browser(@browsertype)
       puts @browser
+      puts "get session ip"
       @report.remote_url  = GridUtilities.get_session_ip(session: @browser)
+      puts @report.remote_url
       puts "done webtest before"
     end
     ##

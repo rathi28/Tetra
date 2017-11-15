@@ -102,13 +102,20 @@ class GridUtilities
 	end
 
 	def self.get_session_ip(host: '192.168.1.254', port: '4444', session: session)
+		puts "getting session ip"
 		begin
 			# pull the selenium driver from the capybara browser
 			selenium_driver = session.driver
+			puts "selenium driver"
+			puts selenium_driver
 			# pull the browser details from the driver
 			remote_browser = selenium_driver.browser
+			puts "remote_browser"
+			puts remote_browser
 			# Get the session currently in use
 			session_id = remote_browser.session_id
+			puts "session_id"
+			puts session_id
 			api_call_url_string = @testsession_endpoint_format % [host, port, session_id]
 			response = open(api_call_url_string)
 			rawdata = response.read()
